@@ -1,7 +1,7 @@
 from sqlalchemy import Column, DateTime, ForeignKey, String, Text, func
 from sqlalchemy.orm import relationship
 
-from app.db.database import Base
+from app.db.base_class import Base
 from app.models.base import (
     ActiveFlagMixin,
     AssignmentTargetType,

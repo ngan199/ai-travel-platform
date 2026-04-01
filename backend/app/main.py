@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from sqlalchemy import text
 
 from app.core.config import AUTO_CREATE_TABLES
-from app.db.database import init_db
+from app.db.init_db import init_db
 
 
 @asynccontextmanager

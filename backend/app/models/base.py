@@ -4,7 +4,6 @@ from uuid import uuid4
 from sqlalchemy import Boolean, Column, DateTime, Enum, MetaData, Numeric, func
 from sqlalchemy.dialects.postgresql import JSONB, UUID
 
-
 class SessionStatus(str, enum.Enum):
     ACTIVE = "Active"
     COMPLETE = "Complete"
