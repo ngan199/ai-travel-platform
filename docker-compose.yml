@@ -1,12 +1,11 @@
-version: "3.9"
-
 services:
   postgres:
-    image: postgres:15
+    image: postgres:16.3
     container_name: travel_postgres
+    restart: always
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: password
+      POSTGRES_PASSWORD: ngandb
       POSTGRES_DB: travel_db
     ports:
       - "5432:5432"
@@ -14,10 +13,23 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   redis:
-    image: redis:7
+    image: redis:7.2
     container_name: travel_redis
+    restart: always
     ports:
       - "6379:6379"
+
+  pgadmin:
+    image: dpage/pgadmin4:8
+    container_name: travel_pgadmin
+    restart: always
+    environment:
+      PGADMIN_DEFAULT_EMAIL: trankimngan.dev@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: ngandb
+    ports:
+      - "5050:80"
+    depends_on:
+      - postgres
 
 volumes:
   postgres_data:
