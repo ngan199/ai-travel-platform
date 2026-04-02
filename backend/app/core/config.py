@@ -37,7 +37,7 @@ REDIS_URL = _get_str_env(
     "redis://localhost:6379/0"
 )
 
-AUTO_CREATE_TABLES = _get_bool_env("AUTO_CREATE_TABLES", default=True)
+AUTO_CREATE_TABLES = _get_bool_env("AUTO_CREATE_TABLES", default=False)
 SQLALCHEMY_ECHO = _get_bool_env("SQLALCHEMY_ECHO", default=False)
 DATABASE_POOL_SIZE = _get_int_env("DATABASE_POOL_SIZE", 10)
 DATABASE_MAX_OVERFLOW = _get_int_env("DATABASE_MAX_OVERFLOW", 20)
