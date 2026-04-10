@@ -28,6 +28,15 @@ class Settings(BaseSettings):
     REDIS_CONVERSATION_TTL: int = 60 * 60 * 24 * 7
     REDIS_DESTINATION_CACHE_TTL: int = 60 * 60 * 24
 
+    # Wikidata / Wikipedia KB build settings
+    WIKIDATA_SPARQL_ENDPOINT: str = "https://query.wikidata.org/sparql"
+    WIKIDATA_API_ENDPOINT: str = "https://www.wikidata.org/w/api.php"
+    WIKIPEDIA_API_ENDPOINT: str = "https://en.wikipedia.org/api/rest_v1"
+    KB_BUILD_USER_AGENT: str = "TravesterKB/1.0 (study project)"
+    KB_SPARQL_PAGE_SIZE: int = 200
+    KB_SPARQL_SLEEP_SECONDS: float = 1.0
+    KB_WIKIPEDIA_SLEEP_SECONDS: float = 0.1
+
     @field_validator(
         "DATABASE_POOL_SIZE",
         "DATABASE_MAX_OVERFLOW",
