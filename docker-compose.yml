@@ -31,5 +31,31 @@ services:
     depends_on:
       - postgres
 
+  neo4j:
+    image: neo4j:5.26.0
+    container_name: travel_neo4j
+    restart: always
+    ports:
+      - "7474:7474"   # Browser UI  → http://localhost:7474
+      - "7687:7687"   # Bolt (Python driver connects here)
+    environment:
+      NEO4J_AUTH: neo4j/travelneo4j
+      # Auto-download APOC and Graph Data Science plugins on first start
+      NEO4J_PLUGINS: '["apoc", "graph-data-science"]'
+      # Allow APOC and GDS procedures to run
+      NEO4J_dbms_security_procedures_unrestricted: "apoc.*,gds.*"
+      NEO4J_dbms_security_procedures_allowlist: "apoc.*,gds.*"
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://localhost:7474"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s   # Neo4j takes ~30-60s to start on first boot
+
 volumes:
   postgres_data:
+  neo4j_data:
+  neo4j_logs:
