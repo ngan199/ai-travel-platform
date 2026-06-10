@@ -1,0 +1,348 @@
+destination_id,destination_name,language_name,is_official_language
+Q889,Afghanistan,Dari,True
+Q889,Afghanistan,Pashto,True
+Q889,Afghanistan,Turkmen,True
+Q222,Albania,Albanian,True
+Q262,Algeria,Arabic,True
+Q228,Andorra,Catalan,True
+Q916,Angola,Portuguese,True
+Q781,Antigua and Barbuda,English,True
+Q414,Argentina,Guaraní,True
+Q414,Argentina,Spanish,True
+Q399,Armenia,Armenian,True
+Q21203,Aruba,Dutch,True
+Q21203,Aruba,Papiamento,True
+Q408,Australia,English,True
+Q40,Austria,German,True
+Q227,Azerbaijan,Azerbaijani,True
+Q902,Bangladesh,Bengali,True
+Q244,Barbados,English,True
+Q184,Belarus,Belarusian,True
+Q184,Belarus,Russian,True
+Q31,Belgium,German,True
+Q31,Belgium,French,True
+Q31,Belgium,Dutch,True
+Q242,Belize,Belizean Creole,True
+Q242,Belize,English,True
+Q242,Belize,Spanish,True
+Q962,Benin,French,True
+Q917,Bhutan,Dzongkha,True
+Q750,Bolivia,Aymara,True
+Q750,Bolivia,Guaraní,True
+Q750,Bolivia,Quechua,True
+Q750,Bolivia,Spanish,True
+Q225,Bosnia and Herzegovina,Bosnian,True
+Q225,Bosnia and Herzegovina,Croatian,True
+Q225,Bosnia and Herzegovina,Serbian,True
+Q963,Botswana,English,True
+Q963,Botswana,Tswana,True
+Q155,Brazil,Portuguese,True
+Q921,Brunei,Malay,True
+Q219,Bulgaria,Bulgarian,True
+Q965,Burkina Faso,French,True
+Q967,Burundi,French,True
+Q967,Burundi,Kirundi,True
+Q424,Cambodia,Khmer,True
+Q1009,Cameroon,English,True
+Q1009,Cameroon,French,True
+Q16,Canada,English,True
+Q16,Canada,French,True
+Q1011,Cape Verde,Portuguese,True
+Q929,Central African Republic,French,True
+Q929,Central African Republic,Sango,True
+Q657,Chad,Arabic,True
+Q657,Chad,French,True
+Q298,Chile,Spanish,True
+Q739,Colombia,Spanish,True
+Q970,Comoros,Arabic,True
+Q970,Comoros,French,True
+Q970,Comoros,Comorian,True
+Q26988,Cook Islands,English,True
+Q26988,Cook Islands,Cook Islands Māori,True
+Q800,Costa Rica,Spanish,True
+Q224,Croatia,Croatian,True
+Q241,Cuba,Spanish,True
+Q25279,Curaçao,English,True
+Q25279,Curaçao,Dutch,True
+Q25279,Curaçao,Papiamento,True
+Q229,Cyprus,Greek,True
+Q229,Cyprus,Turkish,True
+Q213,Czech Republic,Czech,True
+Q213,Czech Republic,Slovak,True
+Q974,Democratic Republic of the Congo,French,True
+Q974,Democratic Republic of the Congo,Kikongo,True
+Q974,Democratic Republic of the Congo,Lingala,True
+Q974,Democratic Republic of the Congo,Tshiluba,True
+Q974,Democratic Republic of the Congo,Swahili,True
+Q35,Denmark,Danish,True
+Q977,Djibouti,Arabic,True
+Q977,Djibouti,French,True
+Q784,Dominica,English,True
+Q786,Dominican Republic,Spanish,True
+Q736,Ecuador,Spanish,True
+Q79,Egypt,Arabic,True
+Q792,El Salvador,Spanish,True
+Q983,Equatorial Guinea,French,True
+Q983,Equatorial Guinea,Portuguese,True
+Q983,Equatorial Guinea,Spanish,True
+Q986,Eritrea,Arabic,True
+Q986,Eritrea,English,True
+Q986,Eritrea,Tigrinya,True
+Q191,Estonia,Estonian,True
+Q1050,Eswatini,English,True
+Q1050,Eswatini,Swazi,True
+Q115,Ethiopia,Amharic,True
+Q4628,Faroe Islands,Danish,True
+Q4628,Faroe Islands,Faroese,True
+Q702,Federated States of Micronesia,English,True
+Q712,Fiji,English,True
+Q712,Fiji,Fijian,True
+Q712,Fiji,Fiji Hindi,True
+Q33,Finland,Finnish,True
+Q33,Finland,Swedish,True
+Q142,France,French,True
+Q1000,Gabon,French,True
+Q230,Georgia,Georgian,True
+Q183,Germany,German,True
+Q117,Ghana,English,True
+Q1410,Gibraltar,English,True
+Q41,Greece,Greek,True
+Q223,Greenland,Greenlandic,True
+Q769,Grenada,English,True
+Q774,Guatemala,Spanish,True
+Q1006,Guinea,French,True
+Q1007,Guinea-Bissau,Portuguese,True
+Q1007,Guinea-Bissau,Upper Guinea Creole,True
+Q734,Guyana,English,True
+Q790,Haiti,French,True
+Q790,Haiti,Haitian Creole,True
+Q783,Honduras,Spanish,True
+Q28,Hungary,Hungarian,True
+Q189,Iceland,Icelandic,True
+Q668,India,English,True
+Q668,India,Hindi,True
+Q668,India,Tamil,True
+Q252,Indonesia,Indonesian,True
+Q794,Iran,Persian (Farsi),True
+Q796,Iraq,Arabic,True
+Q796,Iraq,Aramaic,True
+Q796,Iraq,Sorani,True
+Q27,Ireland,English,True
+Q27,Ireland,Irish,True
+Q801,Israel,Arabic,True
+Q801,Israel,Hebrew,True
+Q38,Italy,Italian,True
+Q38,Italy,Catalan,True
+Q1008,Ivory Coast,French,True
+Q766,Jamaica,English,True
+Q766,Jamaica,Jamaican Patois,True
+Q17,Japan,Japanese,True
+Q810,Jordan,Arabic,True
+Q232,Kazakhstan,Kazakh,True
+Q232,Kazakhstan,Russian,True
+Q114,Kenya,English,True
+Q114,Kenya,Swahili,True
+Q29999,Kingdom of the Netherlands,Dutch,True
+Q710,Kiribati,English,True
+Q710,Kiribati,Gilbertese,True
+Q1246,Kosovo,Albanian,True
+Q1246,Kosovo,Serbian,True
+Q817,Kuwait,Arabic,True
+Q813,Kyrgyzstan,Kyrgyz,True
+Q813,Kyrgyzstan,Russian,True
+Q819,Laos,Lao,True
+Q211,Latvia,Latvian,True
+Q822,Lebanon,Arabic,True
+Q822,Lebanon,French,True
+Q1013,Lesotho,English,True
+Q1013,Lesotho,Sotho,True
+Q1014,Liberia,English,True
+Q1016,Libya,Arabic,True
+Q347,Liechtenstein,German,True
+Q37,Lithuania,Lithuanian,True
+Q32,Luxembourg,German,True
+Q32,Luxembourg,French,True
+Q32,Luxembourg,Luxembourgish,True
+Q1019,Madagascar,French,True
+Q1019,Madagascar,Malagasy,True
+Q1020,Malawi,English,True
+Q1020,Malawi,Chewa,True
+Q833,Malaysia,English,True
+Q833,Malaysia,Malay,True
+Q826,Maldives,Maldivian,True
+Q912,Mali,French,True
+Q233,Malta,English,True
+Q233,Malta,Maltese,True
+Q709,Marshall Islands,English,True
+Q709,Marshall Islands,Marshallese,True
+Q1025,Mauritania,Arabic,True
+Q1027,Mauritius,English,True
+Q1027,Mauritius,French,True
+Q1027,Mauritius,Mauritian Creole,True
+Q96,Mexico,Spanish,True
+Q217,Moldova,Romanian,True
+Q235,Monaco,French,True
+Q711,Mongolia,Mongolian,True
+Q236,Montenegro,Montenegrin,True
+Q1029,Mozambique,Portuguese,True
+Q836,Myanmar,Burmese,True
+Q1030,Namibia,Afrikaans,True
+Q1030,Namibia,German,True
+Q1030,Namibia,English,True
+Q1030,Namibia,Herero,True
+Q1030,Namibia,Khoekhoe,True
+Q1030,Namibia,Kwangali,True
+Q1030,Namibia,Lozi,True
+Q1030,Namibia,Ndonga,True
+Q1030,Namibia,Tswana,True
+Q697,Nauru,English,True
+Q697,Nauru,Nauru,True
+Q837,Nepal,Nepali,True
+Q664,New Zealand,English,True
+Q664,New Zealand,Māori,True
+Q664,New Zealand,New Zealand Sign Language,True
+Q811,Nicaragua,Spanish,True
+Q1032,Niger,French,True
+Q1033,Nigeria,English,True
+Q34020,Niue,English,True
+Q34020,Niue,Niuean,True
+Q423,North Korea,Korean,True
+Q221,North Macedonia,Macedonian,True
+Q20,Norway,Norwegian Nynorsk,True
+Q20,Norway,Norwegian Bokmål,True
+Q20,Norway,Sami,True
+Q842,Oman,Arabic,True
+Q843,Pakistan,English,True
+Q843,Pakistan,Urdu,True
+Q695,Palau,English,True
+Q695,Palau,Palauan,True
+Q219060,Palestine,Arabic,True
+Q804,Panama,Spanish,True
+Q691,Papua New Guinea,English,True
+Q691,Papua New Guinea,Hiri Motu,True
+Q691,Papua New Guinea,Tok Pisin,True
+Q733,Paraguay,Guaraní,True
+Q733,Paraguay,Spanish,True
+Q148,People's Republic of China,Chinese,True
+Q419,Peru,Aymara,True
+Q419,Peru,Quechua,True
+Q419,Peru,Spanish,True
+Q928,Philippines,English,True
+Q928,Philippines,Filipino,True
+Q36,Poland,Polish,True
+Q45,Portugal,Portuguese,True
+Q971,Republic of the Congo,French,True
+Q971,Republic of the Congo,Kikongo,True
+Q971,Republic of the Congo,Lingala,True
+Q218,Romania,Romanian,True
+Q159,Russia,Russian,True
+Q1037,Rwanda,English,True
+Q1037,Rwanda,French,True
+Q1037,Rwanda,Kinyarwanda,True
+Q763,Saint Kitts and Nevis,English,True
+Q760,Saint Lucia,English,True
+Q757,Saint Vincent and the Grenadines,English,True
+Q683,Samoa,English,True
+Q683,Samoa,Samoan,True
+Q238,San Marino,Italian,True
+Q1039,São Tomé and Príncipe,Portuguese,True
+Q851,Saudi Arabia,Arabic,True
+Q1041,Senegal,French,True
+Q403,Serbia,Serbian,True
+Q1042,Seychelles,Seychellois Creole,True
+Q1042,Seychelles,English,True
+Q1042,Seychelles,French,True
+Q1044,Sierra Leone,English,True
+Q334,Singapore,English,True
+Q334,Singapore,Chinese,True
+Q334,Singapore,Malay,True
+Q334,Singapore,Tamil,True
+Q26273,Sint Maarten,English,True
+Q26273,Sint Maarten,French,True
+Q26273,Sint Maarten,Dutch,True
+Q214,Slovakia,Slovak,True
+Q215,Slovenia,Slovene,True
+Q685,Solomon Islands,English,True
+Q1045,Somalia,Arabic,True
+Q1045,Somalia,Somali,True
+Q258,South Africa,Afrikaans,True
+Q258,South Africa,English,True
+Q258,South Africa,Southern Ndebele,True
+Q258,South Africa,Northern Sotho,True
+Q258,South Africa,Southern Sotho,True
+Q258,South Africa,Swazi,True
+Q258,South Africa,Tswana,True
+Q258,South Africa,Tsonga,True
+Q258,South Africa,Venda,True
+Q258,South Africa,Xhosa,True
+Q258,South Africa,Zulu,True
+Q884,South Korea,Korean,True
+Q958,South Sudan,English,True
+Q29,Spain,Spanish,True
+Q29,Spain,Catalan,True
+Q29,Spain,Basque,True
+Q29,Spain,Galician,True
+Q854,Sri Lanka,Sinhala,True
+Q854,Sri Lanka,Tamil,True
+Q1049,Sudan,Arabic,True
+Q1049,Sudan,English,True
+Q730,Suriname,Dutch,True
+Q34,Sweden,Swedish,True
+Q39,Switzerland,French,True
+Q39,Switzerland,Swiss German,True
+Q39,Switzerland,Italian,True
+Q39,Switzerland,Romansh,True
+Q858,Syria,Arabic,True
+Q865,Taiwan,Chinese,True
+Q863,Tajikistan,Russian,True
+Q863,Tajikistan,Tajik,True
+Q924,Tanzania,English,True
+Q924,Tanzania,Swahili,True
+Q869,Thailand,Thai,True
+Q778,The Bahamas,English,True
+Q1005,The Gambia,English,True
+Q574,Timor-Leste,Portuguese,True
+Q574,Timor-Leste,Tetum,True
+Q945,Togo,French,True
+Q678,Tonga,English,True
+Q678,Tonga,Tongan,True
+Q754,Trinidad and Tobago,English,True
+Q948,Tunisia,Arabic,True
+Q43,Turkey,Turkish,True
+Q874,Turkmenistan,Russian,True
+Q874,Turkmenistan,Turkmen,True
+Q672,Tuvalu,English,True
+Q672,Tuvalu,Tuvaluan,True
+Q1036,Uganda,English,True
+Q1036,Uganda,Swahili,True
+Q212,Ukraine,Ukrainian,True
+Q878,United Arab Emirates,Arabic,True
+Q145,United Kingdom,English,True
+Q30,United States,English,True
+Q77,Uruguay,Spanish,True
+Q265,Uzbekistan,Russian,True
+Q265,Uzbekistan,Uzbek,True
+Q686,Vanuatu,Bislama,True
+Q686,Vanuatu,English,True
+Q686,Vanuatu,French,True
+Q237,Vatican City,Italian,True
+Q237,Vatican City,Latin,True
+Q717,Venezuela,Spanish,True
+Q881,Vietnam,Vietnamese,True
+Q805,Yemen,Arabic,True
+Q953,Zambia,English,True
+Q954,Zimbabwe,Chibarwe,True
+Q954,Zimbabwe,English,True
+Q954,Zimbabwe,Kalanga,True
+Q954,Zimbabwe,Khoisan,True
+Q954,Zimbabwe,Ndau,True
+Q954,Zimbabwe,Northern Ndebele,True
+Q954,Zimbabwe,Chewa,True
+Q954,Zimbabwe,Shona,True
+Q954,Zimbabwe,Sotho,True
+Q954,Zimbabwe,Tonga,True
+Q954,Zimbabwe,Tswana,True
+Q954,Zimbabwe,Tsonga,True
+Q954,Zimbabwe,Venda,True
+Q954,Zimbabwe,Xhosa,True
+Q954,Zimbabwe,Zimbabwean Sign Language,True

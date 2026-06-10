@@ -1,0 +1,203 @@
+destination_id,destination_name,currency_code,currency_name
+Q889,Afghanistan,AFN,Afghan afghani
+Q222,Albania,ALL,Albanian lek
+Q262,Algeria,DZD,Algerian dinar
+Q228,Andorra,EUR,euro
+Q916,Angola,AOA,Angolan kwanza
+Q781,Antigua and Barbuda,XCD,Eastern Caribbean dollar
+Q414,Argentina,ARS,Argentine peso
+Q399,Armenia,AMD,Armenian dram
+Q21203,Aruba,AWG,Aruban florin
+Q408,Australia,AUD,Australian dollar
+Q40,Austria,EUR,euro
+Q227,Azerbaijan,AZN,Azerbaijani manat
+Q902,Bangladesh,BDT,Bangladeshi taka
+Q244,Barbados,BBD,Barbadian dollar
+Q184,Belarus,BYN,Belarusian ruble
+Q31,Belgium,EUR,euro
+Q242,Belize,BZD,Belize dollar
+Q962,Benin,XOF,West African CFA franc
+Q917,Bhutan,BTN,Bhutanese ngultrum
+Q750,Bolivia,BOB,Bolivian boliviano
+Q225,Bosnia and Herzegovina,BAM,Bosnia and Herzegovina convertible mark
+Q963,Botswana,BWP,Botswana pula
+Q155,Brazil,BRL,Brazilian real
+Q921,Brunei,BND,Brunei dollar
+Q219,Bulgaria,BGN,Bulgarian lev
+Q965,Burkina Faso,XOF,West African CFA franc
+Q967,Burundi,BIF,Burundian franc
+Q424,Cambodia,KHR,Cambodian riel
+Q1009,Cameroon,XAF,Central African CFA franc
+Q16,Canada,CAD,Canadian dollar
+Q1011,Cape Verde,CVE,Cape Verdean escudo
+Q929,Central African Republic,XAF,Central African CFA franc
+Q657,Chad,XAF,Central African CFA franc
+Q298,Chile,CLP,Chilean peso
+Q739,Colombia,COP,Colombian peso
+Q970,Comoros,KMF,Comorian franc
+Q26988,Cook Islands,CKD,Cook Islands dollar
+Q800,Costa Rica,CRC,Costa Rican colón
+Q224,Croatia,EUR,euro
+Q241,Cuba,CUC,Cuban convertible peso
+Q25279,Curaçao,ANG,Netherlands Antillean guilder
+Q229,Cyprus,EUR,euro
+Q213,Czech Republic,CZK,Czech koruna
+Q974,Democratic Republic of the Congo,CDF,Congolese franc
+Q35,Denmark,DKK,Danish krone
+Q977,Djibouti,DJF,Djiboutian franc
+Q784,Dominica,XCD,Eastern Caribbean dollar
+Q786,Dominican Republic,DOP,Dominican peso
+Q736,Ecuador,USD,United States dollar
+Q79,Egypt,EGP,Egyptian pound
+Q792,El Salvador,USD,United States dollar
+Q983,Equatorial Guinea,XAF,Central African CFA franc
+Q986,Eritrea,ERN,Eritrean nakfa
+Q191,Estonia,EUR,euro
+Q1050,Eswatini,SZL,Swazi lilangeni
+Q115,Ethiopia,ETB,Ethiopian birr
+Q4628,Faroe Islands,DKK,Danish krone
+Q702,Federated States of Micronesia,USD,United States dollar
+Q712,Fiji,FJD,Fijian dollar
+Q33,Finland,EUR,euro
+Q142,France,EUR,euro
+Q1000,Gabon,XAF,Central African CFA franc
+Q230,Georgia,GEL,lari
+Q183,Germany,EUR,euro
+Q117,Ghana,GHS,Ghanaian cedi
+Q1410,Gibraltar,GIP,Gibraltar pound
+Q41,Greece,EUR,euro
+Q223,Greenland,DKK,krone
+Q769,Grenada,XCD,Eastern Caribbean dollar
+Q774,Guatemala,GTQ,Guatemalan quetzal
+Q1006,Guinea,GNF,Guinean franc
+Q1007,Guinea-Bissau,XOF,West African CFA franc
+Q734,Guyana,GYD,Guyanese dollar
+Q790,Haiti,HTG,Haitian gourde
+Q783,Honduras,HNL,Honduran lempira
+Q28,Hungary,HUF,Hungarian forint
+Q189,Iceland,ISK,Icelandic króna
+Q668,India,INR,Indian rupee
+Q252,Indonesia,IDR,Indonesian rupiah
+Q794,Iran,IRR,Iranian rial
+Q796,Iraq,IQD,Iraqi dinar
+Q27,Ireland,EUR,euro
+Q801,Israel,ILS,Israeli new shekel
+Q38,Italy,EUR,euro
+Q1008,Ivory Coast,XOF,West African CFA franc
+Q766,Jamaica,JMD,Jamaican dollar
+Q17,Japan,JPY,Japanese yen
+Q810,Jordan,JOD,Jordanian dinar
+Q232,Kazakhstan,KZT,Kazakhstani tenge
+Q114,Kenya,KES,Kenyan shilling
+Q29999,Kingdom of the Netherlands,EUR,euro
+Q710,Kiribati,AUD,Australian dollar
+Q1246,Kosovo,EUR,euro
+Q817,Kuwait,KWD,Kuwaiti dinar
+Q813,Kyrgyzstan,KGS,Kyrgyzstani som
+Q819,Laos,LAK,Lao kip
+Q211,Latvia,EUR,euro
+Q822,Lebanon,LBP,Lebanese pound
+Q1013,Lesotho,LSL,Lesotho loti
+Q1014,Liberia,LRD,Liberian dollar
+Q1016,Libya,LYD,Libyan dinar
+Q347,Liechtenstein,CHF,Swiss franc
+Q37,Lithuania,EUR,euro
+Q32,Luxembourg,EUR,euro
+Q1019,Madagascar,MGA,Malagasy ariary
+Q1020,Malawi,MWK,Malawian kwacha
+Q833,Malaysia,MYR,Malaysian ringgit
+Q826,Maldives,MVR,Maldivian rufiyaa
+Q912,Mali,XOF,West African CFA franc
+Q233,Malta,EUR,euro
+Q709,Marshall Islands,USD,United States dollar
+Q1025,Mauritania,MRU,Mauritanian ouguiya
+Q1027,Mauritius,MUR,Mauritian rupee
+Q96,Mexico,MXN,Mexican peso
+Q217,Moldova,MDL,Moldovan leu
+Q235,Monaco,EUR,euro
+Q711,Mongolia,MNT,Mongolian tögrög
+Q236,Montenegro,EUR,euro
+Q1029,Mozambique,MZN,Mozambican metical
+Q836,Myanmar,MMK,Burmese kyat
+Q1030,Namibia,NAD,Namibian dollar
+Q697,Nauru,AUD,Australian dollar
+Q837,Nepal,NPR,Nepalese rupee
+Q664,New Zealand,NZD,New Zealand dollar
+Q811,Nicaragua,NIO,Nicaraguan córdoba
+Q1032,Niger,XOF,West African CFA franc
+Q1033,Nigeria,NGN,Nigerian naira
+Q34020,Niue,NZD,New Zealand dollar
+Q423,North Korea,KPW,North Korean won
+Q221,North Macedonia,MKD,denar
+Q20,Norway,NOK,Norwegian krone
+Q842,Oman,OMR,Omani rial
+Q843,Pakistan,PKR,Pakistani rupee
+Q695,Palau,USD,United States dollar
+Q219060,Palestine,EGP,Egyptian pound
+Q804,Panama,PAB,Panamanian balboa
+Q691,Papua New Guinea,PGK,Papua New Guinean kina
+Q733,Paraguay,PYG,Paraguayan guaraní
+Q148,People's Republic of China,CNY,Chinese yuan
+Q419,Peru,PEN,Peruvian sol
+Q928,Philippines,PHP,Philippine peso
+Q36,Poland,PLN,Polish złoty
+Q45,Portugal,EUR,euro
+Q971,Republic of the Congo,XAF,Central African CFA franc
+Q218,Romania,RON,Romanian leu
+Q159,Russia,RUB,Russian ruble
+Q1037,Rwanda,RWF,Rwandan franc
+Q763,Saint Kitts and Nevis,XCD,Eastern Caribbean dollar
+Q760,Saint Lucia,XCD,Eastern Caribbean dollar
+Q757,Saint Vincent and the Grenadines,XCD,Eastern Caribbean dollar
+Q683,Samoa,WST,Samoan tālā
+Q238,San Marino,EUR,euro
+Q1039,São Tomé and Príncipe,STN,São Tomé and Príncipe dobra
+Q851,Saudi Arabia,SAR,Saudi riyal
+Q1041,Senegal,XOF,West African CFA franc
+Q403,Serbia,RSD,Serbian dinar
+Q1042,Seychelles,SCR,Seychellois rupee
+Q1044,Sierra Leone,SLE,Leone
+Q334,Singapore,SGD,Singapore dollar
+Q26273,Sint Maarten,ANG,Netherlands Antillean guilder
+Q214,Slovakia,EUR,euro
+Q215,Slovenia,EUR,euro
+Q685,Solomon Islands,SBD,Solomon Islands dollar
+Q1045,Somalia,SOS,Somali shilling
+Q258,South Africa,ZAR,South African rand
+Q884,South Korea,KRW,South Korean won
+Q958,South Sudan,SSP,South Sudanese pound
+Q29,Spain,EUR,euro
+Q854,Sri Lanka,LKR,Sri Lankan rupee
+Q1049,Sudan,SDG,Sudanese pound
+Q730,Suriname,SRD,Surinamese dollar
+Q34,Sweden,SEK,Swedish krona
+Q39,Switzerland,CHF,Swiss franc
+Q858,Syria,SYP,Syrian pound
+Q865,Taiwan,TWD,New Taiwan dollar
+Q863,Tajikistan,TJS,Tajikistani somoni
+Q924,Tanzania,TZS,Tanzanian shilling
+Q869,Thailand,THB,Thai baht
+Q778,The Bahamas,BSD,Bahamian dollar
+Q1005,The Gambia,GMD,dalasi
+Q574,Timor-Leste,USD,United States dollar
+Q945,Togo,XOF,West African CFA franc
+Q678,Tonga,TOP,Tongan paʻanga
+Q754,Trinidad and Tobago,TTD,Trinidad and Tobago dollar
+Q948,Tunisia,TND,Tunisian dinar
+Q43,Turkey,TRY,Turkish lira
+Q874,Turkmenistan,TMT,Turkmenistan manat
+Q672,Tuvalu,AUD,Australian dollar
+Q1036,Uganda,UGX,Ugandan shilling
+Q212,Ukraine,UAH,Ukrainian hryvnia
+Q878,United Arab Emirates,AED,United Arab Emirates dirham
+Q145,United Kingdom,GBP,British pound
+Q30,United States,USD,United States dollar
+Q77,Uruguay,UYU,Uruguayan peso
+Q265,Uzbekistan,UZS,Uzbekistani soʻm
+Q686,Vanuatu,VUV,Vanuatu vatu
+Q237,Vatican City,EUR,euro
+Q717,Venezuela,VES,Venezuelan bolívar soberano
+Q881,Vietnam,VND,Vietnamese đồng
+Q805,Yemen,YER,Yemeni rial
+Q953,Zambia,ZMW,Zambian kwacha
+Q954,Zimbabwe,ZWL,Zimbabwean dollar
