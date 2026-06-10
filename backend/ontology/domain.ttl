@@ -1,0 +1,828 @@
+@prefix travel: <https://travel-ontology.ai/vocab#> .
+
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix wd:    <http://www.wikidata.org/entity/> .
+
+travel:TravelScheme rdf:type skos:ConceptScheme ;
+  dc:creator <https://github.com/ngan199/travel-ai-platform> ;
+  skos:definition "A mid-level SKOS taxonomy for a travel AI knowledge graph covering destinations, venues, experiences, lodging, transport, and traveler content"@en ;
+  skos:prefLabel "Travel AI Knowledge Graph Concept Scheme"@en
+ .
+
+travel:Tourism rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:topConceptOf travel:TravelScheme ;
+  skos:prefLabel "Tourism"@en ;
+  travel:lemma_phrase "NOUN.tourism"@en ;
+  travel:ner_label false ;
+  skos:definition "Travel for pleasure or business; the activity of visiting places outside one's usual environment"@en ;
+  dc:identifier wd:Q49389
+  .
+
+travel:Place rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Place"@en ;
+  skos:altLabel "Location"@en ;
+  travel:lemma_phrase "NOUN.place"@en ;
+  travel:lemma_phrase "NOUN.location"@en ;
+  travel:ner_label true ;
+  skos:definition "A geographic location on or near Earth"@en ;
+  dc:identifier wd:Q2221906 ;
+  skos:broader travel:Tourism
+  .
+
+travel:Destination rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Tourist Destination"@en ;
+  skos:altLabel "Travel Destination"@en ;
+  travel:lemma_phrase "NOUN.tourist NOUN.destination"@en ;
+  travel:lemma_phrase "NOUN.travel NOUN.destination"@en ;
+  travel:ner_label true ;
+  skos:definition "A place attracting many tourists; a geographic area targeted by travelers"@en ;
+  dc:identifier wd:Q1200957 ;
+  skos:broader travel:Place
+  .
+
+travel:Country rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Country"@en ;
+  skos:altLabel "Nation"@en ;
+  travel:lemma_phrase "NOUN.country"@en ;
+  travel:lemma_phrase "NOUN.nation"@en ;
+  travel:ner_label true ;
+  skos:definition "A country is a distinct territorial body or political entity"@en ;
+  dc:identifier wd:Q6256 ;
+  skos:broader travel:Destination
+  .
+
+travel:City rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "City"@en ;
+  skos:altLabel "Town"@en ;
+  travel:lemma_phrase "NOUN.city"@en ;
+  travel:lemma_phrase "NOUN.town"@en ;
+  travel:ner_label true ;
+  skos:definition "A city is a large human settlement"@en ;
+  dc:identifier wd:Q515 ;
+  skos:broader travel:Destination
+  .
+
+travel:Region rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Region"@en ;
+  travel:lemma_phrase "NOUN.region"@en ;
+  travel:ner_label true ;
+  skos:definition "A region is an area defined by geographic, political, or cultural boundaries within a country"@en ;
+  skos:broader travel:Destination
+  .
+
+travel:Province rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Province"@en ;
+  skos:altLabel "State"@en ;
+  travel:lemma_phrase "NOUN.province"@en ;
+  travel:lemma_phrase "NOUN.state"@en ;
+  travel:ner_label true ;
+  skos:definition "A province is an administrative division of a country"@en ;
+  dc:identifier wd:Q34876 ;
+  skos:broader travel:Destination
+  .
+
+travel:District rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "District"@en ;
+  travel:lemma_phrase "NOUN.district"@en ;
+  travel:ner_label true ;
+  skos:definition "A district is a subdivision of a city or region for administrative or geographic purposes"@en ;
+  dc:identifier wd:Q149621 ;
+  skos:broader travel:Destination
+  .
+
+travel:Neighborhood rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Neighborhood"@en ;
+  skos:altLabel "Quarter"@en ;
+  travel:lemma_phrase "NOUN.neighborhood"@en ;
+  travel:lemma_phrase "NOUN.quarter"@en ;
+  travel:ner_label true ;
+  skos:definition "A neighborhood is a geographically localized community within a larger city or town"@en ;
+  dc:identifier wd:Q123705 ;
+  skos:broader travel:Destination
+  .
+
+travel:Venue rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Venue"@en ;
+  skos:altLabel "Attraction"@en ;
+  travel:lemma_phrase "NOUN.venue"@en ;
+  travel:lemma_phrase "NOUN.attraction"@en ;
+  travel:ner_label true ;
+  skos:definition "A location suitable for visiting, hosting events, or tourist activities"@en ;
+  dc:identifier wd:Q18674739 ;
+  skos:broader travel:Place
+  .
+
+travel:Park rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "National Park"@en ;
+  travel:lemma_phrase "NOUN.national NOUN.park"@en ;
+  travel:ner_label true ;
+  skos:definition "A national park is a protected area used for conservation of animal life and plants"@en ;
+  dc:identifier wd:Q46169 ;
+  skos:broader travel:Venue
+  .
+
+travel:Market rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Food Market"@en ;
+  skos:altLabel "Night Market"@en ;
+  travel:lemma_phrase "NOUN.food NOUN.market"@en ;
+  travel:lemma_phrase "NOUN.night NOUN.market"@en ;
+  travel:ner_label true ;
+  skos:definition "A market specializing in the sale of fresh or processed food products, often a key travel attraction"@en ;
+  dc:identifier wd:Q28142754 ;
+  skos:broader travel:Venue
+  .
+
+travel:Restaurant rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Restaurant"@en ;
+  skos:altLabel "Eatery"@en ;
+  travel:lemma_phrase "NOUN.restaurant"@en ;
+  travel:lemma_phrase "NOUN.eatery"@en ;
+  travel:ner_label true ;
+  skos:definition "A single establishment which prepares and serves food, located in a building"@en ;
+  dc:identifier wd:Q11707 ;
+  skos:broader travel:Venue
+  .
+
+travel:Hub rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Transport Hub"@en ;
+  skos:altLabel "Transit Hub"@en ;
+  travel:lemma_phrase "NOUN.transport NOUN.hub"@en ;
+  travel:lemma_phrase "NOUN.transit NOUN.hub"@en ;
+  travel:ner_label true ;
+  skos:definition "A place where passengers and cargo are exchanged between vehicles or modes of transport"@en ;
+  dc:identifier wd:Q2298537 ;
+  skos:broader travel:Venue
+  .
+
+travel:Airport rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Airport"@en ;
+  travel:lemma_phrase "NOUN.airport"@en ;
+  travel:ner_label true ;
+  skos:definition "A location where aircraft take off and land with extended support facilities, mostly for commercial air transport"@en ;
+  dc:identifier wd:Q1248784 ;
+  skos:broader travel:Hub
+  .
+
+travel:Port rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Port"@en ;
+  skos:altLabel "Ferry Terminal"@en ;
+  travel:lemma_phrase "NOUN.port"@en ;
+  travel:lemma_phrase "NOUN.ferry NOUN.terminal"@en ;
+  travel:ner_label true ;
+  skos:definition "A maritime facility where ships may dock to load and discharge passengers and cargo"@en ;
+  dc:identifier wd:Q44782 ;
+  skos:broader travel:Hub
+  .
+
+travel:Bus rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Bus Station"@en ;
+  skos:altLabel "Bus Terminal"@en ;
+  travel:lemma_phrase "NOUN.bus NOUN.station"@en ;
+  travel:lemma_phrase "NOUN.bus NOUN.terminal"@en ;
+  travel:ner_label true ;
+  skos:definition "A structure where city or intercity buses stop to pick up and drop off passengers"@en ;
+  dc:identifier wd:Q494829 ;
+  skos:broader travel:Hub
+  .
+
+travel:Train rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Train Station"@en ;
+  skos:altLabel "Railway Station"@en ;
+  travel:lemma_phrase "NOUN.train NOUN.station"@en ;
+  travel:lemma_phrase "NOUN.railway NOUN.station"@en ;
+  travel:ner_label true ;
+  skos:definition "A railway facility where trains regularly stop to load or unload passengers and freight"@en ;
+  dc:identifier wd:Q55488 ;
+  skos:broader travel:Hub
+  .
+
+travel:Experience rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Experience"@en ;
+  skos:altLabel "Experience"@en ;
+  travel:lemma_phrase "NOUN.experience"@en ;
+  travel:ner_label false ;
+  skos:definition "Any planned or spontaneous encounter a traveler has while visiting a destination"@en ;
+  skos:broader travel:Tourism
+  .
+
+travel:Activity rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Activity"@en ;
+  travel:lemma_phrase "NOUN.activity"@en ;
+  travel:ner_label true ;
+  skos:definition "A series of actions done by an agent, typically leisure or tourist in nature"@en ;
+  dc:identifier wd:Q1914636 ;
+  skos:broader travel:Experience
+  .
+
+travel:Festival rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Festival"@en ;
+  skos:altLabel "Cultural Festival"@en ;
+  travel:lemma_phrase "NOUN.festival"@en ;
+  travel:ner_label true ;
+  skos:definition "An organized set of events or activities focused on a theme that recurs regularly"@en ;
+  dc:identifier wd:Q132241 ;
+  skos:broader travel:Experience
+  .
+
+travel:Event rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Event"@en ;
+  skos:altLabel "Public Event"@en ;
+  travel:lemma_phrase "NOUN.event"@en ;
+  travel:ner_label true ;
+  skos:definition "A temporary and scheduled happening such as a concert, market, or public gathering"@en ;
+  dc:identifier wd:Q1656682 ;
+  skos:broader travel:Experience
+  .
+
+travel:Tour rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Tour"@en ;
+  skos:altLabel "Guided Tour"@en ;
+  travel:lemma_phrase "NOUN.tour"@en ;
+  travel:lemma_phrase "NOUN.guided NOUN.tour"@en ;
+  travel:ner_label true ;
+  skos:definition "A tour of any type of destination led by a guide"@en ;
+  dc:identifier wd:Q1029698 ;
+  skos:broader travel:Experience
+  .
+
+travel:Trip rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Day Trip"@en ;
+  skos:altLabel "Excursion"@en ;
+  travel:lemma_phrase "NOUN.day NOUN.trip"@en ;
+  travel:lemma_phrase "NOUN.excursion"@en ;
+  travel:ner_label false ;
+  skos:definition "A visit to a destination or attraction that does not require an overnight stay"@en ;
+  dc:identifier wd:Q15850009 ;
+  skos:broader travel:Experience
+  .
+
+travel:Lodging rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Lodging"@en ;
+  skos:altLabel "Accommodation"@en ;
+  travel:lemma_phrase "NOUN.lodging"@en ;
+  travel:lemma_phrase "NOUN.accommodation"@en ;
+  travel:ner_label false ;
+  skos:definition "A facility providing temporary accommodations for travelers"@en ;
+  dc:identifier wd:Q5056668 ;
+  skos:broader travel:Tourism
+  .
+
+travel:Hotel rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Hotel"@en ;
+  travel:lemma_phrase "NOUN.hotel"@en ;
+  travel:ner_label true ;
+  skos:definition "A business enterprise that provides indoor lodging in a single location paid on a short-term basis"@en ;
+  dc:identifier wd:Q27686 ;
+  skos:broader travel:Lodging
+  .
+
+travel:Hostel rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Hostel"@en ;
+  travel:lemma_phrase "NOUN.hostel"@en ;
+  travel:ner_label true ;
+  skos:definition "Cheap, sociable accommodation typically offering shared dormitory-style rooms"@en ;
+  dc:identifier wd:Q654772 ;
+  skos:broader travel:Lodging
+  .
+
+travel:Resort rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Resort"@en ;
+  travel:lemma_phrase "NOUN.resort"@en ;
+  travel:ner_label true ;
+  skos:definition "A self-contained commercial establishment which attempts to provide for most of a vacationer's wants"@en ;
+  dc:identifier wd:Q875157 ;
+  skos:broader travel:Lodging
+  .
+
+travel:Guesthouse rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Guesthouse"@en ;
+  skos:altLabel "Guest House"@en ;
+  travel:lemma_phrase "NOUN.guesthouse"@en ;
+  travel:ner_label true ;
+  skos:definition "A type of lodging offering basic accommodation, typically smaller and family-run"@en ;
+  dc:identifier wd:Q2460422 ;
+  skos:broader travel:Lodging
+  .
+
+travel:Homestay rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Homestay"@en ;
+  travel:lemma_phrase "NOUN.homestay"@en ;
+  travel:ner_label true ;
+  skos:definition "A form of lodging where a traveler rents a room in a private family home"@en ;
+  dc:identifier wd:Q1134688 ;
+  skos:broader travel:Lodging
+  .
+
+travel:Villa rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Villa"@en ;
+  travel:lemma_phrase "NOUN.villa"@en ;
+  travel:ner_label true ;
+  skos:definition "A house of some pretension, often with outbuildings and gardens, rented for holiday stays"@en ;
+  dc:identifier wd:Q3950 ;
+  skos:broader travel:Lodging
+  .
+
+travel:Camping rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Camping"@en ;
+  skos:altLabel "Campsite"@en ;
+  travel:lemma_phrase "NOUN.camping"@en ;
+  travel:lemma_phrase "NOUN.campsite"@en ;
+  travel:ner_label false ;
+  skos:definition "A place used for overnight stay in tents, caravans, or mobile homes"@en ;
+  dc:identifier wd:Q832778 ;
+  skos:broader travel:Lodging
+  .
+
+travel:Transport rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Transport"@en ;
+  skos:altLabel "Transportation"@en ;
+  travel:lemma_phrase "NOUN.transport"@en ;
+  travel:lemma_phrase "NOUN.transportation"@en ;
+  travel:ner_label false ;
+  skos:definition "A mode of transport used by travelers to move between or within destinations"@en ;
+  dc:identifier wd:Q334166 ;
+  skos:broader travel:Tourism
+  .
+
+travel:Regional rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Regional Transport"@en ;
+  skos:altLabel "Local Transport"@en ;
+  travel:lemma_phrase "NOUN.regional NOUN.transport"@en ;
+  travel:lemma_phrase "NOUN.local NOUN.transport"@en ;
+  travel:ner_label false ;
+  skos:definition "Transport covering movement within a destination or between nearby localities"@en ;
+  skos:broader travel:Transport
+  .
+
+travel:Transit rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Transit"@en ;
+  skos:altLabel "Long-Haul Transport"@en ;
+  travel:lemma_phrase "NOUN.transit"@en ;
+  travel:lemma_phrase "NOUN.long-haul NOUN.transport"@en ;
+  travel:ner_label false ;
+  skos:definition "Transport covering travel between distinct destinations such as flights or intercity trains"@en ;
+  skos:broader travel:Transport
+  .
+
+travel:Classification rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Classification"@en ;
+  travel:lemma_phrase "NOUN.classification"@en ;
+  travel:ner_label false ;
+  skos:definition "A system for categorizing travel experiences, travelers, and destinations by type, budget, or style"@en ;
+  skos:broader travel:Tourism
+  .
+
+travel:Budget rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Budget"@en ;
+  skos:altLabel "Travel Budget"@en ;
+  travel:lemma_phrase "NOUN.budget"@en ;
+  travel:ner_label false ;
+  skos:definition "A classification of travel spending levels such as budget, mid-range, or luxury"@en ;
+  skos:broader travel:Classification
+  .
+
+travel:Style rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Travel Style"@en ;
+  travel:lemma_phrase "NOUN.travel NOUN.style"@en ;
+  travel:ner_label false ;
+  skos:definition "The nature or theme of a trip such as adventure, cultural, beach, or wellness"@en ;
+  skos:broader travel:Classification
+  .
+
+travel:Route rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Route"@en ;
+  skos:altLabel "Itinerary"@en ;
+  travel:lemma_phrase "NOUN.route"@en ;
+  travel:lemma_phrase "NOUN.itinerary"@en ;
+  travel:ner_label false ;
+  skos:definition "A planned sequence of destinations and transport links for a journey"@en ;
+  skos:broader travel:Classification
+  .
+
+travel:Traveler rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Traveler"@en ;
+  travel:lemma_phrase "NOUN.traveler"@en ;
+  travel:ner_label false ;
+  skos:definition "A categorization of travelers by profile such as solo, family, backpacker, or luxury"@en ;
+  skos:broader travel:Classification
+  .
+
+travel:Knowledge rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Local Knowledge"@en ;
+  travel:lemma_phrase "NOUN.local NOUN.knowledge"@en ;
+  travel:ner_label false ;
+  skos:definition "A body of general knowledge specific to a locale; cultural, culinary, legal, and safety information about a destination"@en ;
+  dc:identifier wd:Q25469578 ;
+  skos:broader travel:Tourism
+  .
+
+travel:Cuisine rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Cuisine"@en ;
+  skos:altLabel "Food Culture"@en ;
+  travel:lemma_phrase "NOUN.cuisine"@en ;
+  travel:lemma_phrase "NOUN.food NOUN.culture"@en ;
+  travel:ner_label true ;
+  skos:definition "The characteristic style of cooking practices and traditions of a destination"@en ;
+  dc:identifier wd:Q1778821 ;
+  skos:broader travel:Knowledge
+  .
+
+travel:Norm rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Social Norm"@en ;
+  skos:altLabel "Cultural Custom"@en ;
+  travel:lemma_phrase "NOUN.social NOUN.norm"@en ;
+  travel:lemma_phrase "NOUN.cultural NOUN.custom"@en ;
+  travel:ner_label false ;
+  skos:definition "An informal understanding of acceptable conduct specific to a destination's culture"@en ;
+  dc:identifier wd:Q205665 ;
+  skos:broader travel:Knowledge
+  .
+
+travel:Law rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Local Law"@en ;
+  skos:altLabel "Regulation"@en ;
+  travel:lemma_phrase "NOUN.local NOUN.law"@en ;
+  travel:lemma_phrase "NOUN.regulation"@en ;
+  travel:ner_label false ;
+  skos:definition "Legal rules and regulations specific to a destination that travelers must observe"@en ;
+  dc:identifier wd:Q7748 ;
+  skos:broader travel:Knowledge
+  .
+
+travel:Safety rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Safety"@en ;
+  skos:altLabel "Safety Warning"@en ;
+  travel:lemma_phrase "NOUN.safety"@en ;
+  travel:ner_label false ;
+  skos:definition "Practical advice for travelers about risks and precautions at a destination"@en ;
+  skos:broader travel:Knowledge
+  .
+
+travel:Practical rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Practical Information"@en ;
+  skos:altLabel "Travel Essentials"@en ;
+  travel:lemma_phrase "NOUN.practical"@en ;
+  travel:lemma_phrase "NOUN.travel NOUN.essentials"@en ;
+  travel:ner_label false ;
+  skos:definition "Practical information covering language, currency, and entry requirements relevant to travelers"@en ;
+  skos:broader travel:Tourism
+  .
+
+travel:Language rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Language"@en ;
+  travel:lemma_phrase "NOUN.language"@en ;
+  travel:ner_label true ;
+  skos:definition "A particular system of communication, often named for the region or peoples that use it"@en ;
+  dc:identifier wd:Q34770 ;
+  skos:broader travel:Practical
+  .
+
+travel:Currency rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Currency"@en ;
+  travel:lemma_phrase "NOUN.currency"@en ;
+  travel:ner_label true ;
+  skos:definition "A generally accepted medium of exchange for goods or services used in a destination"@en ;
+  dc:identifier wd:Q8142 ;
+  skos:broader travel:Practical
+  .
+
+travel:Entry rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Entry Requirement"@en ;
+  travel:lemma_phrase "NOUN.entry NOUN.requirement"@en ;
+  travel:ner_label false ;
+  skos:definition "Conditions a traveler must meet to enter a destination country"@en ;
+  skos:broader travel:Practical
+  .
+
+travel:Visa rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Visa"@en ;
+  travel:lemma_phrase "NOUN.visa"@en ;
+  travel:ner_label false ;
+  skos:definition "An authorization document permitting a traveler to enter, stay in, or leave a country"@en ;
+  dc:identifier wd:Q170404 ;
+  skos:broader travel:Entry
+  .
+
+travel:Health rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Health Requirement"@en ;
+  skos:altLabel "Vaccination Requirement"@en ;
+  travel:lemma_phrase "NOUN.health NOUN.requirement"@en ;
+  travel:lemma_phrase "NOUN.vaccination NOUN.requirement"@en ;
+  travel:ner_label false ;
+  skos:definition "Medical or vaccination prerequisites for entering a destination"@en ;
+  skos:broader travel:Entry
+  .
+
+travel:Insurance rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Insurance Requirement"@en ;
+  travel:lemma_phrase "NOUN.insurance NOUN.requirement"@en ;
+  travel:ner_label false ;
+  skos:definition "Mandatory travel insurance conditions required for entering a destination"@en ;
+  skos:broader travel:Entry
+  .
+
+travel:Temporal rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Temporal"@en ;
+  travel:lemma_phrase "NOUN.temporal"@en ;
+  travel:ner_label false ;
+  skos:definition "Time-based aspects of travel including seasons and months relevant to a destination"@en ;
+  skos:broader travel:Tourism
+  .
+
+travel:Season rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Season"@en ;
+  travel:lemma_phrase "NOUN.season"@en ;
+  travel:ner_label false ;
+  skos:definition "A section of the year defined by cultural, climatic, or tourism characteristics"@en ;
+  dc:identifier wd:Q10688145 ;
+  skos:broader travel:Temporal
+  .
+
+travel:Month rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Month"@en ;
+  travel:lemma_phrase "NOUN.month"@en ;
+  travel:ner_label false ;
+  skos:definition "An irregular unit of time dividing a calendar year, used to describe weather and travel conditions"@en ;
+  dc:identifier wd:Q5151 ;
+  skos:broader travel:Temporal
+  .
+
+travel:Content rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Content"@en ;
+  travel:lemma_phrase "NOUN.content"@en ;
+  travel:ner_label false ;
+  skos:definition "User-generated information about destinations including reviews, insights, tips, and warnings"@en ;
+  skos:broader travel:Tourism
+  .
+
+travel:Review rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Traveler Review"@en ;
+  skos:altLabel "Review"@en ;
+  travel:lemma_phrase "NOUN.traveler NOUN.review"@en ;
+  travel:lemma_phrase "NOUN.review"@en ;
+  travel:ner_label false ;
+  skos:definition "An evaluation of a destination, accommodation, or activity written by a traveler"@en ;
+  dc:identifier wd:Q265158 ;
+  skos:broader travel:Content
+  .
+
+travel:Insight rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Traveler Insight"@en ;
+  travel:lemma_phrase "NOUN.traveler NOUN.insight"@en ;
+  travel:ner_label false ;
+  skos:definition "An observation or non-obvious piece of advice derived from personal travel experience"@en ;
+  skos:broader travel:Content
+  .
+
+travel:Tip rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Traveler Tip"@en ;
+  skos:altLabel "Travel Tip"@en ;
+  travel:lemma_phrase "NOUN.traveler NOUN.tip"@en ;
+  travel:lemma_phrase "NOUN.travel NOUN.tip"@en ;
+  travel:ner_label false ;
+  skos:definition "Practical advice shared by travelers to help others navigate a destination"@en ;
+  skos:broader travel:Content
+  .
+
+travel:Warning rdf:type skos:Concept ;
+  skos:inScheme travel:TravelScheme ;
+  skos:prefLabel "Traveler Warning"@en ;
+  skos:altLabel "Travel Advisory"@en ;
+  travel:lemma_phrase "NOUN.traveler NOUN.warning"@en ;
+  travel:lemma_phrase "NOUN.travel NOUN.advisory"@en ;
+  travel:ner_label false ;
+  skos:definition "A cautionary notice about risks or hazards at a destination"@en ;
+  skos:broader travel:Content
+  .
+
+travel:within_chunk rdfs:domain skos:Concept ;
+  rdfs:range rdfs:Literal ;
+  skos:definition "the source text chunk from which an entity was extracted"@en
+  .
+
+travel:follows_lexically rdfs:domain skos:Concept ;
+  rdfs:range skos:Concept ;
+  skos:definition "a sequential co-occurrence of extracted entities within a lexical graph"@en
+  .
+
+travel:co_occurs_with rdfs:domain skos:Concept ;
+  rdfs:range skos:Concept ;
+  skos:definition "a neighborhood co-occurrence of extracted entities within a lexical graph"@en
+  .
+
+travel:compound_elem_of rdfs:domain skos:Concept ;
+  rdfs:range skos:Concept ;
+  skos:definition "an extracted entity which is potentially included in a longer phrase"@en
+  .
+
+travel:located_in rdfs:domain travel:Place ;
+  rdfs:range travel:Place ;
+  skos:definition "a place is situated within another place"@en ;
+  rdf:type travel:relation
+  .
+
+travel:near_to rdfs:domain travel:Destination ;
+  rdfs:range travel:Destination ;
+  skos:definition "a destination is geographically near another destination"@en ;
+  rdf:type travel:relation
+  .
+
+travel:has_venue rdfs:domain travel:Destination ;
+  rdfs:range travel:Venue ;
+  skos:definition "a destination contains a visitable venue"@en ;
+  rdf:type travel:relation
+  .
+
+travel:has_activity rdfs:domain travel:Destination ;
+  rdfs:range travel:Activity ;
+  skos:definition "a destination offers an activity"@en ;
+  rdf:type travel:relation
+  .
+
+travel:has_accommodation rdfs:domain travel:Destination ;
+  rdfs:range travel:Lodging ;
+  skos:definition "a destination has lodging available"@en ;
+  rdf:type travel:relation
+  .
+
+travel:serves rdfs:domain travel:Hub ;
+  rdfs:range travel:Destination ;
+  skos:definition "a transport hub serves a destination"@en ;
+  rdf:type travel:relation
+  .
+
+travel:departs_from rdfs:domain travel:Route ;
+  rdfs:range travel:Destination ;
+  skos:definition "a route departs from a destination"@en ;
+  rdf:type travel:relation
+  .
+
+travel:arrives_at rdfs:domain travel:Route ;
+  rdfs:range travel:Destination ;
+  skos:definition "a route arrives at a destination"@en ;
+  rdf:type travel:relation
+  .
+
+travel:via_mode rdfs:domain travel:Route ;
+  rdfs:range travel:Transport ;
+  skos:definition "a route uses a transport mode"@en ;
+  rdf:type travel:relation
+  .
+
+travel:covers_month rdfs:domain travel:Season ;
+  rdfs:range travel:Month ;
+  skos:definition "a season covers one or more months"@en ;
+  rdf:type travel:relation
+  .
+
+travel:best_season rdfs:domain travel:Destination ;
+  rdfs:range travel:Season ;
+  skos:definition "a destination has an optimal travel season"@en ;
+  rdf:type travel:relation
+  .
+
+travel:avoid_during rdfs:domain travel:Destination ;
+  rdfs:range travel:Month ;
+  skos:definition "a destination should be avoided during a specific month"@en ;
+  rdf:type travel:relation
+  .
+
+travel:suits_budget rdfs:domain travel:Tourism ;
+  rdfs:range travel:Budget ;
+  skos:definition "a travel concept is suited to a budget tier"@en ;
+  rdf:type travel:relation
+  .
+
+travel:suits_travel_style rdfs:domain travel:Tourism ;
+  rdfs:range travel:Style ;
+  skos:definition "a travel concept suits a travel style"@en ;
+  rdf:type travel:relation
+  .
+
+travel:suits_traveler_type rdfs:domain travel:Tourism ;
+  rdfs:range travel:Traveler ;
+  skos:definition "a travel concept suits a traveler type"@en ;
+  rdf:type travel:relation
+  .
+
+travel:has_entry_requirement rdfs:domain travel:Country ;
+  rdfs:range travel:Entry ;
+  skos:definition "a country has an entry requirement for travelers"@en ;
+  rdf:type travel:relation
+  .
+
+travel:uses_currency rdfs:domain travel:Country ;
+  rdfs:range travel:Currency ;
+  skos:definition "a country uses a currency"@en ;
+  rdf:type travel:relation
+  .
+
+travel:speaks_language rdfs:domain travel:Country ;
+  rdfs:range travel:Language ;
+  skos:definition "a country has a spoken language"@en ;
+  rdf:type travel:relation
+  .
+
+travel:has_cuisine rdfs:domain travel:Destination ;
+  rdfs:range travel:Cuisine ;
+  skos:definition "a destination has a characteristic cuisine"@en ;
+  rdf:type travel:relation
+  .
+
+travel:has_social_norm rdfs:domain travel:Destination ;
+  rdfs:range travel:Norm ;
+  skos:definition "a destination has social norms travelers should observe"@en ;
+  rdf:type travel:relation
+  .
+
+travel:has_local_law rdfs:domain travel:Destination ;
+  rdfs:range travel:Law ;
+  skos:definition "a destination has local laws travelers must follow"@en ;
+  rdf:type travel:relation
+  .
+
+travel:has_safety_tip rdfs:domain travel:Destination ;
+  rdfs:range travel:Safety ;
+  skos:definition "a destination has associated safety tips for travelers"@en ;
+  rdf:type travel:relation
+  .
+
+travel:about_destination rdfs:domain travel:Content ;
+  rdfs:range travel:Destination ;
+  skos:definition "traveler content is about a specific destination"@en ;
+  rdf:type travel:relation
+  .
+
+travel:about_accommodation rdfs:domain travel:Content ;
+  rdfs:range travel:Lodging ;
+  skos:definition "traveler content is about a specific lodging"@en ;
+  rdf:type travel:relation
+  .
+
+travel:about_activity rdfs:domain travel:Content ;
+  rdfs:range travel:Activity ;
+  skos:definition "traveler content is about a specific activity"@en ;
+  rdf:type travel:relation
+  .
