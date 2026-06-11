@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>activities — Unlinkables</title>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div style="font-family:sans-serif;padding:12px 20px;background:#1e3a5f;color:#fff;font-size:18px;font-weight:bold;">activities — Unlinkables</div>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "layer": [{"mark": {"type": "line"}, "encoding": {"x": {"axis": {"format": "+", "title": "Threshold match weight"}, "field": "match_weight", "type": "quantitative"}, "y": {"axis": {"format": "%", "title": "Percentage of unlinkable records"}, "field": "cum_prop", "type": "quantitative"}}}, {"mark": {"type": "point"}, "encoding": {"opacity": {"condition": {"param": "x_match_weight_y_cum_prop_coords_of_mouse", "value": 1, "empty": false}, "value": 0}, "tooltip": [{"field": "match_weight", "format": "+.5", "title": "Match weight", "type": "quantitative"}, {"field": "match_probability", "format": ".5", "title": "Match probability", "type": "quantitative"}, {"field": "cum_prop", "format": ".3%", "title": "Proportion of unlinkable records", "type": "quantitative"}], "x": {"axis": {"title": "Threshold match weight"}, "field": "match_weight", "type": "quantitative"}, "y": {"axis": {"format": "%", "title": "Percentage of unlinkable records"}, "field": "cum_prop", "type": "quantitative"}}, "name": "mouse_coords"}, {"mark": {"type": "rule", "color": "gray"}, "encoding": {"x": {"field": "match_weight", "type": "quantitative"}}, "transform": [{"filter": {"param": "x_match_weight_y_cum_prop_coords_of_mouse", "empty": false}}]}, {"mark": {"type": "rule", "color": "gray"}, "encoding": {"y": {"field": "cum_prop", "type": "quantitative"}}, "transform": [{"filter": {"param": "x_match_weight_y_cum_prop_coords_of_mouse", "empty": false}}]}], "data": {"name": "data-28f7104757b9916578ce171190b335ee"}, "height": 400, "params": [{"name": "x_match_weight_y_cum_prop_coords_of_mouse", "select": {"type": "point", "fields": ["match_weight", "cum_prop"], "nearest": true, "on": "mouseover"}, "views": ["mouse_coords"]}], "title": {"text": "Unlinkable records - activities", "subtitle": "Records with insufficient information to exceed a given match threshold"}, "width": 400, "$schema": "https://vega.github.io/schema/vega-lite/v5.9.3.json", "datasets": {"data-28f7104757b9916578ce171190b335ee": [{"match_weight": -8.33, "match_probability": 0.00309, "prop": 0.16736233234405518, "cum_prop": 0.16736233234405518}, {"match_weight": 2.18, "match_probability": 0.81953, "prop": 0.8326376676559448, "cum_prop": 1.0}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

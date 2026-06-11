@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>accommodations — Top 20 Largest Clusters</title>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div style="font-family:sans-serif;padding:12px 20px;background:#1e3a5f;color:#fff;font-size:18px;font-weight:bold;">accommodations — Top 20 Largest Clusters</div>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": false}}, "data": {"name": "data-dc75117db4e39d1f30f8c5de316e7514"}, "mark": {"type": "bar", "color": "#2a7abf"}, "encoding": {"tooltip": [{"field": "label", "type": "nominal"}, {"field": "n_records", "type": "quantitative"}, {"field": "cluster_id", "type": "nominal"}], "x": {"field": "n_records", "title": "Number of records in cluster", "type": "quantitative"}, "y": {"axis": {"labelLimit": 350}, "field": "label", "sort": "-x", "title": null, "type": "nominal"}}, "height": 450, "params": [{"name": "param_1e9efca18e7a2868", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": {"text": "accommodations \u2014 Top 20 Largest Clusters", "fontSize": 14}, "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json", "datasets": {"data-dc75117db4e39d1f30f8c5de316e7514": [{"cluster_id": "osmacc_368662694", "name": "\ud574\uc6b4\ub300 \uae00\ub85c\ub9ac\ucf58\ub3c4", "n_records": 437, "label": "\ud574\uc6b4\ub300 \uae00\ub85c\ub9ac\ucf58\ub3c4"}, {"cluster_id": "osmacc_1139178634", "name": "Hotel Acuazul Varazul", "n_records": 418, "label": "Hotel Acuazul Varazul"}, {"cluster_id": "osmacc_1139872999", "name": "Casa Allegro", "n_records": 399, "label": "Casa Allegro"}, {"cluster_id": "osmacc_1000087537", "name": "Kh\u00e1ch S\u1ea1n \u0110\u1ee9c Th\u00e1i", "n_records": 392, "label": "Kh\u00e1ch S\u1ea1n \u0110\u1ee9c Th\u00e1i"}, {"cluster_id": "osmacc_1565072316", "name": "Adam Hotel", "n_records": 386, "label": "Adam Hotel"}, {"cluster_id": "osmacc_103769592", "name": "Georgia Tech Hotel and Conference Center", "n_records": 383, "label": "Georgia Tech Hotel and Conference Center"}, {"cluster_id": "osmacc_1000073244", "name": "Novotel Paris La D\u00e9fense Nanterre", "n_records": 380, "label": "Novotel Paris La D\u00e9fense Nanterre"}, {"cluster_id": "osmacc_1034429267", "name": "Room Mate Mario Hotel", "n_records": 379, "label": "Room Mate Mario Hotel"}, {"cluster_id": "osmacc_2116858634", "name": "Belmont Hotel", "n_records": 372, "label": "Belmont Hotel"}, {"cluster_id": "osmacc_10056751057", "name": "Hotel ORKA", "n_records": 370, "label": "Hotel ORKA"}, {"cluster_id": "osmacc_10035040517", "name": "Hotel Milton", "n_records": 359, "label": "Hotel Milton"}, {"cluster_id": "osmacc_10020805318", "name": "\u0641\u0646\u062f\u0642 \u0639\u062f\u0646 \u0627\u0644\u0633\u064a\u0627\u062d\u064a", "n_records": 353, "label": "\u0641\u0646\u062f\u0642 \u0639\u062f\u0646 \u0627\u0644\u0633\u064a\u0627\u062d\u064a"}, {"cluster_id": "osmacc_1010366613", "name": "Red Carpet Inn & Suites", "n_records": 352, "label": "Red Carpet Inn & Suites"}, {"cluster_id": "osmacc_1103186157", "name": "Hotel Vittoria", "n_records": 351, "label": "Hotel Vittoria"}, {"cluster_id": "osmacc_1000021823", "name": "Yi\u011fitalp Oteli", "n_records": 350, "label": "Yi\u011fitalp Oteli"}, {"cluster_id": "osmacc_1109341603", "name": "Dar Nimbus", "n_records": 350, "label": "Dar Nimbus"}, {"cluster_id": "osmacc_10005145917", "name": "Hotel Casa Blanca", "n_records": 346, "label": "Hotel Casa Blanca"}, {"cluster_id": "osmacc_1108412254", "name": "Hostel Sol", "n_records": 345, "label": "Hostel Sol"}, {"cluster_id": "osmacc_1029814456", "name": "Starhotels President", "n_records": 342, "label": "Starhotels President"}, {"cluster_id": "osmacc_1010634501", "name": "Pousada Monte Gordo", "n_records": 340, "label": "Pousada Monte Gordo"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

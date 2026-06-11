@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>safety_tips — Profile</title>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div style="font-family:sans-serif;padding:12px 20px;background:#1e3a5f;color:#fff;font-size:18px;font-weight:bold;">safety_tips — Profile</div>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 400, "continuousHeight": 300}}, "vconcat": [{"hconcat": [{"mark": {"type": "line", "interpolate": "step-before"}, "data": {"values": [{"percentile_ex_nulls": 0.0, "percentile_inc_nulls": 0.0, "value_count": 1, "group_name": "destination_id", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "sum_tokens_in_value_count_group": 404, "distinct_value_count": 404}, {"percentile_ex_nulls": 1.0, "percentile_inc_nulls": 1.0, "value_count": 1, "group_name": "destination_id", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "sum_tokens_in_value_count_group": 404, "distinct_value_count": 404}]}, "encoding": {"tooltip": [{"field": "value_count", "type": "quantitative"}, {"field": "percentile_ex_nulls", "type": "quantitative"}, {"field": "percentile_inc_nulls", "type": "quantitative"}, {"field": "total_non_null_rows", "type": "quantitative"}, {"field": "total_rows_inc_nulls", "type": "quantitative"}], "x": {"field": "percentile_ex_nulls", "sort": "descending", "title": "Percentile", "type": "quantitative"}, "y": {"field": "value_count", "title": "Count of values", "type": "quantitative"}}, "title": {"text": "Distribution of counts of values in column destination_id", "subtitle": "In this col, 0 values (0.0%) are null and there are 404 distinct values"}}, {"mark": "bar", "data": {"values": [{"value_count": 1, "group_name": "destination_id", "value": "Q39450", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q23438", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q16559", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q3703", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q184", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q242", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q64", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q3114", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q1533", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q1903", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}]}, "encoding": {"tooltip": [{"field": "value", "type": "nominal"}, {"field": "value_count", "type": "quantitative"}, {"field": "total_non_null_rows", "type": "quantitative"}, {"field": "total_rows_inc_nulls", "type": "quantitative"}], "x": {"field": "value", "sort": "-y", "title": null, "type": "nominal"}, "y": {"field": "value_count", "title": "Value count", "type": "quantitative"}}, "title": "Top 10 values by value count"}, {"mark": "bar", "data": {"values": [{"value_count": 1, "group_name": "destination_id", "value": "Q39450", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q23438", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q16559", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q3703", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}, {"value_count": 1, "group_name": "destination_id", "value": "Q184", "total_non_null_rows": 404, "total_rows_inc_nulls": 404, "distinct_value_count": 404}]}, "encoding": {"tooltip": [{"field": "value", "type": "nominal"}, {"field": "value_count", "type": "quantitative"}, {"field": "total_non_null_rows", "type": "quantitative"}, {"field": "total_rows_inc_nulls", "type": "quantitative"}], "x": {"field": "value", "sort": "-y", "title": null, "type": "nominal"}, "y": {"field": "value_count", "scale": {"domain": [0, 1]}, "title": "Value count", "type": "quantitative"}}, "title": "Bottom 5 values by value count"}]}], "$schema": "https://vega.github.io/schema/vega-lite/v5.9.3.json"};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
