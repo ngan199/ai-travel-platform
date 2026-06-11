@@ -47,6 +47,23 @@ def normalize_seasons():
     df = df[["destination_id", "destination_name", "season_type",
              "month_numbers", "avg_temp_celsius", "avg_rainfall_mm"]]
     df = df.drop_duplicates(subset=["destination_id", "season_type"])
+
+    # Derive climate-based season types from temperature/rainfall thresholds
+    derived_rows = []
+    for climate_type, mask in [
+        ("hot",  df["avg_temp_celsius"] > 28),
+        ("cool", df["avg_temp_celsius"] < 15),
+        ("dry",  df["avg_rainfall_mm"]  < 50),
+    ]:
+        subset = df[mask].copy()
+        subset["season_type"] = climate_type
+        derived_rows.append(subset)
+
+    if derived_rows:
+        derived = pd.concat(derived_rows, ignore_index=True)
+        df = pd.concat([df, derived], ignore_index=True)
+        df = df.drop_duplicates(subset=["destination_id", "season_type"])
+
     out = OUT / "seasons.csv"
     df.to_csv(out, index=False)
     print(f"seasons    : {len(df)} rows → {out}")

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>transport_hubs — Match Probability Histogram</title>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div style="font-family:sans-serif;padding:12px 20px;background:#1e3a5f;color:#fff;font-size:18px;font-weight:bold;">transport_hubs — Match Probability Histogram</div>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "title": {"fontSize": 14}}, "data": {"name": "data-80d4ecd678d6ac786ec36b5d66ad97a7"}, "mark": "bar", "encoding": {"tooltip": [{"field": "count_rows", "title": "Count in bin", "type": "quantitative"}], "x": {"axis": {"title": "Match weight"}, "bin": "binned", "field": "splink_score_bin_low", "type": "quantitative"}, "x2": {"field": "splink_score_bin_high"}, "y": {"axis": {"title": "Count of record comparisons in bin"}, "field": "count_rows", "type": "quantitative"}}, "height": 250, "params": [{"name": "mouse_zoom", "select": {"type": "interval", "encodings": ["y"]}, "bind": "scales"}], "title": {"text": "Histogram of match weights", "subtitle": "Use mousewheel to zoom"}, "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.9.3.json", "datasets": {"data-80d4ecd678d6ac786ec36b5d66ad97a7": [{"splink_score_bin_low": 2.0, "binwidth": 1, "count_rows": 3571, "splink_score_bin_high": 3.0}, {"splink_score_bin_low": 4.0, "binwidth": 1, "count_rows": 3, "splink_score_bin_high": 5.0}, {"splink_score_bin_low": 7.0, "binwidth": 1, "count_rows": 9, "splink_score_bin_high": 8.0}, {"splink_score_bin_low": 8.0, "binwidth": 1, "count_rows": 198, "splink_score_bin_high": 9.0}, {"splink_score_bin_low": 10.0, "binwidth": 1, "count_rows": 13, "splink_score_bin_high": 11.0}, {"splink_score_bin_low": 12.0, "binwidth": 1, "count_rows": 1010, "splink_score_bin_high": 13.0}, {"splink_score_bin_low": 13.0, "binwidth": 1, "count_rows": 1100, "splink_score_bin_high": 14.0}, {"splink_score_bin_low": 14.0, "binwidth": 1, "count_rows": 281, "splink_score_bin_high": 15.0}, {"splink_score_bin_low": 15.0, "binwidth": 1, "count_rows": 695, "splink_score_bin_high": 16.0}, {"splink_score_bin_low": 16.0, "binwidth": 1, "count_rows": 160, "splink_score_bin_high": 17.0}, {"splink_score_bin_low": 17.0, "binwidth": 1, "count_rows": 335, "splink_score_bin_high": 18.0}, {"splink_score_bin_low": 18.0, "binwidth": 1, "count_rows": 1982, "splink_score_bin_high": 19.0}, {"splink_score_bin_low": 19.0, "binwidth": 1, "count_rows": 1790, "splink_score_bin_high": 20.0}, {"splink_score_bin_low": 22.0, "binwidth": 1, "count_rows": 2, "splink_score_bin_high": 23.0}, {"splink_score_bin_low": 24.0, "binwidth": 1, "count_rows": 1, "splink_score_bin_high": 25.0}, {"splink_score_bin_low": 28.0, "binwidth": 1, "count_rows": 6, "splink_score_bin_high": 29.0}, {"splink_score_bin_low": 30.0, "binwidth": 1, "count_rows": 11, "splink_score_bin_high": 31.0}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

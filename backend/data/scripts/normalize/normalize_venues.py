@@ -127,7 +127,14 @@ def run():
     parts = [from_national_parks(), from_top_attractions(), from_osm_venues()]
     df = pd.concat(parts, ignore_index=True)
 
-    df = df[df["name"].notna() & (df["name"].str.strip() != "")]
+    # Strip whitespace
+    df["name"]       = df["name"].str.strip()
+    df["name_clean"] = df["name_clean"].str.strip()
+
+    # Drop junk: null unique_id, empty name, null name_clean (emoji/symbol-only names)
+    df = df[df["unique_id"].notna()]
+    df = df[df["name"].notna() & (df["name"] != "")]
+    df = df[df["name_clean"].notna() & (df["name_clean"] != "")]
     df = df.drop_duplicates(subset=["unique_id"])
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>venues — Cluster Size Distribution</title>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div style="font-family:sans-serif;padding:12px 20px;background:#1e3a5f;color:#fff;font-size:18px;font-weight:bold;">venues — Cluster Size Distribution</div>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": false}}, "data": {"name": "data-29f4eabae47e2181215ca4a6d574fce5"}, "mark": {"type": "bar", "color": "#2a7abf"}, "encoding": {"tooltip": [{"field": "cluster_size", "type": "quantitative"}, {"field": "count", "type": "quantitative"}], "x": {"axis": {"labelAngle": 0}, "field": "cluster_size", "title": "Cluster size (number of records)", "type": "ordinal"}, "y": {"field": "count", "title": "Number of clusters", "type": "quantitative"}}, "height": 350, "params": [{"name": "param_1e9efca18e7a2868", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": {"text": "venues \u2014 Cluster Size Distribution", "fontSize": 14}, "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json", "datasets": {"data-29f4eabae47e2181215ca4a6d574fce5": [{"cluster_size": 1, "count": 76759}, {"cluster_size": 2, "count": 10913}, {"cluster_size": 3, "count": 3507}, {"cluster_size": 4, "count": 1745}, {"cluster_size": 5, "count": 928}, {"cluster_size": 6, "count": 560}, {"cluster_size": 7, "count": 378}, {"cluster_size": 8, "count": 256}, {"cluster_size": 9, "count": 215}, {"cluster_size": 10, "count": 156}, {"cluster_size": 11, "count": 106}, {"cluster_size": 12, "count": 96}, {"cluster_size": 13, "count": 95}, {"cluster_size": 14, "count": 64}, {"cluster_size": 15, "count": 51}, {"cluster_size": 16, "count": 31}, {"cluster_size": 17, "count": 37}, {"cluster_size": 18, "count": 39}, {"cluster_size": 19, "count": 36}, {"cluster_size": 20, "count": 19}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

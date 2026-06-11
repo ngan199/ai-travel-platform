@@ -2,7 +2,7 @@
 Fetch administrative sub-regions of destinations already in the DB via Wikidata SPARQL.
 Uses P131 (located in administrative territorial entity) to find children.
 Only fetches items whose direct parent (P131) is one of our destination QIDs.
-Output: data/sources/destination/wikidata_regions.csv
+Output: data/sources/destination/wikidata_destinations.csv
 
 Batches QIDs in groups of 50 to stay within SPARQL query limits.
 Adds 1 s delay between batches to respect Wikidata rate limits.
@@ -19,7 +19,7 @@ sys.path.insert(0, str(Path(__file__).parents[3]))
 from app.db.database import engine
 from sqlalchemy import text
 
-OUTPUT = Path(__file__).parents[3] / "data/sources/destination/wikidata_regions.csv"
+OUTPUT = Path(__file__).parents[3] / "data/sources/destination/wikidata_destinations.csv"
 FIELDNAMES = [
     "wikidata_id", "name", "entity_type",
     "parent_wikidata_id", "parent_name",

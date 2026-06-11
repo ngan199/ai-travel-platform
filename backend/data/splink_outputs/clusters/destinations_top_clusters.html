@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>destinations — Top 20 Largest Clusters</title>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div style="font-family:sans-serif;padding:12px 20px;background:#1e3a5f;color:#fff;font-size:18px;font-weight:bold;">destinations — Top 20 Largest Clusters</div>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": false}}, "data": {"name": "data-c82cfa892ea70bcaa5d2288957f575e8"}, "mark": {"type": "bar", "color": "#2a7abf"}, "encoding": {"tooltip": [{"field": "label", "type": "nominal"}, {"field": "n_records", "type": "quantitative"}, {"field": "cluster_id", "type": "nominal"}], "x": {"field": "n_records", "title": "Number of records in cluster", "type": "quantitative"}, "y": {"axis": {"labelLimit": 350}, "field": "label", "sort": "-x", "title": null, "type": "nominal"}}, "height": 450, "params": [{"name": "param_1e9efca18e7a2868", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": {"text": "destinations \u2014 Top 20 Largest Clusters", "fontSize": 14}, "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json", "datasets": {"data-c82cfa892ea70bcaa5d2288957f575e8": [{"cluster_id": "dest_Q105044662", "name": "Q105810673", "n_records": 207, "label": "Q105810673"}, {"cluster_id": "dest_Q1002229", "name": "Municipality of Vuzenica", "n_records": 166, "label": "Municipality of Vuzenica"}, {"cluster_id": "dest_Q2387798", "name": "Lot 7", "n_records": 67, "label": "Lot 7"}, {"cluster_id": "dest_Q104672475", "name": "Q104675114", "n_records": 35, "label": "Q104675114"}, {"cluster_id": "dest_Q2405790", "name": "Toulouse Casselardit", "n_records": 31, "label": "Toulouse Casselardit"}, {"cluster_id": "dest_Q106040786", "name": "Q106040787", "n_records": 24, "label": "Q106040787"}, {"cluster_id": "dest_Q104661310", "name": "Tai Peng", "n_records": 24, "label": "Tai Peng"}, {"cluster_id": "dest_Q11911", "name": "Canton of Solothurn", "n_records": 16, "label": "Canton of Solothurn"}, {"cluster_id": "dest_Q12654769", "name": "Q12654769", "n_records": 15, "label": "Q12654769"}, {"cluster_id": "dest_Q111921228", "name": "Q111921493", "n_records": 14, "label": "Q111921493"}, {"cluster_id": "dest_Q116007925", "name": "Q116007925", "n_records": 14, "label": "Q116007925"}, {"cluster_id": "dest_Q100366755", "name": "San Tsuen", "n_records": 14, "label": "San Tsuen"}, {"cluster_id": "dest_Q139882412", "name": "Q139884614", "n_records": 12, "label": "Q139884614"}, {"cluster_id": "dest_Q108169639", "name": "Wong Nai Tun Tsuen", "n_records": 12, "label": "Wong Nai Tun Tsuen"}, {"cluster_id": "dest_Q104537995", "name": "Ohio Department of Transportation District 1", "n_records": 12, "label": "Ohio Department of Transportation District 1"}, {"cluster_id": "dest_Q456149", "name": "District 6", "n_records": 11, "label": "District 6"}, {"cluster_id": "dest_Q131541463", "name": "Caltrans District 7", "n_records": 11, "label": "Caltrans District 7"}, {"cluster_id": "dest_Q1431099", "name": "Saint Andrew Parish", "n_records": 10, "label": "Saint Andrew Parish"}, {"cluster_id": "dest_Q109019209", "name": "Q109042588", "n_records": 10, "label": "Q109042588"}, {"cluster_id": "dest_Q137639822", "name": "Umuezeawala", "n_records": 9, "label": "Umuezeawala"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

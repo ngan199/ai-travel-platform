@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>festivals — Top 20 Largest Clusters</title>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div style="font-family:sans-serif;padding:12px 20px;background:#1e3a5f;color:#fff;font-size:18px;font-weight:bold;">festivals — Top 20 Largest Clusters</div>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": false}}, "data": {"name": "data-9996f9318f48f63f9dca5377451c0200"}, "mark": {"type": "bar", "color": "#2a7abf"}, "encoding": {"tooltip": [{"field": "label", "type": "nominal"}, {"field": "n_records", "type": "quantitative"}, {"field": "cluster_id", "type": "nominal"}], "x": {"field": "n_records", "title": "Number of records in cluster", "type": "quantitative"}, "y": {"axis": {"labelLimit": 350}, "field": "label", "sort": "-x", "title": null, "type": "nominal"}}, "height": 450, "params": [{"name": "param_1e9efca18e7a2868", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": {"text": "festivals \u2014 Top 20 Largest Clusters", "fontSize": 14}, "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json", "datasets": {"data-9996f9318f48f63f9dca5377451c0200": [{"cluster_id": "fest_Q96622031", "name": "Wiki Loves Folklore", "n_records": 23, "label": "Wiki Loves Folklore"}, {"cluster_id": "fest_Q81610", "name": "Mr Gay World", "n_records": 23, "label": "Mr Gay World"}, {"cluster_id": "fest_Q80949", "name": "April Fools' Day", "n_records": 17, "label": "April Fools' Day"}, {"cluster_id": "fest_Q662829", "name": "Eurocon", "n_records": 15, "label": "Eurocon"}, {"cluster_id": "fest_Q3028738", "name": "Libre Graphics Meeting", "n_records": 12, "label": "Libre Graphics Meeting"}, {"cluster_id": "fest_Q1133236", "name": "FLISOL", "n_records": 11, "label": "FLISOL"}, {"cluster_id": "fest_Q10244", "name": "Diwali", "n_records": 11, "label": "Diwali"}, {"cluster_id": "fest_Q617378", "name": "Worldcon", "n_records": 6, "label": "Worldcon"}, {"cluster_id": "fest_Q3070008", "name": "Festival Temps d'images", "n_records": 5, "label": "Festival Temps d'images"}, {"cluster_id": "fest_Q29271", "name": "Pongal", "n_records": 5, "label": "Pongal"}, {"cluster_id": "fest_Q4076961", "name": "Baltcon", "n_records": 5, "label": "Baltcon"}, {"cluster_id": "fest_Q112184151", "name": "The Gathering Performance Festival 2019", "n_records": 5, "label": "The Gathering Performance Festival 2019"}, {"cluster_id": "fest_Q4071451", "name": "Kha b'Nissan", "n_records": 4, "label": "Kha b'Nissan"}, {"cluster_id": "fest_Q111966451", "name": "ACT Performance Art Festival 2021, Basel", "n_records": 4, "label": "ACT Performance Art Festival 2021, Basel"}, {"cluster_id": "fest_Q1328626", "name": "Yald\u0101", "n_records": 4, "label": "Yald\u0101"}, {"cluster_id": "fest_Q479014", "name": "Almabtrieb", "n_records": 4, "label": "Almabtrieb"}, {"cluster_id": "fest_Q63979259", "name": "ACT Performance Art Festival", "n_records": 4, "label": "ACT Performance Art Festival"}, {"cluster_id": "fest_Q112174366", "name": "Legs Performance Festival 2017", "n_records": 4, "label": "Legs Performance Festival 2017"}, {"cluster_id": "fest_Q112033258", "name": "Republican Festival of National Cultures", "n_records": 4, "label": "Republican Festival of National Cultures"}, {"cluster_id": "fest_Q111983813", "name": "BONE - Performance Festival 2008, Bern", "n_records": 4, "label": "BONE - Performance Festival 2008, Bern"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

@@ -51,7 +51,11 @@ def run():
         "destination_name": df["destination_name"],
     })
 
-    out = out[out["name"].notna() & (out["name"].str.strip() != "")]
+    # Strip whitespace
+    out["name"]       = out["name"].str.strip()
+    out["name_clean"] = out["name_clean"].str.strip()
+
+    out = out[out["name"].notna() & (out["name"] != "")]
     out = out.drop_duplicates(subset=["unique_id"])
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
