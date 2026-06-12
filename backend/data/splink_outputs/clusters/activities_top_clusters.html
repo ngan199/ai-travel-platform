@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>activities — Top 20 Largest Clusters</title>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div style="font-family:sans-serif;padding:12px 20px;background:#1e3a5f;color:#fff;font-size:18px;font-weight:bold;">activities — Top 20 Largest Clusters</div>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": false}}, "data": {"name": "data-642d07c33bab4bbc018b7e0c21f34c62"}, "mark": {"type": "bar", "color": "#2a7abf"}, "encoding": {"tooltip": [{"field": "label", "type": "nominal"}, {"field": "n_records", "type": "quantitative"}, {"field": "cluster_id", "type": "nominal"}], "x": {"field": "n_records", "title": "Number of records in cluster", "type": "quantitative"}, "y": {"axis": {"labelLimit": 350}, "field": "label", "sort": "-x", "title": null, "type": "nominal"}}, "height": 450, "params": [{"name": "param_1e9efca18e7a2868", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": {"text": "activities \u2014 Top 20 Largest Clusters", "fontSize": 14}, "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json", "datasets": {"data-642d07c33bab4bbc018b7e0c21f34c62": [{"cluster_id": "act_Q1056108", "name": "National Centre for Contemporary Arts", "n_records": 209, "label": "National Centre for Contemporary Arts"}, {"cluster_id": "act_Q12784052", "name": "Ajdovski gradec, Vranje", "n_records": 201, "label": "Ajdovski gradec, Vranje"}, {"cluster_id": "act_Q11058150", "name": "Strumica Fortress", "n_records": 181, "label": "Strumica Fortress"}, {"cluster_id": "act_Q1051683", "name": "Silesian Stadium", "n_records": 127, "label": "Silesian Stadium"}, {"cluster_id": "act_Q107287579", "name": "Monte Resegone", "n_records": 118, "label": "Monte Resegone"}, {"cluster_id": "act_Q116266070", "name": "Q116266150", "n_records": 105, "label": "Q116266150"}, {"cluster_id": "act_Q101879872", "name": "Navy Museum", "n_records": 99, "label": "Navy Museum"}, {"cluster_id": "act_Q116894483", "name": "Q12537159", "n_records": 86, "label": "Q12537159"}, {"cluster_id": "act_Q1059699", "name": "Galata Tower", "n_records": 83, "label": "Galata Tower"}, {"cluster_id": "act_Q105829497", "name": "CERRO INTIHUASI 34", "n_records": 83, "label": "CERRO INTIHUASI 34"}, {"cluster_id": "act_Q101828472", "name": "Capella de la Mare de D\u00e9u de l'Ajuda", "n_records": 73, "label": "Capella de la Mare de D\u00e9u de l'Ajuda"}, {"cluster_id": "act_Q1029069", "name": "City Museum of Wroc\u0142aw", "n_records": 71, "label": "City Museum of Wroc\u0142aw"}, {"cluster_id": "act_Q1046414", "name": "Palace of Iturbide", "n_records": 71, "label": "Palace of Iturbide"}, {"cluster_id": "act_Q104841168", "name": "Matt's Gallery", "n_records": 71, "label": "Matt's Gallery"}, {"cluster_id": "act_Q1094986", "name": "Torlonia Museum", "n_records": 70, "label": "Torlonia Museum"}, {"cluster_id": "act_Q1019712", "name": "Austrian Museum of Folk Life and Folk Art", "n_records": 67, "label": "Austrian Museum of Folk Life and Folk Art"}, {"cluster_id": "act_Q1028420", "name": "Young V&A", "n_records": 66, "label": "Young V&A"}, {"cluster_id": "act_Q12072840", "name": "Art in General", "n_records": 64, "label": "Art in General"}, {"cluster_id": "act_Q1066013", "name": "Angkor", "n_records": 56, "label": "Angkor"}, {"cluster_id": "act_Q20400119", "name": "Q20402296", "n_records": 54, "label": "Q20402296"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,4062 @@
+destination_id,destination_name,season_type,month_numbers,avg_temp_celsius,avg_rainfall_mm
+Q1017,Aachen,low,"[1, 2, 3, 11, 12]",5.9,2.9
+Q1017,Aachen,shoulder,"[4, 6, 8, 9, 10]",14.6,3.6
+Q1017,Aachen,rainy,[5],14.4,6.3
+Q1017,Aachen,high,[7],18.2,2.6
+Q25319,Aarhus,low,"[1, 3, 11, 12]",4.2,1.8
+Q25319,Aarhus,rainy,"[2, 4, 7]",9.2,4.1
+Q25319,Aarhus,shoulder,"[5, 6, 8, 9, 10]",14.1,2.4
+Q36405,Aberdeen,low,"[1, 2, 3, 11, 12]",5.6,2.6
+Q36405,Aberdeen,rainy,[4],7.2,3.9
+Q36405,Aberdeen,shoulder,"[5, 6, 7, 8, 9, 10]",12.4,2.3
+Q1515,Abidjan,high,"[1, 2, 3, 7, 8, 9, 11, 12]",26.3,2.9
+Q1515,Abidjan,shoulder,"[4, 5]",27.9,5.0
+Q1515,Abidjan,rainy,"[6, 10]",25.7,8.9
+Q1519,Abu Dhabi,high,"[1, 11, 12]",23.8,0.0
+Q1519,Abu Dhabi,rainy,"[2, 3, 4, 5]",25.4,1.8
+Q1519,Abu Dhabi,shoulder,"[6, 9, 10]",33.4,0.0
+Q1519,Abu Dhabi,low,"[7, 8]",35.7,0.1
+Q3787,Abuja,high,"[1, 6, 11]",26.8,0.6
+Q3787,Abuja,shoulder,"[2, 3, 4, 5, 12]",28.9,0.2
+Q3787,Abuja,rainy,"[7, 8, 9, 10]",24.0,5.3
+Q3761,Accra,high,"[1, 7, 8, 9, 11]",26.1,1.5
+Q3761,Accra,shoulder,"[2, 3, 4, 12]",28.4,1.8
+Q3761,Accra,rainy,"[5, 6, 10]",26.5,5.0
+Q38545,Adana,rainy,"[1, 5, 11, 12]",14.7,5.4
+Q38545,Adana,shoulder,"[2, 3, 6, 7, 8]",23.1,1.4
+Q38545,Adana,high,"[4, 9, 10]",22.9,1.3
+Q3624,Addis Ababa,shoulder,"[1, 2, 3, 4, 5, 6, 10, 11, 12]",15.5,2.0
+Q3624,Addis Ababa,rainy,"[7, 8, 9]",14.2,8.0
+Q5112,Adelaide,rainy,"[1, 6, 7]",14.3,2.9
+Q5112,Adelaide,high,"[2, 3, 11, 12]",21.2,0.3
+Q5112,Adelaide,shoulder,"[4, 5, 8, 9, 10]",14.3,1.0
+Q889,Afghanistan,low,"[1, 11, 12]",4.7,1.1
+Q889,Afghanistan,rainy,"[2, 3, 4]",4.3,4.5
+Q889,Afghanistan,shoulder,"[5, 10]",16.1,0.7
+Q889,Afghanistan,high,"[6, 7, 8, 9]",23.8,0.0
+Q42941,Agra,shoulder,"[1, 2, 4, 5, 12]",21.9,0.5
+Q42941,Agra,high,"[3, 10, 11]",23.8,0.1
+Q42941,Agra,rainy,"[6, 7, 8, 9]",30.2,8.7
+Q1070,Ahmedabad,high,"[1, 2, 3, 11, 12]",24.1,0.0
+Q1070,Ahmedabad,shoulder,"[4, 6, 10]",31.4,1.5
+Q1070,Ahmedabad,low,[5],35.6,0.0
+Q1070,Ahmedabad,rainy,"[7, 8, 9]",27.8,12.9
+Q40104,Ajaccio,shoulder,"[1, 2, 3, 4, 5, 9, 11]",13.9,3.5
+Q40104,Ajaccio,high,"[6, 7, 8]",24.5,1.2
+Q40104,Ajaccio,rainy,[10],17.7,10.5
+Q40104,Ajaccio,low,[12],8.8,2.1
+Q222,Albania,rainy,"[1, 3, 12]",8.9,5.7
+Q222,Albania,low,[2],9.9,1.4
+Q222,Albania,shoulder,"[4, 5, 7, 9, 10, 11]",19.0,3.5
+Q222,Albania,high,"[6, 8]",26.8,0.7
+Q24861,Albany,low,"[1, 2, 11, 12]",1.1,3.0
+Q24861,Albany,rainy,"[3, 4]",6.7,5.2
+Q24861,Albany,shoulder,"[5, 6, 8, 10]",18.0,2.9
+Q24861,Albany,high,"[7, 9]",21.4,1.9
+Q34804,Albuquerque,low,"[1, 2, 12]",4.2,0.4
+Q34804,Albuquerque,rainy,"[3, 11]",7.8,1.4
+Q34804,Albuquerque,shoulder,"[4, 6]",20.4,0.7
+Q34804,Albuquerque,high,"[5, 7, 8, 9, 10]",22.8,0.3
+Q41183,Aleppo,rainy,"[1, 2, 3]",10.2,2.5
+Q41183,Aleppo,high,"[4, 5, 9, 10]",22.5,0.4
+Q41183,Aleppo,shoulder,"[6, 7, 8, 11]",26.2,0.2
+Q41183,Aleppo,low,[12],8.7,1.2
+Q87,Alexandria,rainy,"[1, 2, 12]",15.3,1.4
+Q87,Alexandria,shoulder,"[3, 7, 8, 11]",23.2,0.3
+Q87,Alexandria,high,"[4, 5, 6, 9, 10]",24.2,0.1
+Q262,Algeria,shoulder,"[1, 2, 5, 10, 12]",21.6,0.0
+Q262,Algeria,high,"[3, 4, 11]",23.7,0.0
+Q262,Algeria,low,"[6, 7, 8]",38.5,0.0
+Q262,Algeria,rainy,[9],32.8,0.1
+Q3561,Algiers,rainy,"[1, 2, 10]",16.1,2.7
+Q3561,Algiers,shoulder,"[3, 4, 12]",14.7,0.9
+Q3561,Algiers,high,"[5, 6, 7, 8, 9, 11]",22.8,0.5
+Q35493,Almaty,low,"[1, 2, 11, 12]",-2.1,1.2
+Q35493,Almaty,rainy,"[3, 4, 5, 10]",11.6,2.9
+Q35493,Almaty,high,"[6, 7, 8]",24.6,0.8
+Q35493,Almaty,shoulder,[9],16.0,1.5
+Q3805,Amman,rainy,"[1, 2]",9.9,0.6
+Q3805,Amman,shoulder,"[3, 4, 6, 11, 12]",17.5,0.2
+Q3805,Amman,high,"[5, 7, 8, 9, 10]",23.9,0.0
+Q727,Amsterdam,low,"[1, 2, 3, 11, 12]",6.9,3.0
+Q727,Amsterdam,shoulder,"[4, 6, 7, 9, 10]",14.2,3.1
+Q727,Amsterdam,rainy,[5],15.1,4.8
+Q727,Amsterdam,high,[8],19.1,1.8
+Q39450,Anchorage,low,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.6,1.5
+Q39450,Anchorage,shoulder,[6],14.0,1.2
+Q39450,Anchorage,rainy,"[7, 8, 9]",12.3,4.5
+Q3415,Ancona,low,"[1, 2]",8.7,1.2
+Q3415,Ancona,shoulder,"[3, 4, 6, 11]",15.3,2.3
+Q3415,Ancona,high,"[5, 7, 8]",24.3,0.9
+Q3415,Ancona,rainy,"[9, 10, 12]",15.7,4.3
+Q228,Andorra,low,"[1, 2, 4, 5, 11, 12]",4.2,2.1
+Q228,Andorra,rainy,"[3, 10]",5.9,4.9
+Q228,Andorra,shoulder,"[6, 9]",11.9,2.5
+Q228,Andorra,high,"[7, 8]",18.2,1.1
+Q1863,Andorra la Vella,low,"[1, 2, 4, 11, 12]",6.8,1.6
+Q1863,Andorra la Vella,rainy,"[3, 5, 10]",10.4,5.1
+Q1863,Andorra la Vella,shoulder,"[6, 9]",15.5,2.9
+Q1863,Andorra la Vella,high,"[7, 8]",21.7,0.8
+Q38380,Angers,low,"[1, 2, 3, 11, 12]",8.1,2.4
+Q38380,Angers,shoulder,"[4, 6, 7, 9]",15.8,2.2
+Q38380,Angers,rainy,"[5, 10]",14.0,4.3
+Q38380,Angers,high,[8],20.1,1.1
+Q916,Angola,rainy,"[1, 2, 11, 12]",21.2,7.9
+Q916,Angola,shoulder,"[3, 4]",21.1,4.2
+Q916,Angola,high,"[5, 6, 7, 8, 9, 10]",21.3,0.2
+Q3640,Ankara,rainy,"[1, 5, 12]",7.2,2.6
+Q3640,Ankara,low,"[2, 3, 11]",6.5,1.1
+Q3640,Ankara,shoulder,"[4, 10]",14.6,0.7
+Q3640,Ankara,high,"[6, 7, 8, 9]",23.9,0.7
+Q28271,Annapolis,low,"[1, 2, 12]",4.0,3.0
+Q28271,Annapolis,rainy,"[3, 8]",16.4,6.5
+Q28271,Annapolis,shoulder,"[4, 5, 7, 10, 11]",17.0,2.8
+Q28271,Annapolis,high,"[6, 9]",22.6,2.4
+Q6487,Antalya,rainy,"[1, 2, 12]",11.7,5.6
+Q6487,Antalya,shoulder,"[3, 6, 7, 8, 9, 11]",24.1,1.2
+Q6487,Antalya,high,"[4, 5, 10]",20.6,0.4
+Q3915,Antananarivo,rainy,"[1, 2]",20.7,12.3
+Q3915,Antananarivo,shoulder,"[3, 5, 6, 7, 8, 9, 12]",17.5,1.4
+Q3915,Antananarivo,high,"[4, 10, 11]",20.3,1.5
+Q781,Antigua and Barbuda,high,"[1, 3, 4, 12]",26.6,1.6
+Q781,Antigua and Barbuda,rainy,"[2, 8, 11]",27.2,4.3
+Q781,Antigua and Barbuda,shoulder,"[5, 6, 7, 9, 10]",28.6,2.4
+Q3612,Antofagasta,high,"[1, 2, 3, 12]",20.3,0.0
+Q3612,Antofagasta,rainy,[4],18.4,0.1
+Q3612,Antofagasta,shoulder,"[5, 6, 7, 8, 9, 10, 11]",15.3,0.0
+Q12892,Antwerp,low,"[1, 2, 3, 11, 12]",6.8,2.9
+Q12892,Antwerp,shoulder,"[4, 6, 9, 10]",13.8,3.0
+Q12892,Antwerp,rainy,[5],15.0,5.6
+Q12892,Antwerp,high,"[7, 8]",19.0,2.5
+Q36260,Apia,rainy,"[1, 2]",26.7,13.7
+Q36260,Apia,high,"[3, 4, 6, 7, 8, 9]",25.8,4.5
+Q36260,Apia,shoulder,"[5, 10, 11, 12]",25.9,8.0
+Q414,Argentina,rainy,"[1, 2, 10, 11]",22.5,3.6
+Q414,Argentina,shoulder,"[3, 4, 6, 8, 9]",15.6,1.2
+Q414,Argentina,low,"[5, 7]",8.9,0.1
+Q414,Argentina,high,[12],22.4,1.3
+Q399,Armenia,low,"[1, 2, 3, 4, 10, 11, 12]",-1.9,1.7
+Q399,Armenia,rainy,"[5, 7, 9]",9.0,7.2
+Q399,Armenia,shoulder,"[6, 8]",12.2,5.0
+Q21203,Aruba,high,"[1, 3]",27.6,0.9
+Q21203,Aruba,shoulder,"[2, 4, 5, 6, 7, 8, 9, 10, 12]",29.1,0.9
+Q21203,Aruba,rainy,[11],28.0,4.0
+Q23438,Ashgabat,low,"[1, 12]",5.3,0.5
+Q23438,Ashgabat,rainy,"[2, 3, 5, 10]",14.4,1.1
+Q23438,Ashgabat,high,"[4, 9]",21.8,0.3
+Q23438,Ashgabat,shoulder,"[6, 7, 8, 11]",26.9,0.2
+Q3642,Asmara,shoulder,"[1, 2, 3, 4, 9, 10, 11, 12]",16.1,1.1
+Q3642,Asmara,high,"[5, 6]",20.3,0.6
+Q3642,Asmara,rainy,"[7, 8]",16.6,6.4
+Q1520,Astana,low,"[1, 2, 3, 4, 10, 11, 12]",-4.7,1.1
+Q1520,Astana,rainy,"[5, 6, 8]",16.6,3.0
+Q1520,Astana,shoulder,"[7, 9]",15.7,1.6
+Q3927,Astrakhan,low,"[1, 2]",-1.4,0.9
+Q3927,Astrakhan,rainy,"[3, 11, 12]",2.5,1.2
+Q3927,Astrakhan,shoulder,"[4, 5, 7, 10]",19.0,0.5
+Q3927,Astrakhan,high,"[6, 8, 9]",24.8,0.2
+Q2933,Asunción,shoulder,"[1, 2, 3, 5, 6, 7, 11]",24.5,3.4
+Q2933,Asunción,rainy,"[4, 12]",25.9,7.1
+Q2933,Asunción,high,"[8, 9, 10]",22.5,2.2
+Q1524,Athens,low,[1],9.6,1.1
+Q1524,Athens,shoulder,"[2, 3, 6, 7, 8]",22.7,1.1
+Q1524,Athens,high,"[4, 5, 9, 10]",20.7,0.5
+Q1524,Athens,rainy,"[11, 12]",12.6,3.6
+Q23556,Atlanta,rainy,"[1, 7, 9]",18.2,7.0
+Q23556,Atlanta,low,"[2, 12]",8.6,3.0
+Q23556,Atlanta,shoulder,"[3, 4, 5, 10, 11]",16.7,3.2
+Q23556,Atlanta,high,"[6, 8]",26.4,1.3
+Q37100,Auckland,high,"[1, 2]",20.1,2.5
+Q37100,Auckland,shoulder,"[3, 4, 5, 6, 8, 9, 10, 11, 12]",15.1,2.8
+Q37100,Auckland,rainy,[7],11.4,4.4
+Q2749,Augsburg,low,"[1, 2, 3, 4, 11, 12]",5.1,2.1
+Q2749,Augsburg,shoulder,"[5, 10]",12.6,3.2
+Q2749,Augsburg,rainy,"[6, 9]",16.1,5.8
+Q2749,Augsburg,high,"[7, 8]",19.7,2.7
+Q16559,Austin,low,[1],8.1,4.2
+Q16559,Austin,shoulder,"[2, 3, 6, 7, 8, 12]",22.1,3.0
+Q16559,Austin,rainy,"[4, 5]",22.9,8.0
+Q16559,Austin,high,"[9, 10, 11]",23.4,1.6
+Q408,Australia,shoulder,"[1, 2, 5, 6, 7]",21.5,0.3
+Q408,Australia,rainy,"[3, 9, 11, 12]",26.2,1.9
+Q408,Australia,high,"[4, 8, 10]",22.3,0.1
+Q40,Austria,low,"[1, 2, 3, 11, 12]",3.6,2.2
+Q40,Austria,shoulder,"[4, 5, 6, 7, 10]",15.0,3.5
+Q40,Austria,high,[8],21.4,2.5
+Q40,Austria,rainy,[9],14.7,9.0
+Q227,Azerbaijan,low,"[1, 2, 3, 12]",6.6,1.1
+Q227,Azerbaijan,shoulder,"[4, 6, 8, 10, 11]",20.1,1.4
+Q227,Azerbaijan,rainy,"[5, 7]",23.5,3.2
+Q227,Azerbaijan,high,[9],23.9,0.8
+Q5684,Babylon,shoulder,"[1, 5, 9, 12]",23.2,0.1
+Q5684,Babylon,rainy,"[2, 3, 11]",17.1,1.6
+Q5684,Babylon,high,"[4, 10]",27.1,0.1
+Q5684,Babylon,low,"[6, 7, 8]",39.3,0.0
+Q1530,Baghdad,shoulder,"[1, 5, 9, 12]",22.8,0.2
+Q1530,Baghdad,rainy,"[2, 3, 4, 11]",19.3,1.6
+Q1530,Baghdad,low,"[6, 7, 8]",38.9,0.0
+Q1530,Baghdad,high,[10],26.1,0.0
+Q398,Bahrain,high,"[1, 11, 12]",20.9,0.1
+Q398,Bahrain,rainy,"[2, 4, 5]",25.8,1.0
+Q398,Bahrain,shoulder,"[3, 9, 10]",28.5,0.2
+Q398,Bahrain,low,"[6, 7, 8]",36.7,0.0
+Q9248,Baku,low,"[1, 2, 3, 12]",6.3,0.9
+Q9248,Baku,shoulder,"[4, 5, 6, 11]",17.4,1.2
+Q9248,Baku,high,"[7, 8, 9]",25.7,0.5
+Q9248,Baku,rainy,[10],16.3,3.0
+Q5765,Balearic Islands,shoulder,"[1, 2, 3, 10, 12]",13.3,1.3
+Q5765,Balearic Islands,rainy,"[4, 9, 11]",17.3,2.4
+Q5765,Balearic Islands,high,"[5, 6, 7, 8]",22.9,0.9
+Q5092,Baltimore,low,"[1, 2, 12]",3.3,3.3
+Q5092,Baltimore,rainy,"[3, 8]",16.1,5.8
+Q5092,Baltimore,shoulder,"[4, 7, 10, 11]",16.2,2.6
+Q5092,Baltimore,high,"[5, 6, 9]",21.3,2.9
+Q3703,Bamako,high,"[1, 11, 12]",26.5,0.0
+Q3703,Bamako,shoulder,"[2, 3, 4, 5, 6, 10]",30.7,0.9
+Q3703,Bamako,rainy,"[7, 8, 9]",25.5,8.2
+Q9279,Bandar Seri Begawan,high,"[1, 2, 3, 4, 7, 9, 10, 11]",27.3,5.6
+Q9279,Bandar Seri Begawan,rainy,"[5, 8]",26.9,15.2
+Q9279,Bandar Seri Begawan,shoulder,"[6, 12]",26.8,10.3
+Q1861,Bangkok,high,[1],27.8,0.4
+Q1861,Bangkok,shoulder,"[2, 3, 4, 6, 8, 11, 12]",29.2,2.4
+Q1861,Bangkok,rainy,"[5, 7, 9, 10]",28.3,9.1
+Q902,Bangladesh,shoulder,"[1, 4, 6, 7]",26.5,3.6
+Q902,Bangladesh,high,"[2, 3, 11, 12]",21.8,1.0
+Q902,Bangladesh,rainy,"[5, 8, 9, 10]",28.2,10.3
+Q3832,Bangui,high,"[1, 4, 11, 12]",26.9,1.1
+Q3832,Bangui,shoulder,"[2, 3, 5, 6, 10]",27.1,3.3
+Q3832,Bangui,rainy,"[7, 8, 9]",24.8,7.4
+Q3726,Banjul,high,"[1, 2, 3, 4, 5, 6, 11, 12]",26.1,0.2
+Q3726,Banjul,rainy,"[7, 8, 9]",27.0,8.3
+Q3726,Banjul,shoulder,[10],27.7,3.4
+Q244,Barbados,high,"[1, 2, 3, 4, 5, 10, 12]",26.2,1.5
+Q244,Barbados,shoulder,[6],26.8,3.6
+Q244,Barbados,rainy,"[7, 8, 9, 11]",26.4,5.4
+Q1492,Barcelona,low,"[1, 12]",9.6,1.1
+Q1492,Barcelona,shoulder,"[2, 3, 5, 6, 9, 11]",16.2,2.1
+Q1492,Barcelona,rainy,"[4, 10]",16.2,4.8
+Q1492,Barcelona,high,"[7, 8]",25.4,1.1
+Q3519,Bari,shoulder,"[1, 2, 3, 4, 5, 7, 11]",16.4,1.4
+Q3519,Bari,high,"[6, 8, 9, 10]",24.1,0.9
+Q3519,Bari,rainy,[12],10.7,3.1
+Q78,Basel,low,"[1, 2, 3, 11, 12]",5.5,3.0
+Q78,Basel,shoulder,"[4, 5, 6, 9, 10]",14.0,4.1
+Q78,Basel,high,"[7, 8]",21.0,2.5
+Q41295,Basseterre,high,"[1, 3, 4, 12]",26.2,1.5
+Q41295,Basseterre,rainy,"[2, 8, 11]",26.9,4.6
+Q41295,Basseterre,shoulder,"[5, 6, 7, 9, 10]",28.3,2.6
+Q28218,Baton Rouge,rainy,"[1, 9]",17.7,8.4
+Q28218,Baton Rouge,shoulder,"[2, 3, 7, 8, 11, 12]",20.3,4.3
+Q28218,Baton Rouge,high,"[4, 5, 6, 10]",24.1,2.6
+Q25475,Batumi,low,"[1, 2, 12]",7.5,7.3
+Q25475,Batumi,shoulder,"[3, 4, 5, 7, 9]",17.7,5.1
+Q25475,Batumi,high,"[6, 8]",23.1,3.6
+Q25475,Batumi,rainy,"[10, 11]",12.9,13.1
+Q956,Beijing,low,"[1, 2, 3, 11, 12]",2.4,0.2
+Q956,Beijing,shoulder,"[4, 10]",14.6,0.9
+Q956,Beijing,high,"[5, 6, 9]",23.4,1.4
+Q956,Beijing,rainy,"[7, 8]",26.6,8.3
+Q3820,Beirut,rainy,"[1, 3]",15.2,5.2
+Q3820,Beirut,shoulder,"[2, 5, 7, 8, 11, 12]",21.2,1.5
+Q3820,Beirut,high,"[4, 6, 9, 10]",24.4,0.4
+Q184,Belarus,low,"[1, 2, 3, 10, 11, 12]",1.9,1.3
+Q184,Belarus,rainy,"[4, 6, 7]",16.5,3.4
+Q184,Belarus,shoulder,"[5, 9]",16.0,1.4
+Q184,Belarus,high,[8],19.8,1.2
+Q10686,Belfast,low,"[1, 2, 4, 11, 12]",6.9,2.4
+Q10686,Belfast,rainy,"[3, 8]",10.8,4.3
+Q10686,Belfast,shoulder,"[5, 6, 7, 9, 10]",12.6,2.4
+Q31,Belgium,low,"[1, 3, 11, 12]",5.7,2.2
+Q31,Belgium,rainy,[2],7.6,4.4
+Q31,Belgium,shoulder,"[4, 5, 6, 7, 9, 10]",14.1,3.2
+Q31,Belgium,high,[8],19.3,2.2
+Q3711,Belgrade,low,"[1, 2, 11, 12]",5.2,1.6
+Q3711,Belgrade,shoulder,"[3, 4, 6, 7, 10]",18.1,1.5
+Q3711,Belgrade,rainy,"[5, 9]",18.8,3.5
+Q3711,Belgrade,high,[8],26.6,0.3
+Q242,Belize,high,"[1, 2, 3, 4, 5]",23.5,1.6
+Q242,Belize,shoulder,"[6, 7, 8, 9, 11]",24.0,6.2
+Q242,Belize,rainy,"[10, 12]",21.7,9.9
+Q3043,Belmopan,high,"[1, 2, 3, 4, 9, 12]",25.6,3.0
+Q3043,Belmopan,shoulder,"[5, 6, 7, 8]",27.7,6.0
+Q3043,Belmopan,rainy,"[10, 11]",25.1,11.6
+Q42800,Belo Horizonte,rainy,"[1, 2, 10, 11, 12]",22.3,6.1
+Q42800,Belo Horizonte,shoulder,[3],23.1,4.2
+Q42800,Belo Horizonte,high,"[4, 5, 6, 7, 8, 9]",20.8,0.2
+Q1355,Bengaluru,high,"[1, 2, 3, 9, 11, 12]",23.4,1.1
+Q1355,Bengaluru,shoulder,[4],29.4,0.0
+Q1355,Bengaluru,rainy,"[5, 6, 7, 8, 10]",23.7,5.7
+Q962,Benin,high,"[1, 11, 12]",25.9,0.0
+Q962,Benin,shoulder,"[2, 3, 4, 5, 6]",29.0,2.0
+Q962,Benin,rainy,"[7, 8, 9, 10]",25.3,5.5
+Q628,Bergamo,low,"[1, 2, 3, 11, 12]",6.0,3.1
+Q628,Bergamo,shoulder,[4],11.9,3.0
+Q628,Bergamo,rainy,"[5, 6, 9, 10]",16.8,8.9
+Q628,Bergamo,high,"[7, 8]",24.1,3.2
+Q26793,Bergen,low,"[1, 2, 3, 4, 10, 11]",3.5,7.9
+Q26793,Bergen,shoulder,"[5, 6, 7, 9]",13.1,5.2
+Q26793,Bergen,rainy,"[8, 12]",8.3,14.4
+Q64,Berlin,low,"[1, 3, 11, 12]",4.5,1.5
+Q64,Berlin,rainy,"[2, 5]",11.8,3.1
+Q64,Berlin,shoulder,"[4, 6, 7, 9, 10]",15.8,1.7
+Q64,Berlin,high,[8],21.8,0.8
+Q70,Bern,low,"[1, 2, 3, 4, 11, 12]",4.5,3.1
+Q70,Bern,shoulder,"[5, 6, 7, 9, 10]",14.6,4.7
+Q70,Bern,high,[8],20.0,2.1
+Q37776,Besançon,low,"[1, 2, 3, 11, 12]",5.9,3.4
+Q37776,Besançon,shoulder,"[4, 6, 9, 10]",14.2,4.9
+Q37776,Besançon,rainy,[5],14.1,6.1
+Q37776,Besançon,high,"[7, 8]",20.9,3.1
+Q5776,Bethlehem,rainy,"[1, 2, 3, 4]",13.2,1.4
+Q5776,Bethlehem,high,"[5, 6, 7, 8, 9, 10]",23.6,0.1
+Q5776,Bethlehem,shoulder,"[11, 12]",13.1,0.6
+Q917,Bhutan,rainy,"[1, 2]",0.4,16.1
+Q917,Bhutan,low,"[3, 4, 11, 12]",6.2,6.6
+Q917,Bhutan,shoulder,"[5, 6, 7, 8, 9, 10]",14.0,7.6
+Q2256,Birmingham,low,"[1, 2, 3, 4, 11, 12]",6.8,2.7
+Q2256,Birmingham,shoulder,"[5, 6, 7, 8, 10]",14.1,2.1
+Q2256,Birmingham,rainy,[9],13.1,5.3
+Q9361,Bishkek,low,"[1, 2, 11, 12]",-0.6,1.7
+Q9361,Bishkek,rainy,[3],4.8,2.9
+Q9361,Bishkek,shoulder,"[4, 5, 9, 10]",14.1,2.3
+Q9361,Bishkek,high,"[6, 7, 8]",24.4,1.0
+Q37066,Bismarck,low,"[1, 2, 3, 11, 12]",-4.0,0.5
+Q37066,Bismarck,rainy,"[4, 5, 6, 8]",14.4,3.4
+Q37066,Bismarck,high,"[7, 9]",21.0,0.9
+Q37066,Bismarck,shoulder,[10],10.9,0.4
+Q3739,Bissau,high,"[1, 6, 11, 12]",27.0,0.4
+Q3739,Bissau,shoulder,"[2, 3, 4, 5, 10]",28.2,1.5
+Q3739,Bissau,rainy,"[7, 8, 9]",26.1,15.5
+Q37701,Bloemfontein,shoulder,"[1, 5, 8, 10, 11, 12]",19.2,0.8
+Q37701,Bloemfontein,high,"[2, 3]",23.0,0.4
+Q37701,Bloemfontein,rainy,"[4, 6, 9]",13.4,1.6
+Q37701,Bloemfontein,low,[7],7.4,0.0
+Q2841,Bogotá,shoulder,"[1, 2, 3, 5, 6, 7, 8, 9, 10, 12]",14.2,1.7
+Q2841,Bogotá,rainy,"[4, 11]",14.0,5.8
+Q35775,Boise,rainy,"[1, 2, 3, 12]",2.6,2.5
+Q35775,Boise,low,"[4, 11]",7.0,1.6
+Q35775,Boise,shoulder,"[5, 10]",13.2,0.9
+Q35775,Boise,high,"[6, 7, 8, 9]",23.7,0.2
+Q750,Bolivia,shoulder,"[1, 3, 4]",25.9,11.0
+Q750,Bolivia,rainy,"[2, 12]",25.8,14.3
+Q750,Bolivia,high,"[5, 6, 7, 8, 9, 10, 11]",22.9,5.8
+Q1891,Bologna,low,"[1, 2, 11, 12]",6.3,2.2
+Q1891,Bologna,shoulder,"[3, 4, 5, 6]",16.1,3.0
+Q1891,Bologna,high,"[7, 8]",26.6,1.5
+Q1891,Bologna,rainy,"[9, 10]",18.0,5.7
+Q586,Bonn,low,"[1, 2, 3, 11, 12]",6.3,2.6
+Q586,Bonn,shoulder,"[4, 6, 7, 9, 10]",15.1,3.1
+Q586,Bonn,rainy,[5],15.2,5.1
+Q586,Bonn,high,[8],20.8,1.7
+Q1479,Bordeaux,low,"[1, 2, 12]",8.1,2.9
+Q1479,Bordeaux,rainy,"[3, 5]",12.8,5.4
+Q1479,Bordeaux,shoulder,"[4, 6, 9, 10, 11]",15.0,3.3
+Q1479,Bordeaux,high,"[7, 8]",21.2,1.4
+Q188736,Bosnia,low,"[1, 2, 3, 11, 12]",5.0,2.4
+Q188736,Bosnia,shoulder,"[4, 5, 6, 9, 10]",16.0,2.5
+Q188736,Bosnia,high,"[7, 8]",23.5,1.1
+Q225,Bosnia and Herzegovina,low,"[1, 2, 3, 11, 12]",4.4,3.1
+Q225,Bosnia and Herzegovina,shoulder,"[4, 5, 9, 10]",14.0,2.8
+Q225,Bosnia and Herzegovina,rainy,[6],20.2,4.3
+Q225,Bosnia and Herzegovina,high,"[7, 8]",23.0,1.2
+Q100,Boston,rainy,"[1, 3]",2.1,6.5
+Q100,Boston,low,"[2, 4, 11, 12]",4.5,2.8
+Q100,Boston,shoulder,"[5, 9, 10]",15.0,2.4
+Q100,Boston,high,"[6, 7, 8]",22.4,2.7
+Q963,Botswana,shoulder,"[1, 2, 3, 6, 7]",23.8,0.1
+Q963,Botswana,rainy,"[4, 12]",25.7,2.2
+Q963,Botswana,high,"[5, 8, 9, 10, 11]",23.8,0.1
+Q2844,Brasília,rainy,"[1, 2, 11, 12]",22.1,7.2
+Q2844,Brasília,shoulder,[3],23.1,3.1
+Q2844,Brasília,high,"[4, 5, 6, 7, 8, 9, 10]",22.1,0.6
+Q1780,Bratislava,low,"[1, 2, 3, 11, 12]",5.0,1.2
+Q1780,Bratislava,shoulder,"[4, 5, 10]",13.8,2.2
+Q1780,Bratislava,rainy,"[6, 9]",19.1,4.8
+Q1780,Bratislava,high,"[7, 8]",24.1,0.8
+Q155,Brazil,shoulder,"[1, 9, 10]",28.2,4.2
+Q155,Brazil,rainy,"[2, 3, 11, 12]",25.6,9.6
+Q155,Brazil,high,"[4, 5, 6, 7, 8]",25.7,0.9
+Q3844,Brazzaville,shoulder,"[1, 3, 4]",26.6,4.7
+Q3844,Brazzaville,rainy,"[2, 10, 11, 12]",25.9,8.1
+Q3844,Brazzaville,high,"[5, 6, 7, 8, 9]",26.0,0.9
+Q1209,Bremen,low,"[1, 2, 3, 11, 12]",5.8,2.6
+Q1209,Bremen,shoulder,"[4, 5, 6, 9, 10]",14.0,2.8
+Q1209,Bremen,rainy,[7],18.2,4.6
+Q1209,Bremen,high,[8],19.2,2.3
+Q24879,Bremen,low,"[1, 2, 3, 11, 12]",5.9,2.5
+Q24879,Bremen,shoulder,"[4, 5, 6, 9, 10]",14.1,2.6
+Q24879,Bremen,rainy,[7],18.4,4.2
+Q24879,Bremen,high,[8],19.4,2.1
+Q6221,Brescia,low,"[1, 2, 11, 12]",6.2,2.2
+Q6221,Brescia,shoulder,"[3, 4]",11.9,3.7
+Q6221,Brescia,rainy,"[5, 6, 9, 10]",18.1,8.1
+Q6221,Brescia,high,"[7, 8]",25.9,2.4
+Q36168,Bridgetown,high,"[1, 2, 3, 4, 6, 12]",27.2,1.5
+Q36168,Bridgetown,shoulder,"[5, 7, 10]",28.1,2.2
+Q36168,Bridgetown,rainy,"[8, 9, 11]",27.5,5.4
+Q34932,Brisbane,rainy,"[1, 11, 12]",24.2,8.7
+Q34932,Brisbane,shoulder,"[2, 3, 4, 5, 6, 7, 8]",18.9,2.8
+Q34932,Brisbane,high,"[9, 10]",19.5,3.2
+Q23154,Bristol,low,"[1, 3, 4, 11, 12]",7.6,2.9
+Q23154,Bristol,rainy,"[2, 9]",11.0,6.8
+Q23154,Bristol,shoulder,"[5, 6, 7, 8, 10]",14.5,2.6
+Q12130,Brittany,low,"[1, 3, 12]",7.3,2.8
+Q12130,Brittany,rainy,"[2, 10]",11.2,4.8
+Q12130,Brittany,shoulder,"[4, 5, 6, 7, 9, 11]",13.5,2.3
+Q12130,Brittany,high,[8],18.5,1.7
+Q14960,Brno,low,"[1, 2, 3, 11, 12]",4.0,1.3
+Q14960,Brno,shoulder,"[4, 6, 10]",14.1,1.8
+Q14960,Brno,rainy,"[5, 9]",16.7,5.0
+Q14960,Brno,high,"[7, 8]",23.0,1.0
+Q921,Brunei,high,"[1, 2, 7, 9, 10]",26.4,7.4
+Q921,Brunei,shoulder,"[3, 4, 6, 8, 11, 12]",26.2,13.2
+Q921,Brunei,rainy,[5],26.5,16.7
+Q239,Brussels,low,"[1, 2, 3, 11, 12]",6.5,2.7
+Q239,Brussels,shoulder,"[4, 5, 6, 7, 9, 10]",14.5,3.1
+Q239,Brussels,high,[8],19.6,1.7
+Q240,Brussels-Capital Region,low,"[1, 2, 3, 11, 12]",6.5,2.7
+Q240,Brussels-Capital Region,shoulder,"[4, 5, 6, 7, 9, 10]",14.5,3.1
+Q240,Brussels-Capital Region,high,[8],19.6,1.7
+Q19660,Bucharest,low,"[1, 2, 3, 11]",5.3,1.5
+Q19660,Bucharest,rainy,"[4, 9, 12]",12.9,2.8
+Q19660,Bucharest,shoulder,"[5, 10]",14.8,0.7
+Q19660,Bucharest,high,"[6, 7, 8]",26.5,0.8
+Q1781,Budapest,low,"[1, 2, 3, 11, 12]",4.8,1.1
+Q1781,Budapest,shoulder,"[4, 7, 10]",16.5,1.7
+Q1781,Budapest,rainy,"[5, 6, 9]",19.1,2.8
+Q1781,Budapest,high,[8],25.1,0.8
+Q1486,Buenos Aires,high,"[1, 10, 12]",21.9,1.7
+Q1486,Buenos Aires,shoulder,"[2, 5, 6, 9]",16.4,1.7
+Q1486,Buenos Aires,rainy,"[3, 4, 8, 11]",18.2,5.9
+Q1486,Buenos Aires,low,[7],8.7,0.5
+Q40435,Buffalo,low,"[1, 2, 3, 11, 12]",2.3,2.8
+Q40435,Buffalo,rainy,"[4, 8]",14.9,5.9
+Q40435,Buffalo,shoulder,"[5, 6, 9, 10]",17.0,3.2
+Q40435,Buffalo,high,[7],22.4,2.6
+Q3854,Bujumbura,rainy,"[1, 4]",23.5,5.7
+Q3854,Bujumbura,shoulder,"[2, 3, 10, 11]",24.1,2.5
+Q3854,Bujumbura,high,"[5, 6, 7, 8, 9, 12]",23.9,0.7
+Q5764,Bukhara,rainy,"[1, 5, 10, 11]",12.7,1.5
+Q5764,Bukhara,low,"[2, 12]",2.9,0.8
+Q5764,Bukhara,shoulder,"[3, 4, 6, 7, 8]",24.9,0.4
+Q5764,Bukhara,high,[9],23.0,0.1
+Q219,Bulgaria,low,"[1, 2, 3, 10, 11]",2.5,1.6
+Q219,Bulgaria,rainy,"[4, 5, 12]",5.6,4.1
+Q219,Bulgaria,high,"[6, 7, 8]",19.0,1.3
+Q219,Bulgaria,shoulder,[9],13.6,2.0
+Q965,Burkina Faso,high,"[1, 2, 10, 11, 12]",26.1,0.3
+Q965,Burkina Faso,shoulder,"[3, 4, 5, 6]",32.1,1.1
+Q965,Burkina Faso,rainy,"[7, 8, 9]",25.8,7.5
+Q40738,Bursa,rainy,"[1, 12]",7.7,4.9
+Q40738,Bursa,low,[2],9.2,1.8
+Q40738,Bursa,shoulder,"[3, 4, 5, 10, 11]",14.0,2.3
+Q40738,Bursa,high,"[6, 7, 8, 9]",25.2,0.9
+Q967,Burundi,rainy,"[1, 4, 11, 12]",16.4,7.7
+Q967,Burundi,shoulder,"[2, 3, 5, 6, 7, 8, 10]",17.2,2.7
+Q967,Burundi,high,[9],18.9,0.7
+Q16520,Busan,low,"[1, 2, 3, 12]",4.2,2.4
+Q16520,Busan,shoulder,"[4, 5, 11]",14.1,3.8
+Q16520,Busan,rainy,"[6, 7, 9, 10]",22.7,7.9
+Q16520,Busan,high,[8],27.5,4.3
+Q85,Cairo,rainy,"[1, 2, 3]",16.6,0.1
+Q85,Cairo,high,"[4, 5, 10, 11]",24.1,0.0
+Q85,Cairo,shoulder,"[6, 7, 8, 9, 12]",28.8,0.0
+Q36312,Calgary,low,"[1, 2, 3, 4, 10, 11, 12]",-2.7,1.0
+Q36312,Calgary,rainy,"[5, 6, 8]",12.7,2.9
+Q36312,Calgary,high,[7],20.1,0.9
+Q36312,Calgary,shoulder,[9],14.1,1.7
+Q424,Cambodia,high,"[1, 11, 12]",26.9,1.5
+Q424,Cambodia,shoulder,"[2, 3, 4, 5, 6]",30.3,2.8
+Q424,Cambodia,rainy,"[7, 8, 9, 10]",27.3,11.7
+Q350,Cambridge,low,"[1, 3, 4, 11, 12]",7.6,1.9
+Q350,Cambridge,rainy,"[2, 9]",11.6,4.0
+Q350,Cambridge,shoulder,"[5, 6, 7, 10]",14.4,2.3
+Q350,Cambridge,high,[8],18.6,1.2
+Q1009,Cameroon,high,"[1, 2, 3, 5, 8, 11, 12]",24.4,1.2
+Q1009,Cameroon,shoulder,"[4, 7]",24.2,5.0
+Q1009,Cameroon,rainy,"[6, 9, 10]",23.2,8.8
+Q16,Canada,low,"[1, 2, 3, 4, 10, 11, 12]",-6.5,0.8
+Q16,Canada,rainy,"[5, 6]",10.1,3.3
+Q16,Canada,high,[7],21.0,1.2
+Q16,Canada,shoulder,"[8, 9]",15.7,1.2
+Q3114,Canberra,rainy,"[1, 11]",19.2,3.1
+Q3114,Canberra,shoulder,"[2, 4, 9, 10, 12]",15.2,1.4
+Q3114,Canberra,high,[3],18.0,0.7
+Q3114,Canberra,low,"[5, 6, 7, 8]",7.1,1.4
+Q39984,Cannes,low,"[1, 12]",9.6,1.2
+Q39984,Cannes,rainy,"[2, 3, 10]",13.7,8.4
+Q39984,Cannes,shoulder,"[4, 5, 9, 11]",16.5,2.5
+Q39984,Cannes,high,"[6, 7, 8]",24.7,0.9
+Q5465,Cape Town,high,"[1, 2, 3, 11, 12]",20.3,0.5
+Q5465,Cape Town,shoulder,"[4, 5, 6, 9, 10]",15.7,1.2
+Q5465,Cape Town,rainy,"[7, 8]",12.1,7.3
+Q1011,Cape Verde,high,"[1, 2, 3, 4, 5, 6, 10, 11, 12]",23.9,0.1
+Q1011,Cape Verde,shoulder,[7],24.6,1.0
+Q1011,Cape Verde,rainy,"[8, 9]",26.1,3.7
+Q1533,Caracas,high,"[1, 2, 3, 7, 8, 9, 12]",22.4,2.1
+Q1533,Caracas,rainy,"[4, 11]",22.4,5.2
+Q1533,Caracas,shoulder,"[5, 6, 10]",23.3,3.3
+Q10690,Cardiff,low,"[1, 3, 4, 11, 12]",7.9,4.0
+Q10690,Cardiff,rainy,"[2, 9]",11.2,6.9
+Q10690,Cardiff,shoulder,"[5, 6, 7, 8, 10]",14.7,3.3
+Q40881,Carson City,low,"[1, 4, 11, 12]",4.9,1.4
+Q40881,Carson City,rainy,"[2, 3]",2.4,3.2
+Q40881,Carson City,shoulder,"[5, 10]",14.5,0.5
+Q40881,Carson City,high,"[6, 7, 8, 9]",22.8,0.2
+Q7903,Casablanca,shoulder,"[1, 2, 12]",15.3,1.0
+Q7903,Casablanca,rainy,"[3, 10]",18.2,2.6
+Q7903,Casablanca,high,"[4, 5, 6, 7, 8, 9, 11]",20.8,0.4
+Q41699,Castries,shoulder,"[1, 5, 6, 9, 10]",27.8,2.4
+Q41699,Castries,high,"[2, 3, 4, 12]",26.8,1.4
+Q41699,Castries,rainy,"[7, 8, 11]",27.5,4.1
+Q1903,Catania,shoulder,"[1, 3, 4, 5, 7, 8, 9, 12]",19.7,1.0
+Q1903,Catania,rainy,"[2, 10, 11]",16.8,2.8
+Q1903,Catania,high,[6],25.2,0.0
+Q44401,Cayenne,high,"[1, 2, 3, 8, 9, 10, 11]",26.9,4.9
+Q44401,Cayenne,shoulder,"[4, 7, 12]",26.1,13.7
+Q44401,Cayenne,rainy,"[5, 6]",25.9,19.0
+Q929,Central African Republic,high,"[1, 11, 12]",26.4,0.0
+Q929,Central African Republic,shoulder,"[2, 3, 4, 5]",29.4,1.4
+Q929,Central African Republic,rainy,"[6, 7, 8, 9, 10]",24.4,6.7
+Q5823,Ceuta,shoulder,"[1, 2, 4, 9, 11, 12]",17.0,1.7
+Q5823,Ceuta,rainy,"[3, 10]",17.4,5.5
+Q5823,Ceuta,high,"[5, 6, 7, 8]",21.8,0.4
+Q657,Chad,high,"[1, 2, 11, 12]",22.5,0.0
+Q657,Chad,shoulder,"[3, 4, 10]",31.7,0.0
+Q657,Chad,low,"[5, 6]",35.6,0.0
+Q657,Chad,rainy,"[7, 8, 9]",29.1,2.7
+Q16565,Charlotte,low,"[1, 2, 12]",6.7,3.2
+Q16565,Charlotte,shoulder,"[3, 4, 7, 10, 11]",16.9,2.7
+Q16565,Charlotte,high,"[5, 6]",23.5,2.0
+Q16565,Charlotte,rainy,"[8, 9]",23.2,6.8
+Q906,Chelyabinsk,low,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.8,1.1
+Q906,Chelyabinsk,rainy,"[6, 7]",19.4,5.1
+Q906,Chelyabinsk,shoulder,"[8, 9]",14.1,1.5
+Q30002,Chengdu,low,"[1, 2, 12]",7.8,0.6
+Q30002,Chengdu,shoulder,"[3, 4, 8, 11]",19.4,2.2
+Q30002,Chengdu,high,"[5, 6, 10]",22.4,2.0
+Q30002,Chengdu,rainy,"[7, 9]",26.4,8.3
+Q1352,Chennai,high,"[1, 2]",26.2,0.9
+Q1352,Chennai,shoulder,"[3, 4, 5, 6, 7, 8, 9, 12]",29.2,3.7
+Q1352,Chennai,rainy,"[10, 11]",27.0,10.6
+Q39042,Cheyenne,low,"[1, 2, 3, 4, 11, 12]",1.6,0.8
+Q39042,Cheyenne,rainy,"[5, 6, 8]",17.4,1.7
+Q39042,Cheyenne,shoulder,"[7, 10]",17.2,0.6
+Q39042,Cheyenne,high,[9],18.5,0.5
+Q1297,Chicago,low,"[1, 2, 3, 11, 12]",2.4,2.5
+Q1297,Chicago,shoulder,"[4, 5, 10]",13.8,2.9
+Q1297,Chicago,high,"[6, 8, 9]",21.9,2.3
+Q1297,Chicago,rainy,[7],22.6,5.5
+Q298,Chile,high,"[1, 2, 3, 12]",20.7,0.0
+Q298,Chile,shoulder,"[4, 7, 9, 10, 11]",14.5,0.3
+Q298,Chile,rainy,"[5, 6, 8]",10.2,5.6
+Q21197,Chișinău,low,"[1, 2, 3, 11, 12]",3.6,1.4
+Q21197,Chișinău,shoulder,"[4, 5, 10]",14.1,1.4
+Q21197,Chișinău,rainy,"[6, 9]",21.1,3.0
+Q21197,Chișinău,high,"[7, 8]",25.2,1.1
+Q376749,Chittagong,high,"[1, 2, 3, 10, 11, 12]",23.2,0.8
+Q376749,Chittagong,shoulder,"[4, 5]",29.6,5.0
+Q376749,Chittagong,rainy,"[6, 7, 8, 9]",27.4,15.9
+Q11725,Chongqing,low,"[1, 2, 12]",9.4,1.2
+Q11725,Chongqing,shoulder,"[3, 6, 8, 9, 10, 11]",22.8,3.2
+Q11725,Chongqing,rainy,"[4, 5, 7]",24.0,8.0
+Q79990,Christchurch,high,[1],18.0,1.5
+Q79990,Christchurch,shoulder,"[2, 3, 4, 9, 11]",13.6,1.1
+Q79990,Christchurch,low,"[5, 6, 7, 8]",8.2,1.6
+Q79990,Christchurch,rainy,"[10, 12]",14.4,2.5
+Q43196,Cincinnati,low,"[1, 2, 3, 11, 12]",5.3,3.3
+Q43196,Cincinnati,rainy,[4],14.0,4.6
+Q43196,Cincinnati,shoulder,"[5, 9, 10]",18.9,2.8
+Q43196,Cincinnati,high,"[6, 7, 8]",24.1,2.4
+Q42168,Clermont-Ferrand,low,"[1, 2, 3, 11, 12]",6.4,2.2
+Q42168,Clermont-Ferrand,shoulder,"[4, 10]",12.1,2.2
+Q42168,Clermont-Ferrand,rainy,"[5, 6, 9]",14.8,5.0
+Q42168,Clermont-Ferrand,high,"[7, 8]",20.1,2.0
+Q37320,Cleveland,low,"[1, 2, 3, 4, 11, 12]",4.3,3.1
+Q37320,Cleveland,shoulder,"[5, 6, 10]",17.2,3.2
+Q37320,Cleveland,high,"[7, 9]",21.5,2.6
+Q37320,Cleveland,rainy,[8],22.2,4.9
+Q100188,Cluj-Napoca,low,"[1, 2, 3, 10, 11, 12]",4.6,1.1
+Q100188,Cluj-Napoca,shoulder,"[4, 5, 8, 9]",17.3,1.8
+Q100188,Cluj-Napoca,rainy,[6],21.2,3.4
+Q100188,Cluj-Napoca,high,[7],23.2,1.4
+Q365,Cologne,low,"[1, 2, 3, 11, 12]",6.4,2.7
+Q365,Cologne,shoulder,"[4, 6, 9, 10]",14.1,3.5
+Q365,Cologne,rainy,[5],15.4,5.0
+Q365,Cologne,high,"[7, 8]",19.9,2.4
+Q739,Colombia,shoulder,"[1, 3, 11]",27.5,6.1
+Q739,Colombia,high,"[2, 7, 8, 9, 10, 12]",26.6,4.3
+Q739,Colombia,rainy,"[4, 5, 6]",26.3,11.6
+Q35381,Colombo,high,"[1, 2, 3, 12]",27.0,3.1
+Q35381,Colombo,shoulder,"[4, 6, 7, 8, 9, 10, 11]",26.8,10.6
+Q35381,Colombo,rainy,[5],27.7,21.2
+Q38453,Columbia,low,"[1, 12]",8.4,3.0
+Q38453,Columbia,shoulder,"[2, 11]",12.6,2.9
+Q38453,Columbia,rainy,"[3, 7, 8]",22.5,6.0
+Q38453,Columbia,high,"[4, 5, 6, 9, 10]",21.8,1.6
+Q16567,Columbus,low,"[1, 2, 3, 11, 12]",4.3,2.8
+Q16567,Columbus,rainy,[4],13.1,5.2
+Q16567,Columbus,shoulder,"[5, 8, 9, 10]",19.3,2.9
+Q16567,Columbus,high,"[6, 7]",23.4,2.3
+Q970,Comoros,rainy,"[1, 2, 4]",23.8,8.2
+Q970,Comoros,shoulder,[3],24.3,4.6
+Q970,Comoros,high,"[5, 6, 7, 8, 9, 10, 11, 12]",22.5,2.0
+Q3733,Conakry,high,"[1, 2, 3, 4, 6, 11]",27.6,2.0
+Q3733,Conakry,shoulder,"[5, 10, 12]",27.4,5.4
+Q3733,Conakry,rainy,"[7, 8, 9]",25.3,32.3
+Q1880,Concepción,shoulder,"[1, 2, 3, 4, 10, 11, 12]",14.8,1.2
+Q1880,Concepción,low,"[5, 7, 9]",8.6,3.2
+Q1880,Concepción,rainy,"[6, 8]",9.2,13.1
+Q28249,Concord,rainy,"[1, 3, 8]",6.6,5.4
+Q28249,Concord,low,"[2, 4, 11, 12]",2.4,2.4
+Q28249,Concord,shoulder,"[5, 6, 9, 10]",15.8,2.1
+Q28249,Concord,high,[7],24.0,2.1
+Q16869,Constantinople,rainy,"[1, 9, 12]",12.8,3.8
+Q16869,Constantinople,low,"[2, 3]",9.4,1.6
+Q16869,Constantinople,shoulder,"[4, 5, 10, 11]",14.7,1.9
+Q16869,Constantinople,high,"[6, 7, 8]",25.3,0.7
+Q26988,Cook Islands,high,"[1, 3, 5, 6, 7, 8, 9, 10, 11]",22.4,2.8
+Q26988,Cook Islands,rainy,"[2, 4]",24.7,9.8
+Q26988,Cook Islands,shoulder,[12],23.4,6.3
+Q1748,Copenhagen,low,"[1, 3, 4, 11, 12]",5.0,1.8
+Q1748,Copenhagen,rainy,[2],4.0,3.1
+Q1748,Copenhagen,shoulder,"[5, 6, 7, 9, 10]",14.8,1.9
+Q1748,Copenhagen,high,[8],18.1,1.9
+Q800,Costa Rica,high,"[1, 2, 3, 4, 5, 12]",18.8,6.3
+Q800,Costa Rica,shoulder,"[6, 7, 8, 9]",19.1,15.4
+Q800,Costa Rica,rainy,"[10, 11]",18.4,19.8
+Q224,Croatia,low,"[1, 2, 3, 11, 12]",5.3,2.8
+Q224,Croatia,shoulder,"[4, 5, 6, 8, 10]",17.3,3.2
+Q224,Croatia,high,[7],24.0,1.3
+Q224,Croatia,rainy,[9],17.0,5.8
+Q241,Cuba,high,"[1, 2, 3, 4, 5, 12]",23.5,1.2
+Q241,Cuba,rainy,"[6, 8, 9, 10]",26.3,6.0
+Q241,Cuba,shoulder,"[7, 11]",25.4,3.4
+Q25279,Curaçao,shoulder,"[1, 2, 4, 5, 6, 7, 8, 9, 10, 12]",28.8,0.9
+Q25279,Curaçao,high,[3],27.7,0.3
+Q25279,Curaçao,rainy,[11],28.2,3.2
+Q4361,Curitiba,shoulder,"[1, 2, 5, 6, 7, 8, 11]",17.7,3.9
+Q4361,Curitiba,high,"[3, 4, 9, 10]",19.3,3.5
+Q4361,Curitiba,rainy,[12],19.6,9.4
+Q229,Cyprus,rainy,"[1, 4, 12]",13.1,2.0
+Q229,Cyprus,shoulder,"[2, 3, 7, 9, 11]",17.6,0.7
+Q229,Cyprus,high,"[5, 6, 8, 10]",23.4,0.2
+Q213,Czech Republic,low,"[1, 2, 3, 11, 12]",4.5,1.5
+Q213,Czech Republic,shoulder,"[4, 5, 7, 10]",15.0,1.9
+Q213,Czech Republic,high,[6],19.6,2.0
+Q213,Czech Republic,rainy,"[8, 9]",19.4,4.5
+Q3718,Dakar,high,"[1, 2, 3, 4, 5, 6, 7, 11, 12]",24.6,0.1
+Q3718,Dakar,rainy,"[8, 9]",27.4,4.2
+Q3718,Dakar,shoulder,[10],28.1,0.8
+Q16557,Dallas,low,[1],5.3,3.1
+Q16557,Dallas,shoulder,"[2, 3, 7, 8, 11, 12]",19.5,3.2
+Q16557,Dallas,rainy,"[4, 5]",21.9,7.5
+Q16557,Dallas,high,"[6, 9, 10]",26.0,1.7
+Q3766,Damascus,rainy,"[1, 2, 4]",13.5,0.9
+Q3766,Damascus,shoulder,"[3, 6, 7, 8, 11, 12]",21.6,0.1
+Q3766,Damascus,high,"[5, 9, 10]",22.9,0.0
+Q25282,Da Nang,high,"[1, 2, 3]",23.8,2.4
+Q25282,Da Nang,shoulder,"[4, 5, 6, 7, 8]",29.8,2.4
+Q25282,Da Nang,rainy,"[9, 10, 11, 12]",25.4,13.2
+Q1960,Dar es Salaam,rainy,"[1, 4]",26.6,11.6
+Q1960,Dar es Salaam,shoulder,"[2, 3, 5]",27.3,4.7
+Q1960,Dar es Salaam,high,"[6, 7, 8, 9, 10, 11, 12]",26.1,1.7
+Q2973,Darmstadt,low,"[1, 2, 3, 11, 12]",5.5,2.3
+Q2973,Darmstadt,shoulder,"[4, 6, 7, 9, 10]",15.5,3.0
+Q2973,Darmstadt,rainy,[5],15.5,4.0
+Q2973,Darmstadt,high,[8],21.5,1.5
+Q11568,Darwin,rainy,"[1, 2, 3, 12]",28.4,13.3
+Q11568,Darwin,shoulder,"[4, 5, 9, 10, 11]",28.6,2.1
+Q11568,Darwin,high,"[6, 7, 8]",25.6,0.1
+Q79880,Debrecen,low,"[1, 2, 3, 11, 12]",4.7,1.1
+Q79880,Debrecen,shoulder,"[4, 5, 10]",14.4,1.5
+Q79880,Debrecen,rainy,"[6, 9]",20.3,2.5
+Q79880,Debrecen,high,"[7, 8]",25.1,0.8
+Q1353,Delhi,shoulder,"[1, 2, 4, 5, 6, 12]",23.6,0.8
+Q1353,Delhi,high,"[3, 10, 11]",23.8,0.2
+Q1353,Delhi,rainy,"[7, 8, 9]",28.7,9.4
+Q974,Democratic Republic of the Congo,rainy,"[1, 9, 11]",25.2,3.5
+Q974,Democratic Republic of the Congo,shoulder,"[2, 3, 5, 10, 12]",26.3,2.1
+Q974,Democratic Republic of the Congo,high,"[4, 6, 7, 8]",26.8,0.7
+Q35,Denmark,low,"[1, 2, 3, 4, 11, 12]",4.6,2.7
+Q35,Denmark,shoulder,"[5, 6, 7, 8, 9, 10]",14.2,2.8
+Q16554,Denver,low,"[1, 12]",-1.6,0.4
+Q16554,Denver,rainy,"[2, 3, 4, 5, 11]",5.0,1.8
+Q16554,Denver,high,"[6, 7, 8, 9]",22.6,0.5
+Q16554,Denver,shoulder,[10],13.9,0.6
+Q39709,Des Moines,low,"[1, 2, 3, 11, 12]",1.8,1.8
+Q39709,Des Moines,shoulder,"[4, 10]",13.7,2.9
+Q39709,Des Moines,rainy,"[5, 6, 7]",21.6,5.8
+Q39709,Des Moines,high,"[8, 9]",21.6,1.5
+Q12439,Detroit,rainy,"[1, 4]",3.9,4.2
+Q12439,Detroit,low,"[2, 3, 11, 12]",3.8,1.8
+Q12439,Detroit,shoulder,"[5, 7, 9, 10]",18.4,2.6
+Q12439,Detroit,high,"[6, 8]",21.9,2.5
+Q1354,Dhaka,shoulder,"[1, 4, 6, 7]",26.4,3.5
+Q1354,Dhaka,high,"[2, 3, 11, 12]",22.6,0.7
+Q1354,Dhaka,rainy,"[5, 8, 9, 10]",28.2,10.9
+Q7003,Dijon,low,"[1, 2, 3, 11, 12]",5.6,2.4
+Q7003,Dijon,shoulder,"[4, 5, 6, 9, 10]",13.8,3.4
+Q7003,Dijon,high,"[7, 8]",20.2,1.8
+Q9310,Dili,shoulder,"[1, 4, 5, 10, 11]",28.1,4.5
+Q9310,Dili,high,"[2, 6, 7, 8, 9]",27.0,1.9
+Q9310,Dili,rainy,"[3, 12]",27.6,10.1
+Q3604,Djibouti,high,"[1, 12]",25.9,0.2
+Q3604,Djibouti,shoulder,"[2, 5, 9, 10, 11]",30.3,0.6
+Q3604,Djibouti,rainy,"[3, 4, 8]",30.1,2.1
+Q3604,Djibouti,low,"[6, 7]",36.5,0.1
+Q977,Djibouti,high,"[1, 2, 12]",24.0,0.5
+Q977,Djibouti,rainy,"[3, 4, 8]",27.6,3.1
+Q977,Djibouti,shoulder,"[5, 6, 7, 9, 10, 11]",30.7,0.9
+Q48256,Dnipro,rainy,"[1, 2, 12]",1.0,1.7
+Q48256,Dnipro,low,"[3, 11]",4.2,1.1
+Q48256,Dnipro,shoulder,"[4, 5, 6, 10]",16.6,0.9
+Q48256,Dnipro,high,"[7, 8, 9]",23.8,0.3
+Q3866,Dodoma,rainy,"[1, 2, 4, 12]",22.0,4.5
+Q3866,Dodoma,shoulder,[3],23.0,2.6
+Q3866,Dodoma,high,"[5, 6, 7, 8, 9, 10, 11]",22.0,0.2
+Q3861,Doha,high,"[1, 11, 12]",22.0,0.0
+Q3861,Doha,rainy,"[2, 3, 4, 5]",24.9,0.8
+Q3861,Doha,low,"[6, 7, 8]",36.4,0.0
+Q3861,Doha,shoulder,"[9, 10]",32.1,0.2
+Q784,Dominica,high,"[1, 2, 3, 4, 5, 10, 12]",23.1,3.2
+Q784,Dominica,shoulder,"[6, 8, 9, 11]",24.3,5.5
+Q784,Dominica,rainy,[7],24.3,6.8
+Q786,Dominican Republic,high,"[1, 2, 3, 8, 9]",23.7,3.2
+Q786,Dominican Republic,rainy,"[4, 5]",23.8,8.4
+Q786,Dominican Republic,shoulder,"[6, 7, 10, 11, 12]",24.1,6.3
+Q43070,Donetsk,rainy,[1],-2.5,2.1
+Q43070,Donetsk,low,"[2, 3, 11, 12]",1.9,1.1
+Q43070,Donetsk,shoulder,"[4, 5, 8, 10]",16.2,0.9
+Q43070,Donetsk,high,"[6, 7, 9]",23.2,0.7
+Q1877,Đồng Hới,high,"[1, 2, 3]",22.0,2.5
+Q1877,Đồng Hới,shoulder,"[4, 5, 6, 7, 8, 12]",28.5,3.7
+Q1877,Đồng Hới,rainy,"[9, 10, 11]",25.6,15.9
+Q1295,Dortmund,low,"[1, 2, 3, 11, 12]",6.0,2.7
+Q1295,Dortmund,shoulder,"[4, 5, 6, 8, 9, 10]",15.0,3.4
+Q1295,Dortmund,high,[7],18.6,2.9
+Q33518,Dover,rainy,"[1, 3, 8]",12.1,5.3
+Q33518,Dover,low,"[2, 12]",4.3,2.3
+Q33518,Dover,shoulder,"[4, 5, 7, 10, 11]",17.0,2.2
+Q33518,Dover,high,"[6, 9]",22.7,1.5
+Q1731,Dresden,low,"[1, 2, 3, 11, 12]",4.7,1.7
+Q1731,Dresden,shoulder,"[4, 5, 6, 7, 8, 10]",16.4,2.2
+Q1731,Dresden,rainy,[9],16.8,3.7
+Q612,Dubai,high,"[1, 11, 12]",23.5,0.0
+Q612,Dubai,rainy,"[2, 3, 4]",22.9,2.3
+Q612,Dubai,shoulder,"[5, 6, 9, 10]",32.1,0.1
+Q612,Dubai,low,"[7, 8]",35.4,0.0
+Q1761,Dublin,low,"[1, 2, 4, 11, 12]",8.1,2.6
+Q1761,Dublin,rainy,[3],8.1,4.3
+Q1761,Dublin,shoulder,"[5, 6, 7, 8, 9, 10]",14.0,2.4
+Q1722,Dubrovnik,low,"[1, 12]",8.3,5.8
+Q1722,Dubrovnik,rainy,[2],10.5,7.3
+Q1722,Dubrovnik,shoulder,"[3, 4, 5, 9, 10, 11]",15.9,4.8
+Q1722,Dubrovnik,high,"[6, 7, 8]",26.1,1.7
+Q2100,Duisburg,low,"[1, 2, 3, 11, 12]",6.2,2.8
+Q2100,Duisburg,shoulder,"[4, 5, 6, 9, 10]",14.3,4.0
+Q2100,Duisburg,high,"[7, 8]",19.5,2.8
+Q5468,Durban,rainy,"[1, 9, 10]",20.4,4.2
+Q5468,Durban,high,"[2, 4, 5, 8]",21.6,0.8
+Q5468,Durban,shoulder,"[3, 6, 7, 11, 12]",21.3,1.8
+Q83285,Durrës,low,[1],8.5,3.4
+Q83285,Durrës,shoulder,"[2, 4, 5, 10, 11]",15.0,3.2
+Q83285,Durrës,rainy,"[3, 9, 12]",14.4,6.0
+Q83285,Durrës,high,"[6, 7, 8]",26.3,0.9
+Q9365,Dushanbe,low,"[1, 2, 12]",3.5,2.0
+Q9365,Dushanbe,rainy,"[3, 4, 5]",12.9,5.1
+Q9365,Dushanbe,high,"[6, 9]",23.7,0.4
+Q9365,Dushanbe,shoulder,"[7, 8, 10, 11]",20.9,1.0
+Q1718,Düsseldorf,low,"[1, 2, 3, 11, 12]",6.3,2.7
+Q1718,Düsseldorf,shoulder,"[4, 6, 7, 8, 9, 10]",15.9,3.4
+Q1718,Düsseldorf,rainy,[5],15.6,5.7
+Q736,Ecuador,shoulder,"[1, 2, 3, 4, 5, 11]",21.8,10.2
+Q736,Ecuador,high,"[6, 7, 8, 9, 10]",21.2,5.1
+Q736,Ecuador,rainy,[12],20.7,12.6
+Q23436,Edinburgh,low,"[1, 2, 3, 4, 11, 12]",6.4,2.9
+Q23436,Edinburgh,rainy,[5],12.6,5.5
+Q23436,Edinburgh,shoulder,"[6, 7, 8, 9, 10]",13.0,2.6
+Q43387,Edirne,low,"[1, 2, 11]",7.4,1.1
+Q43387,Edirne,shoulder,"[3, 4, 7, 9, 10]",18.4,1.4
+Q43387,Edirne,rainy,"[5, 12]",12.0,3.0
+Q43387,Edirne,high,"[6, 8]",27.1,0.6
+Q2096,Edmonton,low,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.4,1.0
+Q2096,Edmonton,rainy,"[6, 7, 8]",17.2,3.1
+Q2096,Edmonton,shoulder,[9],14.0,0.9
+Q79,Egypt,shoulder,"[1, 2, 6, 7, 8, 9, 11, 12]",22.9,0.0
+Q79,Egypt,high,"[3, 4, 5, 10]",23.3,0.0
+Q114257,Elbasan,rainy,"[1, 3]",9.4,7.2
+Q114257,Elbasan,shoulder,"[2, 4, 5, 7, 9, 10, 11]",17.6,3.4
+Q114257,Elbasan,high,"[6, 8]",26.8,0.5
+Q114257,Elbasan,low,[12],7.4,4.9
+Q16562,El Paso,rainy,"[1, 2, 7, 11]",15.6,0.5
+Q16562,El Paso,shoulder,"[3, 6, 8, 12]",21.6,0.1
+Q16562,El Paso,high,"[4, 5, 9, 10]",23.2,0.1
+Q792,El Salvador,high,"[1, 2, 3, 4, 5, 12]",25.0,1.2
+Q792,El Salvador,rainy,"[6, 8, 9]",23.2,11.3
+Q792,El Salvador,shoulder,"[7, 10, 11]",23.1,6.5
+Q983,Equatorial Guinea,high,"[1, 6, 7, 8, 12]",23.3,5.0
+Q983,Equatorial Guinea,shoulder,"[2, 3, 4, 5, 9, 10]",24.1,13.5
+Q983,Equatorial Guinea,rainy,[11],22.9,20.5
+Q1729,Erfurt,low,"[1, 2, 3, 11, 12]",4.8,1.7
+Q1729,Erfurt,shoulder,"[4, 6, 8, 9, 10]",15.2,2.5
+Q1729,Erfurt,rainy,[5],15.1,4.3
+Q1729,Erfurt,high,[7],19.5,2.1
+Q986,Eritrea,high,"[1, 2, 10, 11, 12]",25.8,0.1
+Q986,Eritrea,shoulder,"[3, 4, 5, 6, 9]",29.8,0.3
+Q986,Eritrea,rainy,"[7, 8]",25.6,6.1
+Q2066,Essen,low,"[1, 2, 3, 11, 12]",6.0,3.0
+Q2066,Essen,shoulder,"[4, 5, 6, 9, 10]",14.0,4.0
+Q2066,Essen,high,"[7, 8]",19.3,2.6
+Q191,Estonia,low,"[1, 2, 3, 4, 10, 11, 12]",1.2,1.9
+Q191,Estonia,shoulder,"[5, 6, 9]",15.3,1.6
+Q191,Estonia,rainy,"[7, 8]",17.9,3.8
+Q1050,Eswatini,shoulder,"[1, 4, 6, 7, 8, 9, 11]",18.6,1.9
+Q1050,Eswatini,high,"[2, 5, 10]",20.2,1.4
+Q1050,Eswatini,rainy,"[3, 12]",22.7,5.3
+Q115,Ethiopia,high,"[1, 2, 5, 9, 11, 12]",24.6,0.7
+Q115,Ethiopia,rainy,"[3, 4, 7, 8]",24.8,5.0
+Q115,Ethiopia,shoulder,"[6, 10]",26.3,1.5
+Q4628,Faroe Islands,low,"[1, 2, 3, 4, 5, 6, 9, 11, 12]",6.3,3.6
+Q4628,Faroe Islands,shoulder,"[7, 8]",10.5,3.5
+Q4628,Faroe Islands,rainy,[10],8.1,6.2
+Q702,Federated States of Micronesia,high,"[1, 2, 3, 11, 12]",24.0,8.0
+Q702,Federated States of Micronesia,shoulder,"[4, 5, 6, 7, 8, 9, 10]",23.7,18.2
+Q80985,Fez,rainy,"[1, 2, 3, 10]",15.1,2.8
+Q80985,Fez,shoulder,"[4, 7, 8, 11, 12]",20.9,0.4
+Q80985,Fez,high,"[5, 6, 9]",23.2,0.4
+Q712,Fiji,rainy,"[1, 2, 3, 12]",26.6,14.4
+Q712,Fiji,high,"[4, 6, 7, 8, 9, 10]",24.0,3.1
+Q712,Fiji,shoulder,"[5, 11]",25.0,9.0
+Q33,Finland,low,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.3,1.6
+Q33,Finland,shoulder,[6],15.9,3.4
+Q33,Finland,rainy,"[7, 8, 9]",15.3,3.9
+Q2044,Florence,low,"[1, 2, 12]",7.6,3.3
+Q2044,Florence,shoulder,"[3, 4, 11]",11.9,3.0
+Q2044,Florence,rainy,"[5, 9, 10]",18.1,6.0
+Q2044,Florence,high,"[6, 7, 8]",25.3,0.8
+Q43463,Fortaleza,shoulder,"[1, 12]",28.2,1.6
+Q43463,Fortaleza,rainy,"[2, 3, 4, 5]",26.9,9.6
+Q43463,Fortaleza,high,"[6, 7, 8, 9, 10, 11]",27.1,0.8
+Q16558,Fort Worth,low,[1],5.4,2.1
+Q16558,Fort Worth,shoulder,"[2, 3, 6, 7, 8, 9, 11, 12]",21.7,2.4
+Q16558,Fort Worth,rainy,"[4, 5]",22.2,4.9
+Q16558,Fort Worth,high,[10],24.3,0.6
+Q142,France,low,"[1, 2, 3, 11, 12]",7.3,2.3
+Q142,France,shoulder,"[4, 6, 9, 10]",14.7,3.5
+Q142,France,rainy,[5],13.9,4.9
+Q142,France,high,"[7, 8]",20.8,1.3
+Q28603,Frankfort,rainy,"[1, 4]",7.2,5.0
+Q28603,Frankfort,low,"[2, 3, 12]",6.6,3.2
+Q28603,Frankfort,shoulder,"[5, 9, 10, 11]",16.6,3.2
+Q28603,Frankfort,high,"[6, 7, 8]",23.7,2.0
+Q1794,Frankfurt,low,"[1, 2, 3, 11, 12]",5.3,2.0
+Q1794,Frankfurt,shoulder,"[4, 6, 7, 9, 10]",15.5,2.6
+Q1794,Frankfurt,rainy,[5],15.6,4.1
+Q1794,Frankfurt,high,[8],21.7,1.1
+Q3780,Freetown,high,"[1, 2, 3, 4, 5, 11, 12]",27.6,1.3
+Q3780,Freetown,rainy,"[6, 7, 8, 9]",24.9,24.0
+Q3780,Freetown,shoulder,[10],25.4,10.6
+Q2833,Freiburg im Breisgau,low,"[1, 2, 3, 11, 12]",6.1,3.1
+Q2833,Freiburg im Breisgau,shoulder,"[4, 6, 7, 9, 10]",15.4,4.0
+Q2833,Freiburg im Breisgau,rainy,[5],14.7,5.6
+Q2833,Freiburg im Breisgau,high,[8],21.3,2.1
+Q43301,Fresno,rainy,"[1, 2, 3]",10.5,3.2
+Q43301,Fresno,shoulder,"[4, 6, 7, 8, 11]",23.6,0.6
+Q43301,Fresno,high,"[5, 9, 10]",23.1,0.2
+Q43301,Fresno,low,[12],9.5,1.5
+Q26600,Fukuoka,low,"[1, 2, 12]",7.7,3.5
+Q26600,Fukuoka,shoulder,"[3, 4, 7, 8]",20.8,6.3
+Q26600,Fukuoka,high,"[5, 9, 10]",21.9,4.8
+Q26600,Fukuoka,rainy,"[6, 11]",18.2,9.2
+Q34126,Funafuti,shoulder,"[1, 3, 4, 5, 6, 7, 8, 11, 12]",28.4,9.2
+Q34126,Funafuti,rainy,[2],28.5,17.4
+Q34126,Funafuti,high,"[9, 10]",27.8,8.0
+Q1000,Gabon,high,"[1, 3, 5, 6, 7, 8, 12]",24.4,3.6
+Q1000,Gabon,shoulder,"[2, 4, 9]",24.6,8.2
+Q1000,Gabon,rainy,"[10, 11]",23.4,17.2
+Q3919,Gaborone,rainy,"[1, 4, 12]",24.3,1.8
+Q3919,Gaborone,high,"[2, 3, 5, 8, 9, 10]",22.8,0.1
+Q3919,Gaborone,shoulder,"[6, 7, 11]",18.4,0.3
+Q47492,Gaza City,rainy,"[1, 2, 12]",14.9,2.3
+Q47492,Gaza City,shoulder,"[3, 7, 8]",24.3,0.3
+Q47492,Gaza City,high,"[4, 5, 6, 9, 10, 11]",23.1,0.2
+Q1792,Gdańsk,low,"[1, 3, 4, 11, 12]",5.0,1.8
+Q1792,Gdańsk,rainy,"[2, 7]",11.8,4.3
+Q1792,Gdańsk,shoulder,"[5, 6, 9, 10]",15.2,1.5
+Q1792,Gdańsk,high,[8],19.6,1.3
+Q71,Geneva,low,"[1, 2, 3, 11, 12]",5.4,3.1
+Q71,Geneva,shoulder,"[4, 5, 6, 9, 10]",14.1,4.6
+Q71,Geneva,high,"[7, 8]",21.5,2.1
+Q1449,Genoa,low,"[1, 12]",8.1,2.5
+Q1449,Genoa,rainy,"[2, 3, 10]",13.1,10.3
+Q1449,Genoa,shoulder,"[4, 5, 6, 9, 11]",16.4,4.0
+Q1449,Genoa,high,"[7, 8]",25.6,0.8
+Q10717,Georgetown,high,"[1, 2, 3, 4, 8, 10, 11, 12]",27.4,3.8
+Q10717,Georgetown,rainy,"[5, 6, 7]",26.7,11.1
+Q10717,Georgetown,shoulder,[9],28.3,3.5
+Q230,Georgia,low,"[1, 2, 3, 11, 12]",4.2,2.5
+Q230,Georgia,shoulder,"[4, 5, 6, 7, 8, 10]",18.7,2.6
+Q230,Georgia,high,[9],20.0,1.6
+Q183,Germany,low,"[1, 2, 3, 4, 11, 12]",5.0,2.1
+Q183,Germany,rainy,[5],14.5,4.0
+Q183,Germany,shoulder,"[6, 7, 9, 10]",15.2,2.6
+Q183,Germany,high,[8],19.7,1.4
+Q117,Ghana,high,"[1, 12]",27.6,0.0
+Q117,Ghana,shoulder,"[2, 3, 4, 7, 8, 11]",28.5,1.9
+Q117,Ghana,rainy,"[5, 6, 9, 10]",27.1,5.7
+Q1296,Ghent,low,"[1, 2, 3, 11, 12]",6.9,2.8
+Q1296,Ghent,shoulder,"[4, 5, 6, 7, 9, 10]",14.6,3.0
+Q1296,Ghent,high,[8],19.8,2.0
+Q1410,Gibraltar,shoulder,"[1, 2, 4, 12]",14.3,1.5
+Q1410,Gibraltar,rainy,"[3, 10, 11]",16.6,6.0
+Q1410,Gibraltar,high,"[5, 6, 7, 8, 9]",22.7,0.5
+Q4093,Glasgow,low,"[1, 2, 3, 4, 11, 12]",5.9,3.7
+Q4093,Glasgow,shoulder,"[5, 6, 7, 9, 10]",12.4,2.7
+Q4093,Glasgow,rainy,[8],14.3,7.6
+Q25287,Gothenburg,low,"[1, 2, 3, 4, 10, 11, 12]",4.1,2.8
+Q25287,Gothenburg,shoulder,"[5, 7, 8, 9]",15.5,3.9
+Q25287,Gothenburg,rainy,[6],14.3,5.4
+Q3033,Göttingen,low,"[1, 2, 3, 4, 11, 12]",5.4,2.3
+Q3033,Göttingen,shoulder,"[5, 6, 7, 9, 10]",15.1,2.7
+Q3033,Göttingen,high,[8],19.5,2.0
+Q13298,Graz,low,"[1, 2, 3, 11, 12]",3.6,1.0
+Q13298,Graz,shoulder,"[4, 6, 7, 10]",16.1,2.6
+Q13298,Graz,rainy,"[5, 9]",15.3,6.8
+Q13298,Graz,high,[8],23.1,0.9
+Q41,Greece,rainy,"[1, 11, 12]",9.9,4.0
+Q41,Greece,shoulder,"[2, 3, 4, 7, 8]",19.3,0.7
+Q41,Greece,high,"[5, 6, 9, 10]",22.1,0.5
+Q223,Greenland,low,"[1, 2, 3, 4, 5, 8, 9, 10, 11, 12]",-29.7,0.5
+Q223,Greenland,rainy,"[6, 7]",-11.6,1.4
+Q769,Grenada,shoulder,"[1, 11]",23.5,3.3
+Q769,Grenada,high,"[2, 3, 4, 5, 9, 10, 12]",24.2,1.8
+Q769,Grenada,rainy,"[6, 7, 8]",24.1,5.0
+Q1289,Grenoble,low,"[1, 2, 11, 12]",6.8,3.8
+Q1289,Grenoble,shoulder,"[3, 4, 6, 10]",14.5,4.6
+Q1289,Grenoble,rainy,"[5, 9]",16.1,7.9
+Q1289,Grenoble,high,"[7, 8]",23.4,2.7
+Q5196,Grozny,low,"[1, 2, 3, 11, 12]",3.0,1.1
+Q5196,Grozny,shoulder,"[4, 8, 9, 10]",18.8,1.6
+Q5196,Grozny,rainy,"[5, 6]",20.4,2.4
+Q5196,Grozny,high,[7],26.9,1.2
+Q9022,Guadalajara,shoulder,[1],17.4,0.1
+Q9022,Guadalajara,high,"[2, 3, 4, 5, 10, 11, 12]",21.5,0.3
+Q9022,Guadalajara,rainy,"[6, 7, 8, 9]",21.7,5.0
+Q16572,Guangzhou,shoulder,"[1, 2, 5, 7, 9, 12]",21.8,5.2
+Q16572,Guangzhou,high,"[3, 10, 11]",22.2,2.0
+Q16572,Guangzhou,rainy,"[4, 6, 8]",27.1,16.8
+Q774,Guatemala,shoulder,"[1, 2, 9, 11, 12]",17.5,6.3
+Q774,Guatemala,high,"[3, 4, 5, 7, 8]",20.6,3.2
+Q774,Guatemala,rainy,"[6, 10]",19.6,11.8
+Q1555,Guatemala City,high,"[1, 2, 3, 4, 5]",20.3,0.8
+Q1555,Guatemala City,rainy,"[6, 7, 9]",19.4,9.9
+Q1555,Guatemala City,shoulder,"[8, 10, 11, 12]",18.2,3.1
+Q1006,Guinea,high,"[1, 2, 5, 11, 12]",26.5,0.4
+Q1006,Guinea,shoulder,"[3, 4, 10]",27.9,2.7
+Q1006,Guinea,rainy,"[6, 7, 8, 9]",24.1,12.1
+Q1007,Guinea-Bissau,high,"[1, 11, 12]",26.2,0.0
+Q1007,Guinea-Bissau,shoulder,"[2, 3, 4, 5, 6]",29.6,0.6
+Q1007,Guinea-Bissau,rainy,"[7, 8, 9, 10]",26.1,12.2
+Q734,Guyana,high,"[1, 2, 3, 4, 8, 9, 10, 11]",26.4,4.3
+Q734,Guyana,rainy,"[5, 6, 7]",25.4,15.6
+Q734,Guyana,shoulder,[12],24.9,9.2
+Q41621,Haifa,rainy,"[1, 2, 12]",14.9,4.7
+Q41621,Haifa,shoulder,"[3, 7, 8, 11]",23.1,0.8
+Q41621,Haifa,high,"[4, 5, 6, 9, 10]",24.0,0.3
+Q790,Haiti,high,"[1, 2, 12]",26.9,0.7
+Q790,Haiti,shoulder,"[3, 4, 5, 7, 8, 10, 11]",29.1,1.9
+Q790,Haiti,rainy,"[6, 9]",29.9,3.9
+Q2814,Halle (Saale),low,"[1, 2, 3, 11, 12]",5.2,1.6
+Q2814,Halle (Saale),shoulder,"[4, 5, 6, 8, 9, 10]",16.0,2.1
+Q2814,Halle (Saale),high,[7],20.4,1.7
+Q1055,Hamburg,low,"[1, 2, 3, 11, 12]",5.4,2.6
+Q1055,Hamburg,shoulder,"[4, 5, 6, 9, 10]",13.9,3.0
+Q1055,Hamburg,high,"[7, 8]",18.8,2.1
+Q4970,Hangzhou,low,"[1, 2, 12]",6.3,2.6
+Q4970,Hangzhou,shoulder,"[3, 7, 8, 11]",22.4,3.2
+Q4970,Hangzhou,rainy,"[4, 6]",21.0,11.6
+Q4970,Hangzhou,high,"[5, 9, 10]",22.3,3.6
+Q1858,Hanoi,shoulder,"[1, 5, 8]",24.7,7.9
+Q1858,Hanoi,high,"[2, 3, 4, 10, 11, 12]",22.8,1.4
+Q1858,Hanoi,rainy,"[6, 7, 9]",28.5,18.3
+Q1715,Hanover,low,"[1, 3, 11, 12]",5.3,1.8
+Q1715,Hanover,rainy,[2],7.2,3.9
+Q1715,Hanover,shoulder,"[4, 5, 6, 7, 9, 10]",15.1,2.5
+Q1715,Hanover,high,[8],20.0,1.1
+Q3921,Harare,rainy,"[1, 11, 12]",21.5,3.8
+Q3921,Harare,high,"[2, 3, 4, 8, 9, 10]",20.5,0.6
+Q3921,Harare,shoulder,"[5, 6, 7]",16.8,0.0
+Q42956,Harbin,low,"[1, 2, 3, 4, 10, 11, 12]",-4.2,0.4
+Q42956,Harbin,shoulder,"[5, 9]",15.7,2.0
+Q42956,Harbin,rainy,"[6, 7, 8]",22.0,7.2
+Q25280,Harrisburg,low,"[1, 3, 11, 12]",4.8,3.1
+Q25280,Harrisburg,rainy,[2],2.9,4.6
+Q25280,Harrisburg,shoulder,"[4, 5, 7, 8, 10]",18.6,3.0
+Q25280,Harrisburg,high,"[6, 9]",21.5,1.7
+Q33486,Hartford,rainy,"[1, 3]",2.6,5.9
+Q33486,Hartford,low,"[2, 4, 11, 12]",4.7,2.8
+Q33486,Hartford,shoulder,"[5, 7, 8, 10]",18.8,2.8
+Q33486,Hartford,high,"[6, 9]",20.0,1.8
+Q1563,Havana,high,"[1, 2, 3, 4, 12]",23.9,1.2
+Q1563,Havana,shoulder,"[5, 7, 10]",28.2,2.7
+Q1563,Havana,rainy,"[6, 8, 9, 11]",27.3,6.0
+Q2966,Heidelberg,low,"[1, 2, 3, 11, 12]",5.2,3.0
+Q2966,Heidelberg,shoulder,"[4, 6, 9, 10]",14.1,3.6
+Q2966,Heidelberg,rainy,[5],15.0,5.1
+Q2966,Heidelberg,high,"[7, 8]",20.4,2.6
+Q38733,Helena,low,"[1, 3, 4, 10, 11, 12]",1.4,0.7
+Q38733,Helena,rainy,"[2, 5]",2.9,1.8
+Q38733,Helena,shoulder,"[6, 9]",16.4,0.8
+Q38733,Helena,high,"[7, 8]",21.4,0.5
+Q1757,Helsinki,low,"[1, 2, 3, 4, 10, 11, 12]",0.7,2.3
+Q1757,Helsinki,shoulder,"[5, 6, 7, 8]",16.1,1.6
+Q1757,Helsinki,rainy,[9],15.2,3.8
+Q34664,Hiroshima,low,"[1, 2, 3, 12]",6.5,3.0
+Q34664,Hiroshima,shoulder,"[4, 5, 8]",20.2,5.5
+Q34664,Hiroshima,rainy,"[6, 7, 11]",20.0,8.5
+Q34664,Hiroshima,high,"[9, 10]",22.9,3.4
+Q40191,Hobart,shoulder,"[1, 2, 3, 4, 10, 11]",14.2,1.4
+Q40191,Hobart,low,"[5, 6, 7, 9]",8.4,1.6
+Q40191,Hobart,rainy,"[8, 12]",12.6,2.8
+Q1854,Ho Chi Minh City,high,"[1, 11, 12]",27.2,2.2
+Q1854,Ho Chi Minh City,shoulder,"[2, 3, 4, 5]",29.6,1.8
+Q1854,Ho Chi Minh City,rainy,"[6, 7, 8, 9, 10]",27.4,10.7
+Q783,Honduras,shoulder,"[1, 2, 7, 8, 12]",16.5,3.1
+Q783,Honduras,high,"[3, 4, 5]",20.8,1.2
+Q783,Honduras,rainy,"[6, 9, 10, 11]",17.2,10.1
+Q8646,Hong Kong,shoulder,"[1, 6, 7, 11, 12]",22.0,6.0
+Q8646,Hong Kong,high,"[2, 3, 10]",21.1,1.5
+Q8646,Hong Kong,rainy,"[4, 5, 8, 9]",26.2,14.8
+Q40921,Honiara,rainy,"[1, 2, 3]",26.7,13.6
+Q40921,Honiara,high,"[4, 5, 6, 7, 8, 9, 10, 11]",26.3,3.9
+Q40921,Honiara,shoulder,[12],27.1,7.8
+Q18094,Honolulu,rainy,"[1, 4, 5]",22.7,4.1
+Q18094,Honolulu,high,"[2, 3, 6, 7, 9, 10, 11, 12]",24.0,0.6
+Q18094,Honolulu,shoulder,[8],25.6,1.6
+Q16555,Houston,rainy,"[1, 5, 7]",21.1,12.0
+Q16555,Houston,shoulder,"[2, 4, 8, 12]",20.4,4.1
+Q16555,Houston,high,"[3, 6, 9, 10, 11]",23.2,3.2
+Q28,Hungary,low,"[1, 2, 3, 11, 12]",5.4,1.2
+Q28,Hungary,shoulder,"[4, 5, 10]",14.7,1.6
+Q28,Hungary,rainy,"[6, 9]",20.2,2.6
+Q28,Hungary,high,"[7, 8]",25.4,0.5
+Q1361,Hyderabad,high,"[1, 2, 10, 11, 12]",24.2,0.8
+Q1361,Hyderabad,shoulder,"[3, 4, 5]",30.4,1.1
+Q1361,Hyderabad,rainy,"[6, 7, 8, 9]",25.7,8.7
+Q189,Iceland,low,"[1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12]",-1.8,3.1
+Q189,Iceland,rainy,[8],4.8,5.2
+Q668,India,high,"[1, 2, 3, 10, 11]",21.7,0.9
+Q668,India,shoulder,"[4, 5, 6, 12]",27.2,1.9
+Q668,India,rainy,"[7, 8, 9]",25.4,14.9
+Q6346,Indianapolis,low,"[1, 2, 3, 11, 12]",4.3,3.4
+Q6346,Indianapolis,rainy,[4],13.1,5.4
+Q6346,Indianapolis,shoulder,"[5, 9, 10]",18.3,2.5
+Q6346,Indianapolis,high,"[6, 7, 8]",23.3,2.6
+Q252,Indonesia,high,"[1, 10]",27.9,8.1
+Q252,Indonesia,shoulder,"[2, 3, 4, 5, 7, 8, 9, 11, 12]",28.2,7.6
+Q252,Indonesia,rainy,[6],28.0,16.1
+Q1735,Innsbruck,low,"[1, 2, 3, 11, 12]",4.4,2.1
+Q1735,Innsbruck,shoulder,"[4, 10]",11.6,3.1
+Q1735,Innsbruck,rainy,"[5, 6, 9]",15.7,7.8
+Q1735,Innsbruck,high,"[7, 8]",21.4,3.0
+Q794,Iran,low,"[1, 12]",6.9,0.2
+Q794,Iran,rainy,"[2, 3, 4, 5]",14.8,0.6
+Q794,Iran,shoulder,"[6, 7, 8, 11]",27.8,0.0
+Q794,Iran,high,"[9, 10]",22.6,0.1
+Q796,Iraq,shoulder,"[1, 5, 9, 11, 12]",19.9,0.3
+Q796,Iraq,rainy,"[2, 3]",14.2,1.7
+Q796,Iraq,high,"[4, 10]",24.9,0.1
+Q796,Iraq,low,"[6, 7, 8]",37.3,0.0
+Q27,Ireland,low,"[1, 2, 4, 11, 12]",7.4,3.1
+Q27,Ireland,rainy,[3],7.5,5.0
+Q27,Ireland,shoulder,"[5, 6, 7, 8, 9, 10]",13.4,2.4
+Q6576,Irkutsk,low,"[1, 2, 3, 4, 9, 10, 11, 12]",-5.7,0.7
+Q6576,Irkutsk,shoulder,[5],12.0,1.4
+Q6576,Irkutsk,rainy,"[6, 7, 8]",19.1,2.9
+Q42053,Isfahan,low,"[1, 12]",5.3,0.2
+Q42053,Isfahan,rainy,"[2, 3, 4]",10.1,1.3
+Q42053,Isfahan,high,"[5, 9, 10]",21.5,0.1
+Q42053,Isfahan,shoulder,"[6, 7, 8, 11]",26.4,0.1
+Q1362,Islamabad,shoulder,"[1, 2, 5, 6, 9, 11, 12]",19.7,1.3
+Q1362,Islamabad,rainy,"[3, 4, 7, 8]",23.3,7.0
+Q1362,Islamabad,high,[10],23.2,1.4
+Q801,Israel,rainy,"[1, 2, 4, 11]",14.7,0.4
+Q801,Israel,shoulder,"[3, 12]",13.3,0.2
+Q801,Israel,high,"[5, 6, 7, 8, 9, 10]",24.2,0.0
+Q406,Istanbul,rainy,"[1, 9, 12]",12.8,3.8
+Q406,Istanbul,low,"[2, 3]",9.4,1.6
+Q406,Istanbul,shoulder,"[4, 5, 10, 11]",14.7,1.9
+Q406,Istanbul,high,"[6, 7, 8]",25.3,0.7
+Q38,Italy,low,"[1, 2]",7.8,2.1
+Q38,Italy,rainy,"[3, 9, 10, 12]",13.2,4.5
+Q38,Italy,shoulder,"[4, 5, 11]",13.4,1.8
+Q38,Italy,high,"[6, 7, 8]",25.2,0.8
+Q1008,Ivory Coast,high,"[1, 2, 5, 11, 12]",26.8,0.8
+Q1008,Ivory Coast,shoulder,"[3, 4, 6]",27.8,2.9
+Q1008,Ivory Coast,rainy,"[7, 8, 9, 10]",25.0,6.1
+Q35997,İzmir,rainy,"[1, 11, 12]",10.8,4.5
+Q35997,İzmir,shoulder,"[2, 3, 6, 7, 8]",22.6,0.5
+Q35997,İzmir,high,"[4, 5, 9, 10]",20.7,1.0
+Q28198,Jackson,low,[1],6.5,5.5
+Q28198,Jackson,shoulder,"[2, 3, 4, 9, 12]",16.2,4.4
+Q28198,Jackson,rainy,"[5, 11]",20.4,6.9
+Q28198,Jackson,high,"[6, 7, 8, 10]",25.1,2.1
+Q16568,Jacksonville,shoulder,"[1, 2, 3, 7, 10, 12]",18.0,3.1
+Q16568,Jacksonville,high,"[4, 5, 6, 11]",23.4,2.2
+Q16568,Jacksonville,rainy,"[8, 9]",26.2,8.9
+Q66485,Jaipur,shoulder,"[1, 2, 4, 6, 12]",22.0,0.9
+Q66485,Jaipur,high,"[3, 10, 11]",24.3,0.1
+Q66485,Jaipur,low,[5],35.3,0.0
+Q66485,Jaipur,rainy,"[7, 8, 9]",27.5,7.0
+Q3630,Jakarta,shoulder,"[1, 2, 3, 4, 5, 10, 11, 12]",27.4,7.9
+Q3630,Jakarta,high,"[6, 7, 8, 9]",27.4,3.4
+Q766,Jamaica,high,"[1, 2, 3, 4, 8, 12]",22.1,1.6
+Q766,Jamaica,shoulder,"[5, 6, 9, 10]",23.6,4.3
+Q766,Jamaica,rainy,"[7, 11]",22.8,9.8
+Q17,Japan,low,"[1, 2, 3, 12]",5.8,3.4
+Q17,Japan,shoulder,"[4, 5, 7, 8, 10, 11]",20.0,6.1
+Q17,Japan,rainy,[6],21.8,10.1
+Q17,Japan,high,[9],26.4,2.2
+Q374365,Jeddah,high,"[1, 3, 12]",25.4,0.3
+Q374365,Jeddah,rainy,"[2, 4, 11]",26.6,1.4
+Q374365,Jeddah,shoulder,"[5, 6, 7, 8, 9, 10]",32.3,0.1
+Q28180,Jefferson City,low,"[1, 2, 12]",3.1,1.7
+Q28180,Jefferson City,shoulder,"[3, 4, 5, 7, 10]",17.3,3.1
+Q28180,Jefferson City,high,"[6, 8, 9]",23.8,2.0
+Q28180,Jefferson City,rainy,[11],9.6,6.2
+Q1218,Jerusalem,rainy,"[1, 2, 3, 4]",13.2,1.4
+Q1218,Jerusalem,high,"[5, 6, 7, 8, 9, 10]",23.6,0.1
+Q1218,Jerusalem,shoulder,"[11, 12]",13.1,0.6
+Q34647,Johannesburg,rainy,"[1, 4, 12]",19.1,1.9
+Q34647,Johannesburg,shoulder,"[2, 5, 6, 7, 8, 9, 10, 11]",15.8,0.5
+Q34647,Johannesburg,high,[3],20.3,0.6
+Q810,Jordan,shoulder,"[1, 3, 6, 7, 11, 12]",17.8,0.0
+Q810,Jordan,rainy,"[2, 4]",15.3,0.5
+Q810,Jordan,high,"[5, 8, 9, 10]",23.7,0.0
+Q1947,Juba,shoulder,"[1, 2, 3, 4, 5, 6, 10, 11, 12]",29.9,0.9
+Q1947,Juba,rainy,"[7, 8]",25.6,5.3
+Q1947,Juba,high,[9],27.5,1.7
+Q29445,Juneau,low,"[1, 2, 3, 4, 5, 11, 12]",0.5,7.4
+Q29445,Juneau,shoulder,"[6, 8]",13.9,5.7
+Q29445,Juneau,rainy,"[7, 9, 10]",9.5,14.6
+Q5838,Kabul,low,"[1, 11, 12]",5.1,0.5
+Q5838,Kabul,rainy,"[2, 3, 4]",4.1,5.1
+Q5838,Kabul,shoulder,"[5, 10]",16.0,0.9
+Q5838,Kabul,high,"[6, 7, 8, 9]",23.5,0.2
+Q1829,Kaliningrad,low,"[1, 3, 4, 10, 11, 12]",5.2,2.1
+Q1829,Kaliningrad,rainy,"[2, 7]",11.8,3.6
+Q1829,Kaliningrad,shoulder,"[5, 6, 9]",17.3,1.7
+Q1829,Kaliningrad,high,[8],19.6,2.1
+Q3894,Kampala,high,"[1, 3, 5, 6, 7, 8, 9]",21.8,2.6
+Q3894,Kampala,shoulder,"[2, 10, 12]",21.9,4.5
+Q3894,Kampala,rainy,"[4, 11]",21.4,8.1
+Q8660,Karachi,high,"[1, 2, 3, 4, 11, 12]",23.5,0.1
+Q8660,Karachi,shoulder,"[5, 6, 9, 10]",29.8,0.2
+Q8660,Karachi,rainy,"[7, 8]",30.2,3.0
+Q1040,Karlsruhe,low,"[1, 2, 3, 11, 12]",5.9,2.5
+Q1040,Karlsruhe,shoulder,"[4, 6, 9, 10]",14.7,3.5
+Q1040,Karlsruhe,rainy,[5],15.4,5.5
+Q1040,Karlsruhe,high,"[7, 8]",21.4,1.9
+Q3037,Kathmandu,low,[1],9.9,0.2
+Q3037,Kathmandu,shoulder,"[2, 3, 6, 11, 12]",15.8,2.5
+Q3037,Kathmandu,high,"[4, 5, 10]",20.9,1.8
+Q3037,Kathmandu,rainy,"[7, 8, 9]",22.7,21.4
+Q588,Katowice,low,"[1, 2, 3, 11, 12]",3.7,1.9
+Q588,Katowice,shoulder,"[4, 5, 6, 7, 10]",15.7,1.8
+Q588,Katowice,high,[8],21.2,1.5
+Q588,Katowice,rainy,[9],17.3,4.3
+Q4115712,Kaunas,low,"[1, 2, 3, 10, 11, 12]",3.3,1.7
+Q4115712,Kaunas,rainy,"[4, 7]",15.1,3.5
+Q4115712,Kaunas,shoulder,"[5, 6, 9]",17.3,1.6
+Q4115712,Kaunas,high,[8],19.7,1.9
+Q232,Kazakhstan,low,"[1, 2, 3, 11, 12]",-6.8,0.9
+Q232,Kazakhstan,shoulder,"[4, 7, 9]",16.5,0.5
+Q232,Kazakhstan,rainy,"[5, 10]",11.7,1.9
+Q232,Kazakhstan,high,"[6, 8]",23.3,0.4
+Q900,Kazan,rainy,"[1, 8]",2.2,2.5
+Q900,Kazan,low,"[2, 3, 4, 5, 10, 11, 12]",0.7,1.3
+Q900,Kazan,high,[6],21.1,1.4
+Q900,Kazan,shoulder,"[7, 9]",18.7,0.8
+Q114,Kenya,high,"[1, 2, 3, 5, 6, 7, 8, 9, 10, 12]",24.8,1.2
+Q114,Kenya,rainy,"[4, 11]",24.2,6.6
+Q4454,Khabarovsk,low,"[1, 2, 3, 4, 10, 11, 12]",-7.5,0.8
+Q4454,Khabarovsk,shoulder,"[5, 9]",13.2,1.8
+Q4454,Khabarovsk,rainy,"[6, 7, 8]",19.7,4.5
+Q42308,Kharkiv,rainy,"[1, 4, 6, 11]",8.6,2.0
+Q42308,Kharkiv,low,"[2, 3, 12]",1.3,1.1
+Q42308,Kharkiv,shoulder,"[5, 10]",13.0,0.6
+Q42308,Kharkiv,high,"[7, 8, 9]",23.1,0.2
+Q1963,Khartoum,high,"[1, 2, 11, 12]",25.3,0.0
+Q1963,Khartoum,shoulder,"[3, 4, 10]",32.1,0.0
+Q1963,Khartoum,low,"[5, 6]",35.5,0.0
+Q1963,Khartoum,rainy,"[7, 8, 9]",31.2,1.3
+Q1707,Kiel,low,"[1, 2, 3, 4, 11, 12]",5.7,2.6
+Q1707,Kiel,shoulder,"[5, 6, 7, 9, 10]",14.7,2.5
+Q1707,Kiel,high,[8],18.2,1.4
+Q3859,Kigali,shoulder,"[1, 2, 4, 10]",20.4,3.0
+Q3859,Kigali,high,"[3, 5, 6, 7, 8, 9]",21.4,0.9
+Q3859,Kigali,rainy,"[11, 12]",19.4,5.0
+Q29999,Kingdom of the Netherlands,low,"[1, 2, 3, 11, 12]",6.9,3.0
+Q29999,Kingdom of the Netherlands,shoulder,"[4, 6, 7, 9, 10]",14.2,3.1
+Q29999,Kingdom of the Netherlands,rainy,[5],15.1,4.8
+Q29999,Kingdom of the Netherlands,high,[8],19.1,1.8
+Q34692,Kingston,high,"[1, 2, 3, 4, 5, 10, 12]",26.4,1.3
+Q34692,Kingston,shoulder,"[6, 8, 9]",28.3,2.2
+Q34692,Kingston,rainy,"[7, 11]",26.9,7.4
+Q3838,Kinshasa,shoulder,"[1, 3, 4]",26.7,4.6
+Q3838,Kinshasa,rainy,"[2, 10, 11, 12]",26.1,8.1
+Q3838,Kinshasa,high,"[5, 6, 7, 8, 9]",26.4,0.7
+Q710,Kiribati,rainy,"[1, 3]",28.1,21.6
+Q710,Kiribati,shoulder,"[2, 4, 5, 6, 7, 8, 9, 10, 11, 12]",28.5,3.3
+Q776965,Klaipėda,low,"[1, 2, 3, 4, 10, 12]",4.5,2.2
+Q776965,Klaipėda,shoulder,"[5, 6, 7, 9]",17.5,2.5
+Q776965,Klaipėda,high,[8],19.0,1.7
+Q776965,Klaipėda,rainy,[11],5.6,4.4
+Q48320,Kobe,low,"[1, 2, 3, 12]",7.3,2.7
+Q48320,Kobe,shoulder,"[4, 8, 10, 11]",19.9,5.3
+Q48320,Kobe,rainy,"[5, 6, 7]",22.3,9.4
+Q48320,Kobe,high,[9],26.8,1.9
+Q1348,Kolkata,shoulder,"[1, 4, 5, 6, 10]",27.4,4.4
+Q1348,Kolkata,high,"[2, 3, 11, 12]",23.3,1.0
+Q1348,Kolkata,rainy,"[7, 8, 9]",28.3,13.6
+Q1246,Kosovo,low,"[1, 2, 3, 12]",4.4,1.9
+Q1246,Kosovo,shoulder,"[4, 5, 10]",13.2,2.5
+Q1246,Kosovo,high,"[6, 7, 8]",23.6,0.9
+Q1246,Kosovo,rainy,"[9, 11]",10.7,4.5
+Q31487,Kraków,low,"[1, 2, 3, 11, 12]",3.9,1.8
+Q31487,Kraków,shoulder,"[4, 5, 6, 7, 10]",16.0,2.3
+Q31487,Kraków,high,[8],21.2,2.1
+Q31487,Kraków,rainy,[9],17.2,3.7
+Q3646,Krasnodar,rainy,"[1, 5]",9.3,4.1
+Q3646,Krasnodar,low,"[2, 3, 11, 12]",6.0,1.9
+Q3646,Krasnodar,shoulder,"[4, 7, 9, 10]",20.5,1.0
+Q3646,Krasnodar,high,"[6, 8]",25.6,0.7
+Q919,Krasnoyarsk,low,"[1, 2, 3, 4, 10, 11, 12]",-6.6,0.8
+Q919,Krasnoyarsk,shoulder,[5],11.1,1.6
+Q919,Krasnoyarsk,rainy,"[6, 7, 8, 9]",16.8,2.5
+Q1865,Kuala Lumpur,shoulder,"[1, 4, 8, 11, 12]",26.7,14.2
+Q1865,Kuala Lumpur,high,"[2, 3, 6, 7, 9, 10]",27.4,7.9
+Q1865,Kuala Lumpur,rainy,[5],27.4,18.7
+Q162279,Kuopio,low,"[1, 2, 3, 4, 10, 11, 12]",-2.1,1.7
+Q162279,Kuopio,shoulder,"[5, 6, 8, 9]",15.4,2.1
+Q162279,Kuopio,rainy,[7],19.0,4.5
+Q41470,Kurdistan,rainy,"[1, 3, 5]",3.3,7.9
+Q41470,Kurdistan,low,"[2, 4, 11, 12]",1.9,2.2
+Q41470,Kurdistan,high,"[6, 7, 8]",21.9,0.1
+Q41470,Kurdistan,shoulder,"[9, 10]",13.8,0.8
+Q817,Kuwait,shoulder,"[1, 4, 5, 12]",22.0,0.4
+Q817,Kuwait,rainy,"[2, 3]",17.2,1.6
+Q817,Kuwait,low,"[6, 7, 8, 9]",38.4,0.0
+Q817,Kuwait,high,"[10, 11]",24.1,0.3
+Q35178,Kuwait City,shoulder,"[1, 5, 12]",21.5,0.2
+Q35178,Kuwait City,rainy,"[2, 3]",18.2,1.0
+Q35178,Kuwait City,high,"[4, 10, 11]",25.5,0.2
+Q35178,Kuwait City,low,"[6, 7, 8, 9]",38.3,0.0
+Q1899,Kyiv,low,"[1, 2, 3, 11, 12]",1.5,1.8
+Q1899,Kyiv,rainy,"[4, 6]",16.4,3.9
+Q1899,Kyiv,shoulder,"[5, 7, 10]",16.6,1.5
+Q1899,Kyiv,high,"[8, 9]",20.9,0.8
+Q34600,Kyoto,low,"[1, 2, 3, 12]",5.5,3.2
+Q34600,Kyoto,shoulder,"[4, 8, 10, 11]",19.0,5.2
+Q34600,Kyoto,rainy,"[5, 6, 7]",22.1,8.8
+Q34600,Kyoto,high,[9],26.3,2.4
+Q813,Kyrgyzstan,low,"[1, 2, 3, 4, 9, 10, 11, 12]",-5.4,1.6
+Q813,Kyrgyzstan,rainy,"[5, 6, 7, 8]",8.8,4.6
+Q8673,Lagos,shoulder,"[1, 2, 3, 4, 5, 12]",28.8,1.6
+Q8673,Lagos,rainy,"[6, 7, 9, 10]",26.3,5.3
+Q8673,Lagos,high,"[8, 11]",26.7,2.4
+Q11739,Lahore,low,[1],8.7,0.8
+Q11739,Lahore,shoulder,"[2, 5, 6, 9, 12]",24.3,0.7
+Q11739,Lahore,high,"[3, 4, 10, 11]",22.2,0.6
+Q11739,Lahore,rainy,"[7, 8]",30.1,7.2
+Q28237,Lansing,low,"[1, 2, 3, 11, 12]",1.8,2.2
+Q28237,Lansing,shoulder,"[4, 5, 6, 8, 10]",16.6,2.3
+Q28237,Lansing,rainy,[7],22.2,4.2
+Q28237,Lansing,high,[9],19.1,1.3
+Q819,Laos,high,"[1, 2, 3, 10, 11, 12]",23.9,0.8
+Q819,Laos,shoulder,"[4, 5]",29.1,6.0
+Q819,Laos,rainy,"[6, 7, 8, 9]",25.7,19.4
+Q1491,La Paz,shoulder,"[1, 4, 5, 9, 10, 12]",11.0,1.9
+Q1491,La Paz,rainy,"[2, 3, 11]",11.0,4.5
+Q1491,La Paz,low,"[6, 7, 8]",9.1,0.1
+Q23768,Las Vegas,rainy,"[1, 2, 3]",11.1,1.0
+Q23768,Las Vegas,high,"[4, 5, 10]",23.5,0.0
+Q23768,Las Vegas,shoulder,"[6, 8, 9, 11, 12]",24.1,0.0
+Q23768,Las Vegas,low,[7],36.7,0.0
+Q211,Latvia,low,"[1, 2, 3, 4, 10, 11, 12]",2.3,1.9
+Q211,Latvia,shoulder,"[5, 6, 8, 9]",16.2,2.2
+Q211,Latvia,rainy,[7],18.7,5.1
+Q807,Lausanne,low,"[1, 2, 3, 4, 11, 12]",5.1,3.4
+Q807,Lausanne,rainy,[5],12.6,5.8
+Q807,Lausanne,shoulder,"[6, 9, 10]",14.2,4.3
+Q807,Lausanne,high,"[7, 8]",20.2,2.5
+Q822,Lebanon,rainy,"[1, 3]",2.9,5.7
+Q822,Lebanon,low,"[2, 11, 12]",2.9,2.8
+Q822,Lebanon,shoulder,"[4, 5, 9, 10]",11.8,1.6
+Q822,Lebanon,high,"[6, 7, 8]",19.0,0.1
+Q39121,Leeds,low,"[1, 2, 3, 4, 11, 12]",6.7,2.8
+Q39121,Leeds,shoulder,"[5, 6, 7, 8, 9, 10]",13.6,2.5
+Q42810,Le Havre,low,"[1, 3, 11, 12]",7.9,3.4
+Q42810,Le Havre,rainy,"[2, 9]",12.4,5.0
+Q42810,Le Havre,shoulder,"[4, 5, 6, 10]",13.2,2.6
+Q42810,Le Havre,high,"[7, 8]",18.5,2.1
+Q2079,Leipzig,low,"[1, 2, 3, 11, 12]",5.0,1.8
+Q2079,Leipzig,shoulder,"[4, 5, 7, 9, 10]",15.3,2.1
+Q2079,Leipzig,rainy,[6],17.8,3.0
+Q2079,Leipzig,high,[8],21.6,1.4
+Q1013,Lesotho,rainy,"[1, 12]",15.0,2.8
+Q1013,Lesotho,shoulder,"[2, 3, 10, 11]",13.4,1.3
+Q1013,Lesotho,low,"[4, 5, 6, 7, 8, 9]",6.5,0.8
+Q5869,Lhasa,low,"[1, 2, 3, 4, 11, 12]",4.0,0.5
+Q5869,Lhasa,rainy,"[5, 7, 8, 9]",14.6,4.6
+Q5869,Lhasa,shoulder,"[6, 10]",14.1,1.1
+Q1014,Liberia,high,"[1, 2, 3, 4, 5, 11, 12]",26.6,2.1
+Q1014,Liberia,rainy,"[6, 8, 9, 10]",24.1,13.4
+Q1014,Liberia,shoulder,[7],24.0,8.6
+Q3825,Libreville,high,"[1, 6, 7, 8, 9]",25.6,3.1
+Q3825,Libreville,shoulder,"[2, 3, 4, 5, 10, 12]",26.4,11.7
+Q3825,Libreville,rainy,[11],25.2,19.8
+Q1016,Libya,shoulder,"[1, 2, 6, 7, 8, 11, 12]",21.7,0.0
+Q1016,Libya,high,"[3, 4, 10]",22.7,0.0
+Q1016,Libya,rainy,"[5, 9]",29.0,0.2
+Q347,Liechtenstein,low,"[1, 2, 3, 4, 6, 9, 10, 11, 12]",0.0,4.2
+Q347,Liechtenstein,rainy,[5],5.1,7.6
+Q347,Liechtenstein,shoulder,"[7, 8]",12.4,3.0
+Q3992,Liège,low,"[1, 2, 3, 11, 12]",6.0,2.8
+Q3992,Liège,shoulder,"[4, 6, 9, 10]",13.2,3.2
+Q3992,Liège,rainy,[5],14.3,5.7
+Q3992,Liège,high,"[7, 8]",18.9,3.0
+Q648,Lille,low,"[1, 2, 3, 11, 12]",6.9,2.5
+Q648,Lille,shoulder,"[4, 5, 6, 9, 10]",13.7,3.0
+Q648,Lille,high,"[7, 8]",19.0,2.5
+Q3876,Lilongwe,rainy,"[1, 2, 3, 12]",22.9,3.6
+Q3876,Lilongwe,high,"[4, 5, 7, 8, 9, 10, 11]",21.2,0.4
+Q3876,Lilongwe,shoulder,[6],17.9,0.1
+Q2868,Lima,high,"[1, 3, 4, 11]",21.5,0.1
+Q2868,Lima,rainy,"[2, 12]",22.2,0.4
+Q2868,Lima,shoulder,"[5, 6, 7, 8, 9, 10]",16.3,0.0
+Q28260,Lincoln,low,"[1, 2, 3, 12]",1.4,1.2
+Q28260,Lincoln,shoulder,"[4, 7, 8, 10]",19.8,2.4
+Q28260,Lincoln,rainy,"[5, 6, 11]",16.5,4.3
+Q28260,Lincoln,high,[9],22.2,0.6
+Q41329,Linz,low,"[1, 2, 3, 11, 12]",4.4,1.6
+Q41329,Linz,shoulder,"[4, 5, 6, 10]",14.8,2.7
+Q41329,Linz,high,"[7, 8]",22.6,1.7
+Q41329,Linz,rainy,[9],16.4,7.5
+Q597,Lisbon,rainy,"[1, 2, 3, 10]",14.9,3.4
+Q597,Lisbon,shoulder,"[4, 5, 11, 12]",15.7,0.9
+Q597,Lisbon,high,"[6, 7, 8, 9]",21.3,0.6
+Q37,Lithuania,low,"[1, 2, 3, 4, 10, 11, 12]",4.0,1.7
+Q37,Lithuania,shoulder,"[5, 6, 9]",17.2,1.9
+Q37,Lithuania,rainy,[7],20.6,5.4
+Q37,Lithuania,high,[8],19.6,1.2
+Q33405,Little Rock,rainy,"[1, 4, 5]",14.4,6.6
+Q33405,Little Rock,shoulder,"[2, 3, 9, 11]",15.3,3.1
+Q33405,Little Rock,high,"[6, 7, 8, 10]",24.8,1.9
+Q33405,Little Rock,low,[12],8.7,4.5
+Q24826,Liverpool,low,"[1, 2, 3, 4, 11, 12]",7.5,3.8
+Q24826,Liverpool,shoulder,"[5, 6, 7, 8, 9, 10]",14.1,3.5
+Q437,Ljubljana,low,"[1, 2, 3, 11, 12]",3.5,3.1
+Q437,Ljubljana,shoulder,"[4, 6]",15.1,3.2
+Q437,Ljubljana,rainy,"[5, 9, 10]",14.6,6.0
+Q437,Ljubljana,high,"[7, 8]",23.2,1.4
+Q196163,Łobez,low,"[1, 3, 4, 11, 12]",5.0,1.6
+Q196163,Łobez,rainy,"[2, 7]",11.8,3.9
+Q196163,Łobez,shoulder,"[5, 6, 9, 10]",15.3,1.4
+Q196163,Łobez,high,[8],19.1,1.7
+Q580,Łódź,low,"[1, 2, 3, 11, 12]",3.4,1.6
+Q580,Łódź,shoulder,"[4, 5, 6, 7, 9, 10]",15.9,1.7
+Q580,Łódź,rainy,[8],20.4,3.2
+Q3792,Lomé,high,"[1, 8, 11]",26.9,1.3
+Q3792,Lomé,shoulder,"[2, 3, 4, 7, 9, 12]",27.6,1.7
+Q3792,Lomé,rainy,"[5, 6, 10]",26.8,5.8
+Q84,London,low,"[1, 3, 11, 12]",7.3,2.1
+Q84,London,rainy,"[2, 9]",11.8,4.7
+Q84,London,shoulder,"[4, 5, 6, 7, 10]",13.8,2.2
+Q84,London,high,[8],18.6,0.9
+Q65,Los Angeles,rainy,"[1, 2, 3]",12.7,5.6
+Q65,Los Angeles,shoulder,"[4, 5, 11, 12]",15.2,0.2
+Q65,Los Angeles,high,"[6, 7, 8, 9, 10]",22.0,0.0
+Q3897,Luanda,shoulder,[1],26.8,4.0
+Q3897,Luanda,rainy,"[2, 3, 4, 11, 12]",26.7,7.4
+Q3897,Luanda,high,"[5, 6, 7, 8, 9, 10]",23.6,0.1
+Q2843,Lübeck,low,"[1, 2, 3, 4, 11, 12]",5.9,2.3
+Q2843,Lübeck,rainy,[5],15.7,3.7
+Q2843,Lübeck,shoulder,"[6, 7, 9, 10]",15.2,2.4
+Q2843,Lübeck,high,[8],19.0,1.1
+Q37333,Lublin,low,"[1, 2, 3, 10, 11, 12]",4.2,1.7
+Q37333,Lublin,shoulder,"[4, 5, 8, 9]",16.4,1.7
+Q37333,Lublin,rainy,"[6, 7]",20.4,3.1
+Q47916,Lucknow,shoulder,"[1, 2, 4, 5, 6, 12]",24.4,0.8
+Q47916,Lucknow,high,"[3, 10, 11]",24.1,0.4
+Q47916,Lucknow,rainy,"[7, 8, 9]",28.6,10.4
+Q134279,Luhansk,rainy,"[1, 2, 6, 11]",6.0,1.7
+Q134279,Luhansk,low,"[3, 12]",1.5,0.8
+Q134279,Luhansk,shoulder,"[4, 5, 10]",14.4,0.6
+Q134279,Luhansk,high,"[7, 8, 9]",24.2,0.3
+Q3881,Lusaka,rainy,"[1, 11]",22.4,5.1
+Q3881,Lusaka,high,"[2, 3, 4, 5, 7, 8, 9, 10]",21.4,0.6
+Q3881,Lusaka,shoulder,"[6, 12]",21.4,1.1
+Q1842,Luxembourg,low,"[1, 2, 3, 4, 11, 12]",5.5,3.0
+Q1842,Luxembourg,rainy,[5],13.5,4.9
+Q1842,Luxembourg,shoulder,"[6, 9, 10]",14.0,2.9
+Q1842,Luxembourg,high,"[7, 8]",18.7,2.3
+Q32,Luxembourg,low,"[1, 2, 3, 4, 11, 12]",5.4,2.8
+Q32,Luxembourg,rainy,"[5, 9]",14.1,4.8
+Q32,Luxembourg,shoulder,"[6, 7, 10]",14.9,3.0
+Q32,Luxembourg,high,[8],19.4,1.9
+Q36036,Lviv,low,"[1, 2, 3, 10, 11, 12]",3.8,1.9
+Q36036,Lviv,shoulder,"[4, 5, 7]",16.4,1.9
+Q36036,Lviv,rainy,"[6, 9]",18.4,3.6
+Q36036,Lviv,high,[8],21.2,1.5
+Q456,Lyon,low,"[1, 2, 3, 11, 12]",6.3,2.5
+Q456,Lyon,shoulder,"[4, 5, 6, 7, 10]",16.2,3.9
+Q456,Lyon,high,[8],22.8,1.6
+Q456,Lyon,rainy,[9],16.2,6.7
+Q1309,Maastricht,low,"[1, 2, 3, 11, 12]",6.4,2.8
+Q1309,Maastricht,shoulder,"[4, 6, 9, 10]",13.8,3.2
+Q1309,Maastricht,rainy,[5],14.9,5.8
+Q1309,Maastricht,high,"[7, 8]",19.2,2.4
+Q14773,Macau,shoulder,"[1, 7, 12]",21.2,2.6
+Q14773,Macau,high,"[2, 3, 10, 11]",21.7,1.9
+Q14773,Macau,rainy,"[4, 5, 6, 8, 9]",27.1,11.0
+Q676203,Machu Picchu,rainy,"[1, 2, 11, 12]",15.2,10.9
+Q676203,Machu Picchu,shoulder,"[3, 4, 5, 6, 7, 8, 9, 10]",14.6,4.0
+Q1019,Madagascar,rainy,"[1, 2, 3, 12]",21.4,7.8
+Q1019,Madagascar,high,"[4, 9, 10]",19.7,1.2
+Q1019,Madagascar,shoulder,"[5, 6, 7, 8, 11]",17.2,0.9
+Q43788,Madison,low,"[1, 2, 3, 11, 12]",0.5,2.0
+Q43788,Madison,rainy,"[4, 5]",12.9,4.4
+Q43788,Madison,shoulder,"[6, 7, 10]",18.7,3.0
+Q43788,Madison,high,"[8, 9]",20.4,1.4
+Q2807,Madrid,rainy,"[1, 3, 10]",11.1,3.2
+Q2807,Madrid,low,"[2, 12]",7.4,0.7
+Q2807,Madrid,shoulder,"[4, 5, 6, 7, 8, 11]",20.2,0.7
+Q2807,Madrid,high,[9],19.9,0.7
+Q1733,Magdeburg,low,"[1, 2, 3, 11, 12]",5.3,1.7
+Q1733,Magdeburg,shoulder,"[4, 5, 6, 7, 8, 9, 10]",16.5,2.2
+Q1720,Mainz,low,"[1, 2, 3, 11, 12]",5.4,2.0
+Q1720,Mainz,shoulder,"[4, 6, 7, 9, 10]",15.6,2.2
+Q1720,Mainz,rainy,[5],15.6,4.2
+Q1720,Mainz,high,[8],21.9,1.4
+Q12919,Majuro,high,"[1, 2, 3, 4, 8]",27.8,7.5
+Q12919,Majuro,shoulder,"[5, 6, 7, 10, 12]",27.9,15.0
+Q12919,Majuro,rainy,"[9, 11]",27.6,22.1
+Q3818,Malabo,shoulder,"[1, 2, 3, 4]",28.4,1.3
+Q3818,Malabo,high,"[5, 11, 12]",27.4,1.3
+Q3818,Malabo,rainy,"[6, 7, 8, 9, 10]",26.0,6.1
+Q1020,Malawi,rainy,"[1, 2, 3]",21.7,7.8
+Q1020,Malawi,high,"[4, 5, 7, 8, 9, 10, 11]",20.7,0.6
+Q1020,Malawi,shoulder,"[6, 12]",20.6,1.4
+Q833,Malaysia,shoulder,"[1, 6]",24.9,11.8
+Q833,Malaysia,high,"[2, 3, 4, 7, 8, 9, 10]",26.1,6.9
+Q833,Malaysia,rainy,"[5, 11, 12]",24.6,18.2
+Q826,Maldives,high,"[1, 10]",27.9,4.6
+Q826,Maldives,shoulder,"[2, 3, 4, 6, 7, 9, 11, 12]",28.3,4.9
+Q826,Maldives,rainy,"[5, 8]",28.4,12.1
+Q9347,Malé,high,"[1, 10]",27.8,4.6
+Q9347,Malé,shoulder,"[2, 3, 4, 6, 7, 9, 11, 12]",28.3,4.9
+Q9347,Malé,rainy,"[5, 8]",28.4,12.1
+Q912,Mali,high,"[1, 2, 11, 12]",23.6,0.0
+Q912,Mali,shoulder,"[3, 4, 7, 10]",31.6,0.1
+Q912,Mali,low,"[5, 6]",35.6,0.0
+Q912,Mali,rainy,"[8, 9]",30.1,2.2
+Q2211,Malmö,low,"[1, 3, 4, 11, 12]",5.0,1.8
+Q2211,Malmö,rainy,"[2, 9]",10.2,3.2
+Q2211,Malmö,shoulder,"[5, 6, 7, 10]",14.7,1.9
+Q2211,Malmö,high,[8],18.5,1.6
+Q233,Malta,shoulder,"[1, 3, 4, 8, 9]",20.5,0.6
+Q233,Malta,rainy,"[2, 11, 12]",16.3,1.3
+Q233,Malta,high,"[5, 6, 7, 10]",24.3,0.3
+Q3274,Managua,shoulder,"[1, 2, 3, 4, 5, 7]",29.3,2.2
+Q3274,Managua,rainy,"[6, 9, 10, 11]",27.0,10.9
+Q3274,Managua,high,"[8, 12]",27.8,3.6
+Q3882,Manama,high,"[1, 4, 12]",21.4,0.1
+Q3882,Manama,rainy,"[2, 3, 5]",23.7,1.0
+Q3882,Manama,shoulder,"[6, 9, 10, 11]",30.9,0.1
+Q3882,Manama,low,"[7, 8]",36.0,0.0
+Q40236,Manaus,shoulder,"[1, 4, 5, 7, 8, 9, 10, 11]",28.6,2.6
+Q40236,Manaus,rainy,"[2, 3, 12]",27.7,7.1
+Q40236,Manaus,high,[6],27.4,2.2
+Q18125,Manchester,low,"[1, 3, 4, 11, 12]",7.2,3.6
+Q18125,Manchester,rainy,[2],7.1,5.5
+Q18125,Manchester,shoulder,"[5, 6, 7, 8, 9, 10]",14.1,3.3
+Q11299,Manhattan,low,"[1, 2, 11, 12]",3.7,3.3
+Q11299,Manhattan,rainy,"[3, 8]",15.1,6.9
+Q11299,Manhattan,shoulder,"[4, 5, 7, 10]",17.1,2.7
+Q11299,Manhattan,high,"[6, 9]",21.4,2.2
+Q1461,Manila,high,"[1, 2, 3]",27.4,0.9
+Q1461,Manila,shoulder,"[4, 5, 6, 8, 11, 12]",28.7,5.5
+Q1461,Manila,rainy,"[7, 9, 10]",27.3,13.1
+Q2119,Mannheim,low,"[1, 2, 3, 11, 12]",5.7,2.5
+Q2119,Mannheim,shoulder,"[4, 6, 7, 9, 10]",15.8,3.1
+Q2119,Mannheim,rainy,[5],15.6,4.9
+Q2119,Mannheim,high,[8],21.8,2.5
+Q3889,Maputo,high,"[1, 2, 5, 6, 7, 8, 9, 10]",22.7,0.8
+Q3889,Maputo,rainy,"[3, 4, 11]",24.6,4.0
+Q3889,Maputo,shoulder,[12],27.1,2.4
+Q37133,Mariupol,rainy,"[1, 6]",11.7,1.9
+Q37133,Mariupol,low,"[2, 3, 11, 12]",3.4,0.9
+Q37133,Mariupol,shoulder,"[4, 5, 10]",14.8,0.8
+Q37133,Mariupol,high,"[7, 8, 9]",24.9,0.5
+Q101625,Marrakesh,shoulder,"[1, 7, 8, 12]",22.6,0.2
+Q101625,Marrakesh,rainy,"[2, 3, 10]",17.9,1.5
+Q101625,Marrakesh,high,"[4, 5, 6, 9, 11]",22.7,0.1
+Q23482,Marseille,low,"[1, 12]",8.7,0.9
+Q23482,Marseille,shoulder,"[2, 4, 5, 10, 11]",14.4,2.0
+Q23482,Marseille,rainy,"[3, 9]",15.7,3.9
+Q23482,Marseille,high,"[6, 7, 8]",23.4,0.8
+Q709,Marshall Islands,high,"[1, 2, 3, 4, 12]",27.4,1.7
+Q709,Marshall Islands,shoulder,"[5, 6, 7]",28.0,6.2
+Q709,Marshall Islands,rainy,"[8, 9, 10, 11]",27.9,9.2
+Q3909,Maseru,rainy,"[1, 4, 9, 11]",16.5,2.6
+Q3909,Maseru,high,"[2, 3]",20.4,0.8
+Q3909,Maseru,shoulder,"[5, 8, 10, 12]",15.5,0.9
+Q3909,Maseru,low,"[6, 7]",6.8,0.5
+Q1025,Mauritania,high,"[1, 2, 3, 11, 12]",21.0,0.0
+Q1025,Mauritania,rainy,"[4, 9]",29.1,1.1
+Q1025,Mauritania,shoulder,"[5, 6, 7, 8, 10]",32.1,0.0
+Q1027,Mauritius,rainy,"[1, 2]",26.1,7.2
+Q1027,Mauritius,shoulder,"[3, 12]",25.4,3.1
+Q1027,Mauritius,high,"[4, 5, 6, 7, 8, 9, 10, 11]",22.7,1.3
+Q3904,Mbabane,rainy,"[1, 3, 4, 12]",19.0,4.8
+Q3904,Mbabane,shoulder,"[2, 5, 6, 7, 8, 9, 10, 11]",16.6,1.9
+Q48278,Medellín,high,"[1, 2, 3, 7, 9, 12]",21.2,3.3
+Q48278,Medellín,shoulder,"[4, 6, 8, 10]",20.6,7.7
+Q48278,Medellín,rainy,"[5, 11]",20.2,10.4
+Q35484,Medina,high,"[1, 2, 11, 12]",20.9,0.0
+Q35484,Medina,rainy,[3],23.8,1.2
+Q35484,Medina,shoulder,"[4, 5, 10]",29.7,0.1
+Q35484,Medina,low,"[6, 7, 8, 9]",36.2,0.0
+Q3141,Melbourne,rainy,"[1, 4, 7]",14.1,3.6
+Q3141,Melbourne,high,"[2, 3, 12]",19.7,0.9
+Q3141,Melbourne,shoulder,"[5, 8, 9, 10, 11]",13.9,1.8
+Q3141,Melbourne,low,[6],9.2,1.2
+Q5831,Melilla,shoulder,"[1, 9, 12]",18.0,0.4
+Q5831,Melilla,rainy,"[2, 3, 4, 10]",17.6,1.2
+Q5831,Melilla,high,"[5, 6, 7, 8, 11]",22.2,0.2
+Q16563,Memphis,low,"[1, 12]",5.6,5.8
+Q16563,Memphis,shoulder,"[2, 3, 4]",13.9,4.5
+Q16563,Memphis,rainy,"[5, 9, 11]",20.2,7.9
+Q16563,Memphis,high,"[6, 7, 8, 10]",24.6,1.9
+Q13666,Messina,rainy,"[1, 11, 12]",13.2,3.4
+Q13666,Messina,shoulder,"[2, 3, 4, 9]",16.4,1.9
+Q13666,Messina,high,"[5, 6, 7, 8, 10]",23.7,1.0
+Q22690,Metz,low,"[1, 2, 3, 11, 12]",5.6,2.7
+Q22690,Metz,shoulder,"[4, 6, 9, 10]",13.7,2.8
+Q22690,Metz,rainy,[5],14.2,4.4
+Q22690,Metz,high,"[7, 8]",19.8,1.9
+Q96,Mexico,shoulder,"[1, 2, 8, 10, 11, 12]",16.2,0.7
+Q96,Mexico,high,"[3, 4, 5]",21.4,0.0
+Q96,Mexico,rainy,"[6, 7, 9]",20.1,3.8
+Q1489,Mexico City,shoulder,"[1, 2, 10, 11, 12]",16.2,1.0
+Q1489,Mexico City,high,"[3, 4, 5]",21.5,0.3
+Q1489,Mexico City,rainy,"[6, 7, 8, 9]",18.5,7.9
+Q8652,Miami,high,"[1, 2, 4, 5, 11, 12]",23.1,2.3
+Q8652,Miami,shoulder,"[3, 7, 9]",26.6,4.9
+Q8652,Miami,rainy,"[6, 8, 10]",27.1,9.0
+Q490,Milan,low,"[1, 11, 12]",4.8,1.0
+Q490,Milan,rainy,"[2, 5, 10]",13.3,9.3
+Q490,Milan,shoulder,"[3, 4, 6, 9]",15.8,5.4
+Q490,Milan,high,"[7, 8]",25.5,2.9
+Q37836,Milwaukee,low,"[1, 2, 3, 11, 12]",1.1,2.2
+Q37836,Milwaukee,rainy,"[4, 5, 6]",14.6,4.3
+Q37836,Milwaukee,shoulder,"[7, 10]",17.8,1.9
+Q37836,Milwaukee,high,"[8, 9]",20.3,2.0
+Q36091,Minneapolis,low,"[1, 2, 3, 4, 11, 12]",0.1,1.4
+Q36091,Minneapolis,rainy,"[5, 6, 8]",18.8,6.0
+Q36091,Minneapolis,shoulder,"[7, 10]",17.7,2.2
+Q36091,Minneapolis,high,[9],20.1,0.8
+Q2280,Minsk,low,"[1, 2, 3, 10, 11, 12]",1.6,1.4
+Q2280,Minsk,rainy,"[4, 6, 7]",16.2,3.7
+Q2280,Minsk,shoulder,"[5, 8, 9]",17.1,1.8
+Q2449,Mogadishu,high,"[1, 6, 7, 9, 10, 12]",26.7,0.9
+Q2449,Mogadishu,shoulder,"[2, 3, 8]",27.6,1.1
+Q2449,Mogadishu,rainy,"[4, 5, 11]",27.8,4.1
+Q217,Moldova,low,"[1, 2, 3, 11, 12]",3.2,1.4
+Q217,Moldova,shoulder,"[4, 5, 7, 10]",16.5,1.6
+Q217,Moldova,rainy,"[6, 9]",20.6,3.3
+Q217,Moldova,high,[8],24.5,0.7
+Q235,Monaco,low,"[1, 12]",8.9,1.6
+Q235,Monaco,rainy,"[2, 3, 9, 10]",15.1,7.0
+Q235,Monaco,shoulder,"[4, 5, 11]",14.4,1.9
+Q235,Monaco,high,"[6, 7, 8]",24.0,1.0
+Q711,Mongolia,low,"[1, 2, 3, 4, 10, 11, 12]",-6.8,0.2
+Q711,Mongolia,shoulder,"[5, 9]",12.9,0.8
+Q711,Mongolia,high,[6],18.6,0.4
+Q711,Mongolia,rainy,"[7, 8]",20.0,4.0
+Q3748,Monrovia,high,"[1, 2, 3, 4, 5, 11, 12]",27.4,3.1
+Q3748,Monrovia,rainy,"[6, 8, 9, 10]",25.1,18.8
+Q3748,Monrovia,shoulder,[7],25.1,13.6
+Q6022566,Monte Águila,high,"[1, 2, 12]",20.9,0.0
+Q6022566,Monte Águila,shoulder,"[3, 4, 10, 11]",14.7,2.0
+Q6022566,Monte Águila,low,"[5, 7, 9]",7.8,2.9
+Q6022566,Monte Águila,rainy,"[6, 8]",8.4,10.1
+Q236,Montenegro,low,"[1, 3, 4, 5, 9, 11, 12]",0.6,4.4
+Q236,Montenegro,rainy,"[2, 10]",2.0,6.7
+Q236,Montenegro,shoulder,"[6, 7, 8]",14.3,2.3
+Q1335,Montevideo,high,"[1, 11, 12]",20.5,1.7
+Q1335,Montevideo,shoulder,"[2, 5, 6, 9, 10]",16.1,1.9
+Q1335,Montevideo,rainy,"[3, 4, 8]",17.0,4.4
+Q1335,Montevideo,low,[7],9.3,0.3
+Q29364,Montgomery,rainy,"[1, 9]",16.4,6.8
+Q29364,Montgomery,shoulder,"[2, 3, 5, 7, 8, 11, 12]",19.3,3.7
+Q29364,Montgomery,high,"[4, 6, 10]",22.0,1.6
+Q26426,Montpelier,low,"[1, 2, 4, 10, 11, 12]",1.5,2.4
+Q26426,Montpelier,rainy,[3],1.4,4.5
+Q26426,Montpelier,shoulder,"[5, 6, 7, 8, 9]",18.5,2.9
+Q6441,Montpellier,low,"[1, 12]",7.5,1.1
+Q6441,Montpellier,shoulder,"[2, 4, 11]",11.9,2.5
+Q6441,Montpellier,rainy,"[3, 5, 9, 10]",16.2,4.6
+Q6441,Montpellier,high,"[6, 7, 8]",24.1,1.1
+Q340,Montreal,low,"[1, 2, 3, 4, 10, 11, 12]",0.1,2.2
+Q340,Montreal,shoulder,"[5, 7, 9]",17.5,2.8
+Q340,Montreal,rainy,"[6, 8]",19.2,6.0
+Q1028,Morocco,low,"[1, 4, 11, 12]",3.2,0.6
+Q1028,Morocco,rainy,"[2, 3, 10]",3.2,2.6
+Q1028,Morocco,shoulder,"[5, 6, 8, 9]",13.2,0.7
+Q1028,Morocco,high,[7],18.6,0.4
+Q3901,Moroni,rainy,"[1, 3, 4]",27.1,23.1
+Q3901,Moroni,high,"[2, 5, 6, 7, 8, 9, 10, 11, 12]",25.6,6.6
+Q649,Moscow,low,"[1, 2, 3, 4, 12]",-2.7,1.3
+Q649,Moscow,shoulder,"[5, 7, 9]",16.8,1.2
+Q649,Moscow,rainy,"[6, 10, 11]",9.2,2.7
+Q649,Moscow,high,[8],18.5,1.6
+Q1029,Mozambique,rainy,"[1, 2, 3, 4]",26.5,3.3
+Q1029,Mozambique,high,"[5, 6, 7, 9, 10]",23.4,0.8
+Q1029,Mozambique,shoulder,"[8, 11, 12]",26.6,1.7
+Q1156,Mumbai,high,"[1, 2, 3, 10, 11, 12]",26.2,0.7
+Q1156,Mumbai,shoulder,"[4, 5]",30.0,0.2
+Q1156,Mumbai,rainy,"[6, 7, 8, 9]",27.1,19.4
+Q1726,Munich,low,"[1, 2, 3, 4, 11, 12]",5.0,2.4
+Q1726,Munich,shoulder,"[5, 8, 10]",15.1,3.5
+Q1726,Munich,rainy,"[6, 9]",16.0,7.4
+Q1726,Munich,high,[7],19.4,3.1
+Q2742,Münster,low,"[1, 2, 3, 11, 12]",5.9,2.4
+Q2742,Münster,shoulder,"[4, 5, 6, 7, 8, 9, 10]",15.5,3.2
+Q3826,Muscat,high,"[1, 3, 11, 12]",24.6,0.1
+Q3826,Muscat,rainy,"[2, 4, 10]",27.3,1.5
+Q3826,Muscat,shoulder,"[5, 8, 9]",32.7,0.1
+Q3826,Muscat,low,"[6, 7]",36.2,0.0
+Q836,Myanmar,high,"[1, 2, 3, 11, 12]",24.3,0.4
+Q836,Myanmar,shoulder,"[4, 5, 6, 7]",31.0,4.1
+Q836,Myanmar,rainy,"[8, 9, 10]",28.0,11.0
+Q11751,Nagoya,low,"[1, 2, 3, 12]",6.3,3.2
+Q11751,Nagoya,shoulder,"[4, 5, 8, 10, 11]",19.4,6.6
+Q11751,Nagoya,rainy,"[6, 7]",25.0,9.8
+Q11751,Nagoya,high,[9],26.6,2.7
+Q3870,Nairobi,shoulder,"[1, 5, 7, 8, 12]",18.9,2.0
+Q3870,Nairobi,high,"[2, 3, 6, 9, 10]",19.9,1.0
+Q3870,Nairobi,rainy,"[4, 11]",19.5,5.1
+Q1030,Namibia,rainy,"[1, 2, 3]",26.5,1.0
+Q1030,Namibia,high,"[4, 5, 8, 9, 10, 11]",22.8,0.0
+Q1030,Namibia,shoulder,"[6, 7, 12]",19.9,0.1
+Q16666,Nanjing,low,"[1, 2, 12]",4.3,1.8
+Q16666,Nanjing,shoulder,"[3, 4, 8, 10, 11]",17.8,3.4
+Q16666,Nanjing,high,[5],20.9,3.0
+Q16666,Nanjing,rainy,"[6, 7, 9]",26.9,8.3
+Q12191,Nantes,low,"[1, 2, 3, 12]",8.3,3.3
+Q12191,Nantes,shoulder,"[4, 5, 6, 9, 11]",13.7,2.9
+Q12191,Nantes,high,"[7, 8]",19.2,2.3
+Q12191,Nantes,rainy,[10],14.1,5.3
+Q2634,Naples,shoulder,"[1, 2, 3, 4, 11]",12.6,2.6
+Q2634,Naples,high,"[5, 6, 7, 8]",23.8,1.2
+Q2634,Naples,rainy,"[9, 10, 12]",16.6,4.6
+Q23197,Nashville,low,"[1, 2, 12]",5.7,4.3
+Q23197,Nashville,shoulder,"[3, 4, 5, 6, 7, 10, 11]",18.6,4.1
+Q23197,Nashville,high,[8],25.8,1.4
+Q23197,Nashville,rainy,[9],22.6,9.1
+Q2467,Nassau,high,"[1, 2, 4, 5, 11, 12]",24.1,1.2
+Q2467,Nassau,shoulder,"[3, 6, 7, 9]",27.4,2.5
+Q2467,Nassau,rainy,"[8, 10]",28.2,4.2
+Q697,Nauru,rainy,"[1, 2, 3]",28.3,7.8
+Q697,Nauru,shoulder,"[4, 5, 6, 7, 8, 9, 10, 11, 12]",28.5,1.4
+Q37400,Naypyidaw,high,"[1, 2, 3, 10, 11, 12]",24.9,1.8
+Q37400,Naypyidaw,shoulder,"[4, 5]",31.3,3.9
+Q37400,Naypyidaw,rainy,"[6, 7, 8, 9]",25.9,19.6
+Q430776,Nazareth,rainy,"[1, 2, 12]",12.2,2.8
+Q430776,Nazareth,shoulder,"[3, 11]",15.6,0.9
+Q430776,Nazareth,high,"[4, 5, 6, 7, 8, 9, 10]",23.8,0.2
+Q3659,N'Djamena,high,"[1, 2, 10, 11, 12]",25.8,0.5
+Q3659,N'Djamena,shoulder,"[3, 6]",32.8,0.6
+Q3659,N'Djamena,low,"[4, 5]",36.3,0.0
+Q3659,N'Djamena,rainy,"[7, 8, 9]",26.3,11.4
+Q837,Nepal,shoulder,"[1, 2, 3, 11, 12]",13.2,0.5
+Q837,Nepal,high,"[4, 5, 10]",21.3,2.5
+Q837,Nepal,rainy,"[6, 7, 8, 9]",23.1,19.9
+Q55,Netherlands,low,"[1, 3, 11, 12]",6.3,2.4
+Q55,Netherlands,rainy,[2],7.7,4.7
+Q55,Netherlands,shoulder,"[4, 5, 6, 7, 9, 10]",14.6,3.2
+Q55,Netherlands,high,[8],19.3,2.3
+Q987,New Delhi,shoulder,"[1, 2, 4, 5, 6, 12]",23.5,1.1
+Q987,New Delhi,high,"[3, 10, 11]",23.5,0.2
+Q987,New Delhi,rainy,"[7, 8, 9]",28.6,9.7
+Q34404,New Orleans,shoulder,"[1, 2, 3, 5, 7, 8, 12]",20.5,5.5
+Q34404,New Orleans,high,"[4, 6, 10, 11]",23.1,3.1
+Q34404,New Orleans,rainy,[9],26.0,14.3
+Q60,New York City,low,"[1, 2, 11, 12]",3.7,3.3
+Q60,New York City,rainy,"[3, 8]",15.1,6.9
+Q60,New York City,shoulder,"[4, 5, 7, 10]",17.1,2.7
+Q60,New York City,high,"[6, 9]",21.4,2.2
+Q664,New Zealand,high,[1],18.3,1.2
+Q664,New Zealand,shoulder,"[2, 3, 4, 9, 11, 12]",14.8,2.3
+Q664,New Zealand,low,"[5, 7, 8]",9.4,3.0
+Q664,New Zealand,rainy,"[6, 10]",11.3,4.8
+Q19491,Nha Trang,high,"[1, 2, 3]",25.2,0.8
+Q19491,Nha Trang,shoulder,"[4, 5, 6, 7, 8, 9]",29.1,2.0
+Q19491,Nha Trang,rainy,"[10, 11, 12]",25.8,8.8
+Q3674,Niamey,high,"[1, 2, 11, 12]",25.9,0.0
+Q3674,Niamey,shoulder,"[3, 6, 10]",31.9,0.6
+Q3674,Niamey,low,"[4, 5]",35.3,0.1
+Q3674,Niamey,rainy,"[7, 8, 9]",28.1,4.5
+Q811,Nicaragua,high,"[1, 2, 3, 4]",25.6,2.0
+Q811,Nicaragua,shoulder,"[5, 8, 11, 12]",25.3,7.4
+Q811,Nicaragua,rainy,"[6, 7, 9, 10]",24.9,14.0
+Q33959,Nice,low,"[1, 12]",8.9,1.4
+Q33959,Nice,rainy,"[2, 3, 9, 10]",15.1,7.2
+Q33959,Nice,shoulder,"[4, 5, 11]",14.6,1.8
+Q33959,Nice,high,"[6, 7, 8]",24.0,0.7
+Q3856,Nicosia,rainy,"[1, 4, 11, 12]",15.2,1.7
+Q3856,Nicosia,shoulder,"[2, 3, 6, 7, 8]",23.8,0.5
+Q3856,Nicosia,high,"[5, 9, 10]",23.4,0.4
+Q1032,Niger,shoulder,"[1, 4, 5, 6, 7, 10, 12]",27.6,0.0
+Q1032,Niger,high,"[2, 3, 11]",21.6,0.0
+Q1032,Niger,rainy,"[8, 9]",29.9,1.8
+Q1033,Nigeria,high,"[1, 11, 12]",26.6,0.0
+Q1033,Nigeria,shoulder,"[2, 3, 4, 5, 6, 10]",28.1,1.1
+Q1033,Nigeria,rainy,"[7, 8, 9]",24.8,6.1
+Q34020,Niue,rainy,"[1, 2, 3]",27.0,8.8
+Q34020,Niue,high,"[4, 6, 7, 8, 10, 11, 12]",24.9,2.7
+Q34020,Niue,shoulder,"[5, 9]",25.1,6.2
+Q891,Nizhny Novgorod,low,"[1, 2, 3, 4, 10, 11, 12]",-1.7,1.4
+Q891,Nizhny Novgorod,shoulder,"[5, 6, 7, 9]",16.9,1.4
+Q891,Nizhny Novgorod,rainy,[8],17.6,2.8
+Q23681,Northern Cyprus,rainy,"[1, 4, 11, 12]",15.2,1.7
+Q23681,Northern Cyprus,shoulder,"[2, 3, 6, 7, 8]",23.8,0.5
+Q23681,Northern Cyprus,high,"[5, 9, 10]",23.4,0.4
+Q423,North Korea,low,"[1, 2, 3, 4, 10, 11, 12]",-3.2,1.1
+Q423,North Korea,shoulder,"[5, 6, 9]",13.7,2.7
+Q423,North Korea,rainy,"[7, 8]",19.6,9.8
+Q221,North Macedonia,low,"[1, 2]",4.7,0.8
+Q221,North Macedonia,rainy,"[3, 5, 11, 12]",9.5,2.4
+Q221,North Macedonia,shoulder,"[4, 9, 10]",17.1,1.0
+Q221,North Macedonia,high,"[6, 7, 8]",26.7,0.4
+Q20,Norway,low,"[1, 2, 3, 4, 10, 11, 12]",0.3,2.5
+Q20,Norway,shoulder,"[5, 8, 9]",14.2,4.0
+Q20,Norway,rainy,"[6, 7]",14.9,5.7
+Q41262,Nottingham,low,"[1, 2, 3, 4, 11, 12]",7.1,2.4
+Q41262,Nottingham,shoulder,"[5, 6, 7, 8, 9, 10]",14.3,2.5
+Q3688,Nouakchott,high,"[1, 2, 3, 4, 5, 6, 11]",25.7,0.0
+Q3688,Nouakchott,shoulder,"[7, 10, 12]",26.7,0.2
+Q3688,Nouakchott,rainy,"[8, 9]",27.7,0.8
+Q883,Novosibirsk,low,"[1, 2, 3, 4, 9, 10, 11, 12]",-4.4,1.3
+Q883,Novosibirsk,rainy,"[5, 6, 8]",16.1,3.7
+Q883,Novosibirsk,high,[7],21.7,1.8
+Q38834,Nukuʻalofa,rainy,"[1, 3, 5]",25.9,11.7
+Q38834,Nukuʻalofa,high,"[2, 4, 6, 7, 8, 9, 11]",23.9,3.0
+Q38834,Nukuʻalofa,shoulder,"[10, 12]",25.0,6.9
+Q2090,Nuremberg,low,"[1, 2, 3, 11, 12]",4.5,2.2
+Q2090,Nuremberg,shoulder,"[4, 5, 6, 7, 8, 9, 10]",16.0,2.8
+Q226,Nuuk,low,"[1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12]",-1.3,2.6
+Q226,Nuuk,rainy,[6],3.8,6.1
+Q17042,Oakland,rainy,"[1, 2, 3, 11, 12]",11.3,4.7
+Q17042,Oakland,shoulder,"[4, 5, 6, 8]",15.9,0.6
+Q17042,Oakland,high,"[7, 9, 10]",18.7,0.2
+Q1874,Odesa,low,"[1, 2, 11, 12]",4.2,1.0
+Q1874,Odesa,rainy,"[3, 9]",13.2,2.9
+Q1874,Odesa,shoulder,"[4, 5, 7, 10]",17.7,1.4
+Q1874,Odesa,high,"[6, 8]",24.0,0.9
+Q34863,Oklahoma City,low,"[1, 12]",4.3,1.6
+Q34863,Oklahoma City,shoulder,"[2, 3, 4, 5, 7, 8, 9]",20.5,2.6
+Q34863,Oklahoma City,high,"[6, 10]",24.6,1.2
+Q34863,Oklahoma City,rainy,[11],12.1,6.1
+Q42735,Olympia,rainy,"[1, 11, 12]",5.9,7.3
+Q42735,Olympia,low,"[2, 3, 4]",7.2,3.5
+Q42735,Olympia,shoulder,"[5, 6, 9, 10]",13.7,2.2
+Q42735,Olympia,high,"[7, 8]",19.2,1.0
+Q43199,Omaha,low,"[1, 2, 3, 11, 12]",2.1,1.4
+Q43199,Omaha,rainy,"[4, 5, 7]",18.5,4.2
+Q43199,Omaha,shoulder,"[6, 8, 10]",21.6,1.8
+Q43199,Omaha,high,[9],21.8,0.5
+Q842,Oman,high,"[1, 11, 12]",24.1,0.0
+Q842,Oman,rainy,"[2, 3, 4]",26.6,0.6
+Q842,Oman,shoulder,"[5, 8, 9, 10]",32.5,0.1
+Q842,Oman,low,"[6, 7]",36.9,0.0
+Q898,Omsk,low,"[1, 2, 3, 4, 5, 10, 11, 12]",-4.2,1.1
+Q898,Omsk,rainy,"[6, 7, 8]",18.8,2.5
+Q898,Omsk,shoulder,[9],11.1,1.6
+Q49233,Orlando,shoulder,"[1, 2, 7, 8, 12]",20.4,3.8
+Q49233,Orlando,high,"[3, 4, 5, 11]",22.3,1.5
+Q49233,Orlando,rainy,"[6, 9, 10]",25.3,9.3
+Q35765,Osaka,low,"[1, 2, 3, 12]",6.9,2.8
+Q35765,Osaka,shoulder,"[4, 7, 8, 10, 11]",21.8,5.9
+Q35765,Osaka,rainy,"[5, 6]",20.3,10.7
+Q35765,Osaka,high,[9],27.6,3.0
+Q585,Oslo,low,"[1, 2, 3, 4, 10, 11, 12]",0.8,2.2
+Q585,Oslo,shoulder,"[5, 8, 9]",14.4,3.3
+Q585,Oslo,rainy,"[6, 7]",15.3,5.3
+Q1930,Ottawa,low,"[1, 2, 3, 4, 11, 12]",-0.4,2.4
+Q1930,Ottawa,shoulder,"[5, 7, 9, 10]",16.3,2.8
+Q1930,Ottawa,rainy,"[6, 8]",19.6,6.8
+Q3777,Ouagadougou,high,"[1, 2, 10, 11, 12]",26.4,0.2
+Q3777,Ouagadougou,shoulder,"[3, 4, 5, 6]",32.2,1.2
+Q3777,Ouagadougou,rainy,"[7, 8, 9]",26.1,8.0
+Q34217,Oxford,low,"[1, 3, 4, 11, 12]",7.3,2.6
+Q34217,Oxford,rainy,"[2, 9]",11.1,5.1
+Q34217,Oxford,shoulder,"[5, 6, 7, 8, 10]",14.8,1.9
+Q617,Padua,low,"[1, 2, 11, 12]",5.7,2.5
+Q617,Padua,shoulder,"[3, 4, 6]",15.4,4.6
+Q617,Padua,rainy,"[5, 9, 10]",17.7,7.8
+Q617,Padua,high,"[7, 8]",26.4,1.9
+Q843,Pakistan,shoulder,"[1, 2, 5, 9, 12]",21.0,0.2
+Q843,Pakistan,high,"[3, 4, 10, 11]",24.1,0.2
+Q843,Pakistan,low,"[6, 7]",36.4,0.8
+Q843,Pakistan,rainy,[8],30.6,9.4
+Q695,Palau,high,"[1, 2, 3, 4, 5, 10, 11]",27.0,11.1
+Q695,Palau,rainy,"[6, 7]",26.0,32.0
+Q695,Palau,shoulder,"[8, 9, 12]",26.6,19.9
+Q2656,Palermo,shoulder,"[1, 2, 3, 4, 8, 11]",17.3,2.0
+Q2656,Palermo,rainy,"[5, 10, 12]",18.1,4.8
+Q2656,Palermo,high,"[6, 7, 9]",25.5,0.8
+Q219060,Palestine,rainy,"[1, 2, 3]",11.5,2.7
+Q219060,Palestine,shoulder,"[4, 11, 12]",14.9,1.4
+Q219060,Palestine,high,"[5, 6, 7, 8, 9, 10]",23.6,0.2
+Q804,Panama,high,"[1, 2, 3, 4, 5, 12]",24.2,2.8
+Q804,Panama,rainy,"[6, 7, 11]",23.2,12.6
+Q804,Panama,shoulder,"[8, 9, 10]",23.3,9.2
+Q3306,Panama City,high,"[1, 2, 4, 12]",27.4,3.4
+Q3306,Panama City,shoulder,"[3, 5, 6, 10, 11]",26.8,8.4
+Q3306,Panama City,rainy,"[7, 8, 9]",26.3,12.4
+Q691,Papua New Guinea,shoulder,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",16.5,22.9
+Q733,Paraguay,shoulder,"[1, 2, 3, 10, 12]",29.4,3.4
+Q733,Paraguay,rainy,"[4, 11]",27.6,6.2
+Q733,Paraguay,high,"[5, 6, 7, 8, 9]",22.4,1.3
+Q3001,Paramaribo,high,"[1, 2, 3, 8, 10, 11, 12]",27.2,2.8
+Q3001,Paramaribo,shoulder,"[4, 9]",27.9,3.9
+Q3001,Paramaribo,rainy,"[5, 6, 7]",26.3,13.0
+Q90,Paris,low,"[1, 2, 3, 11, 12]",7.2,2.6
+Q90,Paris,shoulder,"[4, 5, 6, 8, 9, 10]",15.2,3.8
+Q90,Paris,high,[7],19.7,2.0
+Q2683,Parma,low,"[1, 2, 11, 12]",5.6,2.6
+Q2683,Parma,shoulder,"[3, 4]",11.9,4.0
+Q2683,Parma,rainy,"[5, 6, 9, 10]",18.3,6.1
+Q2683,Parma,high,"[7, 8]",26.2,1.2
+Q148,People's Republic of China,low,"[1, 2, 3, 4, 10, 11, 12]",-1.5,0.7
+Q148,People's Republic of China,shoulder,"[5, 7]",15.0,1.3
+Q148,People's Republic of China,rainy,"[6, 8, 9]",14.5,3.0
+Q915,Perm,low,"[1, 2, 3, 4, 5, 10, 11, 12]",-3.0,1.4
+Q915,Perm,shoulder,"[6, 7, 9]",16.8,2.2
+Q915,Perm,rainy,[8],15.0,3.6
+Q3183,Perth,high,"[1, 2, 3, 4, 11, 12]",23.2,0.4
+Q3183,Perth,rainy,"[5, 6, 7, 8]",15.7,4.3
+Q3183,Perth,shoulder,"[9, 10]",16.6,1.1
+Q419,Peru,shoulder,"[1, 3, 10]",20.2,6.8
+Q419,Peru,rainy,"[2, 11, 12]",19.8,8.5
+Q419,Peru,high,"[4, 5, 6, 7, 8, 9]",19.2,2.4
+Q3437,Perugia,low,"[1, 2, 3, 11, 12]",6.8,2.2
+Q3437,Perugia,shoulder,"[4, 5]",13.4,2.5
+Q3437,Perugia,high,"[6, 7, 8]",23.6,1.4
+Q3437,Perugia,rainy,"[9, 10]",16.5,5.7
+Q1345,Philadelphia,rainy,"[1, 3, 8]",11.2,5.9
+Q1345,Philadelphia,low,"[2, 12]",3.1,2.6
+Q1345,Philadelphia,shoulder,"[4, 10, 11]",12.6,2.0
+Q1345,Philadelphia,high,"[5, 6, 7, 9]",22.5,2.0
+Q928,Philippines,high,"[1, 2, 3]",27.0,1.0
+Q928,Philippines,shoulder,"[4, 5, 6, 8, 11]",28.7,5.7
+Q928,Philippines,rainy,"[7, 9, 10, 12]",27.9,12.3
+Q1850,Phnom Penh,high,"[1, 11, 12]",27.1,2.2
+Q1850,Phnom Penh,shoulder,"[2, 3, 4, 6, 8]",29.4,2.9
+Q1850,Phnom Penh,rainy,"[5, 7, 9, 10]",27.8,10.3
+Q16556,Phoenix,rainy,"[1, 2, 3]",13.3,1.6
+Q16556,Phoenix,high,"[4, 5, 10]",25.5,0.1
+Q16556,Phoenix,shoulder,"[6, 9, 11, 12]",24.6,0.0
+Q16556,Phoenix,low,"[7, 8]",36.3,0.3
+Q40747,Pierre,low,"[1, 2, 3, 11, 12]",-1.3,0.5
+Q40747,Pierre,rainy,"[4, 5, 6, 8]",17.1,2.5
+Q40747,Pierre,shoulder,"[7, 10]",19.5,0.9
+Q40747,Pierre,high,[9],22.4,0.4
+Q13375,Pisa,low,"[1, 2, 12]",7.6,3.2
+Q13375,Pisa,shoulder,"[3, 4, 5, 6, 11]",14.6,4.0
+Q13375,Pisa,high,"[7, 8]",26.0,0.8
+Q13375,Pisa,rainy,"[9, 10]",18.6,8.0
+Q1342,Pittsburgh,low,"[1, 2, 3, 11, 12]",4.0,3.2
+Q1342,Pittsburgh,rainy,[4],12.3,8.3
+Q1342,Pittsburgh,shoulder,"[5, 7, 8, 9, 10]",19.3,3.7
+Q1342,Pittsburgh,high,[6],22.0,2.5
+Q23564,Podgorica,low,"[1, 11]",7.9,5.9
+Q23564,Podgorica,rainy,"[2, 12]",8.4,7.2
+Q23564,Podgorica,shoulder,"[3, 4, 5, 7, 8, 9, 10]",19.9,4.0
+Q23564,Podgorica,high,[6],24.8,2.4
+Q36,Poland,low,"[1, 2, 3, 11, 12]",4.0,1.5
+Q36,Poland,shoulder,"[4, 5, 9, 10]",14.2,1.2
+Q36,Poland,rainy,"[6, 7, 8]",20.4,2.7
+Q43332,Pompeii,shoulder,"[1, 3, 4, 9, 11]",14.8,2.9
+Q43332,Pompeii,rainy,"[2, 10, 12]",13.6,4.3
+Q43332,Pompeii,high,"[5, 6, 7, 8]",23.9,1.1
+Q34261,Port-au-Prince,high,"[1, 3, 12]",27.6,0.7
+Q34261,Port-au-Prince,rainy,"[2, 10, 11]",27.6,2.0
+Q34261,Port-au-Prince,shoulder,"[4, 5, 6, 7, 8, 9]",30.2,0.9
+Q6106,Portland,rainy,"[1, 11, 12]",5.7,9.4
+Q6106,Portland,low,"[2, 3, 4]",7.7,4.3
+Q6106,Portland,shoulder,"[5, 6, 10]",13.8,3.3
+Q6106,Portland,high,"[7, 8, 9]",20.1,0.8
+Q3929,Port Louis,rainy,"[1, 2]",27.1,6.9
+Q3929,Port Louis,shoulder,"[3, 10]",25.2,3.0
+Q3929,Port Louis,high,"[4, 5, 6, 7, 8, 9, 11, 12]",24.2,1.1
+Q36526,Port Moresby,rainy,"[1, 3, 12]",27.5,7.8
+Q36526,Port Moresby,shoulder,"[2, 4]",27.2,5.7
+Q36526,Port Moresby,high,"[5, 6, 7, 8, 9, 10, 11]",26.7,1.9
+Q36433,Porto,rainy,"[1, 2, 3, 10]",13.4,8.3
+Q36433,Porto,shoulder,"[4, 5, 11, 12]",14.2,3.0
+Q36433,Porto,high,"[6, 7, 8, 9]",19.0,1.6
+Q40269,Porto Alegre,high,"[1, 2, 3, 10, 11]",23.4,3.3
+Q40269,Porto Alegre,rainy,"[4, 5]",19.2,9.7
+Q40269,Porto Alegre,shoulder,"[6, 7, 8, 9, 12]",17.4,4.5
+Q3799,Porto-Novo,high,"[1, 2, 8, 11, 12]",27.1,1.5
+Q3799,Porto-Novo,shoulder,"[3, 4, 5, 7, 9]",27.4,3.9
+Q3799,Porto-Novo,rainy,"[6, 10]",26.0,7.6
+Q45,Portugal,rainy,"[1, 2, 3, 10]",14.9,3.4
+Q45,Portugal,shoulder,"[4, 5, 11, 12]",15.7,0.9
+Q45,Portugal,high,"[6, 7, 8, 9]",21.3,0.6
+Q37806,Port Vila,shoulder,"[1, 11, 12]",26.1,7.2
+Q37806,Port Vila,rainy,"[2, 3]",26.2,14.8
+Q37806,Port Vila,high,"[4, 5, 6, 7, 8, 9, 10]",23.9,3.3
+Q1711,Potsdam,low,"[1, 3, 11, 12]",4.7,1.6
+Q1711,Potsdam,rainy,[2],6.9,2.7
+Q1711,Potsdam,shoulder,"[4, 5, 6, 9, 10]",15.1,1.9
+Q1711,Potsdam,high,"[7, 8]",20.6,1.2
+Q268,Poznań,low,"[1, 3, 11, 12]",3.9,1.1
+Q268,Poznań,rainy,"[2, 6]",12.5,2.9
+Q268,Poznań,shoulder,"[4, 5, 7, 9, 10]",15.3,1.6
+Q268,Poznań,high,[8],21.5,1.2
+Q1085,Prague,low,"[1, 2, 3, 11, 12]",4.2,1.2
+Q1085,Prague,shoulder,"[4, 7, 8, 10]",16.7,1.8
+Q1085,Prague,rainy,"[5, 9]",16.2,4.3
+Q1085,Prague,high,[6],19.5,1.5
+Q3751,Praia,high,"[1, 2, 3, 4, 5, 6, 7, 11, 12]",24.4,0.1
+Q3751,Praia,shoulder,[8],26.3,1.2
+Q3751,Praia,rainy,"[9, 10]",26.1,4.3
+Q3926,Pretoria,rainy,"[1, 4, 12]",21.2,2.0
+Q3926,Pretoria,shoulder,"[2, 5, 6, 7, 8, 11]",17.7,0.4
+Q3926,Pretoria,high,"[3, 9, 10]",20.7,0.7
+Q25270,Pristina,low,"[1, 2, 3]",5.1,1.2
+Q25270,Pristina,shoulder,"[4, 5, 10]",13.5,1.6
+Q25270,Pristina,high,"[6, 7, 8]",24.1,0.7
+Q25270,Pristina,rainy,"[9, 11, 12]",7.6,2.8
+Q18383,Providence,rainy,"[1, 3]",2.4,6.7
+Q18383,Providence,low,"[2, 4, 11, 12]",4.6,3.4
+Q18383,Providence,shoulder,"[5, 9, 10]",15.1,2.8
+Q18383,Providence,high,"[6, 7, 8]",22.2,2.9
+Q1538,Pune,high,"[1, 2, 3, 10, 11, 12]",24.1,0.7
+Q1538,Pune,shoulder,"[4, 5]",30.2,0.6
+Q1538,Pune,rainy,"[6, 7, 8, 9]",24.5,10.2
+Q18808,Pyongyang,low,"[1, 2, 3, 11, 12]",1.0,0.8
+Q18808,Pyongyang,shoulder,"[4, 5, 10]",14.7,2.4
+Q18808,Pyongyang,high,[6],22.6,1.9
+Q18808,Pyongyang,rainy,"[7, 8, 9]",25.1,8.3
+Q3551,Rabat,rainy,"[1, 2, 3, 10]",16.5,3.0
+Q3551,Rabat,high,"[4, 5, 6, 7, 8, 9, 11]",20.6,0.4
+Q3551,Rabat,shoulder,[12],14.4,0.4
+Q1437,Rajasthan,shoulder,"[1, 4, 9, 12]",22.2,0.4
+Q1437,Rajasthan,high,"[2, 3, 10, 11]",23.0,0.2
+Q1437,Rajasthan,low,[5],35.5,0.0
+Q1437,Rajasthan,rainy,"[6, 7, 8]",30.9,4.4
+Q41087,Raleigh,low,"[1, 2, 12]",7.2,2.7
+Q41087,Raleigh,shoulder,"[3, 4, 5, 10, 11]",16.1,2.6
+Q41087,Raleigh,high,[6],25.7,1.5
+Q41087,Raleigh,rainy,"[7, 8, 9]",24.0,6.3
+Q158119,Ramallah,rainy,"[1, 2, 3]",10.0,2.3
+Q158119,Ramallah,shoulder,"[4, 11, 12]",13.7,1.2
+Q158119,Ramallah,high,"[5, 6, 7, 8, 9, 10]",21.8,0.1
+Q13364,Ravenna,low,"[1, 2, 11]",7.5,1.5
+Q13364,Ravenna,shoulder,"[3, 4]",12.8,1.8
+Q13364,Ravenna,high,"[5, 6, 7, 8]",23.8,1.7
+Q13364,Ravenna,rainy,"[9, 10, 12]",14.8,5.1
+Q48344,Recife,high,"[1, 8, 9, 10, 11, 12]",26.1,2.0
+Q48344,Recife,shoulder,"[2, 3, 4, 5, 7]",26.6,4.4
+Q48344,Recife,rainy,[6],25.3,6.6
+Q41876,Reims,low,"[1, 2, 3, 11, 12]",6.4,2.5
+Q41876,Reims,shoulder,"[4, 5, 6, 7, 9, 10]",14.7,3.0
+Q41876,Reims,high,[8],20.1,2.3
+Q647,Rennes,low,"[1, 2, 3, 11, 12]",8.1,2.5
+Q647,Rennes,shoulder,"[4, 5, 6, 9]",13.8,2.8
+Q647,Rennes,high,"[7, 8]",18.6,1.4
+Q647,Rennes,rainy,[10],13.3,4.1
+Q971,Republic of the Congo,high,"[1, 6, 7, 8, 12]",25.2,2.2
+Q971,Republic of the Congo,shoulder,"[2, 3, 4, 5, 11]",25.8,5.9
+Q971,Republic of the Congo,rainy,"[9, 10]",24.4,8.9
+Q1764,Reykjavík,low,"[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12]",3.3,4.2
+Q1764,Reykjavík,shoulder,[7],10.8,5.4
+Q43421,Richmond,low,"[1, 2, 12]",5.5,2.5
+Q43421,Richmond,rainy,[3],10.7,6.0
+Q43421,Richmond,shoulder,"[4, 5, 7, 9, 10, 11]",18.3,2.0
+Q43421,Richmond,high,"[6, 8]",25.0,1.8
+Q1773,Riga,low,"[1, 2, 3, 4, 10, 11, 12]",3.3,1.7
+Q1773,Riga,shoulder,"[5, 6, 8, 9]",16.9,2.3
+Q1773,Riga,rainy,[7],19.6,4.9
+Q8678,Rio de Janeiro,rainy,"[1, 3, 12]",25.8,6.5
+Q8678,Rio de Janeiro,high,"[2, 4, 5, 6, 7, 8, 9]",23.6,1.3
+Q8678,Rio de Janeiro,shoulder,"[10, 11]",23.5,3.5
+Q3692,Riyadh,shoulder,"[1, 9, 10, 12]",24.5,0.0
+Q3692,Riyadh,rainy,"[2, 3, 4, 5, 11]",24.0,0.4
+Q3692,Riyadh,low,"[6, 7, 8]",37.5,0.0
+Q218,Romania,low,"[1, 2, 3, 10, 11, 12]",3.9,1.6
+Q218,Romania,shoulder,"[4, 5, 6, 7, 8, 9]",17.6,2.6
+Q220,Rome,low,"[1, 12]",8.8,2.1
+Q220,Rome,shoulder,"[2, 4, 5, 7, 8, 11]",18.8,1.7
+Q220,Rome,rainy,"[3, 9, 10]",17.4,4.5
+Q220,Rome,high,[6],23.4,0.8
+Q36281,Roseau,high,"[1, 2, 3, 4, 5]",26.4,2.0
+Q36281,Roseau,shoulder,"[6, 9, 10, 12]",27.2,2.6
+Q36281,Roseau,rainy,"[7, 8, 11]",27.2,4.6
+Q908,Rostov-on-Don,rainy,"[1, 2]",-0.4,2.2
+Q908,Rostov-on-Don,low,"[3, 11, 12]",3.2,0.9
+Q908,Rostov-on-Don,shoulder,"[4, 5, 6, 7, 10]",19.5,0.6
+Q908,Rostov-on-Don,high,"[8, 9]",23.6,0.7
+Q34370,Rotterdam,low,"[1, 2, 3, 11, 12]",7.0,2.9
+Q34370,Rotterdam,shoulder,"[4, 6, 7, 9, 10]",14.4,3.1
+Q34370,Rotterdam,rainy,[5],15.0,4.6
+Q34370,Rotterdam,high,[8],19.4,1.8
+Q34001,Roubaix,low,"[1, 2, 3, 11, 12]",6.9,2.6
+Q34001,Roubaix,shoulder,"[4, 5, 6, 9, 10]",13.7,3.0
+Q34001,Roubaix,high,"[7, 8]",19.0,2.7
+Q30974,Rouen,low,"[1, 3, 11, 12]",6.7,2.5
+Q30974,Rouen,rainy,[2],8.5,4.4
+Q30974,Rouen,shoulder,"[4, 5, 6, 9, 10]",13.3,3.1
+Q30974,Rouen,high,"[7, 8]",18.6,2.1
+Q159,Russia,low,"[1, 2, 3, 4, 5, 10, 11, 12]",-14.9,1.3
+Q159,Russia,rainy,"[6, 8, 9]",10.3,3.1
+Q159,Russia,shoulder,[7],17.1,1.7
+Q1037,Rwanda,rainy,"[1, 4, 11, 12]",19.2,4.9
+Q1037,Rwanda,high,"[2, 3, 5, 6, 7, 8, 9]",20.8,0.9
+Q1037,Rwanda,shoulder,[10],20.1,2.5
+Q1724,Saarbrücken,low,"[1, 2, 3, 4, 11, 12]",6.0,2.9
+Q1724,Saarbrücken,rainy,[5],14.2,5.7
+Q1724,Saarbrücken,shoulder,"[6, 9, 10]",14.8,2.9
+Q1724,Saarbrücken,high,"[7, 8]",19.8,1.8
+Q18013,Sacramento,rainy,"[1, 2, 11, 12]",10.0,5.3
+Q18013,Sacramento,shoulder,"[3, 4, 7]",18.1,1.4
+Q18013,Sacramento,high,"[5, 6, 8, 9, 10]",22.8,0.3
+Q763,Saint Kitts and Nevis,high,"[1, 3, 4, 12]",25.9,1.5
+Q763,Saint Kitts and Nevis,rainy,"[2, 8, 11]",26.6,4.6
+Q763,Saint Kitts and Nevis,shoulder,"[5, 6, 7, 9, 10]",28.0,2.6
+Q760,Saint Lucia,high,"[1, 2, 3, 4, 5, 12]",24.7,2.7
+Q760,Saint Lucia,shoulder,"[6, 7, 9, 10]",25.6,5.6
+Q760,Saint Lucia,rainy,"[8, 11]",25.1,7.3
+Q28848,Saint Paul,low,"[1, 2, 3, 4, 11, 12]",0.1,1.5
+Q28848,Saint Paul,rainy,"[5, 6, 8]",18.7,6.1
+Q28848,Saint Paul,shoulder,"[7, 10]",17.7,2.2
+Q28848,Saint Paul,high,[9],20.0,0.8
+Q656,Saint Petersburg,low,"[1, 2, 3, 4, 10, 11, 12]",-0.2,1.7
+Q656,Saint Petersburg,shoulder,"[5, 6, 9]",14.9,1.6
+Q656,Saint Petersburg,rainy,"[7, 8]",18.6,4.2
+Q757,Saint Vincent and the Grenadines,high,"[1, 2, 3, 4, 12]",26.8,0.7
+Q757,Saint Vincent and the Grenadines,shoulder,"[5, 6, 10]",28.1,1.5
+Q757,Saint Vincent and the Grenadines,rainy,"[7, 8, 9, 11]",27.9,4.4
+Q23337,Salt Lake City,rainy,"[1, 2, 3]",2.2,3.8
+Q23337,Salt Lake City,low,"[4, 11, 12]",4.3,1.7
+Q23337,Salt Lake City,shoulder,"[5, 10]",14.2,0.9
+Q23337,Salt Lake City,high,"[6, 7, 8, 9]",24.6,0.2
+Q36947,Salvador,shoulder,"[1, 2, 6]",26.4,4.5
+Q36947,Salvador,high,"[3, 5, 7, 8, 9, 10, 12]",25.8,2.6
+Q36947,Salvador,rainy,"[4, 11]",26.4,8.6
+Q34713,Salzburg,low,"[1, 2, 3, 11, 12]",4.4,2.9
+Q34713,Salzburg,shoulder,"[4, 5, 6, 7, 10]",15.5,4.4
+Q34713,Salzburg,high,[8],21.3,3.4
+Q34713,Salzburg,rainy,[9],15.0,10.5
+Q894,Samara,low,"[1, 2, 3, 10, 11, 12]",-4.2,1.3
+Q894,Samara,shoulder,"[4, 5, 6, 9]",15.7,0.8
+Q894,Samara,high,[7],22.8,1.2
+Q894,Samara,rainy,[8],19.3,2.3
+Q5753,Samarkand,low,"[1, 2, 11, 12]",4.5,1.9
+Q5753,Samarkand,rainy,"[3, 4, 5]",13.7,4.0
+Q5753,Samarkand,high,"[6, 8, 9]",25.4,0.1
+Q5753,Samarkand,shoulder,"[7, 10]",21.6,1.1
+Q683,Samoa,shoulder,"[1, 5, 7, 8, 11]",25.9,15.3
+Q683,Samoa,rainy,[2],27.6,24.8
+Q683,Samoa,high,"[3, 4, 6, 9, 10, 12]",26.3,9.6
+Q2471,Sanaa,shoulder,"[1, 2, 5, 11, 12]",17.1,0.3
+Q2471,Sanaa,high,"[3, 4, 6, 7, 9, 10]",20.8,0.2
+Q2471,Sanaa,rainy,[8],19.3,5.2
+Q975,San Antonio,low,[1],9.7,3.6
+Q975,San Antonio,shoulder,"[2, 4, 6, 7, 8, 12]",23.7,2.5
+Q975,San Antonio,high,"[3, 9, 10, 11]",22.9,1.5
+Q975,San Antonio,rainy,[5],26.1,7.3
+Q16552,San Diego,rainy,"[1, 2, 3]",12.9,3.9
+Q16552,San Diego,shoulder,"[4, 5, 11, 12]",14.8,0.1
+Q16552,San Diego,high,"[6, 7, 8, 9, 10]",20.2,0.0
+Q62,San Francisco,rainy,"[1, 2, 3, 11, 12]",11.7,4.9
+Q62,San Francisco,shoulder,"[4, 5, 6, 7, 8, 9, 10]",15.5,0.3
+Q16553,San Jose,rainy,"[1, 2, 11, 12]",11.2,3.9
+Q16553,San Jose,shoulder,"[3, 4, 5]",14.3,1.4
+Q16553,San Jose,high,"[6, 7, 8, 9, 10]",21.1,0.0
+Q3070,San José,high,"[1, 2, 3, 4, 5, 12]",21.0,4.1
+Q3070,San José,rainy,"[6, 10, 11]",19.5,18.7
+Q3070,San José,shoulder,"[7, 8, 9]",20.1,13.8
+Q238,San Marino,low,"[1, 2, 11, 12]",7.2,2.4
+Q238,San Marino,shoulder,"[3, 4, 5]",13.0,2.8
+Q238,San Marino,high,"[6, 7, 8]",24.2,1.4
+Q238,San Marino,rainy,"[9, 10]",16.9,5.9
+Q1848,San Marino,low,"[1, 2, 3, 11, 12]",6.3,2.4
+Q1848,San Marino,shoulder,"[4, 5]",12.8,2.9
+Q1848,San Marino,high,"[6, 7, 8]",22.6,1.4
+Q1848,San Marino,rainy,"[9, 10]",15.4,5.9
+Q3110,San Salvador,high,"[1, 2, 3, 4, 5, 10, 12]",24.9,2.0
+Q3110,San Salvador,rainy,"[6, 9]",23.4,14.8
+Q3110,San Salvador,shoulder,"[7, 8, 11]",23.7,7.5
+Q38555,Santa Fe,low,"[1, 2, 3, 12]",1.3,0.8
+Q38555,Santa Fe,shoulder,"[4, 5, 7, 8, 10]",16.7,1.0
+Q38555,Santa Fe,rainy,"[6, 11]",12.2,1.9
+Q38555,Santa Fe,high,[9],18.2,0.9
+Q2887,Santiago,high,"[1, 2, 3, 11, 12]",21.3,0.1
+Q2887,Santiago,shoulder,"[4, 7, 9, 10]",14.2,0.3
+Q2887,Santiago,rainy,"[5, 6, 8]",10.5,4.3
+Q34820,Santo Domingo,high,"[1, 2, 3, 4, 10]",25.3,2.5
+Q34820,Santo Domingo,shoulder,"[5, 6, 7, 8, 9, 12]",26.3,5.7
+Q34820,Santo Domingo,rainy,[11],24.9,7.8
+Q174,São Paulo,rainy,"[1, 2, 11, 12]",22.0,6.6
+Q174,São Paulo,shoulder,"[3, 7, 8]",18.4,2.6
+Q174,São Paulo,high,"[4, 5, 6, 9, 10]",20.3,1.3
+Q3932,São Tomé,high,"[1, 6, 7, 8]",26.0,3.1
+Q3932,São Tomé,rainy,[2],27.8,13.1
+Q3932,São Tomé,shoulder,"[3, 4, 5, 9, 10, 11, 12]",26.8,9.5
+Q1039,São Tomé and Príncipe,high,"[1, 4, 6, 7, 8]",20.5,5.2
+Q1039,São Tomé and Príncipe,shoulder,"[2, 3, 5, 9, 10, 12]",21.2,11.9
+Q1039,São Tomé and Príncipe,rainy,[11],20.3,14.2
+Q37951,Sapporo,low,"[1, 2, 3, 4, 11, 12]",-0.9,2.7
+Q37951,Sapporo,shoulder,"[5, 6, 7, 8]",18.6,4.0
+Q37951,Sapporo,high,[9],18.0,2.3
+Q37951,Sapporo,rainy,[10],12.2,5.4
+Q11194,Sarajevo,low,"[1, 2, 3, 11, 12]",5.1,2.9
+Q11194,Sarajevo,shoulder,"[4, 5, 6, 10]",16.1,2.3
+Q11194,Sarajevo,high,"[7, 8]",23.9,1.3
+Q11194,Sarajevo,rainy,[9],16.9,4.2
+Q5332,Saratov,rainy,"[1, 8, 10]",6.9,1.9
+Q5332,Saratov,low,"[2, 3, 11, 12]",-3.5,0.8
+Q5332,Saratov,shoulder,"[4, 5, 6, 9]",17.0,0.5
+Q5332,Saratov,high,[7],24.7,0.4
+Q851,Saudi Arabia,high,"[1, 11]",20.1,0.1
+Q851,Saudi Arabia,shoulder,"[2, 5, 9, 10, 12]",25.3,0.1
+Q851,Saudi Arabia,rainy,"[3, 4]",22.4,1.4
+Q851,Saudi Arabia,low,"[6, 7, 8]",35.7,0.0
+Q1709,Schwerin,low,"[1, 2, 3, 4, 11, 12]",5.7,2.1
+Q1709,Schwerin,shoulder,"[5, 6, 7, 9, 10]",15.5,2.4
+Q1709,Schwerin,high,[8],19.2,1.2
+Q5083,Seattle,rainy,"[1, 11, 12]",6.4,6.4
+Q5083,Seattle,low,"[2, 3, 4]",7.5,2.7
+Q5083,Seattle,shoulder,"[5, 6, 9, 10]",13.8,2.2
+Q5083,Seattle,high,"[7, 8]",19.3,1.1
+Q1041,Senegal,shoulder,"[1, 2, 3, 4, 5, 6, 11]",31.6,0.1
+Q1041,Senegal,rainy,"[7, 8, 9, 10]",27.8,4.9
+Q1041,Senegal,high,[12],27.0,0.2
+Q8684,Seoul,low,"[1, 2, 3, 11, 12]",2.1,1.2
+Q8684,Seoul,shoulder,"[4, 5, 10]",15.0,2.6
+Q8684,Seoul,high,[6],22.9,3.7
+Q8684,Seoul,rainy,"[7, 8, 9]",25.4,9.9
+Q403,Serbia,low,"[1, 2, 3, 11]",5.6,1.7
+Q403,Serbia,shoulder,"[4, 6, 10]",15.8,1.4
+Q403,Serbia,rainy,"[5, 9, 12]",11.7,3.0
+Q403,Serbia,high,"[7, 8]",24.1,0.8
+Q7525,Sevastopol,rainy,"[1, 12]",5.7,2.5
+Q7525,Sevastopol,low,"[2, 3, 11]",8.1,1.2
+Q7525,Sevastopol,shoulder,"[4, 5, 10]",15.1,1.1
+Q7525,Sevastopol,high,"[6, 7, 8, 9]",23.8,0.7
+Q1042,Seychelles,shoulder,"[1, 5]",28.3,5.1
+Q1042,Seychelles,rainy,"[2, 3, 4, 6, 12]",27.6,11.2
+Q1042,Seychelles,high,"[7, 8, 9, 10, 11]",26.3,1.7
+Q8686,Shanghai,low,"[1, 2, 12]",6.1,2.2
+Q8686,Shanghai,shoulder,"[3, 4, 7, 8, 10, 11]",20.3,4.0
+Q8686,Shanghai,high,[5],19.7,3.2
+Q8686,Shanghai,rainy,"[6, 9]",25.5,8.9
+Q42448,Sheffield,low,"[1, 3, 4, 11, 12]",6.9,2.4
+Q42448,Sheffield,rainy,"[2, 9]",10.2,3.8
+Q42448,Sheffield,shoulder,"[5, 6, 7, 8, 10]",14.1,1.9
+Q15174,Shenzhen,shoulder,"[1, 6, 7, 12]",21.9,4.2
+Q15174,Shenzhen,high,"[2, 3, 10, 11]",21.1,2.2
+Q15174,Shenzhen,rainy,"[4, 5, 8, 9]",26.1,13.6
+Q2751,Siena,low,"[1, 2, 11, 12]",7.6,2.0
+Q2751,Siena,shoulder,"[3, 4]",11.7,3.0
+Q2751,Siena,rainy,"[5, 9, 10]",17.1,5.1
+Q2751,Siena,high,"[6, 7, 8]",24.5,0.7
+Q1044,Sierra Leone,shoulder,"[1, 2, 3, 4, 6, 10]",28.0,4.0
+Q1044,Sierra Leone,high,"[5, 11, 12]",26.8,2.4
+Q1044,Sierra Leone,rainy,"[7, 8, 9]",24.5,21.5
+Q19566,Simferopol,rainy,[1],2.1,3.1
+Q19566,Simferopol,low,"[2, 3, 11, 12]",5.8,1.4
+Q19566,Simferopol,shoulder,"[4, 5, 10]",14.1,1.4
+Q19566,Simferopol,high,"[6, 7, 8, 9]",22.9,0.6
+Q334,Singapore,rainy,"[1, 11]",26.0,15.9
+Q334,Singapore,high,"[2, 3, 4, 7, 8, 9, 10, 12]",27.4,6.0
+Q334,Singapore,shoulder,"[5, 6]",27.6,10.3
+Q26273,Sint Maarten,high,"[1, 3, 4, 12]",26.1,1.4
+Q26273,Sint Maarten,shoulder,"[2, 5, 6, 7, 8, 9, 10]",27.8,3.4
+Q26273,Sint Maarten,rainy,[11],27.3,7.4
+Q384,Skopje,low,"[1, 2]",4.5,0.7
+Q384,Skopje,shoulder,"[3, 4, 9, 10]",15.0,1.4
+Q384,Skopje,rainy,"[5, 11, 12]",9.0,2.8
+Q384,Skopje,high,"[6, 7, 8]",26.9,0.5
+Q214,Slovakia,low,"[1, 2, 3, 4, 10, 11, 12]",3.2,1.9
+Q214,Slovakia,shoulder,[5],12.5,3.7
+Q214,Slovakia,rainy,"[6, 9]",15.2,5.1
+Q214,Slovakia,high,"[7, 8]",19.1,1.8
+Q215,Slovenia,low,"[1, 2, 3, 11, 12]",4.6,2.3
+Q215,Slovenia,shoulder,"[4, 6, 10]",14.3,3.5
+Q215,Slovenia,rainy,"[5, 9]",15.4,6.1
+Q215,Slovenia,high,"[7, 8]",22.8,2.1
+Q2337,Smolensk,low,"[1, 2, 3, 10, 11, 12]",-0.5,1.7
+Q2337,Smolensk,rainy,"[4, 6]",13.8,3.5
+Q2337,Smolensk,shoulder,"[5, 7, 9]",16.7,1.4
+Q2337,Smolensk,high,[8],19.1,1.8
+Q472,Sofia,low,"[1, 2, 3, 11]",4.8,1.4
+Q472,Sofia,shoulder,"[4, 9, 10]",14.7,1.3
+Q472,Sofia,rainy,"[5, 12]",8.6,2.6
+Q472,Sofia,high,"[6, 7, 8]",24.3,0.5
+Q685,Solomon Islands,rainy,[1],25.0,23.3
+Q685,Solomon Islands,shoulder,"[2, 3, 11, 12]",25.1,12.4
+Q685,Solomon Islands,high,"[4, 5, 6, 7, 8, 9, 10]",24.4,7.4
+Q1045,Somalia,high,"[1, 12]",26.9,0.0
+Q1045,Somalia,shoulder,"[2, 3, 6, 7, 8, 9, 10, 11]",29.1,0.1
+Q1045,Somalia,rainy,"[4, 5]",29.5,1.8
+Q34754,Somaliland,high,"[1, 2, 6, 7, 9, 11, 12]",24.1,0.1
+Q34754,Somaliland,shoulder,"[3, 8]",25.9,0.7
+Q34754,Somaliland,rainy,"[4, 5, 10]",26.2,1.3
+Q258,South Africa,high,"[1, 2, 3, 10]",25.0,0.5
+Q258,South Africa,rainy,"[4, 6, 12]",19.2,2.2
+Q258,South Africa,shoulder,"[5, 8, 9, 11]",18.2,0.6
+Q258,South Africa,low,[7],8.7,0.1
+Q884,South Korea,low,"[1, 2, 3, 11, 12]",3.3,2.1
+Q884,South Korea,shoulder,"[4, 5, 10]",15.3,3.2
+Q884,South Korea,high,"[6, 8]",24.8,2.5
+Q884,South Korea,rainy,"[7, 9]",24.9,7.5
+Q23427,South Ossetia,low,"[1, 2, 3, 10, 11, 12]",2.5,3.2
+Q23427,South Ossetia,shoulder,"[4, 6, 9]",16.4,2.0
+Q23427,South Ossetia,rainy,[5],12.5,6.5
+Q23427,South Ossetia,high,"[7, 8]",21.5,2.9
+Q958,South Sudan,shoulder,"[1, 2, 3, 4, 5, 6, 9, 10, 11, 12]",30.5,0.8
+Q958,South Sudan,rainy,"[7, 8]",26.0,4.8
+Q29,Spain,rainy,"[1, 3, 10]",11.4,3.5
+Q29,Spain,low,"[2, 12]",7.3,0.9
+Q29,Spain,shoulder,"[4, 5, 6, 8, 11]",19.0,0.8
+Q29,Spain,high,"[7, 9]",24.1,0.2
+Q28515,Springfield,low,"[1, 2, 3, 12]",3.2,2.1
+Q28515,Springfield,rainy,"[4, 11]",10.9,4.6
+Q28515,Springfield,shoulder,"[5, 7, 10]",19.4,2.5
+Q28515,Springfield,high,"[6, 8, 9]",22.6,1.9
+Q854,Sri Lanka,shoulder,"[1, 5, 8, 10]",22.8,6.8
+Q854,Sri Lanka,high,"[2, 3, 4, 6, 7, 9, 12]",23.1,3.9
+Q854,Sri Lanka,rainy,[11],21.3,18.9
+Q41547,St. George's,shoulder,"[1, 5, 9, 10, 11]",28.1,2.2
+Q41547,St. George's,high,"[2, 3, 4, 12]",27.2,1.2
+Q41547,St. George's,rainy,"[6, 7, 8]",27.8,4.6
+Q36262,St. John's,high,"[1, 3, 4, 12]",26.6,1.6
+Q36262,St. John's,rainy,"[2, 8, 11]",27.2,4.3
+Q36262,St. John's,shoulder,"[5, 6, 7, 9, 10]",28.6,2.4
+Q38022,St. Louis,low,"[1, 2, 12]",2.9,2.5
+Q38022,St. Louis,shoulder,"[3, 4, 5, 9, 10]",16.7,3.2
+Q38022,St. Louis,high,"[6, 8]",24.9,2.0
+Q38022,St. Louis,rainy,"[7, 11]",17.4,5.6
+Q1754,Stockholm,low,"[1, 2, 3, 4, 10, 11, 12]",2.3,1.6
+Q1754,Stockholm,shoulder,"[5, 6, 8, 9]",15.3,1.7
+Q1754,Stockholm,rainy,[7],17.8,3.3
+Q6602,Strasbourg,low,"[1, 2, 3, 11, 12]",5.6,2.8
+Q6602,Strasbourg,shoulder,"[4, 6, 9, 10]",14.4,3.5
+Q6602,Strasbourg,rainy,[5],15.2,5.6
+Q6602,Strasbourg,high,"[7, 8]",20.9,2.4
+Q1022,Stuttgart,low,"[1, 2, 3, 11, 12]",5.8,2.2
+Q1022,Stuttgart,shoulder,"[4, 6, 9, 10]",14.5,3.1
+Q1022,Stuttgart,rainy,[5],15.0,5.6
+Q1022,Stuttgart,high,"[7, 8]",21.0,2.2
+Q2907,Sucre,rainy,"[1, 2, 3, 11, 12]",15.5,4.1
+Q2907,Sucre,shoulder,"[4, 5, 6, 7, 8, 9, 10]",14.8,0.4
+Q1049,Sudan,high,"[1, 2, 11, 12]",24.1,0.0
+Q1049,Sudan,shoulder,"[3, 4, 5, 6, 9, 10]",32.4,0.1
+Q1049,Sudan,rainy,"[7, 8]",29.3,1.8
+Q40811,Sukhumi,rainy,[1],5.2,8.3
+Q40811,Sukhumi,low,"[2, 3, 11, 12]",7.8,5.4
+Q40811,Sukhumi,shoulder,"[4, 5, 9, 10]",16.8,5.0
+Q40811,Sukhumi,high,"[6, 7, 8]",23.7,3.0
+Q3492,Sumatra,rainy,[1],25.7,15.6
+Q3492,Sumatra,shoulder,"[2, 3, 4, 5, 11]",26.6,12.5
+Q3492,Sumatra,high,"[6, 7, 8, 9, 10, 12]",26.7,7.0
+Q11462,Surabaya,rainy,"[1, 2, 3, 11, 12]",27.3,12.1
+Q11462,Surabaya,shoulder,"[4, 5, 6, 8, 9, 10]",28.7,1.9
+Q11462,Surabaya,high,[7],27.8,0.2
+Q730,Suriname,high,"[1, 2, 3, 8, 9, 10, 11]",26.8,2.2
+Q730,Suriname,shoulder,"[4, 7, 12]",25.7,8.0
+Q730,Suriname,rainy,"[5, 6]",25.8,13.7
+Q38807,Suva,rainy,"[1, 2, 3, 5]",25.6,14.8
+Q38807,Suva,high,"[4, 6, 7, 8, 9, 10]",23.9,3.4
+Q38807,Suva,shoulder,"[11, 12]",25.1,10.6
+Q34,Sweden,low,"[1, 2, 3, 4, 10, 11, 12]",-1.4,1.6
+Q34,Sweden,shoulder,"[5, 6, 8, 9]",13.5,2.1
+Q34,Sweden,rainy,[7],15.4,6.0
+Q39,Switzerland,low,"[1, 2, 3, 4, 5, 9, 10, 11, 12]",1.1,5.8
+Q39,Switzerland,shoulder,"[6, 7, 8]",12.8,5.3
+Q3130,Sydney,shoulder,"[1, 7, 8, 9, 10, 11]",17.3,2.2
+Q3130,Sydney,high,"[2, 3, 12]",22.2,2.1
+Q3130,Sydney,rainy,"[4, 5, 6]",14.6,5.1
+Q858,Syria,rainy,"[1, 2, 3]",10.9,1.0
+Q858,Syria,shoulder,"[4, 6, 7, 8, 11]",25.7,0.1
+Q858,Syria,high,"[5, 9, 10]",23.3,0.1
+Q858,Syria,low,[12],8.9,0.5
+Q393,Szczecin,low,"[1, 2, 3, 11, 12]",4.7,1.5
+Q393,Szczecin,shoulder,"[4, 5, 6, 8, 9, 10]",15.5,1.9
+Q393,Szczecin,rainy,[7],19.3,3.5
+Q1867,Taipei,shoulder,"[1, 2, 5, 6, 7, 8, 12]",22.6,4.3
+Q1867,Taipei,high,"[3, 4, 11]",21.1,3.7
+Q1867,Taipei,rainy,"[9, 10]",26.3,10.9
+Q865,Taiwan,shoulder,"[1, 2, 3, 5, 6, 9, 10, 11, 12]",16.6,7.2
+Q865,Taiwan,rainy,"[4, 7]",19.9,16.1
+Q865,Taiwan,high,[8],20.8,4.7
+Q863,Tajikistan,low,"[1, 2, 3, 6, 7, 8, 9, 10, 11, 12]",-7.5,2.2
+Q863,Tajikistan,rainy,"[4, 5]",-5.8,3.8
+Q37043,Tallahassee,shoulder,"[1, 2, 3, 5, 12]",15.6,3.7
+Q37043,Tallahassee,high,"[4, 6, 8, 10, 11]",23.0,2.4
+Q37043,Tallahassee,rainy,"[7, 9]",26.2,8.8
+Q1770,Tallinn,low,"[1, 2, 3, 4, 10, 11, 12]",1.8,1.8
+Q1770,Tallinn,shoulder,"[5, 8, 9]",15.5,1.9
+Q1770,Tallinn,rainy,"[6, 7]",17.6,3.8
+Q49255,Tampa,shoulder,"[1, 2, 6, 7, 9, 12]",21.9,3.6
+Q49255,Tampa,high,"[3, 4, 5, 11]",23.1,2.1
+Q49255,Tampa,rainy,"[8, 10]",25.6,9.9
+Q40840,Tampere,low,"[1, 2, 3, 4, 10, 11, 12]",-0.4,1.9
+Q40840,Tampere,shoulder,"[5, 6, 8]",15.9,1.8
+Q40840,Tampere,rainy,"[7, 9]",16.1,4.2
+Q126148,Tangier,shoulder,"[1, 4, 11, 12]",15.5,1.3
+Q126148,Tangier,rainy,"[2, 3, 10]",16.3,5.5
+Q126148,Tangier,high,"[5, 6, 7, 8, 9]",22.1,0.4
+Q924,Tanzania,rainy,"[1, 2, 3, 4, 12]",22.3,5.4
+Q924,Tanzania,high,"[5, 6, 7, 8, 9, 10]",23.0,0.1
+Q924,Tanzania,shoulder,[11],25.5,3.3
+Q13498,Taranto,shoulder,"[1, 3, 4, 7, 8, 9, 11]",19.8,1.1
+Q13498,Taranto,rainy,"[2, 10, 12]",14.5,2.5
+Q13498,Taranto,high,"[5, 6]",23.4,0.8
+Q13972,Tartu,low,"[1, 2, 3, 4, 10, 11, 12]",1.7,1.5
+Q13972,Tartu,shoulder,"[5, 6, 8, 9]",16.3,1.5
+Q13972,Tartu,rainy,[7],19.3,5.1
+Q269,Tashkent,low,"[1, 2, 12]",1.9,1.9
+Q269,Tashkent,rainy,"[3, 5, 11]",11.8,4.2
+Q269,Tashkent,shoulder,"[4, 7, 8, 10]",21.6,1.1
+Q269,Tashkent,high,"[6, 9]",23.9,0.3
+Q994,Tbilisi,low,"[1, 2, 3, 11, 12]",5.4,1.6
+Q994,Tbilisi,shoulder,"[4, 6, 7, 9, 10]",19.9,1.9
+Q994,Tbilisi,rainy,[5],16.2,4.2
+Q994,Tbilisi,high,[8],25.1,1.1
+Q3238,Tegucigalpa,high,"[1, 2, 3, 4, 5, 10, 12]",23.1,1.7
+Q3238,Tegucigalpa,rainy,"[6, 7, 9]",22.5,8.9
+Q3238,Tegucigalpa,shoulder,"[8, 11]",21.6,6.2
+Q3616,Tehran,rainy,"[1, 2, 3]",7.6,1.8
+Q3616,Tehran,high,"[4, 9, 10]",21.1,0.5
+Q3616,Tehran,shoulder,"[5, 6, 7, 8, 11]",26.0,0.5
+Q3616,Tehran,low,[12],4.6,0.3
+Q33935,Tel Aviv,rainy,"[1, 2, 12]",14.7,4.8
+Q33935,Tel Aviv,shoulder,"[3, 4, 7, 8]",23.2,0.7
+Q33935,Tel Aviv,high,"[5, 6, 9, 10, 11]",23.5,0.4
+Q869,Thailand,high,"[1, 11, 12]",26.9,0.4
+Q869,Thailand,shoulder,"[2, 3, 4]",30.1,1.2
+Q869,Thailand,rainy,"[5, 6, 7, 8, 9, 10]",28.2,11.1
+Q778,The Bahamas,high,"[1, 2, 4, 5, 11, 12]",24.1,1.2
+Q778,The Bahamas,shoulder,"[3, 6, 7, 9]",27.4,2.5
+Q778,The Bahamas,rainy,"[8, 10]",28.2,4.2
+Q1005,The Gambia,high,"[1, 11, 12]",26.6,0.1
+Q1005,The Gambia,shoulder,"[2, 3, 4, 5, 6]",31.1,0.2
+Q1005,The Gambia,rainy,"[7, 8, 9, 10]",26.9,9.2
+Q36600,The Hague,low,"[1, 2, 3, 11, 12]",7.2,3.5
+Q36600,The Hague,shoulder,"[4, 5, 6, 7, 9, 10]",14.4,3.4
+Q36600,The Hague,high,[8],19.3,1.9
+Q17151,Thessaloniki,low,[1],6.3,1.8
+Q17151,Thessaloniki,shoulder,"[2, 3, 4, 7, 8, 10, 11]",18.0,1.3
+Q17151,Thessaloniki,high,"[5, 6, 9]",23.1,1.2
+Q17151,Thessaloniki,rainy,[12],8.2,6.2
+Q9270,Thimphu,low,"[1, 2, 3, 11, 12]",6.7,4.0
+Q9270,Thimphu,shoulder,"[4, 5, 8, 9, 10]",15.2,10.1
+Q9270,Thimphu,rainy,"[6, 7]",17.7,19.0
+Q11736,Tianjin,low,"[1, 2, 3, 11, 12]",2.8,0.3
+Q11736,Tianjin,shoulder,"[4, 10]",14.7,0.9
+Q11736,Tianjin,high,"[5, 6]",24.3,0.7
+Q11736,Tianjin,rainy,"[7, 8, 9]",25.3,6.3
+Q9427,Timbuktu,high,"[1, 2, 11, 12]",24.2,0.0
+Q9427,Timbuktu,shoulder,"[3, 4, 7, 10]",31.9,0.1
+Q9427,Timbuktu,low,"[5, 6]",36.1,0.0
+Q9427,Timbuktu,rainy,"[8, 9]",30.1,3.2
+Q574,Timor-Leste,shoulder,"[1, 4]",23.5,10.1
+Q574,Timor-Leste,rainy,"[2, 3, 12]",23.6,17.2
+Q574,Timor-Leste,high,"[5, 6, 7, 8, 9, 10, 11]",21.6,4.1
+Q19689,Tirana,rainy,"[1, 3, 9]",13.5,7.0
+Q19689,Tirana,shoulder,"[2, 4, 5, 10, 11]",14.5,3.6
+Q19689,Tirana,high,"[6, 7, 8]",26.9,0.9
+Q19689,Tirana,low,[12],7.6,4.3
+Q945,Togo,high,"[1, 5, 11, 12]",27.1,0.7
+Q945,Togo,shoulder,"[2, 3, 4, 6]",28.4,2.2
+Q945,Togo,rainy,"[7, 8, 9, 10]",24.8,6.5
+Q1490,Tokyo,low,"[1, 2, 3, 12]",6.8,2.7
+Q1490,Tokyo,shoulder,"[4, 7, 8, 9, 11]",22.3,4.7
+Q1490,Tokyo,rainy,"[5, 6]",20.7,8.8
+Q1490,Tokyo,high,[10],19.9,4.7
+Q678,Tonga,rainy,"[1, 3]",26.8,15.6
+Q678,Tonga,high,"[2, 4, 6, 7, 8, 9, 11, 12]",24.6,2.6
+Q678,Tonga,shoulder,"[5, 10]",24.8,6.1
+Q41057,Topeka,low,"[1, 2, 3, 11, 12]",4.7,1.8
+Q41057,Topeka,shoulder,"[4, 7, 10]",19.6,2.9
+Q41057,Topeka,rainy,"[5, 6]",22.2,5.2
+Q41057,Topeka,high,"[8, 9]",23.7,2.4
+Q172,Toronto,low,"[1, 2, 3, 11, 12]",1.6,2.1
+Q172,Toronto,rainy,[4],7.7,5.6
+Q172,Toronto,shoulder,"[5, 6, 7, 10]",17.0,2.6
+Q172,Toronto,high,"[8, 9]",19.6,2.4
+Q7880,Toulouse,low,"[1, 2, 12]",7.2,2.3
+Q7880,Toulouse,shoulder,"[3, 4, 5, 6, 7, 9, 10, 11]",15.5,2.9
+Q7880,Toulouse,high,[8],22.7,1.4
+Q45301,Trabzon,low,"[1, 12]",8.8,3.2
+Q45301,Trabzon,shoulder,"[2, 3, 4, 5, 11]",12.8,2.3
+Q45301,Trabzon,high,"[6, 8]",23.9,1.6
+Q45301,Trabzon,rainy,"[7, 9, 10]",21.1,5.6
+Q907112,Transnistria,low,"[1, 2, 3, 11, 12]",3.5,1.3
+Q907112,Transnistria,shoulder,"[4, 5, 10]",14.0,1.9
+Q907112,Transnistria,rainy,"[6, 9]",21.2,3.6
+Q907112,Transnistria,high,"[7, 8]",25.2,0.7
+Q25330,Trenton,rainy,"[1, 3, 8]",11.0,5.3
+Q25330,Trenton,low,"[2, 12]",2.6,2.7
+Q25330,Trenton,shoulder,"[4, 5, 10, 11]",13.7,2.0
+Q25330,Trenton,high,"[6, 7, 9]",23.5,1.9
+Q3138,Trier,low,"[1, 2, 3, 11, 12]",5.8,2.7
+Q3138,Trier,shoulder,"[4, 6, 7, 9, 10]",15.0,2.6
+Q3138,Trier,rainy,[5],14.7,5.5
+Q3138,Trier,high,[8],20.8,1.2
+Q546,Trieste,low,"[1, 2, 11, 12]",7.7,3.5
+Q546,Trieste,shoulder,"[3, 4, 6]",15.6,4.8
+Q546,Trieste,rainy,"[5, 9, 10]",18.0,8.7
+Q546,Trieste,high,"[7, 8]",26.5,1.2
+Q754,Trinidad and Tobago,high,"[1, 2, 3, 4, 10, 12]",27.0,1.7
+Q754,Trinidad and Tobago,shoulder,"[5, 6, 9, 11]",27.6,2.9
+Q754,Trinidad and Tobago,rainy,"[7, 8]",27.0,5.0
+Q3579,Tripoli,shoulder,"[1, 2, 7, 8, 10]",22.3,0.6
+Q3579,Tripoli,high,"[3, 4, 5, 6, 11]",21.7,0.3
+Q3579,Tripoli,rainy,"[9, 12]",21.2,3.4
+Q25804,Trondheim,low,"[1, 2, 3, 4, 10, 11]",2.3,3.7
+Q25804,Trondheim,shoulder,"[5, 6, 7, 8, 9]",13.7,3.8
+Q25804,Trondheim,rainy,[12],1.2,5.9
+Q22647,Troy,rainy,"[1, 3, 12]",9.7,4.5
+Q22647,Troy,shoulder,"[2, 4, 7, 11]",17.1,1.2
+Q22647,Troy,high,"[5, 6, 8, 9, 10]",22.6,0.6
+Q18575,Tucson,rainy,"[1, 2, 3]",12.1,3.0
+Q18575,Tucson,high,"[4, 5, 10]",23.9,0.3
+Q18575,Tucson,shoulder,"[6, 7, 8, 9, 11, 12]",26.0,0.5
+Q3572,Tunis,shoulder,"[1, 3, 4, 5, 7, 8, 9, 11]",20.6,0.9
+Q3572,Tunis,rainy,"[2, 10, 12]",15.7,2.3
+Q3572,Tunis,high,[6],25.9,0.0
+Q948,Tunisia,shoulder,"[1, 2, 7, 8, 12]",20.3,0.1
+Q948,Tunisia,high,"[3, 5, 6, 11]",22.2,0.2
+Q948,Tunisia,rainy,"[4, 9, 10]",23.4,1.9
+Q495,Turin,low,"[1, 2, 11, 12]",4.3,1.9
+Q495,Turin,rainy,"[3, 5, 10]",12.9,7.1
+Q495,Turin,shoulder,"[4, 6, 9]",16.6,4.1
+Q495,Turin,high,"[7, 8]",25.1,2.0
+Q43,Turkey,low,"[1, 2, 11, 12]",1.1,1.2
+Q43,Turkey,rainy,"[3, 5]",8.2,3.0
+Q43,Turkey,shoulder,"[4, 10]",11.9,0.7
+Q43,Turkey,high,"[6, 7, 8, 9]",21.1,0.5
+Q874,Turkmenistan,low,"[1, 2, 11, 12]",5.5,0.5
+Q874,Turkmenistan,shoulder,"[3, 6, 7, 8]",27.8,0.1
+Q874,Turkmenistan,high,"[4, 9]",22.2,0.2
+Q874,Turkmenistan,rainy,"[5, 10]",19.5,1.3
+Q38511,Turku,low,"[1, 2, 3, 4, 10, 11, 12]",0.7,2.2
+Q38511,Turku,shoulder,"[5, 8, 9]",15.2,2.4
+Q38511,Turku,rainy,"[6, 7]",17.2,4.1
+Q672,Tuvalu,shoulder,"[1, 3, 4, 5, 6, 7, 8, 10, 11, 12]",28.4,8.6
+Q672,Tuvalu,rainy,[2],28.6,18.1
+Q672,Tuvalu,high,[9],27.8,7.5
+Q1404,Uetersen,low,"[1, 2, 3, 4, 11, 12]",6.2,3.2
+Q1404,Uetersen,shoulder,"[5, 9, 10]",14.5,2.9
+Q1404,Uetersen,rainy,[6],15.9,4.7
+Q1404,Uetersen,high,"[7, 8]",18.5,2.4
+Q911,Ufa,low,"[1, 2, 3, 10, 11, 12]",-5.7,1.2
+Q911,Ufa,shoulder,"[4, 5, 9]",11.5,1.1
+Q911,Ufa,rainy,"[6, 7, 8]",19.3,3.4
+Q1036,Uganda,high,"[1, 2, 3, 5, 6, 12]",24.5,1.4
+Q1036,Uganda,rainy,"[4, 10, 11]",22.9,4.9
+Q1036,Uganda,shoulder,"[7, 8, 9]",22.8,3.7
+Q212,Ukraine,low,"[1, 2, 11, 12]",1.4,1.7
+Q212,Ukraine,rainy,"[3, 4, 6]",12.8,3.0
+Q212,Ukraine,shoulder,"[5, 10]",13.2,1.2
+Q212,Ukraine,high,"[7, 8, 9]",22.4,0.4
+Q23430,Ulaanbaatar,low,"[1, 2, 3, 4, 9, 10, 11, 12]",-6.4,0.4
+Q23430,Ulaanbaatar,shoulder,[5],12.0,1.0
+Q23430,Ulaanbaatar,rainy,"[6, 7, 8]",17.5,3.5
+Q3012,Ulm,low,"[1, 2, 3, 4, 11, 12]",4.7,2.0
+Q3012,Ulm,rainy,"[5, 6]",15.2,4.8
+Q3012,Ulm,high,"[7, 8]",19.4,2.5
+Q3012,Ulm,shoulder,"[9, 10]",12.7,3.0
+Q878,United Arab Emirates,high,"[1, 11, 12]",23.8,0.0
+Q878,United Arab Emirates,rainy,"[2, 3, 4, 5]",25.4,1.8
+Q878,United Arab Emirates,shoulder,"[6, 9, 10]",33.4,0.0
+Q878,United Arab Emirates,low,"[7, 8]",35.7,0.1
+Q145,United Kingdom,low,"[1, 2, 3, 4, 10, 11, 12]",6.0,3.4
+Q145,United Kingdom,shoulder,"[5, 6, 7, 8, 9]",12.7,3.1
+Q30,United States,low,"[1, 2, 3, 11, 12]",2.7,1.4
+Q30,United States,shoulder,"[4, 7, 10]",17.9,2.1
+Q30,United States,rainy,"[5, 6]",21.0,4.5
+Q30,United States,high,"[8, 9]",22.6,0.9
+Q25286,Uppsala,low,"[1, 2, 3, 4, 10, 11, 12]",1.5,1.6
+Q25286,Uppsala,shoulder,"[5, 6, 8]",15.9,1.5
+Q25286,Uppsala,rainy,"[7, 9]",15.4,2.9
+Q77,Uruguay,high,"[1, 2, 10, 11, 12]",21.2,3.3
+Q77,Uruguay,shoulder,"[3, 6, 8, 9]",15.8,3.6
+Q77,Uruguay,rainy,"[4, 5]",15.0,7.3
+Q77,Uruguay,low,[7],9.1,0.7
+Q803,Utrecht,low,"[1, 2, 3, 11, 12]",6.6,2.8
+Q803,Utrecht,shoulder,"[4, 6, 7, 9, 10]",14.4,2.6
+Q803,Utrecht,rainy,[5],15.3,4.7
+Q803,Utrecht,high,[8],19.4,2.7
+Q265,Uzbekistan,rainy,"[1, 3, 5]",11.3,1.4
+Q265,Uzbekistan,low,"[2, 11, 12]",3.8,0.8
+Q265,Uzbekistan,high,"[4, 9]",19.9,0.3
+Q265,Uzbekistan,shoulder,"[6, 7, 8, 10]",26.5,0.2
+Q1844,Vaduz,low,"[1, 2, 3, 11, 12]",4.8,4.5
+Q1844,Vaduz,shoulder,"[4, 5, 6, 7, 9, 10]",15.6,6.2
+Q1844,Vaduz,high,[8],21.9,2.4
+Q23800,Valletta,shoulder,"[1, 3, 4, 8, 9]",20.5,0.6
+Q23800,Valletta,rainy,"[2, 11, 12]",16.3,1.3
+Q23800,Valletta,high,"[5, 6, 7, 10]",24.3,0.3
+Q33986,Valparaíso,shoulder,"[1, 3, 4, 7, 9, 10, 11, 12]",14.9,0.2
+Q33986,Valparaíso,high,[2],18.8,0.1
+Q33986,Valparaíso,rainy,"[5, 6, 8]",12.0,5.5
+Q24639,Vancouver,rainy,"[1, 10, 11, 12]",6.3,10.2
+Q24639,Vancouver,low,"[2, 3, 4]",6.2,4.6
+Q24639,Vancouver,shoulder,"[5, 6, 9]",13.7,2.9
+Q24639,Vancouver,high,"[7, 8]",18.7,1.5
+Q686,Vanuatu,rainy,"[1, 3, 12]",27.7,12.2
+Q686,Vanuatu,shoulder,"[2, 11]",27.4,6.0
+Q686,Vanuatu,high,"[4, 5, 6, 7, 8, 9, 10]",25.9,2.5
+Q79980,Varanasi,shoulder,"[1, 2, 4, 5]",24.1,0.6
+Q79980,Varanasi,high,"[3, 10, 11, 12]",22.8,0.3
+Q79980,Varanasi,low,[6],35.5,3.6
+Q79980,Varanasi,rainy,"[7, 8, 9]",28.9,11.1
+Q237,Vatican City,low,"[1, 12]",8.7,2.2
+Q237,Vatican City,shoulder,"[2, 4, 5, 7, 8, 11]",18.7,1.7
+Q237,Vatican City,rainy,"[3, 9, 10]",17.1,4.8
+Q237,Vatican City,high,[6],23.3,1.0
+Q2235,Veliky Novgorod,low,"[1, 2, 3, 10, 12]",-1.3,1.6
+Q2235,Veliky Novgorod,rainy,"[4, 7, 8, 11]",11.8,3.5
+Q2235,Veliky Novgorod,shoulder,"[5, 9]",14.6,0.7
+Q2235,Veliky Novgorod,high,[6],18.6,2.1
+Q717,Venezuela,shoulder,"[1, 2, 3, 4, 9, 10, 11, 12]",30.4,1.6
+Q717,Venezuela,rainy,"[5, 6, 7, 8]",27.4,8.3
+Q641,Venice,low,"[1, 2, 11, 12]",5.7,2.5
+Q641,Venice,shoulder,"[3, 4, 6]",15.1,4.1
+Q641,Venice,rainy,"[5, 9, 10]",17.5,7.4
+Q641,Venice,high,"[7, 8]",26.4,1.4
+Q2028,Verona,low,"[1, 2, 11, 12]",5.8,2.6
+Q2028,Verona,shoulder,"[3, 4]",12.2,3.5
+Q2028,Verona,rainy,"[5, 6, 9, 10]",18.3,6.5
+Q2028,Verona,high,"[7, 8]",25.8,1.9
+Q3940,Victoria,high,"[1, 6, 7, 8, 9, 10, 11]",26.6,3.8
+Q3940,Victoria,shoulder,"[2, 5]",27.8,10.7
+Q3940,Victoria,rainy,"[3, 4, 12]",26.9,15.1
+Q1741,Vienna,low,"[1, 2, 3, 11, 12]",5.2,1.3
+Q1741,Vienna,shoulder,"[4, 5, 10]",13.5,2.0
+Q1741,Vienna,high,"[6, 7, 8]",22.8,1.2
+Q1741,Vienna,rainy,[9],17.0,8.1
+Q881,Vietnam,shoulder,"[1, 2, 7]",17.9,5.7
+Q881,Vietnam,high,"[3, 4, 5, 6, 8]",22.1,4.4
+Q881,Vietnam,rainy,"[9, 10, 11, 12]",17.9,14.1
+Q216,Vilnius,low,"[1, 2, 3, 4, 10, 11, 12]",3.3,1.9
+Q216,Vilnius,shoulder,"[5, 6, 9]",16.9,1.7
+Q216,Vilnius,rainy,[7],20.1,5.5
+Q216,Vilnius,high,[8],19.2,1.4
+Q959,Vladivostok,low,"[1, 2, 3, 4, 11, 12]",-1.9,0.8
+Q959,Vladivostok,shoulder,"[5, 10]",11.3,2.7
+Q959,Vladivostok,rainy,"[6, 7, 8]",19.8,5.1
+Q959,Vladivostok,high,[9],18.0,1.7
+Q159610,Vlorë,low,[1],9.6,1.9
+Q159610,Vlorë,shoulder,"[2, 4, 7, 9, 11]",18.1,2.6
+Q159610,Vlorë,rainy,"[3, 10, 12]",13.7,6.1
+Q159610,Vlorë,high,"[5, 6, 8]",24.0,1.0
+Q914,Volgograd,rainy,"[1, 6]",10.0,2.5
+Q914,Volgograd,low,"[2, 3, 11, 12]",0.0,0.8
+Q914,Volgograd,shoulder,"[4, 5, 10]",14.3,0.5
+Q914,Volgograd,high,"[7, 8, 9]",23.9,0.5
+Q21194,Vũng Tàu,high,"[1, 2, 3, 11, 12]",26.8,0.8
+Q21194,Vũng Tàu,shoulder,"[4, 5, 8]",29.0,3.9
+Q21194,Vũng Tàu,rainy,"[6, 7, 9, 10]",27.5,9.6
+Q270,Warsaw,low,"[1, 3, 11, 12]",3.2,1.4
+Q270,Warsaw,rainy,"[2, 8]",13.2,2.8
+Q270,Warsaw,shoulder,"[4, 5, 6, 7, 10]",16.0,1.6
+Q270,Warsaw,high,[9],18.0,1.5
+Q1223,Washington,rainy,"[1, 11, 12]",-2.0,4.1
+Q1223,Washington,low,"[2, 3, 4, 10]",4.2,1.1
+Q1223,Washington,shoulder,"[5, 6, 9]",14.7,0.5
+Q1223,Washington,high,"[7, 8]",21.5,0.4
+Q61,"Washington, D.C.",low,"[1, 2, 12]",3.7,2.9
+Q61,"Washington, D.C.",rainy,"[3, 8]",16.4,5.8
+Q61,"Washington, D.C.",shoulder,"[4, 5, 7, 9, 10, 11]",17.4,3.1
+Q61,"Washington, D.C.",high,[6],24.6,2.5
+Q3955,Weimar,low,"[1, 2, 3, 11, 12]",4.6,1.7
+Q3955,Weimar,shoulder,"[4, 7, 8, 9, 10]",15.7,2.2
+Q3955,Weimar,rainy,"[5, 6]",16.0,3.9
+Q23661,Wellington,high,[1],18.2,0.7
+Q23661,Wellington,shoulder,"[2, 3, 4, 5, 6, 7, 8, 9, 11, 12]",13.3,2.4
+Q23661,Wellington,rainy,[10],13.0,4.0
+Q1721,Wiesbaden,low,"[1, 2, 3, 11, 12]",5.6,2.1
+Q1721,Wiesbaden,shoulder,"[4, 6, 7, 9, 10]",15.6,2.6
+Q1721,Wiesbaden,rainy,[5],15.7,4.6
+Q1721,Wiesbaden,high,[8],21.8,1.1
+Q3935,Windhoek,rainy,"[1, 2, 3, 12]",24.9,1.4
+Q3935,Windhoek,high,"[4, 5, 8, 9, 10, 11]",21.2,0.1
+Q3935,Windhoek,shoulder,"[6, 7]",14.3,0.0
+Q2135,Winnipeg,low,"[1, 2, 3, 4, 10, 11, 12]",-2.2,1.0
+Q2135,Winnipeg,rainy,"[5, 6, 7, 8]",17.4,3.6
+Q2135,Winnipeg,high,[9],18.5,1.9
+Q1799,Wrocław,low,"[1, 2, 3, 11, 12]",4.7,1.5
+Q1799,Wrocław,shoulder,"[4, 5, 6, 8, 10]",16.0,1.7
+Q1799,Wrocław,rainy,"[7, 9]",18.9,4.0
+Q11746,Wuhan,low,"[1, 12]",6.2,1.1
+Q11746,Wuhan,rainy,"[2, 6, 7]",20.3,8.4
+Q11746,Wuhan,shoulder,"[3, 4, 8, 9, 11]",21.5,2.2
+Q11746,Wuhan,high,"[5, 10]",21.1,2.6
+Q5826,Xi'an,low,"[1, 2, 11, 12]",3.4,0.6
+Q5826,Xi'an,shoulder,"[3, 8, 9, 10]",20.6,1.4
+Q5826,Xi'an,high,"[4, 5, 6]",23.0,1.2
+Q5826,Xi'an,rainy,[7],26.3,6.7
+Q6610,Yakutsk,low,"[1, 2, 3, 4, 5, 11, 12]",-19.4,0.2
+Q6610,Yakutsk,shoulder,[6],17.9,0.4
+Q6610,Yakutsk,rainy,"[7, 8, 9, 10]",9.1,0.8
+Q3768,Yamoussoukro,high,"[1, 7, 11, 12]",26.7,0.8
+Q3768,Yamoussoukro,shoulder,"[2, 3, 4, 8, 9]",27.1,3.2
+Q3768,Yamoussoukro,rainy,"[5, 6, 10]",26.1,7.2
+Q37995,Yangon,high,"[1, 2, 11, 12]",26.3,1.9
+Q37995,Yangon,shoulder,"[3, 4, 5, 10]",29.6,5.6
+Q37995,Yangon,rainy,"[6, 7, 8, 9]",26.6,17.8
+Q3808,Yaoundé,high,"[1, 2, 3, 7, 8, 11, 12]",23.9,2.0
+Q3808,Yaoundé,shoulder,"[4, 5, 6]",23.9,4.5
+Q3808,Yaoundé,rainy,"[9, 10]",22.1,8.6
+Q887,Yekaterinburg,low,"[1, 2, 3, 4, 5, 10, 11, 12]",-3.4,0.9
+Q887,Yekaterinburg,rainy,"[6, 7]",18.5,3.3
+Q887,Yekaterinburg,shoulder,"[8, 9]",13.4,1.3
+Q805,Yemen,high,"[1, 2, 11, 12]",22.6,0.0
+Q805,Yemen,shoulder,"[3, 5, 6, 7, 9, 10]",30.9,0.1
+Q805,Yemen,rainy,"[4, 8]",30.1,0.8
+Q1953,Yerevan,low,"[1, 2, 11, 12]",2.7,1.0
+Q1953,Yerevan,rainy,"[3, 5]",11.0,4.8
+Q1953,Yerevan,shoulder,"[4, 7, 10]",18.1,1.7
+Q1953,Yerevan,high,"[6, 8, 9]",24.4,0.7
+Q38283,Yokohama,low,"[1, 2, 3, 12]",7.4,2.8
+Q38283,Yokohama,shoulder,"[4, 8, 10, 11]",19.4,4.9
+Q38283,Yokohama,rainy,"[5, 6]",20.5,8.2
+Q38283,Yokohama,high,"[7, 9]",27.0,3.1
+Q42462,York,low,"[1, 2, 3, 4, 11, 12]",7.1,2.6
+Q42462,York,shoulder,"[5, 6, 7, 8, 9, 10]",14.2,2.3
+Q1435,Zagreb,low,"[1, 2, 3, 11, 12]",5.4,2.0
+Q1435,Zagreb,shoulder,"[4, 5, 6, 8, 10]",17.6,3.0
+Q1435,Zagreb,high,[7],24.3,2.7
+Q1435,Zagreb,rainy,[9],17.4,5.0
+Q953,Zambia,rainy,"[1, 11, 12]",23.5,4.1
+Q953,Zambia,shoulder,"[2, 3]",23.1,1.8
+Q953,Zambia,high,"[4, 5, 6, 7, 8, 9, 10]",21.3,0.2
+Q157835,Zaporizhzhia,rainy,"[1, 4, 6]",12.9,2.0
+Q157835,Zaporizhzhia,low,"[2, 3, 11, 12]",3.7,1.1
+Q157835,Zaporizhzhia,shoulder,"[5, 10]",14.7,0.6
+Q157835,Zaporizhzhia,high,"[7, 8, 9]",24.8,0.5
+Q30340,Zhengzhou,low,"[1, 2, 12]",3.0,0.4
+Q30340,Zhengzhou,shoulder,"[3, 8, 9, 10, 11]",18.5,1.8
+Q30340,Zhengzhou,high,"[4, 5, 6]",23.3,1.4
+Q30340,Zhengzhou,rainy,[7],27.6,11.3
+Q954,Zimbabwe,rainy,"[1, 11, 12]",25.3,3.7
+Q954,Zimbabwe,high,"[2, 3, 4, 5, 7, 8, 9, 10]",23.1,0.3
+Q954,Zimbabwe,shoulder,[6],17.9,0.1
+Q72,Zurich,low,"[1, 2, 3, 4, 11, 12]",5.0,3.4
+Q72,Zurich,shoulder,"[5, 6, 7, 9, 10]",15.5,4.7
+Q72,Zurich,high,[8],21.0,2.4
+Q1519,Abu Dhabi,hot,"[6, 9, 10]",33.4,0.0
+Q3787,Abuja,hot,"[2, 3, 4, 5, 12]",28.9,0.2
+Q3761,Accra,hot,"[2, 3, 4, 12]",28.4,1.8
+Q42941,Agra,hot,"[6, 7, 8, 9]",30.2,8.7
+Q1070,Ahmedabad,hot,"[4, 6, 10]",31.4,1.5
+Q262,Algeria,hot,"[6, 7, 8]",38.5,0.0
+Q781,Antigua and Barbuda,hot,"[5, 6, 7, 9, 10]",28.6,2.4
+Q21203,Aruba,hot,"[2, 4, 5, 6, 7, 8, 9, 10, 12]",29.1,0.9
+Q5684,Babylon,hot,"[6, 7, 8]",39.3,0.0
+Q1530,Baghdad,hot,"[6, 7, 8]",38.9,0.0
+Q398,Bahrain,hot,"[3, 9, 10]",28.5,0.2
+Q3703,Bamako,hot,"[2, 3, 4, 5, 6, 10]",30.7,0.9
+Q1861,Bangkok,hot,"[2, 3, 4, 6, 8, 11, 12]",29.2,2.4
+Q902,Bangladesh,hot,"[5, 8, 9, 10]",28.2,10.3
+Q41295,Basseterre,hot,"[5, 6, 7, 9, 10]",28.3,2.6
+Q1355,Bengaluru,hot,[4],29.4,0.0
+Q962,Benin,hot,"[2, 3, 4, 5, 6]",29.0,2.0
+Q3739,Bissau,hot,"[2, 3, 4, 5, 10]",28.2,1.5
+Q155,Brazil,hot,"[1, 9, 10]",28.2,4.2
+Q36168,Bridgetown,hot,"[5, 7, 10]",28.1,2.2
+Q965,Burkina Faso,hot,"[3, 4, 5, 6]",32.1,1.1
+Q85,Cairo,hot,"[6, 7, 8, 9, 12]",28.8,0.0
+Q424,Cambodia,hot,"[2, 3, 4, 5, 6]",30.3,2.8
+Q929,Central African Republic,hot,"[2, 3, 4, 5]",29.4,1.4
+Q657,Chad,hot,"[3, 4, 10]",31.7,0.0
+Q1352,Chennai,hot,"[3, 4, 5, 6, 7, 8, 9, 12]",29.2,3.7
+Q376749,Chittagong,hot,"[4, 5]",29.6,5.0
+Q25279,Curaçao,hot,"[1, 2, 4, 5, 6, 7, 8, 9, 10, 12]",28.8,0.9
+Q3718,Dakar,hot,[10],28.1,0.8
+Q25282,Da Nang,hot,"[4, 5, 6, 7, 8]",29.8,2.4
+Q11568,Darwin,hot,"[1, 2, 3, 12]",28.4,13.3
+Q1353,Delhi,hot,"[7, 8, 9]",28.7,9.4
+Q1354,Dhaka,hot,"[5, 8, 9, 10]",28.2,10.9
+Q9310,Dili,hot,"[1, 4, 5, 10, 11]",28.1,4.5
+Q3604,Djibouti,hot,"[2, 5, 9, 10, 11]",30.3,0.6
+Q977,Djibouti,hot,"[5, 6, 7, 9, 10, 11]",30.7,0.9
+Q3861,Doha,hot,"[6, 7, 8]",36.4,0.0
+Q1877,Đồng Hới,hot,"[4, 5, 6, 7, 8, 12]",28.5,3.7
+Q612,Dubai,hot,"[5, 6, 9, 10]",32.1,0.1
+Q986,Eritrea,hot,"[3, 4, 5, 6, 9]",29.8,0.3
+Q43463,Fortaleza,hot,"[1, 12]",28.2,1.6
+Q34126,Funafuti,hot,"[1, 3, 4, 5, 6, 7, 8, 11, 12]",28.4,9.2
+Q10717,Georgetown,hot,[9],28.3,3.5
+Q117,Ghana,hot,"[2, 3, 4, 7, 8, 11]",28.5,1.9
+Q1007,Guinea-Bissau,hot,"[2, 3, 4, 5, 6]",29.6,0.6
+Q790,Haiti,hot,"[3, 4, 5, 7, 8, 10, 11]",29.1,1.9
+Q1858,Hanoi,hot,"[6, 7, 9]",28.5,18.3
+Q1563,Havana,hot,"[5, 7, 10]",28.2,2.7
+Q1854,Ho Chi Minh City,hot,"[2, 3, 4, 5]",29.6,1.8
+Q1361,Hyderabad,hot,"[3, 4, 5]",30.4,1.1
+Q252,Indonesia,hot,"[2, 3, 4, 5, 7, 8, 9, 11, 12]",28.2,7.6
+Q796,Iraq,hot,"[6, 7, 8]",37.3,0.0
+Q66485,Jaipur,hot,[5],35.3,0.0
+Q374365,Jeddah,hot,"[5, 6, 7, 8, 9, 10]",32.3,0.1
+Q1947,Juba,hot,"[1, 2, 3, 4, 5, 6, 10, 11, 12]",29.9,0.9
+Q8660,Karachi,hot,"[5, 6, 9, 10]",29.8,0.2
+Q1963,Khartoum,hot,"[3, 4, 10]",32.1,0.0
+Q34692,Kingston,hot,"[6, 8, 9]",28.3,2.2
+Q710,Kiribati,hot,"[1, 3]",28.1,21.6
+Q1348,Kolkata,hot,"[7, 8, 9]",28.3,13.6
+Q817,Kuwait,hot,"[6, 7, 8, 9]",38.4,0.0
+Q35178,Kuwait City,hot,"[6, 7, 8, 9]",38.3,0.0
+Q8673,Lagos,hot,"[1, 2, 3, 4, 5, 12]",28.8,1.6
+Q11739,Lahore,hot,"[7, 8]",30.1,7.2
+Q819,Laos,hot,"[4, 5]",29.1,6.0
+Q23768,Las Vegas,hot,[7],36.7,0.0
+Q1016,Libya,hot,"[5, 9]",29.0,0.2
+Q47916,Lucknow,hot,"[7, 8, 9]",28.6,10.4
+Q3818,Malabo,hot,"[1, 2, 3, 4]",28.4,1.3
+Q826,Maldives,hot,"[2, 3, 4, 6, 7, 9, 11, 12]",28.3,4.9
+Q9347,Malé,hot,"[2, 3, 4, 6, 7, 9, 11, 12]",28.3,4.9
+Q912,Mali,hot,"[3, 4, 7, 10]",31.6,0.1
+Q3274,Managua,hot,"[1, 2, 3, 4, 5, 7]",29.3,2.2
+Q3882,Manama,hot,"[6, 9, 10, 11]",30.9,0.1
+Q40236,Manaus,hot,"[1, 4, 5, 7, 8, 9, 10, 11]",28.6,2.6
+Q1461,Manila,hot,"[4, 5, 6, 8, 11, 12]",28.7,5.5
+Q1025,Mauritania,hot,"[4, 9]",29.1,1.1
+Q35484,Medina,hot,"[4, 5, 10]",29.7,0.1
+Q1156,Mumbai,hot,"[4, 5]",30.0,0.2
+Q3826,Muscat,hot,"[5, 8, 9]",32.7,0.1
+Q836,Myanmar,hot,"[4, 5, 6, 7]",31.0,4.1
+Q2467,Nassau,hot,"[8, 10]",28.2,4.2
+Q697,Nauru,hot,"[1, 2, 3]",28.3,7.8
+Q37400,Naypyidaw,hot,"[4, 5]",31.3,3.9
+Q3659,N'Djamena,hot,"[3, 6]",32.8,0.6
+Q987,New Delhi,hot,"[7, 8, 9]",28.6,9.7
+Q19491,Nha Trang,hot,"[4, 5, 6, 7, 8, 9]",29.1,2.0
+Q3674,Niamey,hot,"[3, 6, 10]",31.9,0.6
+Q1032,Niger,hot,"[8, 9]",29.9,1.8
+Q1033,Nigeria,hot,"[2, 3, 4, 5, 6, 10]",28.1,1.1
+Q842,Oman,hot,"[5, 8, 9, 10]",32.5,0.1
+Q3777,Ouagadougou,hot,"[3, 4, 5, 6]",32.2,1.2
+Q843,Pakistan,hot,"[6, 7]",36.4,0.8
+Q733,Paraguay,hot,"[1, 2, 3, 10, 12]",29.4,3.4
+Q928,Philippines,hot,"[4, 5, 6, 8, 11]",28.7,5.7
+Q1850,Phnom Penh,hot,"[2, 3, 4, 6, 8]",29.4,2.9
+Q16556,Phoenix,hot,"[7, 8]",36.3,0.3
+Q34261,Port-au-Prince,hot,"[4, 5, 6, 7, 8, 9]",30.2,0.9
+Q1538,Pune,hot,"[4, 5]",30.2,0.6
+Q1437,Rajasthan,hot,[5],35.5,0.0
+Q3692,Riyadh,hot,"[6, 7, 8]",37.5,0.0
+Q757,Saint Vincent and the Grenadines,hot,"[5, 6, 10]",28.1,1.5
+Q851,Saudi Arabia,hot,"[6, 7, 8]",35.7,0.0
+Q1041,Senegal,hot,"[1, 2, 3, 4, 5, 6, 11]",31.6,0.1
+Q1042,Seychelles,hot,"[1, 5]",28.3,5.1
+Q1045,Somalia,hot,"[2, 3, 6, 7, 8, 9, 10, 11]",29.1,0.1
+Q958,South Sudan,hot,"[1, 2, 3, 4, 5, 6, 9, 10, 11, 12]",30.5,0.8
+Q41547,St. George's,hot,"[1, 5, 9, 10, 11]",28.1,2.2
+Q36262,St. John's,hot,"[5, 6, 7, 9, 10]",28.6,2.4
+Q1049,Sudan,hot,"[3, 4, 5, 6, 9, 10]",32.4,0.1
+Q11462,Surabaya,hot,"[4, 5, 6, 8, 9, 10]",28.7,1.9
+Q869,Thailand,hot,"[2, 3, 4]",30.1,1.2
+Q778,The Bahamas,hot,"[8, 10]",28.2,4.2
+Q1005,The Gambia,hot,"[2, 3, 4, 5, 6]",31.1,0.2
+Q9427,Timbuktu,hot,"[3, 4, 7, 10]",31.9,0.1
+Q945,Togo,hot,"[2, 3, 4, 6]",28.4,2.2
+Q672,Tuvalu,hot,"[1, 3, 4, 5, 6, 7, 8, 10, 11, 12]",28.4,8.6
+Q878,United Arab Emirates,hot,"[6, 9, 10]",33.4,0.0
+Q79980,Varanasi,hot,[6],35.5,3.6
+Q717,Venezuela,hot,"[1, 2, 3, 4, 9, 10, 11, 12]",30.4,1.6
+Q21194,Vũng Tàu,hot,"[4, 5, 8]",29.0,3.9
+Q37995,Yangon,hot,"[3, 4, 5, 10]",29.6,5.6
+Q805,Yemen,hot,"[3, 5, 6, 7, 9, 10]",30.9,0.1
+Q1017,Aachen,cool,"[1, 2, 3, 11, 12]",5.9,2.9
+Q25319,Aarhus,cool,"[1, 3, 11, 12]",4.2,1.8
+Q36405,Aberdeen,cool,"[1, 2, 3, 11, 12]",5.6,2.6
+Q38545,Adana,cool,"[1, 5, 11, 12]",14.7,5.4
+Q3624,Addis Ababa,cool,"[7, 8, 9]",14.2,8.0
+Q5112,Adelaide,cool,"[1, 6, 7]",14.3,2.9
+Q889,Afghanistan,cool,"[1, 11, 12]",4.7,1.1
+Q40104,Ajaccio,cool,"[1, 2, 3, 4, 5, 9, 11]",13.9,3.5
+Q222,Albania,cool,"[1, 3, 12]",8.9,5.7
+Q24861,Albany,cool,"[1, 2, 11, 12]",1.1,3.0
+Q34804,Albuquerque,cool,"[1, 2, 12]",4.2,0.4
+Q41183,Aleppo,cool,"[1, 2, 3]",10.2,2.5
+Q3561,Algiers,cool,"[3, 4, 12]",14.7,0.9
+Q35493,Almaty,cool,"[1, 2, 11, 12]",-2.1,1.2
+Q3805,Amman,cool,"[1, 2]",9.9,0.6
+Q727,Amsterdam,cool,"[1, 2, 3, 11, 12]",6.9,3.0
+Q39450,Anchorage,cool,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.6,1.5
+Q3415,Ancona,cool,"[1, 2]",8.7,1.2
+Q228,Andorra,cool,"[1, 2, 4, 5, 11, 12]",4.2,2.1
+Q1863,Andorra la Vella,cool,"[1, 2, 4, 11, 12]",6.8,1.6
+Q38380,Angers,cool,"[1, 2, 3, 11, 12]",8.1,2.4
+Q3640,Ankara,cool,"[1, 5, 12]",7.2,2.6
+Q28271,Annapolis,cool,"[1, 2, 12]",4.0,3.0
+Q6487,Antalya,cool,"[1, 2, 12]",11.7,5.6
+Q12892,Antwerp,cool,"[1, 2, 3, 11, 12]",6.8,2.9
+Q414,Argentina,cool,"[5, 7]",8.9,0.1
+Q399,Armenia,cool,"[1, 2, 3, 4, 10, 11, 12]",-1.9,1.7
+Q23438,Ashgabat,cool,"[1, 12]",5.3,0.5
+Q1520,Astana,cool,"[1, 2, 3, 4, 10, 11, 12]",-4.7,1.1
+Q3927,Astrakhan,cool,"[1, 2]",-1.4,0.9
+Q1524,Athens,cool,[1],9.6,1.1
+Q23556,Atlanta,cool,"[2, 12]",8.6,3.0
+Q37100,Auckland,cool,[7],11.4,4.4
+Q2749,Augsburg,cool,"[1, 2, 3, 4, 11, 12]",5.1,2.1
+Q16559,Austin,cool,[1],8.1,4.2
+Q40,Austria,cool,"[1, 2, 3, 11, 12]",3.6,2.2
+Q227,Azerbaijan,cool,"[1, 2, 3, 12]",6.6,1.1
+Q9248,Baku,cool,"[1, 2, 3, 12]",6.3,0.9
+Q5765,Balearic Islands,cool,"[1, 2, 3, 10, 12]",13.3,1.3
+Q5092,Baltimore,cool,"[1, 2, 12]",3.3,3.3
+Q1492,Barcelona,cool,"[1, 12]",9.6,1.1
+Q3519,Bari,cool,[12],10.7,3.1
+Q78,Basel,cool,"[1, 2, 3, 11, 12]",5.5,3.0
+Q25475,Batumi,cool,"[1, 2, 12]",7.5,7.3
+Q956,Beijing,cool,"[1, 2, 3, 11, 12]",2.4,0.2
+Q184,Belarus,cool,"[1, 2, 3, 10, 11, 12]",1.9,1.3
+Q10686,Belfast,cool,"[1, 2, 4, 11, 12]",6.9,2.4
+Q31,Belgium,cool,"[1, 3, 11, 12]",5.7,2.2
+Q3711,Belgrade,cool,"[1, 2, 11, 12]",5.2,1.6
+Q628,Bergamo,cool,"[1, 2, 3, 11, 12]",6.0,3.1
+Q26793,Bergen,cool,"[1, 2, 3, 4, 10, 11]",3.5,7.9
+Q64,Berlin,cool,"[1, 3, 11, 12]",4.5,1.5
+Q70,Bern,cool,"[1, 2, 3, 4, 11, 12]",4.5,3.1
+Q37776,Besançon,cool,"[1, 2, 3, 11, 12]",5.9,3.4
+Q5776,Bethlehem,cool,"[1, 2, 3, 4]",13.2,1.4
+Q917,Bhutan,cool,"[1, 2]",0.4,16.1
+Q2256,Birmingham,cool,"[1, 2, 3, 4, 11, 12]",6.8,2.7
+Q9361,Bishkek,cool,"[1, 2, 11, 12]",-0.6,1.7
+Q37066,Bismarck,cool,"[1, 2, 3, 11, 12]",-4.0,0.5
+Q37701,Bloemfontein,cool,"[4, 6, 9]",13.4,1.6
+Q2841,Bogotá,cool,"[1, 2, 3, 5, 6, 7, 8, 9, 10, 12]",14.2,1.7
+Q35775,Boise,cool,"[1, 2, 3, 12]",2.6,2.5
+Q1891,Bologna,cool,"[1, 2, 11, 12]",6.3,2.2
+Q586,Bonn,cool,"[1, 2, 3, 11, 12]",6.3,2.6
+Q1479,Bordeaux,cool,"[1, 2, 12]",8.1,2.9
+Q188736,Bosnia,cool,"[1, 2, 3, 11, 12]",5.0,2.4
+Q225,Bosnia and Herzegovina,cool,"[1, 2, 3, 11, 12]",4.4,3.1
+Q100,Boston,cool,"[1, 3]",2.1,6.5
+Q1780,Bratislava,cool,"[1, 2, 3, 11, 12]",5.0,1.2
+Q1209,Bremen,cool,"[1, 2, 3, 11, 12]",5.8,2.6
+Q24879,Bremen,cool,"[1, 2, 3, 11, 12]",5.9,2.5
+Q6221,Brescia,cool,"[1, 2, 11, 12]",6.2,2.2
+Q23154,Bristol,cool,"[1, 3, 4, 11, 12]",7.6,2.9
+Q12130,Brittany,cool,"[1, 3, 12]",7.3,2.8
+Q14960,Brno,cool,"[1, 2, 3, 11, 12]",4.0,1.3
+Q239,Brussels,cool,"[1, 2, 3, 11, 12]",6.5,2.7
+Q240,Brussels-Capital Region,cool,"[1, 2, 3, 11, 12]",6.5,2.7
+Q19660,Bucharest,cool,"[1, 2, 3, 11]",5.3,1.5
+Q1781,Budapest,cool,"[1, 2, 3, 11, 12]",4.8,1.1
+Q1486,Buenos Aires,cool,[7],8.7,0.5
+Q40435,Buffalo,cool,"[1, 2, 3, 11, 12]",2.3,2.8
+Q5764,Bukhara,cool,"[1, 5, 10, 11]",12.7,1.5
+Q219,Bulgaria,cool,"[1, 2, 3, 10, 11]",2.5,1.6
+Q40738,Bursa,cool,"[1, 12]",7.7,4.9
+Q16520,Busan,cool,"[1, 2, 3, 12]",4.2,2.4
+Q36312,Calgary,cool,"[1, 2, 3, 4, 10, 11, 12]",-2.7,1.0
+Q350,Cambridge,cool,"[1, 3, 4, 11, 12]",7.6,1.9
+Q16,Canada,cool,"[1, 2, 3, 4, 10, 11, 12]",-6.5,0.8
+Q3114,Canberra,cool,"[5, 6, 7, 8]",7.1,1.4
+Q39984,Cannes,cool,"[1, 12]",9.6,1.2
+Q5465,Cape Town,cool,"[7, 8]",12.1,7.3
+Q10690,Cardiff,cool,"[1, 3, 4, 11, 12]",7.9,4.0
+Q40881,Carson City,cool,"[1, 4, 11, 12]",4.9,1.4
+Q16565,Charlotte,cool,"[1, 2, 12]",6.7,3.2
+Q906,Chelyabinsk,cool,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.8,1.1
+Q30002,Chengdu,cool,"[1, 2, 12]",7.8,0.6
+Q39042,Cheyenne,cool,"[1, 2, 3, 4, 11, 12]",1.6,0.8
+Q1297,Chicago,cool,"[1, 2, 3, 11, 12]",2.4,2.5
+Q298,Chile,cool,"[4, 7, 9, 10, 11]",14.5,0.3
+Q21197,Chișinău,cool,"[1, 2, 3, 11, 12]",3.6,1.4
+Q11725,Chongqing,cool,"[1, 2, 12]",9.4,1.2
+Q79990,Christchurch,cool,"[2, 3, 4, 9, 11]",13.6,1.1
+Q43196,Cincinnati,cool,"[1, 2, 3, 11, 12]",5.3,3.3
+Q42168,Clermont-Ferrand,cool,"[1, 2, 3, 11, 12]",6.4,2.2
+Q37320,Cleveland,cool,"[1, 2, 3, 4, 11, 12]",4.3,3.1
+Q100188,Cluj-Napoca,cool,"[1, 2, 3, 10, 11, 12]",4.6,1.1
+Q365,Cologne,cool,"[1, 2, 3, 11, 12]",6.4,2.7
+Q38453,Columbia,cool,"[1, 12]",8.4,3.0
+Q16567,Columbus,cool,"[1, 2, 3, 11, 12]",4.3,2.8
+Q1880,Concepción,cool,"[1, 2, 3, 4, 10, 11, 12]",14.8,1.2
+Q28249,Concord,cool,"[1, 3, 8]",6.6,5.4
+Q16869,Constantinople,cool,"[1, 9, 12]",12.8,3.8
+Q1748,Copenhagen,cool,"[1, 3, 4, 11, 12]",5.0,1.8
+Q224,Croatia,cool,"[1, 2, 3, 11, 12]",5.3,2.8
+Q229,Cyprus,cool,"[1, 4, 12]",13.1,2.0
+Q213,Czech Republic,cool,"[1, 2, 3, 11, 12]",4.5,1.5
+Q16557,Dallas,cool,[1],5.3,3.1
+Q3766,Damascus,cool,"[1, 2, 4]",13.5,0.9
+Q2973,Darmstadt,cool,"[1, 2, 3, 11, 12]",5.5,2.3
+Q79880,Debrecen,cool,"[1, 2, 3, 11, 12]",4.7,1.1
+Q35,Denmark,cool,"[1, 2, 3, 4, 11, 12]",4.6,2.7
+Q16554,Denver,cool,"[1, 12]",-1.6,0.4
+Q39709,Des Moines,cool,"[1, 2, 3, 11, 12]",1.8,1.8
+Q12439,Detroit,cool,"[1, 4]",3.9,4.2
+Q7003,Dijon,cool,"[1, 2, 3, 11, 12]",5.6,2.4
+Q48256,Dnipro,cool,"[1, 2, 12]",1.0,1.7
+Q43070,Donetsk,cool,[1],-2.5,2.1
+Q1295,Dortmund,cool,"[1, 2, 3, 11, 12]",6.0,2.7
+Q33518,Dover,cool,"[1, 3, 8]",12.1,5.3
+Q1731,Dresden,cool,"[1, 2, 3, 11, 12]",4.7,1.7
+Q1761,Dublin,cool,"[1, 2, 4, 11, 12]",8.1,2.6
+Q1722,Dubrovnik,cool,"[1, 12]",8.3,5.8
+Q2100,Duisburg,cool,"[1, 2, 3, 11, 12]",6.2,2.8
+Q83285,Durrës,cool,[1],8.5,3.4
+Q9365,Dushanbe,cool,"[1, 2, 12]",3.5,2.0
+Q1718,Düsseldorf,cool,"[1, 2, 3, 11, 12]",6.3,2.7
+Q23436,Edinburgh,cool,"[1, 2, 3, 4, 11, 12]",6.4,2.9
+Q43387,Edirne,cool,"[1, 2, 11]",7.4,1.1
+Q2096,Edmonton,cool,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.4,1.0
+Q114257,Elbasan,cool,"[1, 3]",9.4,7.2
+Q1729,Erfurt,cool,"[1, 2, 3, 11, 12]",4.8,1.7
+Q2066,Essen,cool,"[1, 2, 3, 11, 12]",6.0,3.0
+Q191,Estonia,cool,"[1, 2, 3, 4, 10, 11, 12]",1.2,1.9
+Q4628,Faroe Islands,cool,"[1, 2, 3, 4, 5, 6, 9, 11, 12]",6.3,3.6
+Q33,Finland,cool,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.3,1.6
+Q2044,Florence,cool,"[1, 2, 12]",7.6,3.3
+Q16558,Fort Worth,cool,[1],5.4,2.1
+Q142,France,cool,"[1, 2, 3, 11, 12]",7.3,2.3
+Q28603,Frankfort,cool,"[1, 4]",7.2,5.0
+Q1794,Frankfurt,cool,"[1, 2, 3, 11, 12]",5.3,2.0
+Q2833,Freiburg im Breisgau,cool,"[1, 2, 3, 11, 12]",6.1,3.1
+Q43301,Fresno,cool,"[1, 2, 3]",10.5,3.2
+Q26600,Fukuoka,cool,"[1, 2, 12]",7.7,3.5
+Q47492,Gaza City,cool,"[1, 2, 12]",14.9,2.3
+Q1792,Gdańsk,cool,"[1, 3, 4, 11, 12]",5.0,1.8
+Q71,Geneva,cool,"[1, 2, 3, 11, 12]",5.4,3.1
+Q1449,Genoa,cool,"[1, 12]",8.1,2.5
+Q230,Georgia,cool,"[1, 2, 3, 11, 12]",4.2,2.5
+Q183,Germany,cool,"[1, 2, 3, 4, 11, 12]",5.0,2.1
+Q1296,Ghent,cool,"[1, 2, 3, 11, 12]",6.9,2.8
+Q1410,Gibraltar,cool,"[1, 2, 4, 12]",14.3,1.5
+Q4093,Glasgow,cool,"[1, 2, 3, 4, 11, 12]",5.9,3.7
+Q25287,Gothenburg,cool,"[1, 2, 3, 4, 10, 11, 12]",4.1,2.8
+Q3033,Göttingen,cool,"[1, 2, 3, 4, 11, 12]",5.4,2.3
+Q13298,Graz,cool,"[1, 2, 3, 11, 12]",3.6,1.0
+Q41,Greece,cool,"[1, 11, 12]",9.9,4.0
+Q223,Greenland,cool,"[1, 2, 3, 4, 5, 8, 9, 10, 11, 12]",-29.7,0.5
+Q1289,Grenoble,cool,"[1, 2, 11, 12]",6.8,3.8
+Q5196,Grozny,cool,"[1, 2, 3, 11, 12]",3.0,1.1
+Q41621,Haifa,cool,"[1, 2, 12]",14.9,4.7
+Q2814,Halle (Saale),cool,"[1, 2, 3, 11, 12]",5.2,1.6
+Q1055,Hamburg,cool,"[1, 2, 3, 11, 12]",5.4,2.6
+Q4970,Hangzhou,cool,"[1, 2, 12]",6.3,2.6
+Q1715,Hanover,cool,"[1, 3, 11, 12]",5.3,1.8
+Q42956,Harbin,cool,"[1, 2, 3, 4, 10, 11, 12]",-4.2,0.4
+Q25280,Harrisburg,cool,"[1, 3, 11, 12]",4.8,3.1
+Q33486,Hartford,cool,"[1, 3]",2.6,5.9
+Q2966,Heidelberg,cool,"[1, 2, 3, 11, 12]",5.2,3.0
+Q38733,Helena,cool,"[1, 3, 4, 10, 11, 12]",1.4,0.7
+Q1757,Helsinki,cool,"[1, 2, 3, 4, 10, 11, 12]",0.7,2.3
+Q34664,Hiroshima,cool,"[1, 2, 3, 12]",6.5,3.0
+Q40191,Hobart,cool,"[1, 2, 3, 4, 10, 11]",14.2,1.4
+Q28,Hungary,cool,"[1, 2, 3, 11, 12]",5.4,1.2
+Q189,Iceland,cool,"[1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12]",-1.8,3.1
+Q6346,Indianapolis,cool,"[1, 2, 3, 11, 12]",4.3,3.4
+Q1735,Innsbruck,cool,"[1, 2, 3, 11, 12]",4.4,2.1
+Q794,Iran,cool,"[1, 12]",6.9,0.2
+Q796,Iraq,cool,"[2, 3]",14.2,1.7
+Q27,Ireland,cool,"[1, 2, 4, 11, 12]",7.4,3.1
+Q6576,Irkutsk,cool,"[1, 2, 3, 4, 9, 10, 11, 12]",-5.7,0.7
+Q42053,Isfahan,cool,"[1, 12]",5.3,0.2
+Q801,Israel,cool,"[1, 2, 4, 11]",14.7,0.4
+Q406,Istanbul,cool,"[1, 9, 12]",12.8,3.8
+Q38,Italy,cool,"[1, 2]",7.8,2.1
+Q35997,İzmir,cool,"[1, 11, 12]",10.8,4.5
+Q28198,Jackson,cool,[1],6.5,5.5
+Q17,Japan,cool,"[1, 2, 3, 12]",5.8,3.4
+Q28180,Jefferson City,cool,"[1, 2, 12]",3.1,1.7
+Q1218,Jerusalem,cool,"[1, 2, 3, 4]",13.2,1.4
+Q29445,Juneau,cool,"[1, 2, 3, 4, 5, 11, 12]",0.5,7.4
+Q5838,Kabul,cool,"[1, 11, 12]",5.1,0.5
+Q1829,Kaliningrad,cool,"[1, 3, 4, 10, 11, 12]",5.2,2.1
+Q1040,Karlsruhe,cool,"[1, 2, 3, 11, 12]",5.9,2.5
+Q3037,Kathmandu,cool,[1],9.9,0.2
+Q588,Katowice,cool,"[1, 2, 3, 11, 12]",3.7,1.9
+Q4115712,Kaunas,cool,"[1, 2, 3, 10, 11, 12]",3.3,1.7
+Q232,Kazakhstan,cool,"[1, 2, 3, 11, 12]",-6.8,0.9
+Q900,Kazan,cool,"[1, 8]",2.2,2.5
+Q4454,Khabarovsk,cool,"[1, 2, 3, 4, 10, 11, 12]",-7.5,0.8
+Q42308,Kharkiv,cool,"[1, 4, 6, 11]",8.6,2.0
+Q1707,Kiel,cool,"[1, 2, 3, 4, 11, 12]",5.7,2.6
+Q29999,Kingdom of the Netherlands,cool,"[1, 2, 3, 11, 12]",6.9,3.0
+Q776965,Klaipėda,cool,"[1, 2, 3, 4, 10, 12]",4.5,2.2
+Q48320,Kobe,cool,"[1, 2, 3, 12]",7.3,2.7
+Q1246,Kosovo,cool,"[1, 2, 3, 12]",4.4,1.9
+Q31487,Kraków,cool,"[1, 2, 3, 11, 12]",3.9,1.8
+Q3646,Krasnodar,cool,"[1, 5]",9.3,4.1
+Q919,Krasnoyarsk,cool,"[1, 2, 3, 4, 10, 11, 12]",-6.6,0.8
+Q162279,Kuopio,cool,"[1, 2, 3, 4, 10, 11, 12]",-2.1,1.7
+Q41470,Kurdistan,cool,"[1, 3, 5]",3.3,7.9
+Q1899,Kyiv,cool,"[1, 2, 3, 11, 12]",1.5,1.8
+Q34600,Kyoto,cool,"[1, 2, 3, 12]",5.5,3.2
+Q813,Kyrgyzstan,cool,"[1, 2, 3, 4, 9, 10, 11, 12]",-5.4,1.6
+Q11739,Lahore,cool,[1],8.7,0.8
+Q28237,Lansing,cool,"[1, 2, 3, 11, 12]",1.8,2.2
+Q1491,La Paz,cool,"[1, 4, 5, 9, 10, 12]",11.0,1.9
+Q23768,Las Vegas,cool,"[1, 2, 3]",11.1,1.0
+Q211,Latvia,cool,"[1, 2, 3, 4, 10, 11, 12]",2.3,1.9
+Q807,Lausanne,cool,"[1, 2, 3, 4, 11, 12]",5.1,3.4
+Q822,Lebanon,cool,"[1, 3]",2.9,5.7
+Q39121,Leeds,cool,"[1, 2, 3, 4, 11, 12]",6.7,2.8
+Q42810,Le Havre,cool,"[1, 3, 11, 12]",7.9,3.4
+Q2079,Leipzig,cool,"[1, 2, 3, 11, 12]",5.0,1.8
+Q1013,Lesotho,cool,"[2, 3, 10, 11]",13.4,1.3
+Q5869,Lhasa,cool,"[1, 2, 3, 4, 11, 12]",4.0,0.5
+Q347,Liechtenstein,cool,"[1, 2, 3, 4, 6, 9, 10, 11, 12]",0.0,4.2
+Q3992,Liège,cool,"[1, 2, 3, 11, 12]",6.0,2.8
+Q648,Lille,cool,"[1, 2, 3, 11, 12]",6.9,2.5
+Q28260,Lincoln,cool,"[1, 2, 3, 12]",1.4,1.2
+Q41329,Linz,cool,"[1, 2, 3, 11, 12]",4.4,1.6
+Q597,Lisbon,cool,"[1, 2, 3, 10]",14.9,3.4
+Q37,Lithuania,cool,"[1, 2, 3, 4, 10, 11, 12]",4.0,1.7
+Q33405,Little Rock,cool,"[1, 4, 5]",14.4,6.6
+Q24826,Liverpool,cool,"[1, 2, 3, 4, 11, 12]",7.5,3.8
+Q437,Ljubljana,cool,"[1, 2, 3, 11, 12]",3.5,3.1
+Q196163,Łobez,cool,"[1, 3, 4, 11, 12]",5.0,1.6
+Q580,Łódź,cool,"[1, 2, 3, 11, 12]",3.4,1.6
+Q84,London,cool,"[1, 3, 11, 12]",7.3,2.1
+Q65,Los Angeles,cool,"[1, 2, 3]",12.7,5.6
+Q2843,Lübeck,cool,"[1, 2, 3, 4, 11, 12]",5.9,2.3
+Q37333,Lublin,cool,"[1, 2, 3, 10, 11, 12]",4.2,1.7
+Q134279,Luhansk,cool,"[1, 2, 6, 11]",6.0,1.7
+Q1842,Luxembourg,cool,"[1, 2, 3, 4, 11, 12]",5.5,3.0
+Q32,Luxembourg,cool,"[1, 2, 3, 4, 11, 12]",5.4,2.8
+Q36036,Lviv,cool,"[1, 2, 3, 10, 11, 12]",3.8,1.9
+Q456,Lyon,cool,"[1, 2, 3, 11, 12]",6.3,2.5
+Q1309,Maastricht,cool,"[1, 2, 3, 11, 12]",6.4,2.8
+Q676203,Machu Picchu,cool,"[3, 4, 5, 6, 7, 8, 9, 10]",14.6,4.0
+Q43788,Madison,cool,"[1, 2, 3, 11, 12]",0.5,2.0
+Q2807,Madrid,cool,"[1, 3, 10]",11.1,3.2
+Q1733,Magdeburg,cool,"[1, 2, 3, 11, 12]",5.3,1.7
+Q1720,Mainz,cool,"[1, 2, 3, 11, 12]",5.4,2.0
+Q2211,Malmö,cool,"[1, 3, 4, 11, 12]",5.0,1.8
+Q18125,Manchester,cool,"[1, 3, 4, 11, 12]",7.2,3.6
+Q11299,Manhattan,cool,"[1, 2, 11, 12]",3.7,3.3
+Q2119,Mannheim,cool,"[1, 2, 3, 11, 12]",5.7,2.5
+Q37133,Mariupol,cool,"[1, 6]",11.7,1.9
+Q23482,Marseille,cool,"[1, 12]",8.7,0.9
+Q3909,Maseru,cool,"[6, 7]",6.8,0.5
+Q3141,Melbourne,cool,"[1, 4, 7]",14.1,3.6
+Q16563,Memphis,cool,"[1, 12]",5.6,5.8
+Q13666,Messina,cool,"[1, 11, 12]",13.2,3.4
+Q22690,Metz,cool,"[1, 2, 3, 11, 12]",5.6,2.7
+Q490,Milan,cool,"[1, 11, 12]",4.8,1.0
+Q37836,Milwaukee,cool,"[1, 2, 3, 11, 12]",1.1,2.2
+Q36091,Minneapolis,cool,"[1, 2, 3, 4, 11, 12]",0.1,1.4
+Q2280,Minsk,cool,"[1, 2, 3, 10, 11, 12]",1.6,1.4
+Q217,Moldova,cool,"[1, 2, 3, 11, 12]",3.2,1.4
+Q235,Monaco,cool,"[1, 12]",8.9,1.6
+Q711,Mongolia,cool,"[1, 2, 3, 4, 10, 11, 12]",-6.8,0.2
+Q6022566,Monte Águila,cool,"[3, 4, 10, 11]",14.7,2.0
+Q236,Montenegro,cool,"[1, 3, 4, 5, 9, 11, 12]",0.6,4.4
+Q1335,Montevideo,cool,[7],9.3,0.3
+Q26426,Montpelier,cool,"[1, 2, 4, 10, 11, 12]",1.5,2.4
+Q6441,Montpellier,cool,"[1, 12]",7.5,1.1
+Q340,Montreal,cool,"[1, 2, 3, 4, 10, 11, 12]",0.1,2.2
+Q1028,Morocco,cool,"[1, 4, 11, 12]",3.2,0.6
+Q649,Moscow,cool,"[1, 2, 3, 4, 12]",-2.7,1.3
+Q1726,Munich,cool,"[1, 2, 3, 4, 11, 12]",5.0,2.4
+Q2742,Münster,cool,"[1, 2, 3, 11, 12]",5.9,2.4
+Q11751,Nagoya,cool,"[1, 2, 3, 12]",6.3,3.2
+Q16666,Nanjing,cool,"[1, 2, 12]",4.3,1.8
+Q12191,Nantes,cool,"[1, 2, 3, 12]",8.3,3.3
+Q2634,Naples,cool,"[1, 2, 3, 4, 11]",12.6,2.6
+Q23197,Nashville,cool,"[1, 2, 12]",5.7,4.3
+Q430776,Nazareth,cool,"[1, 2, 12]",12.2,2.8
+Q837,Nepal,cool,"[1, 2, 3, 11, 12]",13.2,0.5
+Q55,Netherlands,cool,"[1, 3, 11, 12]",6.3,2.4
+Q60,New York City,cool,"[1, 2, 11, 12]",3.7,3.3
+Q664,New Zealand,cool,"[2, 3, 4, 9, 11, 12]",14.8,2.3
+Q33959,Nice,cool,"[1, 12]",8.9,1.4
+Q891,Nizhny Novgorod,cool,"[1, 2, 3, 4, 10, 11, 12]",-1.7,1.4
+Q423,North Korea,cool,"[1, 2, 3, 4, 10, 11, 12]",-3.2,1.1
+Q221,North Macedonia,cool,"[1, 2]",4.7,0.8
+Q20,Norway,cool,"[1, 2, 3, 4, 10, 11, 12]",0.3,2.5
+Q41262,Nottingham,cool,"[1, 2, 3, 4, 11, 12]",7.1,2.4
+Q883,Novosibirsk,cool,"[1, 2, 3, 4, 9, 10, 11, 12]",-4.4,1.3
+Q2090,Nuremberg,cool,"[1, 2, 3, 11, 12]",4.5,2.2
+Q226,Nuuk,cool,"[1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12]",-1.3,2.6
+Q17042,Oakland,cool,"[1, 2, 3, 11, 12]",11.3,4.7
+Q1874,Odesa,cool,"[1, 2, 11, 12]",4.2,1.0
+Q34863,Oklahoma City,cool,"[1, 12]",4.3,1.6
+Q42735,Olympia,cool,"[1, 11, 12]",5.9,7.3
+Q43199,Omaha,cool,"[1, 2, 3, 11, 12]",2.1,1.4
+Q898,Omsk,cool,"[1, 2, 3, 4, 5, 10, 11, 12]",-4.2,1.1
+Q35765,Osaka,cool,"[1, 2, 3, 12]",6.9,2.8
+Q585,Oslo,cool,"[1, 2, 3, 4, 10, 11, 12]",0.8,2.2
+Q1930,Ottawa,cool,"[1, 2, 3, 4, 11, 12]",-0.4,2.4
+Q34217,Oxford,cool,"[1, 3, 4, 11, 12]",7.3,2.6
+Q617,Padua,cool,"[1, 2, 11, 12]",5.7,2.5
+Q219060,Palestine,cool,"[1, 2, 3]",11.5,2.7
+Q90,Paris,cool,"[1, 2, 3, 11, 12]",7.2,2.6
+Q2683,Parma,cool,"[1, 2, 11, 12]",5.6,2.6
+Q148,People's Republic of China,cool,"[1, 2, 3, 4, 10, 11, 12]",-1.5,0.7
+Q915,Perm,cool,"[1, 2, 3, 4, 5, 10, 11, 12]",-3.0,1.4
+Q3437,Perugia,cool,"[1, 2, 3, 11, 12]",6.8,2.2
+Q1345,Philadelphia,cool,"[1, 3, 8]",11.2,5.9
+Q16556,Phoenix,cool,"[1, 2, 3]",13.3,1.6
+Q40747,Pierre,cool,"[1, 2, 3, 11, 12]",-1.3,0.5
+Q13375,Pisa,cool,"[1, 2, 12]",7.6,3.2
+Q1342,Pittsburgh,cool,"[1, 2, 3, 11, 12]",4.0,3.2
+Q23564,Podgorica,cool,"[1, 11]",7.9,5.9
+Q36,Poland,cool,"[1, 2, 3, 11, 12]",4.0,1.5
+Q43332,Pompeii,cool,"[1, 3, 4, 9, 11]",14.8,2.9
+Q6106,Portland,cool,"[1, 11, 12]",5.7,9.4
+Q36433,Porto,cool,"[1, 2, 3, 10]",13.4,8.3
+Q45,Portugal,cool,"[1, 2, 3, 10]",14.9,3.4
+Q1711,Potsdam,cool,"[1, 3, 11, 12]",4.7,1.6
+Q268,Poznań,cool,"[1, 3, 11, 12]",3.9,1.1
+Q1085,Prague,cool,"[1, 2, 3, 11, 12]",4.2,1.2
+Q25270,Pristina,cool,"[1, 2, 3]",5.1,1.2
+Q18383,Providence,cool,"[1, 3]",2.4,6.7
+Q18808,Pyongyang,cool,"[1, 2, 3, 11, 12]",1.0,0.8
+Q3551,Rabat,cool,[12],14.4,0.4
+Q41087,Raleigh,cool,"[1, 2, 12]",7.2,2.7
+Q158119,Ramallah,cool,"[1, 2, 3]",10.0,2.3
+Q13364,Ravenna,cool,"[1, 2, 11]",7.5,1.5
+Q41876,Reims,cool,"[1, 2, 3, 11, 12]",6.4,2.5
+Q647,Rennes,cool,"[1, 2, 3, 11, 12]",8.1,2.5
+Q1764,Reykjavík,cool,"[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12]",3.3,4.2
+Q43421,Richmond,cool,"[1, 2, 12]",5.5,2.5
+Q1773,Riga,cool,"[1, 2, 3, 4, 10, 11, 12]",3.3,1.7
+Q218,Romania,cool,"[1, 2, 3, 10, 11, 12]",3.9,1.6
+Q220,Rome,cool,"[1, 12]",8.8,2.1
+Q908,Rostov-on-Don,cool,"[1, 2]",-0.4,2.2
+Q34370,Rotterdam,cool,"[1, 2, 3, 11, 12]",7.0,2.9
+Q34001,Roubaix,cool,"[1, 2, 3, 11, 12]",6.9,2.6
+Q30974,Rouen,cool,"[1, 3, 11, 12]",6.7,2.5
+Q159,Russia,cool,"[1, 2, 3, 4, 5, 10, 11, 12]",-14.9,1.3
+Q1724,Saarbrücken,cool,"[1, 2, 3, 4, 11, 12]",6.0,2.9
+Q18013,Sacramento,cool,"[1, 2, 11, 12]",10.0,5.3
+Q28848,Saint Paul,cool,"[1, 2, 3, 4, 11, 12]",0.1,1.5
+Q656,Saint Petersburg,cool,"[1, 2, 3, 4, 10, 11, 12]",-0.2,1.7
+Q23337,Salt Lake City,cool,"[1, 2, 3]",2.2,3.8
+Q34713,Salzburg,cool,"[1, 2, 3, 11, 12]",4.4,2.9
+Q894,Samara,cool,"[1, 2, 3, 10, 11, 12]",-4.2,1.3
+Q5753,Samarkand,cool,"[1, 2, 11, 12]",4.5,1.9
+Q975,San Antonio,cool,[1],9.7,3.6
+Q16552,San Diego,cool,"[1, 2, 3]",12.9,3.9
+Q62,San Francisco,cool,"[1, 2, 3, 11, 12]",11.7,4.9
+Q16553,San Jose,cool,"[1, 2, 11, 12]",11.2,3.9
+Q238,San Marino,cool,"[1, 2, 11, 12]",7.2,2.4
+Q1848,San Marino,cool,"[1, 2, 3, 11, 12]",6.3,2.4
+Q38555,Santa Fe,cool,"[1, 2, 3, 12]",1.3,0.8
+Q2887,Santiago,cool,"[4, 7, 9, 10]",14.2,0.3
+Q37951,Sapporo,cool,"[1, 2, 3, 4, 11, 12]",-0.9,2.7
+Q11194,Sarajevo,cool,"[1, 2, 3, 11, 12]",5.1,2.9
+Q5332,Saratov,cool,"[1, 8, 10]",6.9,1.9
+Q1709,Schwerin,cool,"[1, 2, 3, 4, 11, 12]",5.7,2.1
+Q5083,Seattle,cool,"[1, 11, 12]",6.4,6.4
+Q8684,Seoul,cool,"[1, 2, 3, 11, 12]",2.1,1.2
+Q403,Serbia,cool,"[1, 2, 3, 11]",5.6,1.7
+Q7525,Sevastopol,cool,"[1, 12]",5.7,2.5
+Q8686,Shanghai,cool,"[1, 2, 12]",6.1,2.2
+Q42448,Sheffield,cool,"[1, 3, 4, 11, 12]",6.9,2.4
+Q2751,Siena,cool,"[1, 2, 11, 12]",7.6,2.0
+Q19566,Simferopol,cool,[1],2.1,3.1
+Q384,Skopje,cool,"[1, 2]",4.5,0.7
+Q214,Slovakia,cool,"[1, 2, 3, 4, 10, 11, 12]",3.2,1.9
+Q215,Slovenia,cool,"[1, 2, 3, 11, 12]",4.6,2.3
+Q2337,Smolensk,cool,"[1, 2, 3, 10, 11, 12]",-0.5,1.7
+Q472,Sofia,cool,"[1, 2, 3, 11]",4.8,1.4
+Q258,South Africa,cool,[7],8.7,0.1
+Q884,South Korea,cool,"[1, 2, 3, 11, 12]",3.3,2.1
+Q23427,South Ossetia,cool,"[1, 2, 3, 10, 11, 12]",2.5,3.2
+Q29,Spain,cool,"[1, 3, 10]",11.4,3.5
+Q28515,Springfield,cool,"[1, 2, 3, 12]",3.2,2.1
+Q38022,St. Louis,cool,"[1, 2, 12]",2.9,2.5
+Q1754,Stockholm,cool,"[1, 2, 3, 4, 10, 11, 12]",2.3,1.6
+Q6602,Strasbourg,cool,"[1, 2, 3, 11, 12]",5.6,2.8
+Q1022,Stuttgart,cool,"[1, 2, 3, 11, 12]",5.8,2.2
+Q2907,Sucre,cool,"[4, 5, 6, 7, 8, 9, 10]",14.8,0.4
+Q40811,Sukhumi,cool,[1],5.2,8.3
+Q34,Sweden,cool,"[1, 2, 3, 4, 10, 11, 12]",-1.4,1.6
+Q39,Switzerland,cool,"[1, 2, 3, 4, 5, 9, 10, 11, 12]",1.1,5.8
+Q3130,Sydney,cool,"[4, 5, 6]",14.6,5.1
+Q858,Syria,cool,"[1, 2, 3]",10.9,1.0
+Q393,Szczecin,cool,"[1, 2, 3, 11, 12]",4.7,1.5
+Q863,Tajikistan,cool,"[1, 2, 3, 6, 7, 8, 9, 10, 11, 12]",-7.5,2.2
+Q1770,Tallinn,cool,"[1, 2, 3, 4, 10, 11, 12]",1.8,1.8
+Q40840,Tampere,cool,"[1, 2, 3, 4, 10, 11, 12]",-0.4,1.9
+Q13498,Taranto,cool,"[2, 10, 12]",14.5,2.5
+Q13972,Tartu,cool,"[1, 2, 3, 4, 10, 11, 12]",1.7,1.5
+Q269,Tashkent,cool,"[1, 2, 12]",1.9,1.9
+Q994,Tbilisi,cool,"[1, 2, 3, 11, 12]",5.4,1.6
+Q3616,Tehran,cool,"[1, 2, 3]",7.6,1.8
+Q33935,Tel Aviv,cool,"[1, 2, 12]",14.7,4.8
+Q36600,The Hague,cool,"[1, 2, 3, 11, 12]",7.2,3.5
+Q17151,Thessaloniki,cool,[1],6.3,1.8
+Q9270,Thimphu,cool,"[1, 2, 3, 11, 12]",6.7,4.0
+Q11736,Tianjin,cool,"[1, 2, 3, 11, 12]",2.8,0.3
+Q19689,Tirana,cool,"[1, 3, 9]",13.5,7.0
+Q1490,Tokyo,cool,"[1, 2, 3, 12]",6.8,2.7
+Q41057,Topeka,cool,"[1, 2, 3, 11, 12]",4.7,1.8
+Q172,Toronto,cool,"[1, 2, 3, 11, 12]",1.6,2.1
+Q7880,Toulouse,cool,"[1, 2, 12]",7.2,2.3
+Q45301,Trabzon,cool,"[1, 12]",8.8,3.2
+Q907112,Transnistria,cool,"[1, 2, 3, 11, 12]",3.5,1.3
+Q25330,Trenton,cool,"[1, 3, 8]",11.0,5.3
+Q3138,Trier,cool,"[1, 2, 3, 11, 12]",5.8,2.7
+Q546,Trieste,cool,"[1, 2, 11, 12]",7.7,3.5
+Q25804,Trondheim,cool,"[1, 2, 3, 4, 10, 11]",2.3,3.7
+Q22647,Troy,cool,"[1, 3, 12]",9.7,4.5
+Q18575,Tucson,cool,"[1, 2, 3]",12.1,3.0
+Q495,Turin,cool,"[1, 2, 11, 12]",4.3,1.9
+Q43,Turkey,cool,"[1, 2, 11, 12]",1.1,1.2
+Q874,Turkmenistan,cool,"[1, 2, 11, 12]",5.5,0.5
+Q38511,Turku,cool,"[1, 2, 3, 4, 10, 11, 12]",0.7,2.2
+Q1404,Uetersen,cool,"[1, 2, 3, 4, 11, 12]",6.2,3.2
+Q911,Ufa,cool,"[1, 2, 3, 10, 11, 12]",-5.7,1.2
+Q212,Ukraine,cool,"[1, 2, 11, 12]",1.4,1.7
+Q23430,Ulaanbaatar,cool,"[1, 2, 3, 4, 9, 10, 11, 12]",-6.4,0.4
+Q3012,Ulm,cool,"[1, 2, 3, 4, 11, 12]",4.7,2.0
+Q145,United Kingdom,cool,"[1, 2, 3, 4, 10, 11, 12]",6.0,3.4
+Q30,United States,cool,"[1, 2, 3, 11, 12]",2.7,1.4
+Q25286,Uppsala,cool,"[1, 2, 3, 4, 10, 11, 12]",1.5,1.6
+Q77,Uruguay,cool,[7],9.1,0.7
+Q803,Utrecht,cool,"[1, 2, 3, 11, 12]",6.6,2.8
+Q265,Uzbekistan,cool,"[1, 3, 5]",11.3,1.4
+Q1844,Vaduz,cool,"[1, 2, 3, 11, 12]",4.8,4.5
+Q33986,Valparaíso,cool,"[1, 3, 4, 7, 9, 10, 11, 12]",14.9,0.2
+Q24639,Vancouver,cool,"[1, 10, 11, 12]",6.3,10.2
+Q237,Vatican City,cool,"[1, 12]",8.7,2.2
+Q2235,Veliky Novgorod,cool,"[1, 2, 3, 10, 12]",-1.3,1.6
+Q641,Venice,cool,"[1, 2, 11, 12]",5.7,2.5
+Q2028,Verona,cool,"[1, 2, 11, 12]",5.8,2.6
+Q1741,Vienna,cool,"[1, 2, 3, 11, 12]",5.2,1.3
+Q216,Vilnius,cool,"[1, 2, 3, 4, 10, 11, 12]",3.3,1.9
+Q959,Vladivostok,cool,"[1, 2, 3, 4, 11, 12]",-1.9,0.8
+Q159610,Vlorë,cool,[1],9.6,1.9
+Q914,Volgograd,cool,"[1, 6]",10.0,2.5
+Q270,Warsaw,cool,"[1, 3, 11, 12]",3.2,1.4
+Q1223,Washington,cool,"[1, 11, 12]",-2.0,4.1
+Q61,"Washington, D.C.",cool,"[1, 2, 12]",3.7,2.9
+Q3955,Weimar,cool,"[1, 2, 3, 11, 12]",4.6,1.7
+Q23661,Wellington,cool,"[2, 3, 4, 5, 6, 7, 8, 9, 11, 12]",13.3,2.4
+Q1721,Wiesbaden,cool,"[1, 2, 3, 11, 12]",5.6,2.1
+Q3935,Windhoek,cool,"[6, 7]",14.3,0.0
+Q2135,Winnipeg,cool,"[1, 2, 3, 4, 10, 11, 12]",-2.2,1.0
+Q1799,Wrocław,cool,"[1, 2, 3, 11, 12]",4.7,1.5
+Q11746,Wuhan,cool,"[1, 12]",6.2,1.1
+Q5826,Xi'an,cool,"[1, 2, 11, 12]",3.4,0.6
+Q6610,Yakutsk,cool,"[1, 2, 3, 4, 5, 11, 12]",-19.4,0.2
+Q887,Yekaterinburg,cool,"[1, 2, 3, 4, 5, 10, 11, 12]",-3.4,0.9
+Q1953,Yerevan,cool,"[1, 2, 11, 12]",2.7,1.0
+Q38283,Yokohama,cool,"[1, 2, 3, 12]",7.4,2.8
+Q42462,York,cool,"[1, 2, 3, 4, 11, 12]",7.1,2.6
+Q1435,Zagreb,cool,"[1, 2, 3, 11, 12]",5.4,2.0
+Q157835,Zaporizhzhia,cool,"[1, 4, 6]",12.9,2.0
+Q30340,Zhengzhou,cool,"[1, 2, 12]",3.0,0.4
+Q72,Zurich,cool,"[1, 2, 3, 4, 11, 12]",5.0,3.4
+Q1017,Aachen,dry,"[1, 2, 3, 11, 12]",5.9,2.9
+Q25319,Aarhus,dry,"[1, 3, 11, 12]",4.2,1.8
+Q36405,Aberdeen,dry,"[1, 2, 3, 11, 12]",5.6,2.6
+Q1515,Abidjan,dry,"[1, 2, 3, 7, 8, 9, 11, 12]",26.3,2.9
+Q1519,Abu Dhabi,dry,"[1, 11, 12]",23.8,0.0
+Q3787,Abuja,dry,"[1, 6, 11]",26.8,0.6
+Q3761,Accra,dry,"[1, 7, 8, 9, 11]",26.1,1.5
+Q38545,Adana,dry,"[1, 5, 11, 12]",14.7,5.4
+Q3624,Addis Ababa,dry,"[1, 2, 3, 4, 5, 6, 10, 11, 12]",15.5,2.0
+Q5112,Adelaide,dry,"[1, 6, 7]",14.3,2.9
+Q889,Afghanistan,dry,"[1, 11, 12]",4.7,1.1
+Q42941,Agra,dry,"[1, 2, 4, 5, 12]",21.9,0.5
+Q1070,Ahmedabad,dry,"[1, 2, 3, 11, 12]",24.1,0.0
+Q40104,Ajaccio,dry,"[1, 2, 3, 4, 5, 9, 11]",13.9,3.5
+Q222,Albania,dry,"[1, 3, 12]",8.9,5.7
+Q24861,Albany,dry,"[1, 2, 11, 12]",1.1,3.0
+Q34804,Albuquerque,dry,"[1, 2, 12]",4.2,0.4
+Q41183,Aleppo,dry,"[1, 2, 3]",10.2,2.5
+Q87,Alexandria,dry,"[1, 2, 12]",15.3,1.4
+Q262,Algeria,dry,"[1, 2, 5, 10, 12]",21.6,0.0
+Q3561,Algiers,dry,"[1, 2, 10]",16.1,2.7
+Q35493,Almaty,dry,"[1, 2, 11, 12]",-2.1,1.2
+Q3805,Amman,dry,"[1, 2]",9.9,0.6
+Q727,Amsterdam,dry,"[1, 2, 3, 11, 12]",6.9,3.0
+Q39450,Anchorage,dry,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.6,1.5
+Q3415,Ancona,dry,"[1, 2]",8.7,1.2
+Q228,Andorra,dry,"[1, 2, 4, 5, 11, 12]",4.2,2.1
+Q1863,Andorra la Vella,dry,"[1, 2, 4, 11, 12]",6.8,1.6
+Q38380,Angers,dry,"[1, 2, 3, 11, 12]",8.1,2.4
+Q916,Angola,dry,"[1, 2, 11, 12]",21.2,7.9
+Q3640,Ankara,dry,"[1, 5, 12]",7.2,2.6
+Q28271,Annapolis,dry,"[1, 2, 12]",4.0,3.0
+Q6487,Antalya,dry,"[1, 2, 12]",11.7,5.6
+Q3915,Antananarivo,dry,"[1, 2]",20.7,12.3
+Q781,Antigua and Barbuda,dry,"[1, 3, 4, 12]",26.6,1.6
+Q3612,Antofagasta,dry,"[1, 2, 3, 12]",20.3,0.0
+Q12892,Antwerp,dry,"[1, 2, 3, 11, 12]",6.8,2.9
+Q36260,Apia,dry,"[1, 2]",26.7,13.7
+Q414,Argentina,dry,"[1, 2, 10, 11]",22.5,3.6
+Q399,Armenia,dry,"[1, 2, 3, 4, 10, 11, 12]",-1.9,1.7
+Q21203,Aruba,dry,"[1, 3]",27.6,0.9
+Q23438,Ashgabat,dry,"[1, 12]",5.3,0.5
+Q3642,Asmara,dry,"[1, 2, 3, 4, 9, 10, 11, 12]",16.1,1.1
+Q1520,Astana,dry,"[1, 2, 3, 4, 10, 11, 12]",-4.7,1.1
+Q3927,Astrakhan,dry,"[1, 2]",-1.4,0.9
+Q2933,Asunción,dry,"[1, 2, 3, 5, 6, 7, 11]",24.5,3.4
+Q1524,Athens,dry,[1],9.6,1.1
+Q23556,Atlanta,dry,"[1, 7, 9]",18.2,7.0
+Q37100,Auckland,dry,"[1, 2]",20.1,2.5
+Q2749,Augsburg,dry,"[1, 2, 3, 4, 11, 12]",5.1,2.1
+Q16559,Austin,dry,[1],8.1,4.2
+Q408,Australia,dry,"[1, 2, 5, 6, 7]",21.5,0.3
+Q40,Austria,dry,"[1, 2, 3, 11, 12]",3.6,2.2
+Q227,Azerbaijan,dry,"[1, 2, 3, 12]",6.6,1.1
+Q5684,Babylon,dry,"[1, 5, 9, 12]",23.2,0.1
+Q1530,Baghdad,dry,"[1, 5, 9, 12]",22.8,0.2
+Q398,Bahrain,dry,"[1, 11, 12]",20.9,0.1
+Q9248,Baku,dry,"[1, 2, 3, 12]",6.3,0.9
+Q5765,Balearic Islands,dry,"[1, 2, 3, 10, 12]",13.3,1.3
+Q5092,Baltimore,dry,"[1, 2, 12]",3.3,3.3
+Q3703,Bamako,dry,"[1, 11, 12]",26.5,0.0
+Q9279,Bandar Seri Begawan,dry,"[1, 2, 3, 4, 7, 9, 10, 11]",27.3,5.6
+Q1861,Bangkok,dry,[1],27.8,0.4
+Q902,Bangladesh,dry,"[1, 4, 6, 7]",26.5,3.6
+Q3832,Bangui,dry,"[1, 4, 11, 12]",26.9,1.1
+Q3726,Banjul,dry,"[1, 2, 3, 4, 5, 6, 11, 12]",26.1,0.2
+Q244,Barbados,dry,"[1, 2, 3, 4, 5, 10, 12]",26.2,1.5
+Q1492,Barcelona,dry,"[1, 12]",9.6,1.1
+Q3519,Bari,dry,"[1, 2, 3, 4, 5, 7, 11]",16.4,1.4
+Q78,Basel,dry,"[1, 2, 3, 11, 12]",5.5,3.0
+Q41295,Basseterre,dry,"[1, 3, 4, 12]",26.2,1.5
+Q28218,Baton Rouge,dry,"[1, 9]",17.7,8.4
+Q25475,Batumi,dry,"[1, 2, 12]",7.5,7.3
+Q956,Beijing,dry,"[1, 2, 3, 11, 12]",2.4,0.2
+Q3820,Beirut,dry,"[1, 3]",15.2,5.2
+Q184,Belarus,dry,"[1, 2, 3, 10, 11, 12]",1.9,1.3
+Q10686,Belfast,dry,"[1, 2, 4, 11, 12]",6.9,2.4
+Q31,Belgium,dry,"[1, 3, 11, 12]",5.7,2.2
+Q3711,Belgrade,dry,"[1, 2, 11, 12]",5.2,1.6
+Q242,Belize,dry,"[1, 2, 3, 4, 5]",23.5,1.6
+Q3043,Belmopan,dry,"[1, 2, 3, 4, 9, 12]",25.6,3.0
+Q42800,Belo Horizonte,dry,"[1, 2, 10, 11, 12]",22.3,6.1
+Q1355,Bengaluru,dry,"[1, 2, 3, 9, 11, 12]",23.4,1.1
+Q962,Benin,dry,"[1, 11, 12]",25.9,0.0
+Q628,Bergamo,dry,"[1, 2, 3, 11, 12]",6.0,3.1
+Q26793,Bergen,dry,"[1, 2, 3, 4, 10, 11]",3.5,7.9
+Q64,Berlin,dry,"[1, 3, 11, 12]",4.5,1.5
+Q70,Bern,dry,"[1, 2, 3, 4, 11, 12]",4.5,3.1
+Q37776,Besançon,dry,"[1, 2, 3, 11, 12]",5.9,3.4
+Q5776,Bethlehem,dry,"[1, 2, 3, 4]",13.2,1.4
+Q917,Bhutan,dry,"[1, 2]",0.4,16.1
+Q2256,Birmingham,dry,"[1, 2, 3, 4, 11, 12]",6.8,2.7
+Q9361,Bishkek,dry,"[1, 2, 11, 12]",-0.6,1.7
+Q37066,Bismarck,dry,"[1, 2, 3, 11, 12]",-4.0,0.5
+Q3739,Bissau,dry,"[1, 6, 11, 12]",27.0,0.4
+Q37701,Bloemfontein,dry,"[1, 5, 8, 10, 11, 12]",19.2,0.8
+Q2841,Bogotá,dry,"[1, 2, 3, 5, 6, 7, 8, 9, 10, 12]",14.2,1.7
+Q35775,Boise,dry,"[1, 2, 3, 12]",2.6,2.5
+Q750,Bolivia,dry,"[1, 3, 4]",25.9,11.0
+Q1891,Bologna,dry,"[1, 2, 11, 12]",6.3,2.2
+Q586,Bonn,dry,"[1, 2, 3, 11, 12]",6.3,2.6
+Q1479,Bordeaux,dry,"[1, 2, 12]",8.1,2.9
+Q188736,Bosnia,dry,"[1, 2, 3, 11, 12]",5.0,2.4
+Q225,Bosnia and Herzegovina,dry,"[1, 2, 3, 11, 12]",4.4,3.1
+Q100,Boston,dry,"[1, 3]",2.1,6.5
+Q963,Botswana,dry,"[1, 2, 3, 6, 7]",23.8,0.1
+Q2844,Brasília,dry,"[1, 2, 11, 12]",22.1,7.2
+Q1780,Bratislava,dry,"[1, 2, 3, 11, 12]",5.0,1.2
+Q155,Brazil,dry,"[1, 9, 10]",28.2,4.2
+Q3844,Brazzaville,dry,"[1, 3, 4]",26.6,4.7
+Q1209,Bremen,dry,"[1, 2, 3, 11, 12]",5.8,2.6
+Q24879,Bremen,dry,"[1, 2, 3, 11, 12]",5.9,2.5
+Q6221,Brescia,dry,"[1, 2, 11, 12]",6.2,2.2
+Q36168,Bridgetown,dry,"[1, 2, 3, 4, 6, 12]",27.2,1.5
+Q34932,Brisbane,dry,"[1, 11, 12]",24.2,8.7
+Q23154,Bristol,dry,"[1, 3, 4, 11, 12]",7.6,2.9
+Q12130,Brittany,dry,"[1, 3, 12]",7.3,2.8
+Q14960,Brno,dry,"[1, 2, 3, 11, 12]",4.0,1.3
+Q921,Brunei,dry,"[1, 2, 7, 9, 10]",26.4,7.4
+Q239,Brussels,dry,"[1, 2, 3, 11, 12]",6.5,2.7
+Q240,Brussels-Capital Region,dry,"[1, 2, 3, 11, 12]",6.5,2.7
+Q19660,Bucharest,dry,"[1, 2, 3, 11]",5.3,1.5
+Q1781,Budapest,dry,"[1, 2, 3, 11, 12]",4.8,1.1
+Q1486,Buenos Aires,dry,"[1, 10, 12]",21.9,1.7
+Q40435,Buffalo,dry,"[1, 2, 3, 11, 12]",2.3,2.8
+Q3854,Bujumbura,dry,"[1, 4]",23.5,5.7
+Q5764,Bukhara,dry,"[1, 5, 10, 11]",12.7,1.5
+Q219,Bulgaria,dry,"[1, 2, 3, 10, 11]",2.5,1.6
+Q965,Burkina Faso,dry,"[1, 2, 10, 11, 12]",26.1,0.3
+Q40738,Bursa,dry,"[1, 12]",7.7,4.9
+Q967,Burundi,dry,"[1, 4, 11, 12]",16.4,7.7
+Q16520,Busan,dry,"[1, 2, 3, 12]",4.2,2.4
+Q85,Cairo,dry,"[1, 2, 3]",16.6,0.1
+Q36312,Calgary,dry,"[1, 2, 3, 4, 10, 11, 12]",-2.7,1.0
+Q424,Cambodia,dry,"[1, 11, 12]",26.9,1.5
+Q350,Cambridge,dry,"[1, 3, 4, 11, 12]",7.6,1.9
+Q1009,Cameroon,dry,"[1, 2, 3, 5, 8, 11, 12]",24.4,1.2
+Q16,Canada,dry,"[1, 2, 3, 4, 10, 11, 12]",-6.5,0.8
+Q3114,Canberra,dry,"[1, 11]",19.2,3.1
+Q39984,Cannes,dry,"[1, 12]",9.6,1.2
+Q5465,Cape Town,dry,"[1, 2, 3, 11, 12]",20.3,0.5
+Q1011,Cape Verde,dry,"[1, 2, 3, 4, 5, 6, 10, 11, 12]",23.9,0.1
+Q1533,Caracas,dry,"[1, 2, 3, 7, 8, 9, 12]",22.4,2.1
+Q10690,Cardiff,dry,"[1, 3, 4, 11, 12]",7.9,4.0
+Q40881,Carson City,dry,"[1, 4, 11, 12]",4.9,1.4
+Q7903,Casablanca,dry,"[1, 2, 12]",15.3,1.0
+Q41699,Castries,dry,"[1, 5, 6, 9, 10]",27.8,2.4
+Q1903,Catania,dry,"[1, 3, 4, 5, 7, 8, 9, 12]",19.7,1.0
+Q44401,Cayenne,dry,"[1, 2, 3, 8, 9, 10, 11]",26.9,4.9
+Q929,Central African Republic,dry,"[1, 11, 12]",26.4,0.0
+Q5823,Ceuta,dry,"[1, 2, 4, 9, 11, 12]",17.0,1.7
+Q657,Chad,dry,"[1, 2, 11, 12]",22.5,0.0
+Q16565,Charlotte,dry,"[1, 2, 12]",6.7,3.2
+Q906,Chelyabinsk,dry,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.8,1.1
+Q30002,Chengdu,dry,"[1, 2, 12]",7.8,0.6
+Q1352,Chennai,dry,"[1, 2]",26.2,0.9
+Q39042,Cheyenne,dry,"[1, 2, 3, 4, 11, 12]",1.6,0.8
+Q1297,Chicago,dry,"[1, 2, 3, 11, 12]",2.4,2.5
+Q298,Chile,dry,"[1, 2, 3, 12]",20.7,0.0
+Q21197,Chișinău,dry,"[1, 2, 3, 11, 12]",3.6,1.4
+Q376749,Chittagong,dry,"[1, 2, 3, 10, 11, 12]",23.2,0.8
+Q11725,Chongqing,dry,"[1, 2, 12]",9.4,1.2
+Q79990,Christchurch,dry,[1],18.0,1.5
+Q43196,Cincinnati,dry,"[1, 2, 3, 11, 12]",5.3,3.3
+Q42168,Clermont-Ferrand,dry,"[1, 2, 3, 11, 12]",6.4,2.2
+Q37320,Cleveland,dry,"[1, 2, 3, 4, 11, 12]",4.3,3.1
+Q100188,Cluj-Napoca,dry,"[1, 2, 3, 10, 11, 12]",4.6,1.1
+Q365,Cologne,dry,"[1, 2, 3, 11, 12]",6.4,2.7
+Q739,Colombia,dry,"[1, 3, 11]",27.5,6.1
+Q35381,Colombo,dry,"[1, 2, 3, 12]",27.0,3.1
+Q38453,Columbia,dry,"[1, 12]",8.4,3.0
+Q16567,Columbus,dry,"[1, 2, 3, 11, 12]",4.3,2.8
+Q970,Comoros,dry,"[1, 2, 4]",23.8,8.2
+Q3733,Conakry,dry,"[1, 2, 3, 4, 6, 11]",27.6,2.0
+Q1880,Concepción,dry,"[1, 2, 3, 4, 10, 11, 12]",14.8,1.2
+Q28249,Concord,dry,"[1, 3, 8]",6.6,5.4
+Q16869,Constantinople,dry,"[1, 9, 12]",12.8,3.8
+Q26988,Cook Islands,dry,"[1, 3, 5, 6, 7, 8, 9, 10, 11]",22.4,2.8
+Q1748,Copenhagen,dry,"[1, 3, 4, 11, 12]",5.0,1.8
+Q800,Costa Rica,dry,"[1, 2, 3, 4, 5, 12]",18.8,6.3
+Q224,Croatia,dry,"[1, 2, 3, 11, 12]",5.3,2.8
+Q241,Cuba,dry,"[1, 2, 3, 4, 5, 12]",23.5,1.2
+Q25279,Curaçao,dry,"[1, 2, 4, 5, 6, 7, 8, 9, 10, 12]",28.8,0.9
+Q4361,Curitiba,dry,"[1, 2, 5, 6, 7, 8, 11]",17.7,3.9
+Q229,Cyprus,dry,"[1, 4, 12]",13.1,2.0
+Q213,Czech Republic,dry,"[1, 2, 3, 11, 12]",4.5,1.5
+Q3718,Dakar,dry,"[1, 2, 3, 4, 5, 6, 7, 11, 12]",24.6,0.1
+Q16557,Dallas,dry,[1],5.3,3.1
+Q3766,Damascus,dry,"[1, 2, 4]",13.5,0.9
+Q25282,Da Nang,dry,"[1, 2, 3]",23.8,2.4
+Q1960,Dar es Salaam,dry,"[1, 4]",26.6,11.6
+Q2973,Darmstadt,dry,"[1, 2, 3, 11, 12]",5.5,2.3
+Q11568,Darwin,dry,"[1, 2, 3, 12]",28.4,13.3
+Q79880,Debrecen,dry,"[1, 2, 3, 11, 12]",4.7,1.1
+Q1353,Delhi,dry,"[1, 2, 4, 5, 6, 12]",23.6,0.8
+Q974,Democratic Republic of the Congo,dry,"[1, 9, 11]",25.2,3.5
+Q35,Denmark,dry,"[1, 2, 3, 4, 11, 12]",4.6,2.7
+Q16554,Denver,dry,"[1, 12]",-1.6,0.4
+Q39709,Des Moines,dry,"[1, 2, 3, 11, 12]",1.8,1.8
+Q12439,Detroit,dry,"[1, 4]",3.9,4.2
+Q1354,Dhaka,dry,"[1, 4, 6, 7]",26.4,3.5
+Q7003,Dijon,dry,"[1, 2, 3, 11, 12]",5.6,2.4
+Q9310,Dili,dry,"[1, 4, 5, 10, 11]",28.1,4.5
+Q3604,Djibouti,dry,"[1, 12]",25.9,0.2
+Q977,Djibouti,dry,"[1, 2, 12]",24.0,0.5
+Q48256,Dnipro,dry,"[1, 2, 12]",1.0,1.7
+Q3866,Dodoma,dry,"[1, 2, 4, 12]",22.0,4.5
+Q3861,Doha,dry,"[1, 11, 12]",22.0,0.0
+Q784,Dominica,dry,"[1, 2, 3, 4, 5, 10, 12]",23.1,3.2
+Q786,Dominican Republic,dry,"[1, 2, 3, 8, 9]",23.7,3.2
+Q43070,Donetsk,dry,[1],-2.5,2.1
+Q1877,Đồng Hới,dry,"[1, 2, 3]",22.0,2.5
+Q1295,Dortmund,dry,"[1, 2, 3, 11, 12]",6.0,2.7
+Q33518,Dover,dry,"[1, 3, 8]",12.1,5.3
+Q1731,Dresden,dry,"[1, 2, 3, 11, 12]",4.7,1.7
+Q612,Dubai,dry,"[1, 11, 12]",23.5,0.0
+Q1761,Dublin,dry,"[1, 2, 4, 11, 12]",8.1,2.6
+Q1722,Dubrovnik,dry,"[1, 12]",8.3,5.8
+Q2100,Duisburg,dry,"[1, 2, 3, 11, 12]",6.2,2.8
+Q5468,Durban,dry,"[1, 9, 10]",20.4,4.2
+Q83285,Durrës,dry,[1],8.5,3.4
+Q9365,Dushanbe,dry,"[1, 2, 12]",3.5,2.0
+Q1718,Düsseldorf,dry,"[1, 2, 3, 11, 12]",6.3,2.7
+Q736,Ecuador,dry,"[1, 2, 3, 4, 5, 11]",21.8,10.2
+Q23436,Edinburgh,dry,"[1, 2, 3, 4, 11, 12]",6.4,2.9
+Q43387,Edirne,dry,"[1, 2, 11]",7.4,1.1
+Q2096,Edmonton,dry,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.4,1.0
+Q79,Egypt,dry,"[1, 2, 6, 7, 8, 9, 11, 12]",22.9,0.0
+Q114257,Elbasan,dry,"[1, 3]",9.4,7.2
+Q16562,El Paso,dry,"[1, 2, 7, 11]",15.6,0.5
+Q792,El Salvador,dry,"[1, 2, 3, 4, 5, 12]",25.0,1.2
+Q983,Equatorial Guinea,dry,"[1, 6, 7, 8, 12]",23.3,5.0
+Q1729,Erfurt,dry,"[1, 2, 3, 11, 12]",4.8,1.7
+Q986,Eritrea,dry,"[1, 2, 10, 11, 12]",25.8,0.1
+Q2066,Essen,dry,"[1, 2, 3, 11, 12]",6.0,3.0
+Q191,Estonia,dry,"[1, 2, 3, 4, 10, 11, 12]",1.2,1.9
+Q1050,Eswatini,dry,"[1, 4, 6, 7, 8, 9, 11]",18.6,1.9
+Q115,Ethiopia,dry,"[1, 2, 5, 9, 11, 12]",24.6,0.7
+Q4628,Faroe Islands,dry,"[1, 2, 3, 4, 5, 6, 9, 11, 12]",6.3,3.6
+Q702,Federated States of Micronesia,dry,"[1, 2, 3, 11, 12]",24.0,8.0
+Q80985,Fez,dry,"[1, 2, 3, 10]",15.1,2.8
+Q712,Fiji,dry,"[1, 2, 3, 12]",26.6,14.4
+Q33,Finland,dry,"[1, 2, 3, 4, 5, 10, 11, 12]",-2.3,1.6
+Q2044,Florence,dry,"[1, 2, 12]",7.6,3.3
+Q43463,Fortaleza,dry,"[1, 12]",28.2,1.6
+Q16558,Fort Worth,dry,[1],5.4,2.1
+Q142,France,dry,"[1, 2, 3, 11, 12]",7.3,2.3
+Q28603,Frankfort,dry,"[1, 4]",7.2,5.0
+Q1794,Frankfurt,dry,"[1, 2, 3, 11, 12]",5.3,2.0
+Q3780,Freetown,dry,"[1, 2, 3, 4, 5, 11, 12]",27.6,1.3
+Q2833,Freiburg im Breisgau,dry,"[1, 2, 3, 11, 12]",6.1,3.1
+Q43301,Fresno,dry,"[1, 2, 3]",10.5,3.2
+Q26600,Fukuoka,dry,"[1, 2, 12]",7.7,3.5
+Q34126,Funafuti,dry,"[1, 3, 4, 5, 6, 7, 8, 11, 12]",28.4,9.2
+Q1000,Gabon,dry,"[1, 3, 5, 6, 7, 8, 12]",24.4,3.6
+Q3919,Gaborone,dry,"[1, 4, 12]",24.3,1.8
+Q47492,Gaza City,dry,"[1, 2, 12]",14.9,2.3
+Q1792,Gdańsk,dry,"[1, 3, 4, 11, 12]",5.0,1.8
+Q71,Geneva,dry,"[1, 2, 3, 11, 12]",5.4,3.1
+Q1449,Genoa,dry,"[1, 12]",8.1,2.5
+Q10717,Georgetown,dry,"[1, 2, 3, 4, 8, 10, 11, 12]",27.4,3.8
+Q230,Georgia,dry,"[1, 2, 3, 11, 12]",4.2,2.5
+Q183,Germany,dry,"[1, 2, 3, 4, 11, 12]",5.0,2.1
+Q117,Ghana,dry,"[1, 12]",27.6,0.0
+Q1296,Ghent,dry,"[1, 2, 3, 11, 12]",6.9,2.8
+Q1410,Gibraltar,dry,"[1, 2, 4, 12]",14.3,1.5
+Q4093,Glasgow,dry,"[1, 2, 3, 4, 11, 12]",5.9,3.7
+Q25287,Gothenburg,dry,"[1, 2, 3, 4, 10, 11, 12]",4.1,2.8
+Q3033,Göttingen,dry,"[1, 2, 3, 4, 11, 12]",5.4,2.3
+Q13298,Graz,dry,"[1, 2, 3, 11, 12]",3.6,1.0
+Q41,Greece,dry,"[1, 11, 12]",9.9,4.0
+Q223,Greenland,dry,"[1, 2, 3, 4, 5, 8, 9, 10, 11, 12]",-29.7,0.5
+Q769,Grenada,dry,"[1, 11]",23.5,3.3
+Q1289,Grenoble,dry,"[1, 2, 11, 12]",6.8,3.8
+Q5196,Grozny,dry,"[1, 2, 3, 11, 12]",3.0,1.1
+Q9022,Guadalajara,dry,[1],17.4,0.1
+Q16572,Guangzhou,dry,"[1, 2, 5, 7, 9, 12]",21.8,5.2
+Q774,Guatemala,dry,"[1, 2, 9, 11, 12]",17.5,6.3
+Q1555,Guatemala City,dry,"[1, 2, 3, 4, 5]",20.3,0.8
+Q1006,Guinea,dry,"[1, 2, 5, 11, 12]",26.5,0.4
+Q1007,Guinea-Bissau,dry,"[1, 11, 12]",26.2,0.0
+Q734,Guyana,dry,"[1, 2, 3, 4, 8, 9, 10, 11]",26.4,4.3
+Q41621,Haifa,dry,"[1, 2, 12]",14.9,4.7
+Q790,Haiti,dry,"[1, 2, 12]",26.9,0.7
+Q2814,Halle (Saale),dry,"[1, 2, 3, 11, 12]",5.2,1.6
+Q1055,Hamburg,dry,"[1, 2, 3, 11, 12]",5.4,2.6
+Q4970,Hangzhou,dry,"[1, 2, 12]",6.3,2.6
+Q1858,Hanoi,dry,"[1, 5, 8]",24.7,7.9
+Q1715,Hanover,dry,"[1, 3, 11, 12]",5.3,1.8
+Q3921,Harare,dry,"[1, 11, 12]",21.5,3.8
+Q42956,Harbin,dry,"[1, 2, 3, 4, 10, 11, 12]",-4.2,0.4
+Q25280,Harrisburg,dry,"[1, 3, 11, 12]",4.8,3.1
+Q33486,Hartford,dry,"[1, 3]",2.6,5.9
+Q1563,Havana,dry,"[1, 2, 3, 4, 12]",23.9,1.2
+Q2966,Heidelberg,dry,"[1, 2, 3, 11, 12]",5.2,3.0
+Q38733,Helena,dry,"[1, 3, 4, 10, 11, 12]",1.4,0.7
+Q1757,Helsinki,dry,"[1, 2, 3, 4, 10, 11, 12]",0.7,2.3
+Q34664,Hiroshima,dry,"[1, 2, 3, 12]",6.5,3.0
+Q40191,Hobart,dry,"[1, 2, 3, 4, 10, 11]",14.2,1.4
+Q1854,Ho Chi Minh City,dry,"[1, 11, 12]",27.2,2.2
+Q783,Honduras,dry,"[1, 2, 7, 8, 12]",16.5,3.1
+Q8646,Hong Kong,dry,"[1, 6, 7, 11, 12]",22.0,6.0
+Q40921,Honiara,dry,"[1, 2, 3]",26.7,13.6
+Q18094,Honolulu,dry,"[1, 4, 5]",22.7,4.1
+Q16555,Houston,dry,"[1, 5, 7]",21.1,12.0
+Q28,Hungary,dry,"[1, 2, 3, 11, 12]",5.4,1.2
+Q1361,Hyderabad,dry,"[1, 2, 10, 11, 12]",24.2,0.8
+Q189,Iceland,dry,"[1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12]",-1.8,3.1
+Q668,India,dry,"[1, 2, 3, 10, 11]",21.7,0.9
+Q6346,Indianapolis,dry,"[1, 2, 3, 11, 12]",4.3,3.4
+Q252,Indonesia,dry,"[1, 10]",27.9,8.1
+Q1735,Innsbruck,dry,"[1, 2, 3, 11, 12]",4.4,2.1
+Q794,Iran,dry,"[1, 12]",6.9,0.2
+Q796,Iraq,dry,"[1, 5, 9, 11, 12]",19.9,0.3
+Q27,Ireland,dry,"[1, 2, 4, 11, 12]",7.4,3.1
+Q6576,Irkutsk,dry,"[1, 2, 3, 4, 9, 10, 11, 12]",-5.7,0.7
+Q42053,Isfahan,dry,"[1, 12]",5.3,0.2
+Q1362,Islamabad,dry,"[1, 2, 5, 6, 9, 11, 12]",19.7,1.3
+Q801,Israel,dry,"[1, 2, 4, 11]",14.7,0.4
+Q406,Istanbul,dry,"[1, 9, 12]",12.8,3.8
+Q38,Italy,dry,"[1, 2]",7.8,2.1
+Q1008,Ivory Coast,dry,"[1, 2, 5, 11, 12]",26.8,0.8
+Q35997,İzmir,dry,"[1, 11, 12]",10.8,4.5
+Q28198,Jackson,dry,[1],6.5,5.5
+Q16568,Jacksonville,dry,"[1, 2, 3, 7, 10, 12]",18.0,3.1
+Q66485,Jaipur,dry,"[1, 2, 4, 6, 12]",22.0,0.9
+Q3630,Jakarta,dry,"[1, 2, 3, 4, 5, 10, 11, 12]",27.4,7.9
+Q766,Jamaica,dry,"[1, 2, 3, 4, 8, 12]",22.1,1.6
+Q17,Japan,dry,"[1, 2, 3, 12]",5.8,3.4
+Q374365,Jeddah,dry,"[1, 3, 12]",25.4,0.3
+Q28180,Jefferson City,dry,"[1, 2, 12]",3.1,1.7
+Q1218,Jerusalem,dry,"[1, 2, 3, 4]",13.2,1.4
+Q34647,Johannesburg,dry,"[1, 4, 12]",19.1,1.9
+Q810,Jordan,dry,"[1, 3, 6, 7, 11, 12]",17.8,0.0
+Q1947,Juba,dry,"[1, 2, 3, 4, 5, 6, 10, 11, 12]",29.9,0.9
+Q29445,Juneau,dry,"[1, 2, 3, 4, 5, 11, 12]",0.5,7.4
+Q5838,Kabul,dry,"[1, 11, 12]",5.1,0.5
+Q1829,Kaliningrad,dry,"[1, 3, 4, 10, 11, 12]",5.2,2.1
+Q3894,Kampala,dry,"[1, 3, 5, 6, 7, 8, 9]",21.8,2.6
+Q8660,Karachi,dry,"[1, 2, 3, 4, 11, 12]",23.5,0.1
+Q1040,Karlsruhe,dry,"[1, 2, 3, 11, 12]",5.9,2.5
+Q3037,Kathmandu,dry,[1],9.9,0.2
+Q588,Katowice,dry,"[1, 2, 3, 11, 12]",3.7,1.9
+Q4115712,Kaunas,dry,"[1, 2, 3, 10, 11, 12]",3.3,1.7
+Q232,Kazakhstan,dry,"[1, 2, 3, 11, 12]",-6.8,0.9
+Q900,Kazan,dry,"[1, 8]",2.2,2.5
+Q114,Kenya,dry,"[1, 2, 3, 5, 6, 7, 8, 9, 10, 12]",24.8,1.2
+Q4454,Khabarovsk,dry,"[1, 2, 3, 4, 10, 11, 12]",-7.5,0.8
+Q42308,Kharkiv,dry,"[1, 4, 6, 11]",8.6,2.0
+Q1963,Khartoum,dry,"[1, 2, 11, 12]",25.3,0.0
+Q1707,Kiel,dry,"[1, 2, 3, 4, 11, 12]",5.7,2.6
+Q3859,Kigali,dry,"[1, 2, 4, 10]",20.4,3.0
+Q29999,Kingdom of the Netherlands,dry,"[1, 2, 3, 11, 12]",6.9,3.0
+Q34692,Kingston,dry,"[1, 2, 3, 4, 5, 10, 12]",26.4,1.3
+Q3838,Kinshasa,dry,"[1, 3, 4]",26.7,4.6
+Q710,Kiribati,dry,"[1, 3]",28.1,21.6
+Q776965,Klaipėda,dry,"[1, 2, 3, 4, 10, 12]",4.5,2.2
+Q48320,Kobe,dry,"[1, 2, 3, 12]",7.3,2.7
+Q1348,Kolkata,dry,"[1, 4, 5, 6, 10]",27.4,4.4
+Q1246,Kosovo,dry,"[1, 2, 3, 12]",4.4,1.9
+Q31487,Kraków,dry,"[1, 2, 3, 11, 12]",3.9,1.8
+Q3646,Krasnodar,dry,"[1, 5]",9.3,4.1
+Q919,Krasnoyarsk,dry,"[1, 2, 3, 4, 10, 11, 12]",-6.6,0.8
+Q1865,Kuala Lumpur,dry,"[1, 4, 8, 11, 12]",26.7,14.2
+Q162279,Kuopio,dry,"[1, 2, 3, 4, 10, 11, 12]",-2.1,1.7
+Q41470,Kurdistan,dry,"[1, 3, 5]",3.3,7.9
+Q817,Kuwait,dry,"[1, 4, 5, 12]",22.0,0.4
+Q35178,Kuwait City,dry,"[1, 5, 12]",21.5,0.2
+Q1899,Kyiv,dry,"[1, 2, 3, 11, 12]",1.5,1.8
+Q34600,Kyoto,dry,"[1, 2, 3, 12]",5.5,3.2
+Q813,Kyrgyzstan,dry,"[1, 2, 3, 4, 9, 10, 11, 12]",-5.4,1.6
+Q8673,Lagos,dry,"[1, 2, 3, 4, 5, 12]",28.8,1.6
+Q11739,Lahore,dry,[1],8.7,0.8
+Q28237,Lansing,dry,"[1, 2, 3, 11, 12]",1.8,2.2
+Q819,Laos,dry,"[1, 2, 3, 10, 11, 12]",23.9,0.8
+Q1491,La Paz,dry,"[1, 4, 5, 9, 10, 12]",11.0,1.9
+Q23768,Las Vegas,dry,"[1, 2, 3]",11.1,1.0
+Q211,Latvia,dry,"[1, 2, 3, 4, 10, 11, 12]",2.3,1.9
+Q807,Lausanne,dry,"[1, 2, 3, 4, 11, 12]",5.1,3.4
+Q822,Lebanon,dry,"[1, 3]",2.9,5.7
+Q39121,Leeds,dry,"[1, 2, 3, 4, 11, 12]",6.7,2.8
+Q42810,Le Havre,dry,"[1, 3, 11, 12]",7.9,3.4
+Q2079,Leipzig,dry,"[1, 2, 3, 11, 12]",5.0,1.8
+Q1013,Lesotho,dry,"[1, 12]",15.0,2.8
+Q5869,Lhasa,dry,"[1, 2, 3, 4, 11, 12]",4.0,0.5
+Q1014,Liberia,dry,"[1, 2, 3, 4, 5, 11, 12]",26.6,2.1
+Q3825,Libreville,dry,"[1, 6, 7, 8, 9]",25.6,3.1
+Q1016,Libya,dry,"[1, 2, 6, 7, 8, 11, 12]",21.7,0.0
+Q347,Liechtenstein,dry,"[1, 2, 3, 4, 6, 9, 10, 11, 12]",0.0,4.2
+Q3992,Liège,dry,"[1, 2, 3, 11, 12]",6.0,2.8
+Q648,Lille,dry,"[1, 2, 3, 11, 12]",6.9,2.5
+Q3876,Lilongwe,dry,"[1, 2, 3, 12]",22.9,3.6
+Q2868,Lima,dry,"[1, 3, 4, 11]",21.5,0.1
+Q28260,Lincoln,dry,"[1, 2, 3, 12]",1.4,1.2
+Q41329,Linz,dry,"[1, 2, 3, 11, 12]",4.4,1.6
+Q597,Lisbon,dry,"[1, 2, 3, 10]",14.9,3.4
+Q37,Lithuania,dry,"[1, 2, 3, 4, 10, 11, 12]",4.0,1.7
+Q33405,Little Rock,dry,"[1, 4, 5]",14.4,6.6
+Q24826,Liverpool,dry,"[1, 2, 3, 4, 11, 12]",7.5,3.8
+Q437,Ljubljana,dry,"[1, 2, 3, 11, 12]",3.5,3.1
+Q196163,Łobez,dry,"[1, 3, 4, 11, 12]",5.0,1.6
+Q580,Łódź,dry,"[1, 2, 3, 11, 12]",3.4,1.6
+Q3792,Lomé,dry,"[1, 8, 11]",26.9,1.3
+Q84,London,dry,"[1, 3, 11, 12]",7.3,2.1
+Q65,Los Angeles,dry,"[1, 2, 3]",12.7,5.6
+Q3897,Luanda,dry,[1],26.8,4.0
+Q2843,Lübeck,dry,"[1, 2, 3, 4, 11, 12]",5.9,2.3
+Q37333,Lublin,dry,"[1, 2, 3, 10, 11, 12]",4.2,1.7
+Q47916,Lucknow,dry,"[1, 2, 4, 5, 6, 12]",24.4,0.8
+Q134279,Luhansk,dry,"[1, 2, 6, 11]",6.0,1.7
+Q3881,Lusaka,dry,"[1, 11]",22.4,5.1
+Q1842,Luxembourg,dry,"[1, 2, 3, 4, 11, 12]",5.5,3.0
+Q32,Luxembourg,dry,"[1, 2, 3, 4, 11, 12]",5.4,2.8
+Q36036,Lviv,dry,"[1, 2, 3, 10, 11, 12]",3.8,1.9
+Q456,Lyon,dry,"[1, 2, 3, 11, 12]",6.3,2.5
+Q1309,Maastricht,dry,"[1, 2, 3, 11, 12]",6.4,2.8
+Q14773,Macau,dry,"[1, 7, 12]",21.2,2.6
+Q676203,Machu Picchu,dry,"[1, 2, 11, 12]",15.2,10.9
+Q1019,Madagascar,dry,"[1, 2, 3, 12]",21.4,7.8
+Q43788,Madison,dry,"[1, 2, 3, 11, 12]",0.5,2.0
+Q2807,Madrid,dry,"[1, 3, 10]",11.1,3.2
+Q1733,Magdeburg,dry,"[1, 2, 3, 11, 12]",5.3,1.7
+Q1720,Mainz,dry,"[1, 2, 3, 11, 12]",5.4,2.0
+Q12919,Majuro,dry,"[1, 2, 3, 4, 8]",27.8,7.5
+Q3818,Malabo,dry,"[1, 2, 3, 4]",28.4,1.3
+Q1020,Malawi,dry,"[1, 2, 3]",21.7,7.8
+Q833,Malaysia,dry,"[1, 6]",24.9,11.8
+Q826,Maldives,dry,"[1, 10]",27.9,4.6
+Q9347,Malé,dry,"[1, 10]",27.8,4.6
+Q912,Mali,dry,"[1, 2, 11, 12]",23.6,0.0
+Q2211,Malmö,dry,"[1, 3, 4, 11, 12]",5.0,1.8
+Q233,Malta,dry,"[1, 3, 4, 8, 9]",20.5,0.6
+Q3274,Managua,dry,"[1, 2, 3, 4, 5, 7]",29.3,2.2
+Q3882,Manama,dry,"[1, 4, 12]",21.4,0.1
+Q40236,Manaus,dry,"[1, 4, 5, 7, 8, 9, 10, 11]",28.6,2.6
+Q18125,Manchester,dry,"[1, 3, 4, 11, 12]",7.2,3.6
+Q11299,Manhattan,dry,"[1, 2, 11, 12]",3.7,3.3
+Q1461,Manila,dry,"[1, 2, 3]",27.4,0.9
+Q2119,Mannheim,dry,"[1, 2, 3, 11, 12]",5.7,2.5
+Q3889,Maputo,dry,"[1, 2, 5, 6, 7, 8, 9, 10]",22.7,0.8
+Q37133,Mariupol,dry,"[1, 6]",11.7,1.9
+Q101625,Marrakesh,dry,"[1, 7, 8, 12]",22.6,0.2
+Q23482,Marseille,dry,"[1, 12]",8.7,0.9
+Q709,Marshall Islands,dry,"[1, 2, 3, 4, 12]",27.4,1.7
+Q3909,Maseru,dry,"[1, 4, 9, 11]",16.5,2.6
+Q1025,Mauritania,dry,"[1, 2, 3, 11, 12]",21.0,0.0
+Q1027,Mauritius,dry,"[1, 2]",26.1,7.2
+Q3904,Mbabane,dry,"[1, 3, 4, 12]",19.0,4.8
+Q48278,Medellín,dry,"[1, 2, 3, 7, 9, 12]",21.2,3.3
+Q35484,Medina,dry,"[1, 2, 11, 12]",20.9,0.0
+Q3141,Melbourne,dry,"[1, 4, 7]",14.1,3.6
+Q5831,Melilla,dry,"[1, 9, 12]",18.0,0.4
+Q16563,Memphis,dry,"[1, 12]",5.6,5.8
+Q13666,Messina,dry,"[1, 11, 12]",13.2,3.4
+Q22690,Metz,dry,"[1, 2, 3, 11, 12]",5.6,2.7
+Q96,Mexico,dry,"[1, 2, 8, 10, 11, 12]",16.2,0.7
+Q1489,Mexico City,dry,"[1, 2, 10, 11, 12]",16.2,1.0
+Q8652,Miami,dry,"[1, 2, 4, 5, 11, 12]",23.1,2.3
+Q490,Milan,dry,"[1, 11, 12]",4.8,1.0
+Q37836,Milwaukee,dry,"[1, 2, 3, 11, 12]",1.1,2.2
+Q36091,Minneapolis,dry,"[1, 2, 3, 4, 11, 12]",0.1,1.4
+Q2280,Minsk,dry,"[1, 2, 3, 10, 11, 12]",1.6,1.4
+Q2449,Mogadishu,dry,"[1, 6, 7, 9, 10, 12]",26.7,0.9
+Q217,Moldova,dry,"[1, 2, 3, 11, 12]",3.2,1.4
+Q235,Monaco,dry,"[1, 12]",8.9,1.6
+Q711,Mongolia,dry,"[1, 2, 3, 4, 10, 11, 12]",-6.8,0.2
+Q3748,Monrovia,dry,"[1, 2, 3, 4, 5, 11, 12]",27.4,3.1
+Q6022566,Monte Águila,dry,"[1, 2, 12]",20.9,0.0
+Q236,Montenegro,dry,"[1, 3, 4, 5, 9, 11, 12]",0.6,4.4
+Q1335,Montevideo,dry,"[1, 11, 12]",20.5,1.7
+Q29364,Montgomery,dry,"[1, 9]",16.4,6.8
+Q26426,Montpelier,dry,"[1, 2, 4, 10, 11, 12]",1.5,2.4
+Q6441,Montpellier,dry,"[1, 12]",7.5,1.1
+Q340,Montreal,dry,"[1, 2, 3, 4, 10, 11, 12]",0.1,2.2
+Q1028,Morocco,dry,"[1, 4, 11, 12]",3.2,0.6
+Q3901,Moroni,dry,"[1, 3, 4]",27.1,23.1
+Q649,Moscow,dry,"[1, 2, 3, 4, 12]",-2.7,1.3
+Q1029,Mozambique,dry,"[1, 2, 3, 4]",26.5,3.3
+Q1156,Mumbai,dry,"[1, 2, 3, 10, 11, 12]",26.2,0.7
+Q1726,Munich,dry,"[1, 2, 3, 4, 11, 12]",5.0,2.4
+Q2742,Münster,dry,"[1, 2, 3, 11, 12]",5.9,2.4
+Q3826,Muscat,dry,"[1, 3, 11, 12]",24.6,0.1
+Q836,Myanmar,dry,"[1, 2, 3, 11, 12]",24.3,0.4
+Q11751,Nagoya,dry,"[1, 2, 3, 12]",6.3,3.2
+Q3870,Nairobi,dry,"[1, 5, 7, 8, 12]",18.9,2.0
+Q1030,Namibia,dry,"[1, 2, 3]",26.5,1.0
+Q16666,Nanjing,dry,"[1, 2, 12]",4.3,1.8
+Q12191,Nantes,dry,"[1, 2, 3, 12]",8.3,3.3
+Q2634,Naples,dry,"[1, 2, 3, 4, 11]",12.6,2.6
+Q23197,Nashville,dry,"[1, 2, 12]",5.7,4.3
+Q2467,Nassau,dry,"[1, 2, 4, 5, 11, 12]",24.1,1.2
+Q697,Nauru,dry,"[1, 2, 3]",28.3,7.8
+Q37400,Naypyidaw,dry,"[1, 2, 3, 10, 11, 12]",24.9,1.8
+Q430776,Nazareth,dry,"[1, 2, 12]",12.2,2.8
+Q3659,N'Djamena,dry,"[1, 2, 10, 11, 12]",25.8,0.5
+Q837,Nepal,dry,"[1, 2, 3, 11, 12]",13.2,0.5
+Q55,Netherlands,dry,"[1, 3, 11, 12]",6.3,2.4
+Q987,New Delhi,dry,"[1, 2, 4, 5, 6, 12]",23.5,1.1
+Q34404,New Orleans,dry,"[1, 2, 3, 5, 7, 8, 12]",20.5,5.5
+Q60,New York City,dry,"[1, 2, 11, 12]",3.7,3.3
+Q664,New Zealand,dry,[1],18.3,1.2
+Q19491,Nha Trang,dry,"[1, 2, 3]",25.2,0.8
+Q3674,Niamey,dry,"[1, 2, 11, 12]",25.9,0.0
+Q811,Nicaragua,dry,"[1, 2, 3, 4]",25.6,2.0
+Q33959,Nice,dry,"[1, 12]",8.9,1.4
+Q3856,Nicosia,dry,"[1, 4, 11, 12]",15.2,1.7
+Q1032,Niger,dry,"[1, 4, 5, 6, 7, 10, 12]",27.6,0.0
+Q1033,Nigeria,dry,"[1, 11, 12]",26.6,0.0
+Q34020,Niue,dry,"[1, 2, 3]",27.0,8.8
+Q891,Nizhny Novgorod,dry,"[1, 2, 3, 4, 10, 11, 12]",-1.7,1.4
+Q23681,Northern Cyprus,dry,"[1, 4, 11, 12]",15.2,1.7
+Q423,North Korea,dry,"[1, 2, 3, 4, 10, 11, 12]",-3.2,1.1
+Q221,North Macedonia,dry,"[1, 2]",4.7,0.8
+Q20,Norway,dry,"[1, 2, 3, 4, 10, 11, 12]",0.3,2.5
+Q41262,Nottingham,dry,"[1, 2, 3, 4, 11, 12]",7.1,2.4
+Q3688,Nouakchott,dry,"[1, 2, 3, 4, 5, 6, 11]",25.7,0.0
+Q883,Novosibirsk,dry,"[1, 2, 3, 4, 9, 10, 11, 12]",-4.4,1.3
+Q38834,Nukuʻalofa,dry,"[1, 3, 5]",25.9,11.7
+Q2090,Nuremberg,dry,"[1, 2, 3, 11, 12]",4.5,2.2
+Q226,Nuuk,dry,"[1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12]",-1.3,2.6
+Q17042,Oakland,dry,"[1, 2, 3, 11, 12]",11.3,4.7
+Q1874,Odesa,dry,"[1, 2, 11, 12]",4.2,1.0
+Q34863,Oklahoma City,dry,"[1, 12]",4.3,1.6
+Q42735,Olympia,dry,"[1, 11, 12]",5.9,7.3
+Q43199,Omaha,dry,"[1, 2, 3, 11, 12]",2.1,1.4
+Q842,Oman,dry,"[1, 11, 12]",24.1,0.0
+Q898,Omsk,dry,"[1, 2, 3, 4, 5, 10, 11, 12]",-4.2,1.1
+Q49233,Orlando,dry,"[1, 2, 7, 8, 12]",20.4,3.8
+Q35765,Osaka,dry,"[1, 2, 3, 12]",6.9,2.8
+Q585,Oslo,dry,"[1, 2, 3, 4, 10, 11, 12]",0.8,2.2
+Q1930,Ottawa,dry,"[1, 2, 3, 4, 11, 12]",-0.4,2.4
+Q3777,Ouagadougou,dry,"[1, 2, 10, 11, 12]",26.4,0.2
+Q34217,Oxford,dry,"[1, 3, 4, 11, 12]",7.3,2.6
+Q617,Padua,dry,"[1, 2, 11, 12]",5.7,2.5
+Q843,Pakistan,dry,"[1, 2, 5, 9, 12]",21.0,0.2
+Q695,Palau,dry,"[1, 2, 3, 4, 5, 10, 11]",27.0,11.1
+Q2656,Palermo,dry,"[1, 2, 3, 4, 8, 11]",17.3,2.0
+Q219060,Palestine,dry,"[1, 2, 3]",11.5,2.7
+Q804,Panama,dry,"[1, 2, 3, 4, 5, 12]",24.2,2.8
+Q3306,Panama City,dry,"[1, 2, 4, 12]",27.4,3.4
+Q691,Papua New Guinea,dry,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]",16.5,22.9
+Q733,Paraguay,dry,"[1, 2, 3, 10, 12]",29.4,3.4
+Q3001,Paramaribo,dry,"[1, 2, 3, 8, 10, 11, 12]",27.2,2.8
+Q90,Paris,dry,"[1, 2, 3, 11, 12]",7.2,2.6
+Q2683,Parma,dry,"[1, 2, 11, 12]",5.6,2.6
+Q148,People's Republic of China,dry,"[1, 2, 3, 4, 10, 11, 12]",-1.5,0.7
+Q915,Perm,dry,"[1, 2, 3, 4, 5, 10, 11, 12]",-3.0,1.4
+Q3183,Perth,dry,"[1, 2, 3, 4, 11, 12]",23.2,0.4
+Q419,Peru,dry,"[1, 3, 10]",20.2,6.8
+Q3437,Perugia,dry,"[1, 2, 3, 11, 12]",6.8,2.2
+Q1345,Philadelphia,dry,"[1, 3, 8]",11.2,5.9
+Q928,Philippines,dry,"[1, 2, 3]",27.0,1.0
+Q1850,Phnom Penh,dry,"[1, 11, 12]",27.1,2.2
+Q16556,Phoenix,dry,"[1, 2, 3]",13.3,1.6
+Q40747,Pierre,dry,"[1, 2, 3, 11, 12]",-1.3,0.5
+Q13375,Pisa,dry,"[1, 2, 12]",7.6,3.2
+Q1342,Pittsburgh,dry,"[1, 2, 3, 11, 12]",4.0,3.2
+Q23564,Podgorica,dry,"[1, 11]",7.9,5.9
+Q36,Poland,dry,"[1, 2, 3, 11, 12]",4.0,1.5
+Q43332,Pompeii,dry,"[1, 3, 4, 9, 11]",14.8,2.9
+Q34261,Port-au-Prince,dry,"[1, 3, 12]",27.6,0.7
+Q6106,Portland,dry,"[1, 11, 12]",5.7,9.4
+Q3929,Port Louis,dry,"[1, 2]",27.1,6.9
+Q36526,Port Moresby,dry,"[1, 3, 12]",27.5,7.8
+Q36433,Porto,dry,"[1, 2, 3, 10]",13.4,8.3
+Q40269,Porto Alegre,dry,"[1, 2, 3, 10, 11]",23.4,3.3
+Q3799,Porto-Novo,dry,"[1, 2, 8, 11, 12]",27.1,1.5
+Q45,Portugal,dry,"[1, 2, 3, 10]",14.9,3.4
+Q37806,Port Vila,dry,"[1, 11, 12]",26.1,7.2
+Q1711,Potsdam,dry,"[1, 3, 11, 12]",4.7,1.6
+Q268,Poznań,dry,"[1, 3, 11, 12]",3.9,1.1
+Q1085,Prague,dry,"[1, 2, 3, 11, 12]",4.2,1.2
+Q3751,Praia,dry,"[1, 2, 3, 4, 5, 6, 7, 11, 12]",24.4,0.1
+Q3926,Pretoria,dry,"[1, 4, 12]",21.2,2.0
+Q25270,Pristina,dry,"[1, 2, 3]",5.1,1.2
+Q18383,Providence,dry,"[1, 3]",2.4,6.7
+Q1538,Pune,dry,"[1, 2, 3, 10, 11, 12]",24.1,0.7
+Q18808,Pyongyang,dry,"[1, 2, 3, 11, 12]",1.0,0.8
+Q3551,Rabat,dry,"[1, 2, 3, 10]",16.5,3.0
+Q1437,Rajasthan,dry,"[1, 4, 9, 12]",22.2,0.4
+Q41087,Raleigh,dry,"[1, 2, 12]",7.2,2.7
+Q158119,Ramallah,dry,"[1, 2, 3]",10.0,2.3
+Q13364,Ravenna,dry,"[1, 2, 11]",7.5,1.5
+Q48344,Recife,dry,"[1, 8, 9, 10, 11, 12]",26.1,2.0
+Q41876,Reims,dry,"[1, 2, 3, 11, 12]",6.4,2.5
+Q647,Rennes,dry,"[1, 2, 3, 11, 12]",8.1,2.5
+Q971,Republic of the Congo,dry,"[1, 6, 7, 8, 12]",25.2,2.2
+Q1764,Reykjavík,dry,"[1, 2, 3, 4, 5, 6, 8, 9, 10, 11, 12]",3.3,4.2
+Q43421,Richmond,dry,"[1, 2, 12]",5.5,2.5
+Q1773,Riga,dry,"[1, 2, 3, 4, 10, 11, 12]",3.3,1.7
+Q8678,Rio de Janeiro,dry,"[1, 3, 12]",25.8,6.5
+Q3692,Riyadh,dry,"[1, 9, 10, 12]",24.5,0.0
+Q218,Romania,dry,"[1, 2, 3, 10, 11, 12]",3.9,1.6
+Q220,Rome,dry,"[1, 12]",8.8,2.1
+Q36281,Roseau,dry,"[1, 2, 3, 4, 5]",26.4,2.0
+Q908,Rostov-on-Don,dry,"[1, 2]",-0.4,2.2
+Q34370,Rotterdam,dry,"[1, 2, 3, 11, 12]",7.0,2.9
+Q34001,Roubaix,dry,"[1, 2, 3, 11, 12]",6.9,2.6
+Q30974,Rouen,dry,"[1, 3, 11, 12]",6.7,2.5
+Q159,Russia,dry,"[1, 2, 3, 4, 5, 10, 11, 12]",-14.9,1.3
+Q1037,Rwanda,dry,"[1, 4, 11, 12]",19.2,4.9
+Q1724,Saarbrücken,dry,"[1, 2, 3, 4, 11, 12]",6.0,2.9
+Q18013,Sacramento,dry,"[1, 2, 11, 12]",10.0,5.3
+Q763,Saint Kitts and Nevis,dry,"[1, 3, 4, 12]",25.9,1.5
+Q760,Saint Lucia,dry,"[1, 2, 3, 4, 5, 12]",24.7,2.7
+Q28848,Saint Paul,dry,"[1, 2, 3, 4, 11, 12]",0.1,1.5
+Q656,Saint Petersburg,dry,"[1, 2, 3, 4, 10, 11, 12]",-0.2,1.7
+Q757,Saint Vincent and the Grenadines,dry,"[1, 2, 3, 4, 12]",26.8,0.7
+Q23337,Salt Lake City,dry,"[1, 2, 3]",2.2,3.8
+Q36947,Salvador,dry,"[1, 2, 6]",26.4,4.5
+Q34713,Salzburg,dry,"[1, 2, 3, 11, 12]",4.4,2.9
+Q894,Samara,dry,"[1, 2, 3, 10, 11, 12]",-4.2,1.3
+Q5753,Samarkand,dry,"[1, 2, 11, 12]",4.5,1.9
+Q683,Samoa,dry,"[1, 5, 7, 8, 11]",25.9,15.3
+Q2471,Sanaa,dry,"[1, 2, 5, 11, 12]",17.1,0.3
+Q975,San Antonio,dry,[1],9.7,3.6
+Q16552,San Diego,dry,"[1, 2, 3]",12.9,3.9
+Q62,San Francisco,dry,"[1, 2, 3, 11, 12]",11.7,4.9
+Q16553,San Jose,dry,"[1, 2, 11, 12]",11.2,3.9
+Q3070,San José,dry,"[1, 2, 3, 4, 5, 12]",21.0,4.1
+Q238,San Marino,dry,"[1, 2, 11, 12]",7.2,2.4
+Q1848,San Marino,dry,"[1, 2, 3, 11, 12]",6.3,2.4
+Q3110,San Salvador,dry,"[1, 2, 3, 4, 5, 10, 12]",24.9,2.0
+Q38555,Santa Fe,dry,"[1, 2, 3, 12]",1.3,0.8
+Q2887,Santiago,dry,"[1, 2, 3, 11, 12]",21.3,0.1
+Q34820,Santo Domingo,dry,"[1, 2, 3, 4, 10]",25.3,2.5
+Q174,São Paulo,dry,"[1, 2, 11, 12]",22.0,6.6
+Q3932,São Tomé,dry,"[1, 6, 7, 8]",26.0,3.1
+Q1039,São Tomé and Príncipe,dry,"[1, 4, 6, 7, 8]",20.5,5.2
+Q37951,Sapporo,dry,"[1, 2, 3, 4, 11, 12]",-0.9,2.7
+Q11194,Sarajevo,dry,"[1, 2, 3, 11, 12]",5.1,2.9
+Q5332,Saratov,dry,"[1, 8, 10]",6.9,1.9
+Q851,Saudi Arabia,dry,"[1, 11]",20.1,0.1
+Q1709,Schwerin,dry,"[1, 2, 3, 4, 11, 12]",5.7,2.1
+Q5083,Seattle,dry,"[1, 11, 12]",6.4,6.4
+Q1041,Senegal,dry,"[1, 2, 3, 4, 5, 6, 11]",31.6,0.1
+Q8684,Seoul,dry,"[1, 2, 3, 11, 12]",2.1,1.2
+Q403,Serbia,dry,"[1, 2, 3, 11]",5.6,1.7
+Q7525,Sevastopol,dry,"[1, 12]",5.7,2.5
+Q1042,Seychelles,dry,"[1, 5]",28.3,5.1
+Q8686,Shanghai,dry,"[1, 2, 12]",6.1,2.2
+Q42448,Sheffield,dry,"[1, 3, 4, 11, 12]",6.9,2.4
+Q15174,Shenzhen,dry,"[1, 6, 7, 12]",21.9,4.2
+Q2751,Siena,dry,"[1, 2, 11, 12]",7.6,2.0
+Q1044,Sierra Leone,dry,"[1, 2, 3, 4, 6, 10]",28.0,4.0
+Q19566,Simferopol,dry,[1],2.1,3.1
+Q334,Singapore,dry,"[1, 11]",26.0,15.9
+Q26273,Sint Maarten,dry,"[1, 3, 4, 12]",26.1,1.4
+Q384,Skopje,dry,"[1, 2]",4.5,0.7
+Q214,Slovakia,dry,"[1, 2, 3, 4, 10, 11, 12]",3.2,1.9
+Q215,Slovenia,dry,"[1, 2, 3, 11, 12]",4.6,2.3
+Q2337,Smolensk,dry,"[1, 2, 3, 10, 11, 12]",-0.5,1.7
+Q472,Sofia,dry,"[1, 2, 3, 11]",4.8,1.4
+Q685,Solomon Islands,dry,[1],25.0,23.3
+Q1045,Somalia,dry,"[1, 12]",26.9,0.0
+Q34754,Somaliland,dry,"[1, 2, 6, 7, 9, 11, 12]",24.1,0.1
+Q258,South Africa,dry,"[1, 2, 3, 10]",25.0,0.5
+Q884,South Korea,dry,"[1, 2, 3, 11, 12]",3.3,2.1
+Q23427,South Ossetia,dry,"[1, 2, 3, 10, 11, 12]",2.5,3.2
+Q958,South Sudan,dry,"[1, 2, 3, 4, 5, 6, 9, 10, 11, 12]",30.5,0.8
+Q29,Spain,dry,"[1, 3, 10]",11.4,3.5
+Q28515,Springfield,dry,"[1, 2, 3, 12]",3.2,2.1
+Q854,Sri Lanka,dry,"[1, 5, 8, 10]",22.8,6.8
+Q41547,St. George's,dry,"[1, 5, 9, 10, 11]",28.1,2.2
+Q36262,St. John's,dry,"[1, 3, 4, 12]",26.6,1.6
+Q38022,St. Louis,dry,"[1, 2, 12]",2.9,2.5
+Q1754,Stockholm,dry,"[1, 2, 3, 4, 10, 11, 12]",2.3,1.6
+Q6602,Strasbourg,dry,"[1, 2, 3, 11, 12]",5.6,2.8
+Q1022,Stuttgart,dry,"[1, 2, 3, 11, 12]",5.8,2.2
+Q2907,Sucre,dry,"[1, 2, 3, 11, 12]",15.5,4.1
+Q1049,Sudan,dry,"[1, 2, 11, 12]",24.1,0.0
+Q40811,Sukhumi,dry,[1],5.2,8.3
+Q3492,Sumatra,dry,[1],25.7,15.6
+Q11462,Surabaya,dry,"[1, 2, 3, 11, 12]",27.3,12.1
+Q730,Suriname,dry,"[1, 2, 3, 8, 9, 10, 11]",26.8,2.2
+Q38807,Suva,dry,"[1, 2, 3, 5]",25.6,14.8
+Q34,Sweden,dry,"[1, 2, 3, 4, 10, 11, 12]",-1.4,1.6
+Q39,Switzerland,dry,"[1, 2, 3, 4, 5, 9, 10, 11, 12]",1.1,5.8
+Q3130,Sydney,dry,"[1, 7, 8, 9, 10, 11]",17.3,2.2
+Q858,Syria,dry,"[1, 2, 3]",10.9,1.0
+Q393,Szczecin,dry,"[1, 2, 3, 11, 12]",4.7,1.5
+Q1867,Taipei,dry,"[1, 2, 5, 6, 7, 8, 12]",22.6,4.3
+Q865,Taiwan,dry,"[1, 2, 3, 5, 6, 9, 10, 11, 12]",16.6,7.2
+Q863,Tajikistan,dry,"[1, 2, 3, 6, 7, 8, 9, 10, 11, 12]",-7.5,2.2
+Q37043,Tallahassee,dry,"[1, 2, 3, 5, 12]",15.6,3.7
+Q1770,Tallinn,dry,"[1, 2, 3, 4, 10, 11, 12]",1.8,1.8
+Q49255,Tampa,dry,"[1, 2, 6, 7, 9, 12]",21.9,3.6
+Q40840,Tampere,dry,"[1, 2, 3, 4, 10, 11, 12]",-0.4,1.9
+Q126148,Tangier,dry,"[1, 4, 11, 12]",15.5,1.3
+Q924,Tanzania,dry,"[1, 2, 3, 4, 12]",22.3,5.4
+Q13498,Taranto,dry,"[1, 3, 4, 7, 8, 9, 11]",19.8,1.1
+Q13972,Tartu,dry,"[1, 2, 3, 4, 10, 11, 12]",1.7,1.5
+Q269,Tashkent,dry,"[1, 2, 12]",1.9,1.9
+Q994,Tbilisi,dry,"[1, 2, 3, 11, 12]",5.4,1.6
+Q3238,Tegucigalpa,dry,"[1, 2, 3, 4, 5, 10, 12]",23.1,1.7
+Q3616,Tehran,dry,"[1, 2, 3]",7.6,1.8
+Q33935,Tel Aviv,dry,"[1, 2, 12]",14.7,4.8
+Q869,Thailand,dry,"[1, 11, 12]",26.9,0.4
+Q778,The Bahamas,dry,"[1, 2, 4, 5, 11, 12]",24.1,1.2
+Q1005,The Gambia,dry,"[1, 11, 12]",26.6,0.1
+Q36600,The Hague,dry,"[1, 2, 3, 11, 12]",7.2,3.5
+Q17151,Thessaloniki,dry,[1],6.3,1.8
+Q9270,Thimphu,dry,"[1, 2, 3, 11, 12]",6.7,4.0
+Q11736,Tianjin,dry,"[1, 2, 3, 11, 12]",2.8,0.3
+Q9427,Timbuktu,dry,"[1, 2, 11, 12]",24.2,0.0
+Q574,Timor-Leste,dry,"[1, 4]",23.5,10.1
+Q19689,Tirana,dry,"[1, 3, 9]",13.5,7.0
+Q945,Togo,dry,"[1, 5, 11, 12]",27.1,0.7
+Q1490,Tokyo,dry,"[1, 2, 3, 12]",6.8,2.7
+Q678,Tonga,dry,"[1, 3]",26.8,15.6
+Q41057,Topeka,dry,"[1, 2, 3, 11, 12]",4.7,1.8
+Q172,Toronto,dry,"[1, 2, 3, 11, 12]",1.6,2.1
+Q7880,Toulouse,dry,"[1, 2, 12]",7.2,2.3
+Q45301,Trabzon,dry,"[1, 12]",8.8,3.2
+Q907112,Transnistria,dry,"[1, 2, 3, 11, 12]",3.5,1.3
+Q25330,Trenton,dry,"[1, 3, 8]",11.0,5.3
+Q3138,Trier,dry,"[1, 2, 3, 11, 12]",5.8,2.7
+Q546,Trieste,dry,"[1, 2, 11, 12]",7.7,3.5
+Q754,Trinidad and Tobago,dry,"[1, 2, 3, 4, 10, 12]",27.0,1.7
+Q3579,Tripoli,dry,"[1, 2, 7, 8, 10]",22.3,0.6
+Q25804,Trondheim,dry,"[1, 2, 3, 4, 10, 11]",2.3,3.7
+Q22647,Troy,dry,"[1, 3, 12]",9.7,4.5
+Q18575,Tucson,dry,"[1, 2, 3]",12.1,3.0
+Q3572,Tunis,dry,"[1, 3, 4, 5, 7, 8, 9, 11]",20.6,0.9
+Q948,Tunisia,dry,"[1, 2, 7, 8, 12]",20.3,0.1
+Q495,Turin,dry,"[1, 2, 11, 12]",4.3,1.9
+Q43,Turkey,dry,"[1, 2, 11, 12]",1.1,1.2
+Q874,Turkmenistan,dry,"[1, 2, 11, 12]",5.5,0.5
+Q38511,Turku,dry,"[1, 2, 3, 4, 10, 11, 12]",0.7,2.2
+Q672,Tuvalu,dry,"[1, 3, 4, 5, 6, 7, 8, 10, 11, 12]",28.4,8.6
+Q1404,Uetersen,dry,"[1, 2, 3, 4, 11, 12]",6.2,3.2
+Q911,Ufa,dry,"[1, 2, 3, 10, 11, 12]",-5.7,1.2
+Q1036,Uganda,dry,"[1, 2, 3, 5, 6, 12]",24.5,1.4
+Q212,Ukraine,dry,"[1, 2, 11, 12]",1.4,1.7
+Q23430,Ulaanbaatar,dry,"[1, 2, 3, 4, 9, 10, 11, 12]",-6.4,0.4
+Q3012,Ulm,dry,"[1, 2, 3, 4, 11, 12]",4.7,2.0
+Q878,United Arab Emirates,dry,"[1, 11, 12]",23.8,0.0
+Q145,United Kingdom,dry,"[1, 2, 3, 4, 10, 11, 12]",6.0,3.4
+Q30,United States,dry,"[1, 2, 3, 11, 12]",2.7,1.4
+Q25286,Uppsala,dry,"[1, 2, 3, 4, 10, 11, 12]",1.5,1.6
+Q77,Uruguay,dry,"[1, 2, 10, 11, 12]",21.2,3.3
+Q803,Utrecht,dry,"[1, 2, 3, 11, 12]",6.6,2.8
+Q265,Uzbekistan,dry,"[1, 3, 5]",11.3,1.4
+Q1844,Vaduz,dry,"[1, 2, 3, 11, 12]",4.8,4.5
+Q23800,Valletta,dry,"[1, 3, 4, 8, 9]",20.5,0.6
+Q33986,Valparaíso,dry,"[1, 3, 4, 7, 9, 10, 11, 12]",14.9,0.2
+Q24639,Vancouver,dry,"[1, 10, 11, 12]",6.3,10.2
+Q686,Vanuatu,dry,"[1, 3, 12]",27.7,12.2
+Q79980,Varanasi,dry,"[1, 2, 4, 5]",24.1,0.6
+Q237,Vatican City,dry,"[1, 12]",8.7,2.2
+Q2235,Veliky Novgorod,dry,"[1, 2, 3, 10, 12]",-1.3,1.6
+Q717,Venezuela,dry,"[1, 2, 3, 4, 9, 10, 11, 12]",30.4,1.6
+Q641,Venice,dry,"[1, 2, 11, 12]",5.7,2.5
+Q2028,Verona,dry,"[1, 2, 11, 12]",5.8,2.6
+Q3940,Victoria,dry,"[1, 6, 7, 8, 9, 10, 11]",26.6,3.8
+Q1741,Vienna,dry,"[1, 2, 3, 11, 12]",5.2,1.3
+Q881,Vietnam,dry,"[1, 2, 7]",17.9,5.7
+Q216,Vilnius,dry,"[1, 2, 3, 4, 10, 11, 12]",3.3,1.9
+Q959,Vladivostok,dry,"[1, 2, 3, 4, 11, 12]",-1.9,0.8
+Q159610,Vlorë,dry,[1],9.6,1.9
+Q914,Volgograd,dry,"[1, 6]",10.0,2.5
+Q21194,Vũng Tàu,dry,"[1, 2, 3, 11, 12]",26.8,0.8
+Q270,Warsaw,dry,"[1, 3, 11, 12]",3.2,1.4
+Q1223,Washington,dry,"[1, 11, 12]",-2.0,4.1
+Q61,"Washington, D.C.",dry,"[1, 2, 12]",3.7,2.9
+Q3955,Weimar,dry,"[1, 2, 3, 11, 12]",4.6,1.7
+Q23661,Wellington,dry,[1],18.2,0.7
+Q1721,Wiesbaden,dry,"[1, 2, 3, 11, 12]",5.6,2.1
+Q3935,Windhoek,dry,"[1, 2, 3, 12]",24.9,1.4
+Q2135,Winnipeg,dry,"[1, 2, 3, 4, 10, 11, 12]",-2.2,1.0
+Q1799,Wrocław,dry,"[1, 2, 3, 11, 12]",4.7,1.5
+Q11746,Wuhan,dry,"[1, 12]",6.2,1.1
+Q5826,Xi'an,dry,"[1, 2, 11, 12]",3.4,0.6
+Q6610,Yakutsk,dry,"[1, 2, 3, 4, 5, 11, 12]",-19.4,0.2
+Q3768,Yamoussoukro,dry,"[1, 7, 11, 12]",26.7,0.8
+Q37995,Yangon,dry,"[1, 2, 11, 12]",26.3,1.9
+Q3808,Yaoundé,dry,"[1, 2, 3, 7, 8, 11, 12]",23.9,2.0
+Q887,Yekaterinburg,dry,"[1, 2, 3, 4, 5, 10, 11, 12]",-3.4,0.9
+Q805,Yemen,dry,"[1, 2, 11, 12]",22.6,0.0
+Q1953,Yerevan,dry,"[1, 2, 11, 12]",2.7,1.0
+Q38283,Yokohama,dry,"[1, 2, 3, 12]",7.4,2.8
+Q42462,York,dry,"[1, 2, 3, 4, 11, 12]",7.1,2.6
+Q1435,Zagreb,dry,"[1, 2, 3, 11, 12]",5.4,2.0
+Q953,Zambia,dry,"[1, 11, 12]",23.5,4.1
+Q157835,Zaporizhzhia,dry,"[1, 4, 6]",12.9,2.0
+Q30340,Zhengzhou,dry,"[1, 2, 12]",3.0,0.4
+Q954,Zimbabwe,dry,"[1, 11, 12]",25.3,3.7
+Q72,Zurich,dry,"[1, 2, 3, 4, 11, 12]",5.0,3.4

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>transport_hubs — Top 20 Largest Clusters</title>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@6.4.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+</head>
+<body>
+  <div style="font-family:sans-serif;padding:12px 20px;background:#1e3a5f;color:#fff;font-size:18px;font-weight:bold;">transport_hubs — Top 20 Largest Clusters</div>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300, "stroke": null}, "axis": {"grid": false}}, "data": {"name": "data-d161039a163d24eac613efb0a2ab7e2c"}, "mark": {"type": "bar", "color": "#2a7abf"}, "encoding": {"tooltip": [{"field": "label", "type": "nominal"}, {"field": "n_records", "type": "quantitative"}, {"field": "cluster_id", "type": "nominal"}], "x": {"field": "n_records", "title": "Number of records in cluster", "type": "quantitative"}, "y": {"axis": {"labelLimit": 350}, "field": "label", "sort": "-x", "title": null, "type": "nominal"}}, "height": 450, "params": [{"name": "param_1e9efca18e7a2868", "select": {"type": "interval", "encodings": ["x", "y"]}, "bind": "scales"}], "title": {"text": "transport_hubs \u2014 Top 20 Largest Clusters", "fontSize": 14}, "width": 700, "$schema": "https://vega.github.io/schema/vega-lite/v6.4.1.json", "datasets": {"data-d161039a163d24eac613efb0a2ab7e2c": [{"cluster_id": "osmhub_1540258090", "name": "Telesqu\u00ed Zayas", "n_records": 42, "label": "Telesqu\u00ed Zayas"}, {"cluster_id": "osmhub_4320312491", "name": "\u1019\u103b\u102d\u102f\u1038\u1006\u1000\u103a\u101e\u1005\u103a", "n_records": 35, "label": "\u1019\u103b\u102d\u102f\u1038\u1006\u1000\u103a\u101e\u1005\u103a"}, {"cluster_id": "osmhub_10856463144", "name": "Terminal Puerto Viejo", "n_records": 31, "label": "Terminal Puerto Viejo"}, {"cluster_id": "osmhub_13009141047", "name": "Lopha Travels", "n_records": 30, "label": "Lopha Travels"}, {"cluster_id": "osmhub_10856632417", "name": "Panaline", "n_records": 30, "label": "Panaline"}, {"cluster_id": "osmhub_4424274390", "name": "Parada a Torotoro", "n_records": 27, "label": "Parada a Torotoro"}, {"cluster_id": "osmhub_2717524230", "name": "Paradis", "n_records": 25, "label": "Paradis"}, {"cluster_id": "osmhub_2170949382", "name": "Chalets", "n_records": 23, "label": "Chalets"}, {"cluster_id": "osmhub_1456411536", "name": "St. Johann F\u00e4hre \"Ueli\"", "n_records": 23, "label": "St. Johann F\u00e4hre \"Ueli\""}, {"cluster_id": "osmhub_1968478539", "name": "Terminus 112 Andranoro", "n_records": 20, "label": "Terminus 112 Andranoro"}, {"cluster_id": "osmhub_5838617330", "name": "Pista", "n_records": 19, "label": "Pista"}, {"cluster_id": "osmhub_889237610", "name": "ESTACION BRT", "n_records": 18, "label": "ESTACION BRT"}, {"cluster_id": "osmhub_11218652782", "name": "Las Vueltas/Gu\u00e1cima Arriba/Calle S\u00e1nchez", "n_records": 17, "label": "Las Vueltas/Gu\u00e1cima Arriba/Calle S\u00e1nchez"}, {"cluster_id": "osmhub_11284993071", "name": "Transportes L\u00ednea", "n_records": 16, "label": "Transportes L\u00ednea"}, {"cluster_id": "osmhub_12821281510", "name": "And\u00e9n Salida", "n_records": 16, "label": "And\u00e9n Salida"}, {"cluster_id": "osmhub_23907409", "name": "Downtown", "n_records": 15, "label": "Downtown"}, {"cluster_id": "osmhub_393063688", "name": "Gare de Bingerville", "n_records": 14, "label": "Gare de Bingerville"}, {"cluster_id": "osmhub_2595907558", "name": "Vallon Blanc", "n_records": 14, "label": "Vallon Blanc"}, {"cluster_id": "osmhub_13120982188", "name": "\u03a1\u03b1\u03c6\u03ae\u03bd\u03b1", "n_records": 14, "label": "\u03a1\u03b1\u03c6\u03ae\u03bd\u03b1"}, {"cluster_id": "osmhub_1033500839", "name": "Biche", "n_records": 14, "label": "Biche"}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>

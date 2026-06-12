@@ -1,0 +1,179 @@
+{
+    "link_type": "dedupe_only",
+    "probability_two_random_records_match": 0.0001,
+    "retain_matching_columns": true,
+    "retain_intermediate_calculation_columns": false,
+    "additional_columns_to_retain": [],
+    "sql_dialect": "duckdb",
+    "linker_uid": "4alklo5n",
+    "em_convergence": 0.0001,
+    "max_iterations": 25,
+    "bayes_factor_column_prefix": "bf_",
+    "term_frequency_adjustment_column_prefix": "tf_",
+    "comparison_vector_value_column_prefix": "gamma_",
+    "unique_id_column_name": "unique_id",
+    "source_dataset_column_name": "source_dataset",
+    "blocking_rules_to_generate_predictions": [
+        {
+            "blocking_rule": "l.\"name_clean\" = r.\"name_clean\"",
+            "sql_dialect": "duckdb"
+        },
+        {
+            "blocking_rule": "l.\"iata_code\" = r.\"iata_code\"",
+            "sql_dialect": "duckdb"
+        },
+        {
+            "blocking_rule": "(ROUND(l.lat, 2) = ROUND(r.lat, 2)) AND (ROUND(l.lon, 2) = ROUND(r.lon, 2)) AND (l.\"entity_type\" = r.\"entity_type\")",
+            "sql_dialect": "duckdb"
+        }
+    ],
+    "comparisons": [
+        {
+            "output_column_name": "name_clean",
+            "comparison_levels": [
+                {
+                    "sql_condition": "\"name_clean_l\" IS NULL OR \"name_clean_r\" IS NULL",
+                    "label_for_charts": "name_clean is NULL",
+                    "fix_m_probability": false,
+                    "fix_u_probability": false,
+                    "is_null_level": true
+                },
+                {
+                    "sql_condition": "\"name_clean_l\" = \"name_clean_r\"",
+                    "label_for_charts": "Exact match on name_clean",
+                    "m_probability": 0.490229964852001,
+                    "u_probability": 1.0679242542684932e-05,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                },
+                {
+                    "sql_condition": "jaro_winkler_similarity(\"name_clean_l\", \"name_clean_r\") >= 0.95",
+                    "label_for_charts": "Jaro-Winkler distance of name_clean >= 0.95",
+                    "m_probability": 0.07892666749760685,
+                    "u_probability": 4.271697017073973e-06,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                },
+                {
+                    "sql_condition": "jaro_winkler_similarity(\"name_clean_l\", \"name_clean_r\") >= 0.88",
+                    "label_for_charts": "Jaro-Winkler distance of name_clean >= 0.88",
+                    "m_probability": 0.18282120886277148,
+                    "u_probability": 8.436601608721096e-05,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                },
+                {
+                    "sql_condition": "ELSE",
+                    "label_for_charts": "All other comparisons",
+                    "m_probability": 0.24802215878762054,
+                    "u_probability": 0.999900683044353,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                }
+            ],
+            "comparison_description": "JaroWinklerAtThresholds"
+        },
+        {
+            "output_column_name": "entity_type",
+            "comparison_levels": [
+                {
+                    "sql_condition": "\"entity_type_l\" IS NULL OR \"entity_type_r\" IS NULL",
+                    "label_for_charts": "entity_type is NULL",
+                    "fix_m_probability": false,
+                    "fix_u_probability": false,
+                    "is_null_level": true
+                },
+                {
+                    "sql_condition": "\"entity_type_l\" = \"entity_type_r\"",
+                    "label_for_charts": "Exact match on entity_type",
+                    "m_probability": 0.8947694915776856,
+                    "u_probability": 0.40194853459433827,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                },
+                {
+                    "sql_condition": "ELSE",
+                    "label_for_charts": "All other comparisons",
+                    "m_probability": 0.10523050842231438,
+                    "u_probability": 0.5980514654056617,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                }
+            ],
+            "comparison_description": "ExactMatch"
+        },
+        {
+            "output_column_name": "iata_code",
+            "comparison_levels": [
+                {
+                    "sql_condition": "\"iata_code_l\" IS NULL OR \"iata_code_r\" IS NULL",
+                    "label_for_charts": "iata_code is NULL",
+                    "fix_m_probability": false,
+                    "fix_u_probability": false,
+                    "is_null_level": true
+                },
+                {
+                    "sql_condition": "\"iata_code_l\" = \"iata_code_r\"",
+                    "label_for_charts": "Exact match on iata_code",
+                    "m_probability": 1.0,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                },
+                {
+                    "sql_condition": "ELSE",
+                    "label_for_charts": "All other comparisons",
+                    "m_probability": 2.3419140436186033e-106,
+                    "u_probability": 1.0,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                }
+            ],
+            "comparison_description": "ExactMatch"
+        },
+        {
+            "output_column_name": "lat_lon",
+            "comparison_levels": [
+                {
+                    "sql_condition": "(\"lat_l\" IS NULL OR \"lat_r\" IS NULL) OR (\"lon_l\" IS NULL OR \"lon_r\" IS NULL)",
+                    "label_for_charts": "(lat is NULL) OR (lon is NULL)",
+                    "fix_m_probability": false,
+                    "fix_u_probability": false,
+                    "is_null_level": true
+                },
+                {
+                    "sql_condition": "\n        cast(\n            acos(\n                \n        case\n            when (\n        sin( radians(\"lat_l\") ) * sin( radians(\"lat_r\") ) +\n        cos( radians(\"lat_l\") ) * cos( radians(\"lat_r\") )\n            * cos( radians(\"lon_r\" - \"lon_l\") )\n    ) > 1 then 1\n            when (\n        sin( radians(\"lat_l\") ) * sin( radians(\"lat_r\") ) +\n        cos( radians(\"lat_l\") ) * cos( radians(\"lat_r\") )\n            * cos( radians(\"lon_r\" - \"lon_l\") )\n    ) < -1 then -1\n            else (\n        sin( radians(\"lat_l\") ) * sin( radians(\"lat_r\") ) +\n        cos( radians(\"lat_l\") ) * cos( radians(\"lat_r\") )\n            * cos( radians(\"lon_r\" - \"lon_l\") )\n    )\n        end\n    \n            ) * 6371\n            as float\n        )\n     <= 0.1",
+                    "label_for_charts": "Distance less than 0.1km",
+                    "m_probability": 0.3158025609023918,
+                    "u_probability": 3.20377276280548e-06,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                },
+                {
+                    "sql_condition": "\n        cast(\n            acos(\n                \n        case\n            when (\n        sin( radians(\"lat_l\") ) * sin( radians(\"lat_r\") ) +\n        cos( radians(\"lat_l\") ) * cos( radians(\"lat_r\") )\n            * cos( radians(\"lon_r\" - \"lon_l\") )\n    ) > 1 then 1\n            when (\n        sin( radians(\"lat_l\") ) * sin( radians(\"lat_r\") ) +\n        cos( radians(\"lat_l\") ) * cos( radians(\"lat_r\") )\n            * cos( radians(\"lon_r\" - \"lon_l\") )\n    ) < -1 then -1\n            else (\n        sin( radians(\"lat_l\") ) * sin( radians(\"lat_r\") ) +\n        cos( radians(\"lat_l\") ) * cos( radians(\"lat_r\") )\n            * cos( radians(\"lon_r\" - \"lon_l\") )\n    )\n        end\n    \n            ) * 6371\n            as float\n        )\n     <= 1",
+                    "label_for_charts": "Distance less than 1km",
+                    "m_probability": 0.5000200064044955,
+                    "u_probability": 1.4950939559758905e-05,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                },
+                {
+                    "sql_condition": "\n        cast(\n            acos(\n                \n        case\n            when (\n        sin( radians(\"lat_l\") ) * sin( radians(\"lat_r\") ) +\n        cos( radians(\"lat_l\") ) * cos( radians(\"lat_r\") )\n            * cos( radians(\"lon_r\" - \"lon_l\") )\n    ) > 1 then 1\n            when (\n        sin( radians(\"lat_l\") ) * sin( radians(\"lat_r\") ) +\n        cos( radians(\"lat_l\") ) * cos( radians(\"lat_r\") )\n            * cos( radians(\"lon_r\" - \"lon_l\") )\n    ) < -1 then -1\n            else (\n        sin( radians(\"lat_l\") ) * sin( radians(\"lat_r\") ) +\n        cos( radians(\"lat_l\") ) * cos( radians(\"lat_r\") )\n            * cos( radians(\"lon_r\" - \"lon_l\") )\n    )\n        end\n    \n            ) * 6371\n            as float\n        )\n     <= 10",
+                    "label_for_charts": "Distance less than 10km",
+                    "m_probability": 0.18417731618253103,
+                    "u_probability": 0.00040367536811349047,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                },
+                {
+                    "sql_condition": "ELSE",
+                    "label_for_charts": "All other comparisons",
+                    "m_probability": 1.1651058163378121e-07,
+                    "u_probability": 0.9995781699195639,
+                    "fix_m_probability": false,
+                    "fix_u_probability": false
+                }
+            ],
+            "comparison_description": "DistanceInKMAtThresholds"
+        }
+    ]
+}
