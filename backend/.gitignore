@@ -27,3 +27,11 @@ htmlcov/
 
 # Alembic
 alembic/versions/*.pyc
+
+# DuckDB temp files
+.tmp/
+
+# Large data outputs
+data/output/
+data/splink_outputs/
+data/normalized/
